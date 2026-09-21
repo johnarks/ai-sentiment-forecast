@@ -1,1 +1,44 @@
-{"forecasts":[{"call":"DOWN","confidence":"Moderate","date":"2026-09-18","hit":false,"label":"Risk-Off Tilt","push":false,"rationale":"Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.","score":38,"spy_pct":1.55,"target_date":"2026-09-21"},{"call":"UP","confidence":"High","date":"2026-09-21","hit":null,"label":"Firmly Bullish","push":false,"rationale":"Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally — AMD crossed $1T, META +11.3% — with falling oil and retreating yields; momentum carries into Tuesday.","score":70,"spy_pct":null,"target_date":"2026-09-22"}]}
+{
+  "forecasts": [
+    {
+      "target_date": "2026-09-21",
+      "kind": "early",
+      "date": "2026-09-18",
+      "score": 38,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.",
+      "scores_detail": "Post-close 38 (2026-09-18)",
+      "spy_pct": 1.55,
+      "hit": false,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-21",
+      "kind": "final",
+      "date": "2026-09-21",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 51 (prev post-close 38 on 2026-09-18 + pre-market 63): Trump-Xi summit diplomacy lifts risk appetite.",
+      "scores_detail": "Post-close 38 (2026-09-18) + pre-market 63 (2026-09-21) = 51",
+      "spy_pct": 1.55,
+      "hit": true,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-22",
+      "kind": "early",
+      "date": "2026-09-21",
+      "score": 70,
+      "label": "Firmly Bullish",
+      "call": "UP",
+      "confidence": "High",
+      "rationale": "Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally \u2014 AMD crossed $1T, META +11.3% \u2014 with falling oil and retreating yields; momentum carries into Tuesday.",
+      "scores_detail": "Post-close 70 (2026-09-21)",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    }
+  ]
+}
