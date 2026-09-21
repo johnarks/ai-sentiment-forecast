@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="latest-date" content="2026-09-21">
-<title>AI Sentiment Forecast — Daily AI Investor Sentiment + SPY Forecast</title>
+<title>AI Sentiment Forecast — Daily AI Investor Sentiment + SPY Calls</title>
 <style>
 :root{
   --bg:#0f1420; --panel:#161d2e; --panel2:#1c2540; --ink:#eef1f7; --muted:#9aa4bf;
@@ -15,98 +15,181 @@
 body{margin:0;background:var(--bg);color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   line-height:1.6}
-.wrap{max-width:860px;margin:0 auto;padding:0 18px 60px}
-.masthead{text-align:center;padding:38px 0 10px;border-bottom:1px solid var(--line)}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px 60px}
+.masthead{text-align:center;padding:30px 0 6px}
 .masthead .brand{font-family:Georgia,"Times New Roman",serif;font-size:13px;
   letter-spacing:4px;color:var(--gold);text-transform:uppercase}
-.masthead h1{font-family:Georgia,"Times New Roman",serif;font-size:38px;margin:10px 0 6px}
-.masthead .tag{color:var(--muted);font-size:15px;margin:0 0 8px}
-.dateline{color:var(--muted);font-size:13px}
-.hero{margin-top:26px}
-section.day{background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  padding:26px;margin:26px 0}
-section.day.latest{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
-.day-date{font-family:Georgia,serif;font-size:26px;margin:0 0 14px}
-.editions{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:8px}
-@media(max-width:640px){.editions{grid-template-columns:1fr}}
-.edition h3,.day h3{margin:14px 0 8px;font-size:16px}
-.scorebar{margin:10px 0 14px}
+.masthead h1{font-family:Georgia,"Times New Roman",serif;font-size:32px;margin:10px 0 6px}
+.masthead .tag{color:var(--muted);font-size:14px;margin:0 0 4px}
+.dateline{color:var(--muted);font-size:12.5px}
+.tabs{position:sticky;top:0;z-index:10;display:flex;gap:4px;justify-content:center;
+  background:#0f1420ee;backdrop-filter:blur(6px);padding:12px 0;margin:14px 0 6px;
+  border-bottom:1px solid var(--line)}
+.tabs button{background:none;border:none;color:var(--muted);font-size:15px;font-weight:700;
+  padding:9px 16px;border-radius:10px;cursor:pointer}
+.tabs button.active{background:var(--panel2);color:var(--ink)}
+.tabs button:hover{color:var(--ink)}
+.tabpane{display:none}
+.tabpane.active{display:block;animation:fade .18s ease-in}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+.pane-title{font-family:Georgia,serif;font-size:24px;margin:18px 0 12px}
+.next-update{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:12px 16px;margin:14px 0;font-size:14.5px}
+.nu-dot{width:9px;height:9px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 8px var(--green);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.4}}
+.nu-count{color:var(--muted);font-variant-numeric:tabular-nums}
+.call-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
+.call-cards.small{grid-template-columns:1fr 1fr}
+@media(max-width:640px){.call-cards,.call-cards.small{grid-template-columns:1fr}}
+.call-card{border-radius:12px;padding:18px;border:1px solid var(--line);background:var(--panel)}
+.call-card.up{border-color:#1f5c36;background:#0e2a1a}
+.call-card.down{border-color:#6e2228;background:#2c1214}
+.call-card.hl{box-shadow:0 0 0 1px var(--gold)}
+.call-card.empty{border-style:dashed}
+.cc-kicker{font-size:11.5px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase}
+.tag-sm{letter-spacing:0;text-transform:none;font-weight:400}
+.cc-call{font-size:38px;font-weight:900;font-family:Georgia,serif;margin:4px 0}
+.call-card.up .cc-call{color:var(--green2)}
+.call-card.down .cc-call{color:var(--red2)}
+.cc-conf{font-size:13.5px;color:var(--muted)}
+.cc-scores{font-size:13px;color:var(--muted);margin:8px 0 0}
+.cc-rationale{font-size:14px;margin:8px 0 0}
+.verdict{margin-top:10px;font-weight:800;font-size:15px}
+.verdict.hit{color:var(--green2)} .verdict.miss{color:var(--red2)}
+.verdict.pending{color:var(--muted)}
+.editions{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
+@media(max-width:700px){.editions{grid-template-columns:1fr}}
+.edition-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+.edition-card.empty{border-style:dashed}
+.ec-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.ec-name{font-size:16px;font-weight:800}
+.pub{font-size:12px;color:var(--muted)}
+.ec-summary{font-size:14px}
+details{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:var(--panel2)}
+details summary{cursor:pointer;padding:10px 14px;font-weight:700;font-size:14px;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::before{content:"▸ ";color:var(--gold)}
+details[open] summary::before{content:"▾ "}
+details>div,details>p,details>.take-p{padding:0 14px 12px}
+.take-p{font-size:14.5px}
+.scorebar{margin:10px 0 12px}
 .scorebar-track{position:relative;height:10px;border-radius:6px;
   background:linear-gradient(90deg,var(--red) 0%,var(--amber) 40%,var(--muted) 50%,var(--green2) 60%,var(--green) 100%);
   opacity:.85}
-.scorebar-mid{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:#fff8; }
+.scorebar-mid{position:absolute;left:50%;top:-4px;bottom:-4px;width:2px;background:#fff8}
 .scorebar-marker{position:absolute;top:-6px;width:4px;height:22px;background:#fff;
   border-radius:2px;transform:translateX(-50%);box-shadow:0 0 6px #000}
 .scorebar-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:6px}
 .score-line{margin-top:8px}
-.score-num{font-size:34px;font-weight:800;font-family:Georgia,serif}
-.score-label{font-size:17px;font-weight:700;margin-left:10px}
+.score-num{font-size:32px;font-weight:800;font-family:Georgia,serif}
+.score-label{font-size:16px;font-weight:700;margin-left:10px}
 .bull{color:var(--green)} .bullsoft{color:var(--green2)} .neutral{color:var(--muted)}
 .bearsoft{color:var(--amber)} .bear{color:var(--red2)}
-.drivers{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.drivers{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 14px 12px}
 @media(max-width:640px){.drivers{grid-template-columns:1fr}}
-.driver{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.driver p{margin:6px 0 0;font-size:14px;color:var(--muted)}
-.driver strong{font-size:14.5px}
+.driver{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.driver p{margin:6px 0 0;font-size:13.5px;color:var(--muted)}
+.driver strong{font-size:14px}
 .pill{font-size:10.5px;font-weight:800;letter-spacing:1px;border-radius:20px;
   padding:2px 9px;margin-right:8px;vertical-align:1px}
 .pill.bullish{background:#123c24;color:var(--green2)}
 .pill.bearish{background:#43161a;color:var(--red2)}
 .pill.neutral{background:#2a3552;color:var(--muted)}
-.movers-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ccs{padding:0 14px 12px}
+.cc{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0}
+.cc p{margin:6px 0 0;font-size:13.5px;color:var(--muted)}
+.movers-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 14px 12px}
 @media(max-width:640px){.movers-grid{grid-template-columns:1fr}}
-table.movers{width:100%;border-collapse:collapse;font-size:13.5px}
-table.movers td{padding:7px 6px;border-top:1px solid var(--line);vertical-align:top}
+.movers-grid h4{margin:0 0 6px;font-size:14px}
+table.movers{width:100%;border-collapse:collapse;font-size:13px}
+table.movers td{padding:6px 5px;border-top:1px solid var(--line);vertical-align:top}
 .ticker{font-weight:800;white-space:nowrap}
 .move.pos{color:var(--green2);font-weight:700;white-space:nowrap}
 .move.neg{color:var(--red2);font-weight:700;white-space:nowrap}
-.take{background:#211a08;border:1px solid #6b5316;border-radius:10px;padding:14px 18px;margin:20px 0}
-.take h3{margin:0 0 6px;color:var(--gold)}
-.take p{margin:0;font-size:15px}
-.forecast-card{border-radius:12px;padding:20px;margin-top:18px;text-align:center;border:1px solid}
-.forecast-card.up{background:#0e2a1a;border-color:#1f5c36}
-.forecast-card.down{background:#2c1214;border-color:#6e2228}
-.fc-kicker{font-size:12px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
-.fc-call{font-size:44px;font-weight:900;font-family:Georgia,serif;margin:6px 0}
-.forecast-card.up .fc-call{color:var(--green2)}
-.forecast-card.down .fc-call{color:var(--red2)}
-.fc-conf{font-size:14px;color:var(--muted)}
-.fc-rationale{font-size:14.5px;max-width:640px;margin:10px auto 0}
-.verdict{margin-top:12px;font-weight:800;font-size:15px}
-.verdict.hit{color:var(--green2)} .verdict.miss{color:var(--red2)}
-.verdict.push{color:var(--amber)} .verdict.pending{color:var(--muted)}
-.acc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px;margin:26px 0}
-.acc h2,.method h2,.archive-head{font-family:Georgia,serif;font-size:26px;margin:0 0 10px}
-.acc-big{display:flex;align-items:baseline;gap:14px;margin:6px 0 14px}
-.acc-pct{font-size:52px;font-weight:900;font-family:Georgia,serif;color:var(--gold)}
-.acc-sub{color:var(--muted);font-size:14px}
-table.ledger{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
-table.ledger th,table.ledger td{padding:9px 8px;border-top:1px solid var(--line);text-align:left}
-table.ledger th{color:var(--muted);font-size:12px;letter-spacing:1px;text-transform:uppercase;border-top:none}
-.score-mini{font-weight:800;padding:2px 10px;border-radius:16px;background:var(--panel2)}
+.acc-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:12px 0}
+@media(max-width:640px){.acc-cards{grid-template-columns:1fr}}
+.acc-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:16px;text-align:center}
+.acc-k{font-size:12px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase}
+.acc-v{font-size:40px;font-weight:900;font-family:Georgia,serif;color:var(--gold)}
+.acc-s{font-size:13px;color:var(--muted)}
+table.ledger{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:6px}
+table.ledger th,table.ledger td{padding:9px 8px;border-top:1px solid var(--line);
+  text-align:left;vertical-align:top}
+table.ledger th{color:var(--muted);font-size:11.5px;letter-spacing:1px;
+  text-transform:uppercase;border-top:none}
+.cell-conf{font-size:12px;color:var(--muted)}
+tr.rat-row td{border-top:none;padding-top:0}
+tr.rat-row details{margin:0}
 .up{color:var(--green2)} .down{color:var(--red2)}
 .v-hit{color:var(--green2);font-weight:800}.v-miss{color:var(--red2);font-weight:800}
 .v-push{color:var(--amber);font-weight:800}.v-pend{color:var(--muted)}
-.method{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px;margin:26px 0}
+.fc-mini{font-weight:800;padding:2px 10px;border-radius:14px;background:var(--panel2);font-size:13px}
+.spy-mini{font-size:13px;color:var(--muted);margin-left:8px}
+.day-card{margin:12px 0}
+.day-card summary{font-size:15px}
+.method{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:8px 26px;margin:12px 0}
 .method ol{margin:8px 0;padding-left:22px}
-.method li{margin:8px 0;font-size:14.5px}
-.method code{background:var(--panel2);padding:1px 7px;border-radius:5px;font-size:13.5px}
-footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
-  border-top:1px solid var(--line);padding-top:18px}
+.method li{margin:10px 0;font-size:14.5px}
+.method code{background:var(--panel2);padding:1px 7px;border-radius:5px;font-size:13px}
+footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
+  border-top:1px solid var(--line);padding-top:16px}
 .muted{color:var(--muted)}
+.fine{font-size:12.5px;margin-top:14px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="masthead">
     <div class="brand">AI Sentiment Forecast</div>
-    <h1>Will the market be up or down tomorrow?</h1>
-    <p class="tag">Daily investor sentiment, distilled — with a graded SPY forecast for tomorrow.</p>
-    <div class="dateline">Updated 2026-09-21 23:04 ET · Weekdays</div>
+    <h1>Will the market be up or down?</h1>
+    <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
+    <div class="dateline">Updated 2026-09-21 19:17 ET · Weekdays, twice daily</div>
   </header>
 
-  <div class="hero"><section class="day latest" id="day-2026-09-21"><h2 class="day-date">📰 Latest edition — 2026-09-21</h2><div class="editions"><div class="edition">
-          <h3>☀️ Pre-Market</h3>
+  <nav class="tabs">
+    <button data-tab="today" class="active">Today</button>
+    <button data-tab="forecasts">Forecasts</button>
+    <button data-tab="archive">Archive</button>
+    <button data-tab="method">Methodology</button>
+  </nav>
+
+  <div class="tabpane active" id="tab-today">
+    
+    <div class="next-update" id="next-update" data-iso="2026-09-22T09:15:00-04:00">
+      <span class="nu-dot"></span>
+      <span>Next update: <strong>Tue, Sep 22 · 9:15 AM ET</strong></span>
+      <span class="nu-count" id="countdown"></span>
+    </div>
+    <h2 class="pane-title">Today's read — 2026-09-21</h2>
+    <div class="call-cards">
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-18</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 38 (2026-09-18)</p>
+      <p class="cc-rationale">Post-close score 38 (Risk-Off Tilt): Buffett&#x27;s Berkshire exit, Warsh&#x27;s hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.</p>
+      <div class="verdict miss">✗ MISS — SPY +1.55%</div>
+    </div>
+      
+    <div class="call-card up hl">
+      <div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span> · made 2026-09-21</div>
+      <div class="cc-call">▲ UP</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 38 (2026-09-18) + pre-market 63 (2026-09-21) = 51</p>
+      <p class="cc-rationale">Blended score 51 (prev post-close 38 on 2026-09-18 + pre-market 63): Trump-Xi summit diplomacy lifts risk appetite.</p>
+      <div class="verdict hit">✓ HIT — SPY +1.55%</div>
+    </div>
+    </div>
+    <div class="editions">
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:02 AM ET</span></div>
+      
     <div class="scorebar">
       <div class="scorebar-track">
         <div class="scorebar-mid"></div>
@@ -116,8 +199,77 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
       <div class="score-line"><span class="score-num bullsoft">63</span>
       <span class="score-label bullsoft">Risk-On Tilt</span></div>
     </div>
-          <p>Futures pointed to a strong open as optimism around the Trump-Xi summit and progress in US-China AI talks lifted risk appetite, while oil slipped on claims of stronger Hormuz flows and yields eased. Rare-earth miners ripped on Trump&#x27;s Greenland security announcement, and Coinbase, bitcoin-treasury names, and Warner Bros/Paramount climbed on fresh deal and news flow. Offsetting the mood: Novo Nordisk plunged after its 2030 obesity goals disappointed, US diesel hit a record $6.50+/gal, and Fed officials kept the hawkish drumbeat alive.</p></div><div class="edition">
-      <h3>🌙 Post-Close</h3>
+      <p class="ec-summary">Futures pointed to a strong open as optimism around the Trump-Xi summit and progress in US-China AI talks lifted risk appetite, while oil slipped on claims of stronger Hormuz flows and yields eased. Rare-earth miners ripped on Trump&#x27;s Greenland security announcement, and Coinbase, bitcoin-treasury names, and Warner Bros/Paramount climbed on fresh deal and news flow. Offsetting the mood: Novo Nordisk plunged after its 2030 obesity goals disappointed, US diesel hit a record $6.50+/gal, and Fed officials kept the hawkish drumbeat alive. Net: a risk-on premarket tempered by energy and rates crosscurrents.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Trump-Xi summit diplomacy lifts risk appetite</strong>
+          <p>Bessent hailed progress in US-China AI talks ahead of the meeting; futures climbed (Dow +400) with European and Asian equities up and oil slipping.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Oil slips on Hormuz claims, but story is disputed</strong>
+          <p>US claimed Hormuz shipments at six-month highs; Qatar&#x27;s energy minister publicly called that claim &#x27;completely wrong.&#x27; Crude weakness eased yields and supported equities.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Fed hawkish shadow over the open</strong>
+          <p>Kashkari said inflation remains too high &#x27;in all aspects&#x27;; desks bracing for rate-hike chatter even as near-term expectations stay priced.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Diesel/fuel crunch persists into the week</strong>
+          <p>US diesel topped $6.50/gal; Trump is pressing Zelensky to halt Ukraine&#x27;s Russian-refinery strikes while Ukraine hit a major Moscow refinery.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>SoftBank eyes record $11B+ junk-bond sale for OpenAI bet</strong>
+          <p>AI capex is now reaching into record junk-credit issuance — bullish for the AI theme, a caution flag for credit and balance-sheet discipline.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">PRTH</td>
+        <td class="move pos">+33.42%</td>
+        <td>Going private in $1.6B deal</td></tr><tr><td class="ticker">GLND</td>
+        <td class="move pos">+148.31%</td>
+        <td>Rare-earth rally on Trump&#x27;s Greenland security announcement</td></tr><tr><td class="ticker">GRML</td>
+        <td class="move pos">+145.10%</td>
+        <td>Same Greenland-driven rare-earth rally</td></tr><tr><td class="ticker">CRML</td>
+        <td class="move pos">+28.75%</td>
+        <td>Premarket rare-earth rally on Greenland news</td></tr><tr><td class="ticker">USAR</td>
+        <td class="move pos">+6.70%</td>
+        <td>Rare-earth shares rose on the Greenland agreement</td></tr><tr><td class="ticker">WBD</td>
+        <td class="move pos">+7.00%</td>
+        <td>Reports of California AG settlement talks could clear merger path</td></tr><tr><td class="ticker">PSKY</td>
+        <td class="move pos">+6.26%</td>
+        <td>Paramount jumps with WBD on merger-settlement progress</td></tr><tr><td class="ticker">COIN</td>
+        <td class="move pos">+5.60%</td>
+        <td>Launched IPO access for individual investors</td></tr><tr><td class="ticker">MSTR</td>
+        <td class="move pos">+7.80%</td>
+        <td>Ended two-week pause with 950 BTC buy; bitcoin ripped despite Clarity Act failure</td></tr><tr><td class="ticker">ALKS</td>
+        <td class="move pos">+6.64%</td>
+        <td>Positive Phase 1b results for ADHD drug ALKS 7290</td></tr><tr><td class="ticker">NUAI</td>
+        <td class="move pos">+17.35%</td>
+        <td>Secured 20-year power agreement with Vistra (AI power theme)</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NVO</td>
+        <td class="move neg">▼ (~-5.6%)</td>
+        <td>Investor Day: $23B obesity sales target for 2030 underwhelmed; turnaround hopes faded</td></tr><tr><td class="ticker">HPQ</td>
+        <td class="move neg">-2%</td>
+        <td>Warned it expects the PC market to contract in 2027</td></tr><tr><td class="ticker">GOOGL</td>
+        <td class="move neg">▼</td>
+        <td>Fined €400M+ by Irish regulator over location-data privacy breaches</td></tr><tr><td class="ticker">MU</td>
+        <td class="move neg">▼</td>
+        <td>China&#x27;s memory push raises new questions for Micron and SK Hynix</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Hormuz: oil bulls vs bears on disputed supply data</strong><p>US claims shipments at six-month highs sent crude down; Qatar says the claim is &#x27;completely wrong&#x27; — the same datapoint is priced bullish and bearish simultaneously.</p></div><div class="cc"><strong>AI euphoria vs AI caution</strong><p>AI stocks and futures rally into the Trump-Xi summit while Microsoft&#x27;s AI chief warns on AI safety and SoftBank funds its OpenAI bet with record junk debt.</p></div><div class="cc"><strong>China trade: optimism vs credibility gap</strong><p>Bessent hails AI-talks progress and China bought US soybeans ahead of the summit; but reports say China still hasn&#x27;t delivered promised farm-goods purchases.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Futures ripped overnight on Trump-Xi summit talk and a Greenland-driven rare-earth frenzy — classic pre-open euphoria. But NVO&#x27;s obesity-target stumble and record diesel prices are a reminder the bid is narrow. Blended 51 is barely positive: the market wants to go up, it&#x27;s just not sure it should.</p></details>
+    </div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">🌙 Evening</span><span class="pub">Published 5:01 PM ET</span></div>
+      
     <div class="scorebar">
       <div class="scorebar-track">
         <div class="scorebar-mid"></div>
@@ -127,37 +279,42 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
       <div class="score-line"><span class="score-num bull">70</span>
       <span class="score-label bull">Firmly Bullish</span></div>
     </div>
-      <p>Monday&#x27;s session was a decisive AI-led risk-on move: the Nasdaq closed at a record high (its best day since August) as chip stocks surged — AMD crossed $1T on AI demand — and falling oil prices plus retreating Treasury yields unlocked the broader rally. The only real counterweight was a hawkish Fed voice: Musalem said more rate hikes are likely needed to quell inflation, a reminder that the rally is still running ahead of policy risk.</p></div></div><h3>What moved sentiment</h3><div class="drivers">
-        <div class="driver bullish">
+      <p class="ec-summary">Monday&#x27;s session was a decisive AI-led risk-on move: the Nasdaq closed at a record high (its best day since August) as chip stocks surged — AMD crossed $1T on AI demand — and falling oil prices plus retreating Treasury yields unlocked the broader rally. The only real counterweight was a hawkish Fed voice: Musalem said more rate hikes are likely needed to quell inflation, a reminder that the rally is still running ahead of policy risk.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
           <span class="pill bullish">BULLISH</span>
           <strong>AI chip rally: AMD crosses $1T</strong>
           <p>AMD became the latest chipmaker to top $1 trillion on AI demand; INTC +12.1%, ARM +17.2%, QCOM +9.3% — semis carried the Nasdaq to a record close.</p>
         </div>
-        <div class="driver bullish">
+        <div class="driver">
           <span class="pill bullish">BULLISH</span>
           <strong>Meta&#x27;s Muse AI agent ignites +11.3% surge</strong>
           <p>META logged its best day in 13 months on surging Muse AI assistant downloads plus a price-target increase; rally spilled into AI shopping and chip names.</p>
         </div>
-        <div class="driver bullish">
+        <div class="driver">
           <span class="pill bullish">BULLISH</span>
           <strong>Oil falls on US strait statement; yields retreat</strong>
           <p>Crude dropped in the wake of a US statement on the Strait, pulling Treasury yields lower and giving stocks room to rally into the close.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Fed&#x27;s Musalem: more rate hikes likely needed</strong>
           <p>Fed official Musalem warned more hikes are likely needed to quell inflation — the session&#x27;s main hawkish counter-signal to the rally.</p>
         </div>
-        <div class="driver bullish">
+        <div class="driver">
           <span class="pill bullish">BULLISH</span>
           <strong>Paramount clears way for $110B Warner Bros merger</strong>
           <p>Paramount settled with US states on the antitrust suit, clearing a major hurdle for the Warner Bros. Discovery takeover; WBD +10.8%.</p>
         </div>
-        <div class="driver neutral">
+        <div class="driver">
           <span class="pill neutral">NEUTRAL</span>
           <strong>Trump-Xi summit / US-China AI talks progress</strong>
           <p>Bessent hailed progress on AI talks, Trump weighed a US-China AI &#x27;hotline&#x27; agreement, and China bought US soybeans ahead of the summit.</p>
-        </div></div><div class="movers-grid"><div><h3>📈 Strength</h3><table class="movers"><tbody><tr><td class="ticker">META</td>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">META</td>
         <td class="move pos">+11.34%</td>
         <td>Muse AI assistant downloads surge plus price-target increase; best day in 13 months</td></tr><tr><td class="ticker">INTC</td>
         <td class="move pos">+12.14%</td>
@@ -165,54 +322,246 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
         <td class="move pos">+9.95%</td>
         <td>Crossed $1 trillion market cap on AI demand</td></tr><tr><td class="ticker">ARM</td>
         <td class="move pos">+17.16%</td>
-        <td>AI chip rally, among the day&#x27;s top large-cap gainers</td></tr><tr><td class="ticker">GRAL</td>
+        <td>AI chip rally, among the day&#x27;s top large-cap gainers</td></tr><tr><td class="ticker">AKAM</td>
+        <td class="move pos">+12.33%</td>
+        <td>Outperformed on the strong AI-infrastructure trading day</td></tr><tr><td class="ticker">GRAL</td>
         <td class="move pos">+33.68%</td>
         <td>FDA staff flagged no major concerns for multi-cancer Galleri test; best day in over 1.5 years</td></tr><tr><td class="ticker">WBD</td>
         <td class="move pos">+10.79%</td>
-        <td>Paramount state antitrust settlement clears path for the $110B merger</td></tr></tbody></table></div><div><h3>📉 Pressure</h3><table class="movers"><tbody><tr><td class="ticker">NVO</td>
+        <td>Paramount state antitrust settlement clears path for the $110B merger</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NVO</td>
         <td class="move neg">-7.96%</td>
         <td>LLY&#x27;s new GLP-1 pill Foundayo won one-third of new pill starts; Lilly also broke ground on a $6.5B Houston plant</td></tr><tr><td class="ticker">MPC</td>
         <td class="move neg">-5.30%</td>
-        <td>Refiner weakness as crude prices dropped on the US strait statement</td></tr></tbody></table></div></div><div class="take"><h3>✍️ Analyst take</h3><p>Monday was the kind of session that makes you want to chase — Nasdaq record, AMD crossing $1T, META&#x27;s best day in over a year. The fuel is real (falling oil, retreating yields), but this rally is running on AI euphoria while a Fed official openly campaigns for more hikes. Momentum says UP for Tuesday; the risk is that good news is getting priced in very fast.</p></div>
-    <div class="forecast-card up">
-      <div class="fc-kicker">Tomorrow's call · 2026-09-22</div>
-      <div class="fc-call">▲ UP</div>
-      <div class="fc-conf">Confidence: High</div>
-      <p class="fc-rationale">Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally — AMD crossed $1T, META +11.3% — with falling oil and retreating yields; momentum carries into Tuesday.</p>
-      <div class="verdict pending">⏳ Grading after tomorrow's close</div>
-    </div></section></div>
-
-  <div class="acc" id="accuracy">
-    <h2>🎯 Forecast accuracy</h2>
-    <div class="acc-big"><span class="acc-pct">0.0%</span>
-    <span class="acc-sub">0 hits out of 1 graded forecasts
-    (pushes excluded)</span></div>
-    <table class="ledger">
-      <thead><tr><th>Date</th><th>Score</th><th>Forecast</th><th>For</th>
-      <th>SPY %</th><th>Result</th></tr></thead>
-      <tbody><tr>
-          <td>2026-09-21</td>
-          <td><span class="score-mini bull">70</span></td>
-          <td class="up"><strong>▲ UP</strong></td>
-          <td>2026-09-22</td>
-          <td>—</td>
-          <td><span class="v-pend">⏳ PENDING</span></td>
-        </tr><tr>
-          <td>2026-09-18</td>
-          <td><span class="score-mini bearsoft">38</span></td>
-          <td class="down"><strong>▼ DOWN</strong></td>
-          <td>2026-09-21</td>
-          <td>+1.55%</td>
-          <td><span class="v-miss">✗ MISS</span></td>
-        </tr></tbody></table>
-    <p class="muted" style="font-size:13px">Each evening's post-close report forecasts
-    the <em>next</em> trading day's SPY direction. Graded on SPY close-to-close
-    return from the forecast day to the target day.</p>
+        <td>Refiner weakness as crude prices dropped on the US strait statement</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs data-center skepticism</strong><p>Chips and AI-infrastructure names ripped even as the NYT reported Wall Street is growing skeptical of the data-center boom — overcapacity doubts rising alongside valuations</p></div><div class="cc"><strong>Rally on easing expectations vs hawkish Fed</strong><p>Stocks and bonds rallied on lower yields while Fed&#x27;s Musalem said more rate hikes are likely needed — markets are pricing cuts/hikes relief the Fed may not deliver</p></div><div class="cc"><strong>Oil drop: inflation relief vs refiner pain</strong><p>Lower crude aided the broad market and bonds, but MPC -5.3% shows the margin hit on refiners — same barrel, opposite sentiment</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Monday was the kind of session that makes you want to chase — Nasdaq record, AMD crossing $1T, META&#x27;s best day in over a year. The fuel is real (falling oil, retreating yields), but this rally is running on AI euphoria while a Fed official openly campaigns for more hikes. Momentum says UP for Tuesday; the risk is that good news is getting priced in very fast.</p></details>
+    </div>
+    </div>
   </div>
-
-  <h2 class="archive-head">📚 Archive</h2>
-  <section class="day " id="day-2026-09-18"><h2 class="day-date">2026-09-18</h2><div class="editions"><div class="edition">
-      <h3>🌙 Post-Close</h3>
+  <div class="tabpane" id="tab-forecasts">
+    
+    <h2 class="pane-title">Forecast accuracy</h2>
+    <div class="acc-cards">
+      <div class="acc-card"><div class="acc-k">Final-call accuracy</div>
+        <div class="acc-v">100.0%</div>
+        <div class="acc-s">1/1 graded</div></div>
+      <div class="acc-card"><div class="acc-k">Early-call accuracy</div>
+        <div class="acc-v">0.0%</div>
+        <div class="acc-s">0/1 graded</div></div>
+      <div class="acc-card"><div class="acc-k">Final-call streak</div>
+        <div class="acc-v">W1</div>
+        <div class="acc-s">consecutive hits</div></div>
+    </div>
+    <table class="ledger">
+      <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
+      <tbody><tr>
+          <td><strong>2026-09-22</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">High</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+        </tr>
+        <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
+        <p><strong>Early call</strong> (made 2026-09-21): Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally — AMD crossed $1T, META +11.3% — with falling oil and retreating yields; momentum carries into Tuesday.<br><span class='muted'>Scores: Post-close 70 (2026-09-21)</span></p></details></td></tr><tr>
+          <td><strong>2026-09-21</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-miss">✗ MISS</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td>+1.55%</td>
+        </tr>
+        <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
+        <p><strong>Early call</strong> (made 2026-09-18): Post-close score 38 (Risk-Off Tilt): Buffett&#x27;s Berkshire exit, Warsh&#x27;s hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.<br><span class='muted'>Scores: Post-close 38 (2026-09-18)</span></p><p><strong>Final call</strong> (made 2026-09-21): Blended score 51 (prev post-close 38 on 2026-09-18 + pre-market 63): Trump-Xi summit diplomacy lifts risk appetite.<br><span class='muted'>Scores: Post-close 38 (2026-09-18) + pre-market 63 (2026-09-21) = 51</span></p></details></td></tr></tbody></table>
+    <p class="muted fine">Both calls target the same trading day. Graded on SPY
+    close-to-close % from the previous trading day's close to the target day's
+    close (Yahoo Finance). A flat 0.00% day is a push, excluded from hit rates.</p>
+  </div>
+  <div class="tabpane" id="tab-archive">
+    <h2 class='pane-title'>Archive</h2>
+        <details class="day-card">
+          <summary><strong>2026-09-21</strong> <span class="up fc-mini">▲ UP</span> <span class="spy-mini">SPY +1.55%</span></summary>
+          <div class="call-cards small">
+            
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call · made 2026-09-18</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 38 (2026-09-18)</p>
+      <p class="cc-rationale">Post-close score 38 (Risk-Off Tilt): Buffett&#x27;s Berkshire exit, Warsh&#x27;s hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.</p>
+      <div class="verdict miss">✗ MISS — SPY +1.55%</div>
+    </div>
+            
+    <div class="call-card up hl">
+      <div class="cc-kicker">Final call · made 2026-09-21</div>
+      <div class="cc-call">▲ UP</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 38 (2026-09-18) + pre-market 63 (2026-09-21) = 51</p>
+      <p class="cc-rationale">Blended score 51 (prev post-close 38 on 2026-09-18 + pre-market 63): Trump-Xi summit diplomacy lifts risk appetite.</p>
+      <div class="verdict hit">✓ HIT — SPY +1.55%</div>
+    </div>
+          </div>
+          <div class="editions">
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:02 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:63%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">63</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">Futures pointed to a strong open as optimism around the Trump-Xi summit and progress in US-China AI talks lifted risk appetite, while oil slipped on claims of stronger Hormuz flows and yields eased. Rare-earth miners ripped on Trump&#x27;s Greenland security announcement, and Coinbase, bitcoin-treasury names, and Warner Bros/Paramount climbed on fresh deal and news flow. Offsetting the mood: Novo Nordisk plunged after its 2030 obesity goals disappointed, US diesel hit a record $6.50+/gal, and Fed officials kept the hawkish drumbeat alive. Net: a risk-on premarket tempered by energy and rates crosscurrents.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Trump-Xi summit diplomacy lifts risk appetite</strong>
+          <p>Bessent hailed progress in US-China AI talks ahead of the meeting; futures climbed (Dow +400) with European and Asian equities up and oil slipping.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Oil slips on Hormuz claims, but story is disputed</strong>
+          <p>US claimed Hormuz shipments at six-month highs; Qatar&#x27;s energy minister publicly called that claim &#x27;completely wrong.&#x27; Crude weakness eased yields and supported equities.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Fed hawkish shadow over the open</strong>
+          <p>Kashkari said inflation remains too high &#x27;in all aspects&#x27;; desks bracing for rate-hike chatter even as near-term expectations stay priced.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Diesel/fuel crunch persists into the week</strong>
+          <p>US diesel topped $6.50/gal; Trump is pressing Zelensky to halt Ukraine&#x27;s Russian-refinery strikes while Ukraine hit a major Moscow refinery.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>SoftBank eyes record $11B+ junk-bond sale for OpenAI bet</strong>
+          <p>AI capex is now reaching into record junk-credit issuance — bullish for the AI theme, a caution flag for credit and balance-sheet discipline.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">PRTH</td>
+        <td class="move pos">+33.42%</td>
+        <td>Going private in $1.6B deal</td></tr><tr><td class="ticker">GLND</td>
+        <td class="move pos">+148.31%</td>
+        <td>Rare-earth rally on Trump&#x27;s Greenland security announcement</td></tr><tr><td class="ticker">GRML</td>
+        <td class="move pos">+145.10%</td>
+        <td>Same Greenland-driven rare-earth rally</td></tr><tr><td class="ticker">CRML</td>
+        <td class="move pos">+28.75%</td>
+        <td>Premarket rare-earth rally on Greenland news</td></tr><tr><td class="ticker">USAR</td>
+        <td class="move pos">+6.70%</td>
+        <td>Rare-earth shares rose on the Greenland agreement</td></tr><tr><td class="ticker">WBD</td>
+        <td class="move pos">+7.00%</td>
+        <td>Reports of California AG settlement talks could clear merger path</td></tr><tr><td class="ticker">PSKY</td>
+        <td class="move pos">+6.26%</td>
+        <td>Paramount jumps with WBD on merger-settlement progress</td></tr><tr><td class="ticker">COIN</td>
+        <td class="move pos">+5.60%</td>
+        <td>Launched IPO access for individual investors</td></tr><tr><td class="ticker">MSTR</td>
+        <td class="move pos">+7.80%</td>
+        <td>Ended two-week pause with 950 BTC buy; bitcoin ripped despite Clarity Act failure</td></tr><tr><td class="ticker">ALKS</td>
+        <td class="move pos">+6.64%</td>
+        <td>Positive Phase 1b results for ADHD drug ALKS 7290</td></tr><tr><td class="ticker">NUAI</td>
+        <td class="move pos">+17.35%</td>
+        <td>Secured 20-year power agreement with Vistra (AI power theme)</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NVO</td>
+        <td class="move neg">▼ (~-5.6%)</td>
+        <td>Investor Day: $23B obesity sales target for 2030 underwhelmed; turnaround hopes faded</td></tr><tr><td class="ticker">HPQ</td>
+        <td class="move neg">-2%</td>
+        <td>Warned it expects the PC market to contract in 2027</td></tr><tr><td class="ticker">GOOGL</td>
+        <td class="move neg">▼</td>
+        <td>Fined €400M+ by Irish regulator over location-data privacy breaches</td></tr><tr><td class="ticker">MU</td>
+        <td class="move neg">▼</td>
+        <td>China&#x27;s memory push raises new questions for Micron and SK Hynix</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Hormuz: oil bulls vs bears on disputed supply data</strong><p>US claims shipments at six-month highs sent crude down; Qatar says the claim is &#x27;completely wrong&#x27; — the same datapoint is priced bullish and bearish simultaneously.</p></div><div class="cc"><strong>AI euphoria vs AI caution</strong><p>AI stocks and futures rally into the Trump-Xi summit while Microsoft&#x27;s AI chief warns on AI safety and SoftBank funds its OpenAI bet with record junk debt.</p></div><div class="cc"><strong>China trade: optimism vs credibility gap</strong><p>Bessent hails AI-talks progress and China bought US soybeans ahead of the summit; but reports say China still hasn&#x27;t delivered promised farm-goods purchases.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Futures ripped overnight on Trump-Xi summit talk and a Greenland-driven rare-earth frenzy — classic pre-open euphoria. But NVO&#x27;s obesity-target stumble and record diesel prices are a reminder the bid is narrow. Blended 51 is barely positive: the market wants to go up, it&#x27;s just not sure it should.</p></details>
+    </div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">🌙 Evening</span><span class="pub">Published 5:01 PM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bull" style="left:70%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bull">70</span>
+      <span class="score-label bull">Firmly Bullish</span></div>
+    </div>
+      <p class="ec-summary">Monday&#x27;s session was a decisive AI-led risk-on move: the Nasdaq closed at a record high (its best day since August) as chip stocks surged — AMD crossed $1T on AI demand — and falling oil prices plus retreating Treasury yields unlocked the broader rally. The only real counterweight was a hawkish Fed voice: Musalem said more rate hikes are likely needed to quell inflation, a reminder that the rally is still running ahead of policy risk.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI chip rally: AMD crosses $1T</strong>
+          <p>AMD became the latest chipmaker to top $1 trillion on AI demand; INTC +12.1%, ARM +17.2%, QCOM +9.3% — semis carried the Nasdaq to a record close.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Meta&#x27;s Muse AI agent ignites +11.3% surge</strong>
+          <p>META logged its best day in 13 months on surging Muse AI assistant downloads plus a price-target increase; rally spilled into AI shopping and chip names.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Oil falls on US strait statement; yields retreat</strong>
+          <p>Crude dropped in the wake of a US statement on the Strait, pulling Treasury yields lower and giving stocks room to rally into the close.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Fed&#x27;s Musalem: more rate hikes likely needed</strong>
+          <p>Fed official Musalem warned more hikes are likely needed to quell inflation — the session&#x27;s main hawkish counter-signal to the rally.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Paramount clears way for $110B Warner Bros merger</strong>
+          <p>Paramount settled with US states on the antitrust suit, clearing a major hurdle for the Warner Bros. Discovery takeover; WBD +10.8%.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trump-Xi summit / US-China AI talks progress</strong>
+          <p>Bessent hailed progress on AI talks, Trump weighed a US-China AI &#x27;hotline&#x27; agreement, and China bought US soybeans ahead of the summit.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">META</td>
+        <td class="move pos">+11.34%</td>
+        <td>Muse AI assistant downloads surge plus price-target increase; best day in 13 months</td></tr><tr><td class="ticker">INTC</td>
+        <td class="move pos">+12.14%</td>
+        <td>AI chip rally; Bloomberg cites Meta&#x27;s Muse agent spurring chip demand</td></tr><tr><td class="ticker">AMD</td>
+        <td class="move pos">+9.95%</td>
+        <td>Crossed $1 trillion market cap on AI demand</td></tr><tr><td class="ticker">ARM</td>
+        <td class="move pos">+17.16%</td>
+        <td>AI chip rally, among the day&#x27;s top large-cap gainers</td></tr><tr><td class="ticker">AKAM</td>
+        <td class="move pos">+12.33%</td>
+        <td>Outperformed on the strong AI-infrastructure trading day</td></tr><tr><td class="ticker">GRAL</td>
+        <td class="move pos">+33.68%</td>
+        <td>FDA staff flagged no major concerns for multi-cancer Galleri test; best day in over 1.5 years</td></tr><tr><td class="ticker">WBD</td>
+        <td class="move pos">+10.79%</td>
+        <td>Paramount state antitrust settlement clears path for the $110B merger</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NVO</td>
+        <td class="move neg">-7.96%</td>
+        <td>LLY&#x27;s new GLP-1 pill Foundayo won one-third of new pill starts; Lilly also broke ground on a $6.5B Houston plant</td></tr><tr><td class="ticker">MPC</td>
+        <td class="move neg">-5.30%</td>
+        <td>Refiner weakness as crude prices dropped on the US strait statement</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs data-center skepticism</strong><p>Chips and AI-infrastructure names ripped even as the NYT reported Wall Street is growing skeptical of the data-center boom — overcapacity doubts rising alongside valuations</p></div><div class="cc"><strong>Rally on easing expectations vs hawkish Fed</strong><p>Stocks and bonds rallied on lower yields while Fed&#x27;s Musalem said more rate hikes are likely needed — markets are pricing cuts/hikes relief the Fed may not deliver</p></div><div class="cc"><strong>Oil drop: inflation relief vs refiner pain</strong><p>Lower crude aided the broad market and bonds, but MPC -5.3% shows the margin hit on refiners — same barrel, opposite sentiment</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Monday was the kind of session that makes you want to chase — Nasdaq record, AMD crossing $1T, META&#x27;s best day in over a year. The fuel is real (falling oil, retreating yields), but this rally is running on AI euphoria while a Fed official openly campaigns for more hikes. Momentum says UP for Tuesday; the risk is that good news is getting priced in very fast.</p></details>
+    </div>
+          </div>
+        </details>
+        <details class="day-card">
+          <summary><strong>2026-09-18</strong> </summary>
+          <div class="call-cards small">
+            <div class="call-card empty "><div class="cc-kicker">Early call</div><div class="muted">Not yet made.</div></div>
+            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+          </div>
+          <div class="editions">
+            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">🌙 Evening</span><span class="pub">Published 4:54 PM ET</span></div>
+      
     <div class="scorebar">
       <div class="scorebar-track">
         <div class="scorebar-mid"></div>
@@ -222,37 +571,42 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
       <div class="score-line"><span class="score-num bearsoft">38</span>
       <span class="score-label bearsoft">Risk-Off Tilt</span></div>
     </div>
-      <p>Across ~175 headlines, roughly two-thirds were noise — duplicates, intraday wraps, explainers restating known conditions, and opinion pieces. The genuinely new, market-moving items were few: Buffett stepping down as Berkshire chairman, hawkish remarks from Fed Chair Warsh, fresh corporate stress (VW&#x27;s outlook cut, Kremlin seizing Nestlé&#x27;s Russia ops, a Turkish fund scandal), and at the single-stock level, Netflix -4.8% on a Wells Fargo target cut, Boeing plunging on a CEO warning, a Wendy&#x27;s franchisee bankruptcy, and a Goldman warning on S&amp;P 500 earnings. Offsetting pockets of strength: crypto proxies surging on the week and an Accenture–Anthropic enterprise AI deal (+5.5% after hours).</p></div></div><h3>What moved sentiment</h3><div class="drivers">
-        <div class="driver bearish">
+      <p class="ec-summary">Across ~175 headlines, roughly two-thirds were noise — duplicates, intraday wraps, explainers restating known conditions, and opinion pieces. The genuinely new, market-moving items were few: Buffett stepping down as Berkshire chairman, hawkish remarks from Fed Chair Warsh, fresh corporate stress (VW&#x27;s outlook cut, Kremlin seizing Nestlé&#x27;s Russia ops, a Turkish fund scandal), and at the single-stock level, Netflix -4.8% on a Wells Fargo target cut, Boeing plunging on a CEO warning, a Wendy&#x27;s franchisee bankruptcy, and a Goldman warning on S&amp;P 500 earnings. Offsetting pockets of strength: crypto proxies surging on the week and an Accenture–Anthropic enterprise AI deal (+5.5% after hours).</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Buffett steps down as Berkshire chairman</strong>
           <p>First real leadership transition in six decades; orderly but genuine uncertainty.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Warsh&#x27;s hawkish remarks</strong>
           <p>The one rates headline that&#x27;s actually new; market repricing how high the Fed goes.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Saudis: no crude for European refiners next month</strong>
           <p>New supply-side data point, not war commentary; bearish for growth.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>VW slashes outlook on China sales slump</strong>
           <p>Fresh earnings warning from a global manufacturer.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Kremlin moves to seize Nestlé&#x27;s Russia operations</strong>
           <p>Escalation in state asset grabs; overhang for multinationals in Russia.</p>
         </div>
-        <div class="driver bearish">
+        <div class="driver">
           <span class="pill bearish">BEARISH</span>
           <strong>Turkish fund &#x27;Ponzi-like scheme&#x27; collapse</strong>
           <p>Genuine new scandal, $4B fortune erased; risk-off anecdote.</p>
-        </div></div><div class="movers-grid"><div><h3>📈 Strength</h3><table class="movers"><tbody><tr><td class="ticker">ACN</td>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">ACN</td>
         <td class="move pos">+5.5% AH</td>
         <td>Partners with Anthropic on embedded AI evaluators; enterprise AI adoption accelerating.</td></tr><tr><td class="ticker">MSTR</td>
         <td class="move pos">+16.3% wk</td>
@@ -262,9 +616,14 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
         <td class="move pos">+9.1% wk</td>
         <td>Crypto proxies surging.</td></tr><tr><td class="ticker">MU</td>
         <td class="move pos">+1.3%</td>
-        <td>Intel extends memory scarcity into 2027; bullish for memory.</td></tr><tr><td class="ticker">NSE IPO</td>
+        <td>Intel extends memory scarcity into 2027; bullish for memory.</td></tr><tr><td class="ticker">SpaceX</td>
+        <td class="move pos">deal</td>
+        <td>$946M NASA crew deal through 2030; space-economy momentum.</td></tr><tr><td class="ticker">GOOGL</td>
+        <td class="move pos">target ↑</td>
+        <td>Analyst sets &#x27;jaw-dropping&#x27; price target.</td></tr><tr><td class="ticker">NSE IPO</td>
         <td class="move pos">subscribed</td>
-        <td>India&#x27;s $2.4B IPO fully subscribed; real capital-markets risk appetite.</td></tr></tbody></table></div><div><h3>📉 Pressure</h3><table class="movers"><tbody><tr><td class="ticker">NFLX</td>
+        <td>India&#x27;s $2.4B IPO fully subscribed; real capital-markets risk appetite.</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NFLX</td>
         <td class="move neg">-4.8%</td>
         <td>Wells Fargo brutally cuts price target; streaming/mega-cap wobble.</td></tr><tr><td class="ticker">BA</td>
         <td class="move neg">▼</td>
@@ -276,42 +635,84 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:34px;
         <td class="move neg">▼</td>
         <td>1,600+ Italian workers strike on iPhone 18 Pro launch day.</td></tr><tr><td class="ticker">FCEL</td>
         <td class="move neg">-15%</td>
-        <td>Scrutinized over disclosures; small-cap distress rising.</td></tr></tbody></table></div></div><div class="take"><h3>✍️ Analyst take</h3><p>Friday&#x27;s tape was a textbook &#x27;quiet day, bad backdrop&#x27; setup: the index barely budged, but the marginal headline was almost uniformly bearish — Buffett&#x27;s exit, a hawkish Fed chair, VW&#x27;s warning, a Kremlin asset grab. Forecasting DOWN into Monday felt like the only honest read. The lesson, as always: weekend news flow can flip the board, and it did — SPY ripped +1.55%.</p></div>
-    <div class="forecast-card down">
-      <div class="fc-kicker">Tomorrow's call · 2026-09-21</div>
-      <div class="fc-call">▼ DOWN</div>
-      <div class="fc-conf">Confidence: Moderate</div>
-      <p class="fc-rationale">Post-close score 38 (Risk-Off Tilt): Buffett&#x27;s Berkshire exit, Warsh&#x27;s hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.</p>
-      <div class="verdict miss">✗ MISS — SPY +1.55%</div>
-    </div></section>
-
-  <div class="method" id="methodology">
-    <h2>⚙️ Methodology</h2>
-    <ol>
-      <li><strong>Sentiment scan.</strong> Every weekday, ~9 AM and ~5 PM ET, both
-      finviz news feeds (macro + single-stock) are read and novelty-filtered:
-      duplicates, intraday wraps, explainers of known conditions, and opinion
-      pieces are discarded. Only genuinely new, potentially market-moving items count.</li>
-      <li><strong>Score.</strong> Each edition gets a 0–100 sentiment score
-      (50 = neutral). The evening <strong>Post-Close</strong> score drives the forecast.</li>
-      <li><strong>Forecast rule.</strong> Post-close score &gt; 50 → <code>UP</code>;
-      score &lt; 50 → <code>DOWN</code>; exactly 50 → the majority sentiment of
-      that day's macro drivers decides (bearish majority → DOWN, otherwise UP).</li>
-      <li><strong>Grading.</strong> The forecast covers the next trading day.
-      Actual = SPY close-to-close % from the forecast day's close to the target
-      day's close (Yahoo Finance data). Sign matches the call → HIT; a flat
-      0.00% day is a PUSH and excluded from the hit rate.</li>
-      <li><strong>Honesty policy.</strong> Misses are published, not hidden.
-      The ledger above is the complete record.</li>
-    </ol>
+        <td>Scrutinized over disclosures; small-cap distress rising.</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>The AI durability question</strong><p>Gerstner&#x27;s $180B revenue warning + Goldman&#x27;s earnings warning vs. the Accenture–Anthropic enterprise deal + memory scarcity into 2027 — the bull and bear cases for the AI trade, side by side.</p></div><div class="cc"><strong>Energy tug-of-war</strong><p>Saudi supply cutoff vs. Barron&#x27;s &#x27;red flags for oil prices&#x27; on Europe/China demand.</p></div><div class="cc"><strong>Accenture both ways</strong><p>+5.5% after hours on Anthropic news, -4% the same session on a Guggenheim downgrade.</p></div><div class="cc"><strong>Rates: only Warsh is new</strong><p>His comments are the only fresh hawkish input; the 10-year near 5% is priced weather, not news.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Friday&#x27;s tape was a textbook &#x27;quiet day, bad backdrop&#x27; setup: the index barely budged, but the marginal headline was almost uniformly bearish — Buffett&#x27;s exit, a hawkish Fed chair, VW&#x27;s warning, a Kremlin asset grab. Forecasting DOWN into Monday felt like the only honest read. The lesson, as always: weekend news flow can flip the board, and it did — SPY ripped +1.55%.</p></details>
+    </div>
+          </div>
+        </details>
+  </div>
+  <div class="tabpane" id="tab-method">
+    
+<h2 class="pane-title">Methodology</h2>
+<div class="method">
+<ol>
+  <li><strong>Sentiment scan.</strong> Every weekday, ~9 AM (pre-market) and ~5 PM
+  (post-close) ET, both finviz news feeds (macro + single-stock) are read and
+  novelty-filtered: duplicates, intraday wraps, explainers of known conditions,
+  and opinion pieces are discarded. Only genuinely new, potentially market-moving
+  items count. Each edition gets a 0–100 sentiment score (50 = neutral).</li>
+  <li><strong>Early call</strong> (evening, ~6:30 PM ET): made from the day's
+  Post-Close score. Score &gt; 50 → <code>UP</code>; &lt; 50 → <code>DOWN</code>;
+  exactly 50 → the majority sentiment of that evening's macro drivers decides
+  (bearish majority → DOWN, otherwise UP). Targets the next trading day.</li>
+  <li><strong>Final call</strong> (morning, ~9:15 AM ET): uses the last 24 hours
+  of information. <code>final_score = round((previous trading day's post-close
+  score + this morning's pre-market score) / 2)</code>, rounded half-up.
+  &gt; 50 → <code>UP</code>; &lt; 50 → <code>DOWN</code>; exactly 50 → the
+  majority sentiment of this morning's drivers decides. Targets today's session.</li>
+  <li><strong>Grading.</strong> Both calls target the same trading day and are
+  graded on SPY close-to-close % from the previous trading day's close to the
+  target day's close (Yahoo Finance data). Sign matches the call → HIT; a flat
+  0.00% day is a PUSH and is excluded from the hit rate.</li>
+  <li><strong>Honesty policy.</strong> Misses are published, not hidden.
+  The Forecasts tab is the complete record.</li>
+  <li><strong>Limitations.</strong> This is a directional sentiment experiment,
+  not financial advice. Sentiment scores are judgment calls; the sample of graded
+  calls is small; markets can stay irrational longer than any model stays
+  interesting.</li>
+</ol>
+</div>
   </div>
 
   <footer>
-    Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered daily.<br>
+    Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-21 23:04 ET.
+    Generated 2026-09-21 19:17 ET.
   </footer>
 </div>
+<script>
+document.querySelectorAll('.tabs button').forEach(function(b){
+  b.addEventListener('click', function(){
+    document.querySelectorAll('.tabs button').forEach(function(x){x.classList.remove('active')});
+    b.classList.add('active');
+    document.querySelectorAll('.tabpane').forEach(function(p){
+      p.classList.toggle('active', p.id === 'tab-' + b.dataset.tab);
+    });
+  });
+});
+(function(){
+  var el = document.getElementById('next-update');
+  if(!el) return;
+  var target = new Date(el.getAttribute('data-iso'));
+  var cd = document.getElementById('countdown');
+  function tick(){
+    var ms = target - new Date();
+    if(ms <= 0){ cd.textContent = '(updating soon — refresh the page)'; return; }
+    var s = Math.floor(ms/1000), d = Math.floor(s/86400); s %= 86400;
+    var h = Math.floor(s/3600); s %= 3600;
+    var m = Math.floor(s/60); var sec = s % 60;
+    var parts = [];
+    if(d) parts.push(d + 'd');
+    if(h || d) parts.push(h + 'h');
+    parts.push(m + 'm'); parts.push(sec + 's');
+    cd.textContent = 'in ' + parts.join(' ');
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
 </body>
 </html>
