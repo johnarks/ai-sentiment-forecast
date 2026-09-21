@@ -1,1 +1,393 @@
-{"days":[{"date":"2026-09-21","forecast":{"call":"UP","confidence":"High","rationale":"Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally — AMD crossed $1T, META +11.3% — with falling oil and retreating yields; momentum carries into Tuesday.","target_date":"2026-09-22"},"postclose":{"drivers":[{"detail":"AMD became the latest chipmaker to top $1 trillion on AI demand; INTC +12.1%, ARM +17.2%, QCOM +9.3% — semis carried the Nasdaq to a record close.","sentiment":"bullish","title":"AI chip rally: AMD crosses $1T"},{"detail":"META logged its best day in 13 months on surging Muse AI assistant downloads plus a price-target increase; rally spilled into AI shopping and chip names.","sentiment":"bullish","title":"Meta's Muse AI agent ignites +11.3% surge"},{"detail":"Crude dropped in the wake of a US statement on the Strait, pulling Treasury yields lower and giving stocks room to rally into the close.","sentiment":"bullish","title":"Oil falls on US strait statement; yields retreat"},{"detail":"Fed official Musalem warned more hikes are likely needed to quell inflation — the session's main hawkish counter-signal to the rally.","sentiment":"bearish","title":"Fed's Musalem: more rate hikes likely needed"},{"detail":"Paramount settled with US states on the antitrust suit, clearing a major hurdle for the Warner Bros. Discovery takeover; WBD +10.8%.","sentiment":"bullish","title":"Paramount clears way for $110B Warner Bros merger"},{"detail":"Bessent hailed progress on AI talks, Trump weighed a US-China AI 'hotline' agreement, and China bought US soybeans ahead of the summit.","sentiment":"neutral","title":"Trump-Xi summit / US-China AI talks progress"}],"label":"Firmly Bullish","pressure":[{"move":"-7.96%","note":"LLY's new GLP-1 pill Foundayo won one-third of new pill starts; Lilly also broke ground on a $6.5B Houston plant","ticker":"NVO"},{"move":"-5.30%","note":"Refiner weakness as crude prices dropped on the US strait statement","ticker":"MPC"}],"score":70,"strength":[{"move":"+11.34%","note":"Muse AI assistant downloads surge plus price-target increase; best day in 13 months","ticker":"META"},{"move":"+12.14%","note":"AI chip rally; Bloomberg cites Meta's Muse agent spurring chip demand","ticker":"INTC"},{"move":"+9.95%","note":"Crossed $1 trillion market cap on AI demand","ticker":"AMD"},{"move":"+17.16%","note":"AI chip rally, among the day's top large-cap gainers","ticker":"ARM"},{"move":"+33.68%","note":"FDA staff flagged no major concerns for multi-cancer Galleri test; best day in over 1.5 years","ticker":"GRAL"},{"move":"+10.79%","note":"Paramount state antitrust settlement clears path for the $110B merger","ticker":"WBD"}],"summary":"Monday's session was a decisive AI-led risk-on move: the Nasdaq closed at a record high (its best day since August) as chip stocks surged — AMD crossed $1T on AI demand — and falling oil prices plus retreating Treasury yields unlocked the broader rally. The only real counterweight was a hawkish Fed voice: Musalem said more rate hikes are likely needed to quell inflation, a reminder that the rally is still running ahead of policy risk."},"premarket":{"label":"Risk-On Tilt","score":63,"summary":"Futures pointed to a strong open as optimism around the Trump-Xi summit and progress in US-China AI talks lifted risk appetite, while oil slipped on claims of stronger Hormuz flows and yields eased. Rare-earth miners ripped on Trump's Greenland security announcement, and Coinbase, bitcoin-treasury names, and Warner Bros/Paramount climbed on fresh deal and news flow. Offsetting the mood: Novo Nordisk plunged after its 2030 obesity goals disappointed, US diesel hit a record $6.50+/gal, and Fed officials kept the hawkish drumbeat alive."},"result":null,"take":"Monday was the kind of session that makes you want to chase — Nasdaq record, AMD crossing $1T, META's best day in over a year. The fuel is real (falling oil, retreating yields), but this rally is running on AI euphoria while a Fed official openly campaigns for more hikes. Momentum says UP for Tuesday; the risk is that good news is getting priced in very fast."},{"date":"2026-09-18","forecast":{"call":"DOWN","confidence":"Moderate","rationale":"Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.","target_date":"2026-09-21"},"postclose":{"drivers":[{"detail":"First real leadership transition in six decades; orderly but genuine uncertainty.","sentiment":"bearish","title":"Buffett steps down as Berkshire chairman"},{"detail":"The one rates headline that's actually new; market repricing how high the Fed goes.","sentiment":"bearish","title":"Warsh's hawkish remarks"},{"detail":"New supply-side data point, not war commentary; bearish for growth.","sentiment":"bearish","title":"Saudis: no crude for European refiners next month"},{"detail":"Fresh earnings warning from a global manufacturer.","sentiment":"bearish","title":"VW slashes outlook on China sales slump"},{"detail":"Escalation in state asset grabs; overhang for multinationals in Russia.","sentiment":"bearish","title":"Kremlin moves to seize Nestlé's Russia operations"},{"detail":"Genuine new scandal, $4B fortune erased; risk-off anecdote.","sentiment":"bearish","title":"Turkish fund 'Ponzi-like scheme' collapse"}],"label":"Risk-Off Tilt","pressure":[{"move":"-4.8%","note":"Wells Fargo brutally cuts price target; streaming/mega-cap wobble.","ticker":"NFLX"},{"move":"▼","note":"Plunges after CEO warning (BofA calls it an overreaction); Dow-component industrial stress.","ticker":"BA"},{"move":"▼","note":"Major franchisee files bankruptcy; consumer stress signal.","ticker":"WEN"},{"move":"▼","note":"Tumbles after massive $1.94B equity raise; dilution wave in space stocks.","ticker":"RKLB"},{"move":"▼","note":"1,600+ Italian workers strike on iPhone 18 Pro launch day.","ticker":"AAPL"},{"move":"-15%","note":"Scrutinized over disclosures; small-cap distress rising.","ticker":"FCEL"}],"score":38,"strength":[{"move":"+5.5% AH","note":"Partners with Anthropic on embedded AI evaluators; enterprise AI adoption accelerating.","ticker":"ACN"},{"move":"+16.3% wk","note":"Crypto proxies surging; pockets of risk appetite.","ticker":"MSTR"},{"move":"+11.7% wk","note":"Crypto proxies surging.","ticker":"COIN"},{"move":"+9.1% wk","note":"Crypto proxies surging.","ticker":"HOOD"},{"move":"+1.3%","note":"Intel extends memory scarcity into 2027; bullish for memory.","ticker":"MU"},{"move":"subscribed","note":"India's $2.4B IPO fully subscribed; real capital-markets risk appetite.","ticker":"NSE IPO"}],"summary":"Across ~175 headlines, roughly two-thirds were noise — duplicates, intraday wraps, explainers restating known conditions, and opinion pieces. The genuinely new, market-moving items were few: Buffett stepping down as Berkshire chairman, hawkish remarks from Fed Chair Warsh, fresh corporate stress (VW's outlook cut, Kremlin seizing Nestlé's Russia ops, a Turkish fund scandal), and at the single-stock level, Netflix -4.8% on a Wells Fargo target cut, Boeing plunging on a CEO warning, a Wendy's franchisee bankruptcy, and a Goldman warning on S&P 500 earnings. Offsetting pockets of strength: crypto proxies surging on the week and an Accenture–Anthropic enterprise AI deal (+5.5% after hours)."},"premarket":null,"result":{"hit":false,"spy_pct":1.55},"take":"Friday's tape was a textbook 'quiet day, bad backdrop' setup: the index barely budged, but the marginal headline was almost uniformly bearish — Buffett's exit, a hawkish Fed chair, VW's warning, a Kremlin asset grab. Forecasting DOWN into Monday felt like the only honest read. The lesson, as always: weekend news flow can flip the board, and it did — SPY ripped +1.55%."}]}
+{
+  "days": [
+    {
+      "date": "2026-09-21",
+      "morning": {
+        "score": 63,
+        "label": "Risk-On Tilt",
+        "published": "9:02 AM",
+        "summary": "Futures pointed to a strong open as optimism around the Trump-Xi summit and progress in US-China AI talks lifted risk appetite, while oil slipped on claims of stronger Hormuz flows and yields eased. Rare-earth miners ripped on Trump's Greenland security announcement, and Coinbase, bitcoin-treasury names, and Warner Bros/Paramount climbed on fresh deal and news flow. Offsetting the mood: Novo Nordisk plunged after its 2030 obesity goals disappointed, US diesel hit a record $6.50+/gal, and Fed officials kept the hawkish drumbeat alive. Net: a risk-on premarket tempered by energy and rates crosscurrents.",
+        "drivers": [
+          {
+            "title": "Trump-Xi summit diplomacy lifts risk appetite",
+            "detail": "Bessent hailed progress in US-China AI talks ahead of the meeting; futures climbed (Dow +400) with European and Asian equities up and oil slipping.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slips on Hormuz claims, but story is disputed",
+            "detail": "US claimed Hormuz shipments at six-month highs; Qatar's energy minister publicly called that claim 'completely wrong.' Crude weakness eased yields and supported equities.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Fed hawkish shadow over the open",
+            "detail": "Kashkari said inflation remains too high 'in all aspects'; desks bracing for rate-hike chatter even as near-term expectations stay priced.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Diesel/fuel crunch persists into the week",
+            "detail": "US diesel topped $6.50/gal; Trump is pressing Zelensky to halt Ukraine's Russian-refinery strikes while Ukraine hit a major Moscow refinery.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "SoftBank eyes record $11B+ junk-bond sale for OpenAI bet",
+            "detail": "AI capex is now reaching into record junk-credit issuance \u2014 bullish for the AI theme, a caution flag for credit and balance-sheet discipline.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PRTH",
+            "move": "+33.42%",
+            "note": "Going private in $1.6B deal"
+          },
+          {
+            "ticker": "GLND",
+            "move": "+148.31%",
+            "note": "Rare-earth rally on Trump's Greenland security announcement"
+          },
+          {
+            "ticker": "GRML",
+            "move": "+145.10%",
+            "note": "Same Greenland-driven rare-earth rally"
+          },
+          {
+            "ticker": "CRML",
+            "move": "+28.75%",
+            "note": "Premarket rare-earth rally on Greenland news"
+          },
+          {
+            "ticker": "USAR",
+            "move": "+6.70%",
+            "note": "Rare-earth shares rose on the Greenland agreement"
+          },
+          {
+            "ticker": "WBD",
+            "move": "+7.00%",
+            "note": "Reports of California AG settlement talks could clear merger path"
+          },
+          {
+            "ticker": "PSKY",
+            "move": "+6.26%",
+            "note": "Paramount jumps with WBD on merger-settlement progress"
+          },
+          {
+            "ticker": "COIN",
+            "move": "+5.60%",
+            "note": "Launched IPO access for individual investors"
+          },
+          {
+            "ticker": "MSTR",
+            "move": "+7.80%",
+            "note": "Ended two-week pause with 950 BTC buy; bitcoin ripped despite Clarity Act failure"
+          },
+          {
+            "ticker": "ALKS",
+            "move": "+6.64%",
+            "note": "Positive Phase 1b results for ADHD drug ALKS 7290"
+          },
+          {
+            "ticker": "NUAI",
+            "move": "+17.35%",
+            "note": "Secured 20-year power agreement with Vistra (AI power theme)"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVO",
+            "move": "\u25bc (~-5.6%)",
+            "note": "Investor Day: $23B obesity sales target for 2030 underwhelmed; turnaround hopes faded"
+          },
+          {
+            "ticker": "HPQ",
+            "move": "-2%",
+            "note": "Warned it expects the PC market to contract in 2027"
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25bc",
+            "note": "Fined \u20ac400M+ by Irish regulator over location-data privacy breaches"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "China's memory push raises new questions for Micron and SK Hynix"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Hormuz: oil bulls vs bears on disputed supply data",
+            "detail": "US claims shipments at six-month highs sent crude down; Qatar says the claim is 'completely wrong' \u2014 the same datapoint is priced bullish and bearish simultaneously."
+          },
+          {
+            "title": "AI euphoria vs AI caution",
+            "detail": "AI stocks and futures rally into the Trump-Xi summit while Microsoft's AI chief warns on AI safety and SoftBank funds its OpenAI bet with record junk debt."
+          },
+          {
+            "title": "China trade: optimism vs credibility gap",
+            "detail": "Bessent hails AI-talks progress and China bought US soybeans ahead of the summit; but reports say China still hasn't delivered promised farm-goods purchases."
+          }
+        ],
+        "take": "Futures ripped overnight on Trump-Xi summit talk and a Greenland-driven rare-earth frenzy \u2014 classic pre-open euphoria. But NVO's obesity-target stumble and record diesel prices are a reminder the bid is narrow. Blended 51 is barely positive: the market wants to go up, it's just not sure it should."
+      },
+      "evening": {
+        "score": 70,
+        "label": "Firmly Bullish",
+        "published": "5:01 PM",
+        "summary": "Monday's session was a decisive AI-led risk-on move: the Nasdaq closed at a record high (its best day since August) as chip stocks surged \u2014 AMD crossed $1T on AI demand \u2014 and falling oil prices plus retreating Treasury yields unlocked the broader rally. The only real counterweight was a hawkish Fed voice: Musalem said more rate hikes are likely needed to quell inflation, a reminder that the rally is still running ahead of policy risk.",
+        "drivers": [
+          {
+            "title": "AI chip rally: AMD crosses $1T",
+            "detail": "AMD became the latest chipmaker to top $1 trillion on AI demand; INTC +12.1%, ARM +17.2%, QCOM +9.3% \u2014 semis carried the Nasdaq to a record close.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Meta's Muse AI agent ignites +11.3% surge",
+            "detail": "META logged its best day in 13 months on surging Muse AI assistant downloads plus a price-target increase; rally spilled into AI shopping and chip names.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil falls on US strait statement; yields retreat",
+            "detail": "Crude dropped in the wake of a US statement on the Strait, pulling Treasury yields lower and giving stocks room to rally into the close.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed's Musalem: more rate hikes likely needed",
+            "detail": "Fed official Musalem warned more hikes are likely needed to quell inflation \u2014 the session's main hawkish counter-signal to the rally.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Paramount clears way for $110B Warner Bros merger",
+            "detail": "Paramount settled with US states on the antitrust suit, clearing a major hurdle for the Warner Bros. Discovery takeover; WBD +10.8%.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Trump-Xi summit / US-China AI talks progress",
+            "detail": "Bessent hailed progress on AI talks, Trump weighed a US-China AI 'hotline' agreement, and China bought US soybeans ahead of the summit.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "META",
+            "move": "+11.34%",
+            "note": "Muse AI assistant downloads surge plus price-target increase; best day in 13 months"
+          },
+          {
+            "ticker": "INTC",
+            "move": "+12.14%",
+            "note": "AI chip rally; Bloomberg cites Meta's Muse agent spurring chip demand"
+          },
+          {
+            "ticker": "AMD",
+            "move": "+9.95%",
+            "note": "Crossed $1 trillion market cap on AI demand"
+          },
+          {
+            "ticker": "ARM",
+            "move": "+17.16%",
+            "note": "AI chip rally, among the day's top large-cap gainers"
+          },
+          {
+            "ticker": "AKAM",
+            "move": "+12.33%",
+            "note": "Outperformed on the strong AI-infrastructure trading day"
+          },
+          {
+            "ticker": "GRAL",
+            "move": "+33.68%",
+            "note": "FDA staff flagged no major concerns for multi-cancer Galleri test; best day in over 1.5 years"
+          },
+          {
+            "ticker": "WBD",
+            "move": "+10.79%",
+            "note": "Paramount state antitrust settlement clears path for the $110B merger"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVO",
+            "move": "-7.96%",
+            "note": "LLY's new GLP-1 pill Foundayo won one-third of new pill starts; Lilly also broke ground on a $6.5B Houston plant"
+          },
+          {
+            "ticker": "MPC",
+            "move": "-5.30%",
+            "note": "Refiner weakness as crude prices dropped on the US strait statement"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs data-center skepticism",
+            "detail": "Chips and AI-infrastructure names ripped even as the NYT reported Wall Street is growing skeptical of the data-center boom \u2014 overcapacity doubts rising alongside valuations"
+          },
+          {
+            "title": "Rally on easing expectations vs hawkish Fed",
+            "detail": "Stocks and bonds rallied on lower yields while Fed's Musalem said more rate hikes are likely needed \u2014 markets are pricing cuts/hikes relief the Fed may not deliver"
+          },
+          {
+            "title": "Oil drop: inflation relief vs refiner pain",
+            "detail": "Lower crude aided the broad market and bonds, but MPC -5.3% shows the margin hit on refiners \u2014 same barrel, opposite sentiment"
+          }
+        ],
+        "take": "Monday was the kind of session that makes you want to chase \u2014 Nasdaq record, AMD crossing $1T, META's best day in over a year. The fuel is real (falling oil, retreating yields), but this rally is running on AI euphoria while a Fed official openly campaigns for more hikes. Momentum says UP for Tuesday; the risk is that good news is getting priced in very fast."
+      },
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.",
+        "made": "2026-09-18",
+        "scores_detail": "Post-close 38 (2026-09-18)"
+      },
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 51 (prev post-close 38 on 2026-09-18 + pre-market 63): Trump-Xi summit diplomacy lifts risk appetite.",
+        "made": "2026-09-21",
+        "scores_detail": "Post-close 38 (2026-09-18) + pre-market 63 (2026-09-21) = 51"
+      },
+      "result": {
+        "spy_pct": 1.55,
+        "early_hit": false,
+        "final_hit": true
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "morning": null,
+      "evening": {
+        "score": 38,
+        "label": "Risk-Off Tilt",
+        "published": "4:54 PM",
+        "summary": "Across ~175 headlines, roughly two-thirds were noise \u2014 duplicates, intraday wraps, explainers restating known conditions, and opinion pieces. The genuinely new, market-moving items were few: Buffett stepping down as Berkshire chairman, hawkish remarks from Fed Chair Warsh, fresh corporate stress (VW's outlook cut, Kremlin seizing Nestl\u00e9's Russia ops, a Turkish fund scandal), and at the single-stock level, Netflix -4.8% on a Wells Fargo target cut, Boeing plunging on a CEO warning, a Wendy's franchisee bankruptcy, and a Goldman warning on S&P 500 earnings. Offsetting pockets of strength: crypto proxies surging on the week and an Accenture\u2013Anthropic enterprise AI deal (+5.5% after hours).",
+        "drivers": [
+          {
+            "title": "Buffett steps down as Berkshire chairman",
+            "detail": "First real leadership transition in six decades; orderly but genuine uncertainty.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Warsh's hawkish remarks",
+            "detail": "The one rates headline that's actually new; market repricing how high the Fed goes.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Saudis: no crude for European refiners next month",
+            "detail": "New supply-side data point, not war commentary; bearish for growth.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "VW slashes outlook on China sales slump",
+            "detail": "Fresh earnings warning from a global manufacturer.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Kremlin moves to seize Nestl\u00e9's Russia operations",
+            "detail": "Escalation in state asset grabs; overhang for multinationals in Russia.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Turkish fund 'Ponzi-like scheme' collapse",
+            "detail": "Genuine new scandal, $4B fortune erased; risk-off anecdote.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "ACN",
+            "move": "+5.5% AH",
+            "note": "Partners with Anthropic on embedded AI evaluators; enterprise AI adoption accelerating."
+          },
+          {
+            "ticker": "MSTR",
+            "move": "+16.3% wk",
+            "note": "Crypto proxies surging; pockets of risk appetite."
+          },
+          {
+            "ticker": "COIN",
+            "move": "+11.7% wk",
+            "note": "Crypto proxies surging."
+          },
+          {
+            "ticker": "HOOD",
+            "move": "+9.1% wk",
+            "note": "Crypto proxies surging."
+          },
+          {
+            "ticker": "MU",
+            "move": "+1.3%",
+            "note": "Intel extends memory scarcity into 2027; bullish for memory."
+          },
+          {
+            "ticker": "SpaceX",
+            "move": "deal",
+            "note": "$946M NASA crew deal through 2030; space-economy momentum."
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "target \u2191",
+            "note": "Analyst sets 'jaw-dropping' price target."
+          },
+          {
+            "ticker": "NSE IPO",
+            "move": "subscribed",
+            "note": "India's $2.4B IPO fully subscribed; real capital-markets risk appetite."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "-4.8%",
+            "note": "Wells Fargo brutally cuts price target; streaming/mega-cap wobble."
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25bc",
+            "note": "Plunges after CEO warning (BofA calls it an overreaction); Dow-component industrial stress."
+          },
+          {
+            "ticker": "WEN",
+            "move": "\u25bc",
+            "note": "Major franchisee files bankruptcy; consumer stress signal."
+          },
+          {
+            "ticker": "RKLB",
+            "move": "\u25bc",
+            "note": "Tumbles after massive $1.94B equity raise; dilution wave in space stocks."
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "1,600+ Italian workers strike on iPhone 18 Pro launch day."
+          },
+          {
+            "ticker": "FCEL",
+            "move": "-15%",
+            "note": "Scrutinized over disclosures; small-cap distress rising."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "The AI durability question",
+            "detail": "Gerstner's $180B revenue warning + Goldman's earnings warning vs. the Accenture\u2013Anthropic enterprise deal + memory scarcity into 2027 \u2014 the bull and bear cases for the AI trade, side by side."
+          },
+          {
+            "title": "Energy tug-of-war",
+            "detail": "Saudi supply cutoff vs. Barron's 'red flags for oil prices' on Europe/China demand."
+          },
+          {
+            "title": "Accenture both ways",
+            "detail": "+5.5% after hours on Anthropic news, -4% the same session on a Guggenheim downgrade."
+          },
+          {
+            "title": "Rates: only Warsh is new",
+            "detail": "His comments are the only fresh hawkish input; the 10-year near 5% is priced weather, not news."
+          }
+        ],
+        "take": "Friday's tape was a textbook 'quiet day, bad backdrop' setup: the index barely budged, but the marginal headline was almost uniformly bearish \u2014 Buffett's exit, a hawkish Fed chair, VW's warning, a Kremlin asset grab. Forecasting DOWN into Monday felt like the only honest read. The lesson, as always: weekend news flow can flip the board, and it did \u2014 SPY ripped +1.55%."
+      },
+      "early_call": null,
+      "final_call": null,
+      "result": null
+    }
+  ]
+}
