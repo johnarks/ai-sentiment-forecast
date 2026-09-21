@@ -118,6 +118,58 @@ def call_card(call, kind_label, graded_hit, spy_pct, highlight=False):
     </div>"""
 
 
+def current_pick(forecasts):
+    """The call to feature as the hero: the latest pending forecast
+    (prefer final over early on ties), else the most recently graded one."""
+    pend = [f for f in forecasts if f.get("hit") is None and not f.get("push")]
+    pool = pend if pend else [f for f in forecasts if f.get("hit") is not None]
+    if not pool:
+        return None, False
+    pool.sort(key=lambda f: (f.get("target_date", ""),
+                             1 if f.get("kind") == "final" else 0),
+              reverse=True)
+    return pool[0], bool(pend)
+
+
+def hero_html(f, is_open):
+    """Big 'current call' hero card for the top of the Today tab."""
+    up = f["call"] == "UP"
+    arrow = "▲" if up else "▼"
+    cls = "up" if up else "down"
+    td = datetime.strptime(f["target_date"], "%Y-%m-%d").strftime("%A, %b %-d")
+    kind = "Final call" if f.get("kind") == "final" else "Early call"
+    scores = f.get("scores_detail") or (
+        f"Post-close {f['score']} ({f.get('label', '')})"
+        if f.get("score") is not None else "")
+    spy = f.get("spy_pct")
+    if is_open:
+        if f.get("kind") == "early":
+            verdict = ('<div class="verdict pending">⏳ Open — the final call '
+                       'lands at the next morning update</div>')
+        else:
+            verdict = ('<div class="verdict pending">⏳ Open — graded after '
+                       "today's close</div>")
+    elif f.get("hit") is True:
+        verdict = ('<div class="verdict hit">✓ HIT'
+                   + (f" — SPY {spy:+.2f}%" if spy is not None else "") + "</div>")
+    else:
+        verdict = ('<div class="verdict miss">✗ MISS'
+                   + (f" — SPY {spy:+.2f}%" if spy is not None else "") + "</div>")
+    status = "Current call" if is_open else "Most recent call"
+    return f"""
+    <section class="hero">
+      <div class="call-card {cls} hl">
+        <div class="cc-kicker">{status} · {kind} · made {esc(f.get('date', ''))}</div>
+        <div class="hero-call">{arrow} {f['call']}</div>
+        <div class="hero-target">SPY · {esc(td)}</div>
+        <div class="cc-conf">Confidence: {esc(f.get('confidence', ''))}</div>
+        {'<p class="cc-scores">' + esc(scores) + '</p>' if scores else ''}
+        <p class="cc-rationale">{esc(f.get('rationale', ''))}</p>
+        {verdict}
+      </div>
+    </section>"""
+
+
 def edition_card(ed, icon, name):
     if not ed:
         return (f'<div class="edition-card empty"><div class="ec-head">'
@@ -168,7 +220,22 @@ def render_today(day, forecasts, now):
     res = day.get("result") or {}
     early = day.get("early_call")
     final = day.get("final_call")
+    pick, is_open = current_pick(forecasts)
+    hero = hero_html(pick, is_open) if pick else ""
+    # Don't repeat the hero'd call in the day's own cards below.
+    skip_early = (is_open and pick["target_date"] == day["date"]
+                  and pick.get("kind") == "early")
+    skip_final = (is_open and pick["target_date"] == day["date"]
+                  and pick.get("kind") == "final")
+    cards = []
+    if not skip_early:
+        cards.append(call_card(early, "Early call <span class='tag-sm'>(yesterday evening)</span>",
+                              res.get('early_hit'), res.get('spy_pct')))
+    if not skip_final:
+        cards.append(call_card(final, "Final call <span class='tag-sm'>(this morning)</span>",
+                              res.get('final_hit'), res.get('spy_pct'), highlight=True))
     body = [f"""
+    {hero}
     <div class="next-update" id="next-update" data-iso="{nxt.isoformat()}">
       <span class="nu-dot"></span>
       <span>Next update: <strong>{esc(nxt_label)}</strong></span>
@@ -176,10 +243,7 @@ def render_today(day, forecasts, now):
     </div>
     <h2 class="pane-title">Today's read — {esc(day['date'])}</h2>
     <div class="call-cards">
-      {call_card(early, "Early call <span class='tag-sm'>(yesterday evening)</span>",
-                 res.get('early_hit'), res.get('spy_pct'))}
-      {call_card(final, "Final call <span class='tag-sm'>(this morning)</span>",
-                 res.get('final_hit'), res.get('spy_pct'), highlight=True)}
+      {"".join(cards)}
     </div>
     <div class="editions">
       {edition_card(day.get('morning'), '☀️', 'Morning')}
@@ -398,6 +462,15 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .verdict{margin-top:10px;font-weight:800;font-size:15px}
 .verdict.hit{color:var(--green2)} .verdict.miss{color:var(--red2)}
 .verdict.pending{color:var(--muted)}
+.hero{margin:18px 0 6px}
+.hero .call-card{padding:26px 22px}
+.hero .cc-kicker{color:var(--gold)}
+.hero-call{font-size:56px;font-weight:900;font-family:Georgia,serif;margin:6px 0 2px}
+.call-card.up .hero-call{color:var(--green2)}
+.call-card.down .hero-call{color:var(--red2)}
+.hero-target{font-size:16px;font-weight:700;color:var(--muted);margin-bottom:8px}
+.hero .cc-rationale{font-size:15px}
+.hero .verdict{font-size:16px}
 .editions{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
 @media(max-width:700px){.editions{grid-template-columns:1fr}}
 .edition-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
