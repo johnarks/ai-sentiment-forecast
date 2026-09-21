@@ -59,6 +59,15 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .verdict{margin-top:10px;font-weight:800;font-size:15px}
 .verdict.hit{color:var(--green2)} .verdict.miss{color:var(--red2)}
 .verdict.pending{color:var(--muted)}
+.hero{margin:18px 0 6px}
+.hero .call-card{padding:26px 22px}
+.hero .cc-kicker{color:var(--gold)}
+.hero-call{font-size:56px;font-weight:900;font-family:Georgia,serif;margin:6px 0 2px}
+.call-card.up .hero-call{color:var(--green2)}
+.call-card.down .hero-call{color:var(--red2)}
+.hero-target{font-size:16px;font-weight:700;color:var(--muted);margin-bottom:8px}
+.hero .cc-rationale{font-size:15px}
+.hero .verdict{font-size:16px}
 .editions{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
 @media(max-width:700px){.editions{grid-template-columns:1fr}}
 .edition-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
@@ -147,7 +156,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-21 19:17 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-21 19:25 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -159,6 +168,18 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
 
   <div class="tabpane active" id="tab-today">
     
+    
+    <section class="hero">
+      <div class="call-card up hl">
+        <div class="cc-kicker">Current call · Early call · made 2026-09-21</div>
+        <div class="hero-call">▲ UP</div>
+        <div class="hero-target">SPY · Tuesday, Sep 22</div>
+        <div class="cc-conf">Confidence: High</div>
+        <p class="cc-scores">Post-close 70 (2026-09-21)</p>
+        <p class="cc-rationale">Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally — AMD crossed $1T, META +11.3% — with falling oil and retreating yields; momentum carries into Tuesday.</p>
+        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+      </div>
+    </section>
     <div class="next-update" id="next-update" data-iso="2026-09-22T09:15:00-04:00">
       <span class="nu-dot"></span>
       <span>Next update: <strong>Tue, Sep 22 · 9:15 AM ET</strong></span>
@@ -175,7 +196,6 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 38 (Risk-Off Tilt): Buffett&#x27;s Berkshire exit, Warsh&#x27;s hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.</p>
       <div class="verdict miss">✗ MISS — SPY +1.55%</div>
     </div>
-      
     <div class="call-card up hl">
       <div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span> · made 2026-09-21</div>
       <div class="cc-call">▲ UP</div>
@@ -681,7 +701,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-21 19:17 ET.
+    Generated 2026-09-21 19:25 ET.
   </footer>
 </div>
 <script>
