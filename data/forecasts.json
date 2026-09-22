@@ -1,17 +1,29 @@
 {
   "forecasts": [
     {
-      "target_date": "2026-09-21",
-      "kind": "early",
-      "date": "2026-09-18",
-      "score": 38,
-      "label": "Risk-Off Tilt",
-      "call": "DOWN",
+      "target_date": "2026-09-22",
+      "kind": "final",
+      "date": "2026-09-22",
+      "scores_detail": "Post-close 70 (2026-09-21) + pre-market 62 (2026-09-22) = 66",
+      "call": "UP",
       "confidence": "Moderate",
-      "rationale": "Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.",
-      "scores_detail": "Post-close 38 (2026-09-18)",
-      "spy_pct": 1.55,
-      "hit": false,
+      "rationale": "Blended score 66 (prev post-close 70 on 2026-09-21 + pre-market 62): Oil breaks below $100 on Iran-Hormuz reopening report.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-22",
+      "kind": "early",
+      "date": "2026-09-21",
+      "score": 70,
+      "label": "Firmly Bullish",
+      "call": "UP",
+      "confidence": "High",
+      "rationale": "Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally \u2014 AMD crossed $1T, META +11.3% \u2014 with falling oil and retreating yields; momentum carries into Tuesday.",
+      "scores_detail": "Post-close 70 (2026-09-21)",
+      "spy_pct": null,
+      "hit": null,
       "push": false
     },
     {
@@ -27,17 +39,17 @@
       "push": false
     },
     {
-      "target_date": "2026-09-22",
+      "target_date": "2026-09-21",
       "kind": "early",
-      "date": "2026-09-21",
-      "score": 70,
-      "label": "Firmly Bullish",
-      "call": "UP",
-      "confidence": "High",
-      "rationale": "Post-close score 70 (Firmly Bullish): record Nasdaq close on the AI-chip rally \u2014 AMD crossed $1T, META +11.3% \u2014 with falling oil and retreating yields; momentum carries into Tuesday.",
-      "scores_detail": "Post-close 70 (2026-09-21)",
-      "spy_pct": null,
-      "hit": null,
+      "date": "2026-09-18",
+      "score": 38,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 38 (Risk-Off Tilt): Buffett's Berkshire exit, Warsh's hawkish remarks, and fresh corporate stress from VW to the Kremlin point to a soft next session.",
+      "scores_detail": "Post-close 38 (2026-09-18)",
+      "spy_pct": 1.55,
+      "hit": false,
       "push": false
     }
   ]
