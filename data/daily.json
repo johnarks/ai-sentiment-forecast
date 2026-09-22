@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-22",
+      "morning": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "The AI trade recharged overnight: AMD crossed a $1T valuation and Meta's Muse AI agent drove Monday's best S&P 500 day since early August, with Nasdaq at a record close. Oil breaking below $100 on the Iran-Hormuz reopening report adds a fresh tailwind into the open. The main offsets are lingering Nvidia growth fears amid the euphoria and today's event risk \u2014 Trump's UN address and the start of the Fed speaker circuit.",
+        "drivers": [
+          {
+            "title": "Oil breaks below $100 on Iran-Hormuz reopening report",
+            "detail": "Report that Iran proposes reopening the Strait of Hormuz sent oil below $100/bbl; Saudis also reportedly telling Asian refiners to pick up Red Sea crude.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI trade recharges: AMD tops $1T, Meta Muse bump",
+            "detail": "AMD crossed a $1 trillion valuation and Meta's AI agent 'Muse' added billions to its market cap; Nasdaq closed at a record Monday on the AI optimism.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Trump UN address today; US-Iran talks in focus",
+            "detail": "Trump delivers UN speech later today; US-Iran talks being watched closely after Trump-Xi dinner attendee list circulated.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Fed speaker circuit begins with Barkin",
+            "detail": "Fed's Barkin kicks off the latest round of Fed speeches this morning, with markets watching for rate-path signals after the equity rally.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Nvidia valuation warning / growth fears linger",
+            "detail": "Bloomberg flags a valuation warning sign on Nvidia; Barron's notes NVDA missed the Meta-driven chip rally as growth fears linger.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bitcoin at 8-month high; copper toward record",
+            "detail": "Bitcoin hit an 8-month high and copper rose for a sixth day toward record on China tightness, signaling broad risk appetite.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Dimon: hyperscaler AI spend could hit $1T next year",
+            "detail": "JPMorgan's Jamie Dimon says hyperscaler AI spending could reach $1 trillion in 2027, supporting AI infrastructure names.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "VKTX",
+            "move": "+23.55%",
+            "note": "Surged up to 36% on obesity data; seen as a challenger to Lilly/Novo's GLP-1 empire."
+          },
+          {
+            "ticker": "AMD",
+            "move": "\u25b2",
+            "note": "Joined the $1 trillion club as the AI chip rally accelerates."
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Muse AI agent drove billions in market-cap gains; Mizuho says bull case playing out."
+          },
+          {
+            "ticker": "SNDK",
+            "move": "\u25b2",
+            "note": "Up 644% YTD and got another vote of confidence from Wall Street."
+          },
+          {
+            "ticker": "OKTA",
+            "move": "\u25b2",
+            "note": "Jumped as Needham raised the price target ahead of a major AI reveal."
+          },
+          {
+            "ticker": "ZEO",
+            "move": "+20.39%",
+            "note": "Cooperation agreement with Ewyze for integrated off-grid power and data-center infrastructure."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CMPX",
+            "move": "-39.57%",
+            "note": "Compass Therapeutics battered after FDA feedback on tovecimig in biliary tract cancer."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Missed the Meta-driven chip rally; growth fears linger amid valuation warning."
+          },
+          {
+            "ticker": "NKE",
+            "move": "\u25bc",
+            "note": "Slides on brand backlash and S&P 100 exit."
+          },
+          {
+            "ticker": "Q",
+            "move": "\u25bc",
+            "note": "Qnity stock down despite being added to the PHLX Semiconductor Index."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs AI-returns skepticism",
+            "detail": "AMD $1T and Meta's Muse bump power the rally, but an expert warns of 'so much uncertainty' on AI investment returns and Nvidia growth fears linger."
+          },
+          {
+            "title": "Oil two ways: Hormuz reopening vs $150 warning",
+            "detail": "Oil below $100 on the Hormuz reopening report, but Bank of America warns oil could top $150 if supplies tighten further."
+          },
+          {
+            "title": "Nvidia: best AI bet vs valuation warning",
+            "detail": "Barron's calls chip stocks the best AI bet even as Bloomberg flags Nvidia's falling valuation as a warning sign."
+          }
+        ],
+        "take": "The AI bid is real and broad \u2014 AMD in the $1T club, Meta's Muse bump, Bitcoin and copper screaming risk-on \u2014 and oil breaking below $100 on the Hormuz headline removes the one macro brake from Monday. The only thing that can wreck this session is event risk: Trump's UN speech and Barkin's Fed-speak can talk a strong tape down. Call: UP, with the Nvidia valuation warnings as the one thing to watch if breadth thins.",
+        "published": "9:01 AM"
+      },
+      "evening": null,
+      "early_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Blended score 66 (prev post-close 70 on 2026-09-21 + pre-market 62): Oil breaks below $100 on Iran-Hormuz reopening report.",
+        "made": "2026-09-22",
+        "scores_detail": "Post-close 70 (2026-09-21) + pre-market 62 (2026-09-22) = 66"
+      },
+      "result": null
+    },
+    {
       "date": "2026-09-21",
       "morning": {
         "score": 63,
