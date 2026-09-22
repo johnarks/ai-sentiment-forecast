@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-23",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 56 (Risk-On Tilt): Meta's Muse AI launch sparks AI rally \u2014 and hits financials.",
+        "made": "2026-09-22",
+        "scores_detail": "Post-close 56 (2026-09-22)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-22",
       "morning": {
         "score": 62,
@@ -114,7 +128,143 @@
         "take": "The AI bid is real and broad \u2014 AMD in the $1T club, Meta's Muse bump, Bitcoin and copper screaming risk-on \u2014 and oil breaking below $100 on the Hormuz headline removes the one macro brake from Monday. The only thing that can wreck this session is event risk: Trump's UN speech and Barkin's Fed-speak can talk a strong tape down. Call: UP, with the Nvidia valuation warnings as the one thing to watch if breadth thins.",
         "published": "9:01 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 56,
+        "label": "Risk-On Tilt",
+        "summary": "The Nasdaq closed at its first record since June, powered by Meta's viral Muse AI launch and renewed AI optimism, while the S&P ended flat and the Dow retreated. Financials sold off on fears that Meta's AI agent eats into their business, and yields above 5% kept a bond-market warning flashing. Oil sliding for a fifth day below $100 on Iran de-escalation helped the growth trade. Session takeaway: the AI rotation is real, but breadth is narrowing fast.",
+        "drivers": [
+          {
+            "title": "Meta's Muse AI launch sparks AI rally \u2014 and hits financials",
+            "detail": "WSJ: Muse 'comes for financial stocks'; LPL Financial dropped 7.45% while Meta surged and Wall Street sees a new revenue engine",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nasdaq 100 hits first record since June; rotation day",
+            "detail": "Nasdaq closed at fresh record, S&P flat, Dow down ~150; AI names up, financials and value down",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slides fifth straight day below $100",
+            "detail": "Reports of Iran proposing to reopen the Strait of Hormuz after 'very productive' US-Iran talks crushed crude",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump endorses diesel export ban",
+            "detail": "Trump said a decision is coming 'fast' as diesel hit a record $6.52; refining-stock rally stalled",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed hawks push back as yields top 5%",
+            "detail": "Barkin warned inflation pressures may take time to pass; Pimco trimmed its underweight on long bonds above 5% yields",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "KB Home cuts margin outlook on worsening housing",
+            "detail": "Homebuilder warned of deteriorating housing conditions in fiscal Q3 report",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic unleashes its most powerful Opus yet, slashes prices up to 60%",
+            "detail": "New frontier-model release adds fuel to the AI infrastructure story",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Paramount's $49B debt sale to kick off",
+            "detail": "Paramount\u2013Warner Bros deal moves forward with debt sale following end of lawsuits",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "VKTX",
+            "move": "+35.67%",
+            "note": "Peers called obesity data a win; Oppenheimer hiked target"
+          },
+          {
+            "ticker": "TLSI",
+            "move": "+18.26% AH",
+            "note": "FDA clearance for TriNav Advance device"
+          },
+          {
+            "ticker": "WOR",
+            "move": "+15.37% AH",
+            "note": "Earnings beat drove after-hours pop"
+          },
+          {
+            "ticker": "SDA",
+            "move": "+16.43% AH",
+            "note": "First-half 2026 results impressed"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "+6.82%",
+            "note": "Triggered buy signals alongside Micron"
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Surged on viral Muse AI launch; WSJ flags new revenue engine"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "LPLA",
+            "move": "-7.45%",
+            "note": "WSJ: Meta's Muse threatens financial advisory stocks"
+          },
+          {
+            "ticker": "GEN",
+            "move": "-6.38%",
+            "note": "Underperformed peers on a strong tech day"
+          },
+          {
+            "ticker": "RCL",
+            "move": "-6.14%",
+            "note": "Report of Sandals deal weighed on shares"
+          },
+          {
+            "ticker": "ALL",
+            "move": "-5.50%",
+            "note": "Underperformed vs competitors"
+          },
+          {
+            "ticker": "BMEA",
+            "move": "-20.59% AH",
+            "note": "Proposed public offering of securities"
+          },
+          {
+            "ticker": "INNV",
+            "move": "-10.73% AH",
+            "note": "Secondary offering by selling stockholders"
+          },
+          {
+            "ticker": "KBH",
+            "move": "\u25bc",
+            "note": "Cut margin outlook as housing conditions worsen"
+          },
+          {
+            "ticker": "DELL",
+            "move": "\u25bc",
+            "note": "Fell and underperformed on rotation day"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs. bond-market warning",
+            "detail": "Nasdaq hit records on AI optimism while MarketWatch and Reuters flagged the bond market flashing warnings for stocks, with yields above 5% already wobbling sectors"
+          },
+          {
+            "title": "Oil crash vs. $150 crude warnings",
+            "detail": "Crude fell below $100 on Iran de-escalation, but BofA warned oil could top $150 if supplies tighten further"
+          },
+          {
+            "title": "Fed hawkishness vs. market rally",
+            "detail": "Collins said a rate hike will help reach the inflation goal and Barkin warned inflation pressures linger, even as equities kept climbing"
+          }
+        ],
+        "take": "The Nasdaq printed a record, but look at the tape: S&P flat, Dow down 150, financials torched on the Muse threat (LPLA -7.45%). This is AI carrying an increasingly narrow market while 5%-plus yields and Fed hawks push back. Tomorrow belongs to the AI names again \u2014 until a hawkish speaker or a bond selloff forces the rotation to reverse. Bullish tape, bearish breadth.",
+        "published": "5:02 PM"
+      },
       "early_call": null,
       "final_call": {
         "call": "UP",
@@ -123,7 +273,11 @@
         "made": "2026-09-22",
         "scores_detail": "Post-close 70 (2026-09-21) + pre-market 62 (2026-09-22) = 66"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.02,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-09-21",
