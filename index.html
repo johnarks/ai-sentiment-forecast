@@ -148,6 +148,24 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
   border-top:1px solid var(--line);padding-top:16px}
 .muted{color:var(--muted)}
 .fine{font-size:12.5px;margin-top:14px}
+.track-banner{background:linear-gradient(180deg,#1a2340,#131a30);
+  border:1px solid var(--line);border-radius:14px;padding:18px;margin:6px 0 16px}
+.track-kicker{display:flex;justify-content:space-between;align-items:center;
+  gap:8px;flex-wrap:wrap;font-size:11.5px;letter-spacing:2px;color:var(--gold);
+  text-transform:uppercase;font-weight:800}
+.goal-pill{font-size:11px;letter-spacing:1px;background:#123c24;color:var(--green2);
+  border-radius:20px;padding:4px 12px;font-weight:800}
+.track-main{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.track-pct{font-size:56px;font-weight:900;font-family:Georgia,serif;line-height:1}
+.track-cap{font-size:13px;color:var(--muted);margin-top:6px}
+.track-sub{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex:1;min-width:240px}
+@media(max-width:640px){.track-sub{grid-template-columns:1fr 1fr}}
+.track-stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:10px 14px}
+.ts-v{font-size:24px;font-weight:800;font-family:Georgia,serif}
+.ts-k{font-size:10.5px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-top:2px}
+.track-note{font-size:12.5px;color:var(--muted);margin:12px 0 0}
+.pct-good{color:var(--green2)} .pct-warn{color:var(--amber)} .pct-bad{color:var(--red2)}
 </style>
 </head>
 <body>
@@ -156,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-23 09:16 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-23 18:28 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -324,6 +342,17 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
   </div>
   <div class="tabpane" id="tab-archive">
     <h2 class='pane-title'>Archive</h2>
+    <div class="track-banner">
+      <div class="track-kicker"><span>📊 Track record</span>
+        <span class="goal-pill">GOAL ≥ 70% CORRECT</span></div>
+      <div class="track-main">
+        <div class="track-big"><div class="track-pct pct-warn">50.0%</div><div class="track-cap">final-call accuracy · 1 of 2 graded</div></div>
+        <div class="track-sub"><div class="track-stat"><div class="ts-v pct-bad">0.0%</div><div class="ts-k">Early-call · 0/2</div></div><div class="track-stat"><div class="ts-v pct-bad">25.0%</div><div class="ts-k">All calls · 1/4</div></div><div class="track-stat"><div class="ts-v">—</div><div class="ts-k">Final-call streak</div></div></div>
+      </div>
+      <div class="track-note">Graded on SPY close-to-close % vs each call's
+      target day. A flat 0.00% day is a push and is excluded from hit rates.
+      Updated with every forecast.</div>
+    </div>
         <details class="day-card">
           <summary><strong>2026-09-23</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
@@ -937,7 +966,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-23 09:16 ET.
+    Generated 2026-09-23 18:28 ET.
   </footer>
 </div>
 <script>
