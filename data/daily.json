@@ -2,7 +2,134 @@
   "days": [
     {
       "date": "2026-09-23",
-      "morning": null,
+      "morning": {
+        "score": 44,
+        "label": "Risk-Off Tilt",
+        "summary": "A modestly risk-off pre-market. The overnight change is mostly geopolitical and rates-driven: a Hormuz vessel attack ahead of Iran's UN address is lifting crude and yields while equity futures sag, US mortgage rates jumped above 7%, and the five-year run of earnings upgrades snapped. The AI trade still has legs underneath (IonQ/Nvidia partnership, Accenture's $1B Anthropic deal, HSBC's STOXX upgrade), but fresh skepticism (Burry's warning, SoftBank's IPO slowdown) caps it. Score 44: risk-off tilt, not fear.",
+        "drivers": [
+          {
+            "title": "Hormuz incident + Iran UN address lift oil and yields",
+            "detail": "ZeroHedge reports a cargo vessel struck by an unknown projectile in Hormuz with casualties, just as Iran's president addresses the UN. Crude and yields jumping, futures down.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump backs diesel export ban; diesel futures jump",
+            "detail": "Trump tells the UN he backs banning diesel exports; European diesel futures jumped. Export-restriction policy talk adds a supply-side bid to distillates.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US mortgage rates top 7%, highest in 2+ years",
+            "detail": "Bloomberg reports US mortgage rates surged above 7% to a more-than-two-year high. Fresh headwind for housing and consumer-adjacent spending into Q4.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Longest run of US earnings upgrades in five years ends",
+            "detail": "Bloomberg: the five-year run of consecutive US earnings estimate upgrades has snapped. Momentum in analyst revisions has rolled, a late-cycle-style signal into Q3 earnings season.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump-Xi summit ahead; positioning cautious",
+            "detail": "Trump-Xi summit looms as a binary catalyst for tariffs/trade headlines; futures soft and cautious positioning expected ahead of any readout.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "HSBC raises STOXX 600 year-end target",
+            "detail": "Reuters: HSBC lifts STOXX 600 year-end target on a stronger earnings outlook. Counter-bullish read for European equities against the US risk-off lean.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "PMIs and Fed's Barr speech on today's calendar",
+            "detail": "PMI data lands this morning plus a speech from Fed governor Barr. Watch for inflation/growth surprises after yesterday's rate-hike chatter in the dollar.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "IONQ",
+            "move": "+10.90%",
+            "note": "IonQ wants to be 'the Nvidia of quantum' \u2014 Barron's on Nvidia partnership + quantum error-correction breakthrough; sector-wide lift"
+          },
+          {
+            "ticker": "QNT",
+            "move": "+6.58%",
+            "note": "Riding the quantum sympathy bid"
+          },
+          {
+            "ticker": "QBTS",
+            "move": "+5.01%",
+            "note": "Riding the quantum sympathy bid"
+          },
+          {
+            "ticker": "TLSI",
+            "move": "+19.68%",
+            "note": "FDA clearance for TriNav Advance"
+          },
+          {
+            "ticker": "CBRL",
+            "move": "+5.85%",
+            "note": "Q4 earnings beat estimates"
+          },
+          {
+            "ticker": "ACN",
+            "move": "\u25b2",
+            "note": "Announced $1B AI partnership with Anthropic"
+          },
+          {
+            "ticker": "MCD",
+            "move": "\u25b2",
+            "note": "Set 2030 margin and market-share targets under new growth strategy; pledges $8.5B restaurant overhaul through 2036"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "PAYX",
+            "move": "-7.88%",
+            "note": "FQ1 miss; payroll/HR name under pressure"
+          },
+          {
+            "ticker": "VOYG",
+            "move": "-9.09%",
+            "note": "$350M convertible notes offering = dilution overhang"
+          },
+          {
+            "ticker": "IMVT",
+            "move": "-6.14%",
+            "note": "Pulled plug on lupus program after study missed primary goal"
+          },
+          {
+            "ticker": "IMCC",
+            "move": "-22.30%",
+            "note": "$1.31M registered direct offering pricing"
+          },
+          {
+            "ticker": "APP",
+            "move": "-3.5%",
+            "note": "Edgewater flags slower market share expansion"
+          },
+          {
+            "ticker": "FWDI",
+            "move": "-5.81%",
+            "note": "$25M registered direct offering"
+          },
+          {
+            "ticker": "ORKA",
+            "move": "-5%",
+            "note": "Week 28 ORKA-001 trial data disappoints"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI trade: real money in, skepticism up",
+            "detail": "Accenture's $1B Anthropic deal and the IonQ/Nvidia partnership are fresh real spending and real partnership news, while Burry's new warning and SoftBank's IPO slowdown say the smart money is hedging the same trade."
+          },
+          {
+            "title": "Geopolitical energy bid vs softening demand signals",
+            "detail": "A Hormuz vessel attack and Iran's UN address are lifting crude and yields at the same time equities futures are slipping \u2014 energy inflation risk against softening growth signals."
+          }
+        ],
+        "take": "Overnight flipped the script: a Hormuz vessel attack and a 7%+ mortgage rate print killed yesterday's risk-on afterglow, and the five-year run of earnings upgrades just snapped \u2014 that's the headline that actually matters for Q3 earnings positioning. The AI trade is still spending real money (IonQ/Nvidia, Accenture's $1B Anthropic deal), but with crude, yields, and futures all moving against equities this morning, the path of least resistance is lower until the PMI/Barr headlines land.",
+        "published": "9:01 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +138,13 @@
         "made": "2026-09-22",
         "scores_detail": "Post-close 56 (2026-09-22)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 50 (prev post-close 56 on 2026-09-22 + pre-market 44): Hormuz incident + Iran UN address lift oil and yields.",
+        "made": "2026-09-23",
+        "scores_detail": "Post-close 56 (2026-09-22) + pre-market 44 (2026-09-23) = 50"
+      },
       "result": null
     },
     {
