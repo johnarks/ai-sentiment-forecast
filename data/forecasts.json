@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-09-24",
+      "kind": "early",
+      "date": "2026-09-23",
+      "score": 38,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 38 (Risk-Off Tilt): 10Y yield tops 5.1%, two-decade highs.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-09-23",
       "kind": "final",
       "date": "2026-09-23",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 50 (prev post-close 56 on 2026-09-22 + pre-market 44): Hormuz incident + Iran UN address lift oil and yields.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.72,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Post-close score 56 (Risk-On Tilt): Meta's Muse AI launch sparks AI rally \u2014 and hits financials.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.72,
+      "hit": false,
       "push": false
     },
     {
