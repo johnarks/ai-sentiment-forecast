@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-24",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 38 (Risk-Off Tilt): 10Y yield tops 5.1%, two-decade highs.",
+        "made": "2026-09-23",
+        "scores_detail": "Post-close 38 (2026-09-23)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-23",
       "morning": {
         "score": 44,
@@ -130,7 +144,133 @@
         "take": "Overnight flipped the script: a Hormuz vessel attack and a 7%+ mortgage rate print killed yesterday's risk-on afterglow, and the five-year run of earnings upgrades just snapped \u2014 that's the headline that actually matters for Q3 earnings positioning. The AI trade is still spending real money (IonQ/Nvidia, Accenture's $1B Anthropic deal), but with crude, yields, and futures all moving against equities this morning, the path of least resistance is lower until the PMI/Barr headlines land.",
         "published": "9:01 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 38,
+        "label": "Risk-Off Tilt",
+        "summary": "Wednesday's session was defined by the bond market: the 10-year blew past 5.1% to a 22-year high in the long bond, the Dow shed 350 points and the Nasdaq fell ~1%, and breadth narrowed to its thinnest since the dot-com peak. Traders are now pricing another Fed hike while hedging demand on the AI trade \u2014 via Nvidia credit swaps \u2014 surges. New wrinkles intraday: a floated diesel-export ban (then walked back to a voluntary cap) with oil near $100, Meta's Muse app topping charts and hammering AI-disruption-exposed names, and Treasury buybacks offering modest relief.",
+        "drivers": [
+          {
+            "title": "10Y yield tops 5.1%, two-decade highs",
+            "detail": "10-year yield pushed above 5.1% and the long bond hit a 22-year high; desks now foresee another Fed hike, with talk of 6% in play.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Breadth collapse, worst since dot-com peak",
+            "detail": "Market breadth at its narrowest since the dot-com peak \u2014 a shrinking handful of names carrying the tape.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Diesel export ban floated, then walked back",
+            "detail": "Bloomberg: a 90-day diesel export ban floated, then rejected by the Energy Secretary in favor of a voluntary cap; oil hovering near $100.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia credit-swap hedging demand soars",
+            "detail": "Nvidia now among the top-traded US credit swaps as hedging demand on the AI trade soars \u2014 protection buying is accelerating.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mortgage rates break 7%",
+            "detail": "Mortgage rates surged above 7% to a more than two-year high as the bond selloff rippled through housing.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Meta Muse tops charts, AI-agent fears spread",
+            "detail": "Meta's Muse app tops charts; Barron's reports SHOP, NFLX, SCHW, T getting hammered on fears of an AI-agent displacement wave.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Trump-Xi talks Thursday, AI at center",
+            "detail": "Thursday's Trump-Xi talks framed around AI; China probes of DeepSeek/Moonshot hit Chinese AI shares overnight.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Treasury announces $6B in buybacks",
+            "detail": "Treasury to buy back up to $6B in longer-dated bonds \u2014 a modest tailwind for duration even as yields march higher.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "TSLA",
+            "move": "\u25b2",
+            "note": "wins lead role in 2,500-truck electric Class 8 order"
+          },
+          {
+            "ticker": "PLTR",
+            "move": "+3%",
+            "note": "rose despite losing $875M FAA AI deal \u2014 dip bought"
+          },
+          {
+            "ticker": "IONQ",
+            "move": "\u25b2",
+            "note": "quantum names lifted by Quantum World Congress"
+          },
+          {
+            "ticker": "AIIR",
+            "move": "+7.60% AH",
+            "note": "bonds priced, relief bounce after session drop"
+          },
+          {
+            "ticker": "GCTK",
+            "move": "+112.27% AH",
+            "note": "speculative biotech surge after platform announcement"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "EXPE",
+            "move": "-7.72%",
+            "note": "shares hammered, underperforming travel peers"
+          },
+          {
+            "ticker": "SFIX",
+            "move": "-17.73% AH",
+            "note": "Q4 outlook shows growth slowdown after solid year"
+          },
+          {
+            "ticker": "VKTX",
+            "move": "-7.83% AH",
+            "note": "proposed stock and convertible note offerings"
+          },
+          {
+            "ticker": "NEOV",
+            "move": "-13.56% AH",
+            "note": "weak Q4/FY26 results"
+          },
+          {
+            "ticker": "FMC",
+            "move": "-6.34%",
+            "note": "minority equity investment announcement"
+          },
+          {
+            "ticker": "NVO",
+            "move": "\u25bc",
+            "note": "on track for worst week in 6+ months after strategy day"
+          },
+          {
+            "ticker": "SHOP",
+            "move": "\u25bc",
+            "note": "among Barron's AI-agent fear casualties (SHOP, NFLX, SCHW, T)"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Yields crushing multiples vs. AI trade still bid",
+            "detail": "Two-decade-high yields crushing equity multiples while the AI trade keeps drawing bids \u2014 Barron's reports AI skeptics surrendering again as tech powers higher."
+          },
+          {
+            "title": "Trump-Xi Thursday: relief hope vs. trade friction",
+            "detail": "De-escalation hopes for Thursday's Trump-Xi meeting collide with diesel-export-ban talk, oil near $100, and China's self-sufficiency calculus."
+          },
+          {
+            "title": "Buybacks offer relief as markets price another hike",
+            "detail": "Treasury announces up to $6B in longer-dated buybacks \u2014 a relief valve \u2014 even as investors price in another Fed hike."
+          }
+        ],
+        "take": "The bond market finally broke the AI trade's spell. A 10-year yield above 5.1% \u2014 a 22-year high \u2014 crushed multiples, sent the Dow down 350, and shrank breadth to its thinnest since the dot-com peak; the tell was Nvidia credit-swap hedging spiking, which means the smart money is buying protection on the AI rally itself, not just rates. Tomorrow hinges on two numbers: whether Thursday's Trump-Xi meeting delivers any real de-escalation, and whether the 10-year stabilizes or marches toward 5.5% \u2014 if yields keep climbing, no amount of AI earnings hype saves equity multiples.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -145,7 +285,11 @@
         "made": "2026-09-23",
         "scores_detail": "Post-close 56 (2026-09-22) + pre-market 44 (2026-09-23) = 50"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.72,
+        "early_hit": false,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-09-22",
