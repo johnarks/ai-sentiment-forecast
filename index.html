@@ -156,7 +156,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-22 18:39 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-23 09:16 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -170,27 +170,122 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     
     <section class="hero">
-      <div class="call-card up hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-09-22</div>
-        <div class="hero-call">▲ UP</div>
+      <div class="call-card down hl">
+        <div class="cc-kicker">Current call · Final call · made 2026-09-23</div>
+        <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Wednesday, Sep 23</div>
         <div class="cc-conf">Confidence: Low</div>
-        <p class="cc-scores">Post-close 56 (Risk-On Tilt)</p>
-        <p class="cc-rationale">Post-close score 56 (Risk-On Tilt): Meta&#x27;s Muse AI launch sparks AI rally — and hits financials.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <p class="cc-scores">Post-close 56 (2026-09-22) + pre-market 44 (2026-09-23) = 50</p>
+        <p class="cc-rationale">Blended score 50 (prev post-close 56 on 2026-09-22 + pre-market 44): Hormuz incident + Iran UN address lift oil and yields.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-09-23T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-09-23T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Wed, Sep 23 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Wed, Sep 23 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-09-23</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card up ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-22</div>
+      <div class="cc-call">▲ UP</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 56 (2026-09-22)</p>
+      <p class="cc-rationale">Post-close score 56 (Risk-On Tilt): Meta&#x27;s Muse AI launch sparks AI rally — and hits financials.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:01 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bearsoft" style="left:44%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bearsoft">44</span>
+      <span class="score-label bearsoft">Risk-Off Tilt</span></div>
+    </div>
+      <p class="ec-summary">A modestly risk-off pre-market. The overnight change is mostly geopolitical and rates-driven: a Hormuz vessel attack ahead of Iran&#x27;s UN address is lifting crude and yields while equity futures sag, US mortgage rates jumped above 7%, and the five-year run of earnings upgrades snapped. The AI trade still has legs underneath (IonQ/Nvidia partnership, Accenture&#x27;s $1B Anthropic deal, HSBC&#x27;s STOXX upgrade), but fresh skepticism (Burry&#x27;s warning, SoftBank&#x27;s IPO slowdown) caps it. Score 44: risk-off tilt, not fear.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Hormuz incident + Iran UN address lift oil and yields</strong>
+          <p>ZeroHedge reports a cargo vessel struck by an unknown projectile in Hormuz with casualties, just as Iran&#x27;s president addresses the UN. Crude and yields jumping, futures down.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Trump backs diesel export ban; diesel futures jump</strong>
+          <p>Trump tells the UN he backs banning diesel exports; European diesel futures jumped. Export-restriction policy talk adds a supply-side bid to distillates.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>US mortgage rates top 7%, highest in 2+ years</strong>
+          <p>Bloomberg reports US mortgage rates surged above 7% to a more-than-two-year high. Fresh headwind for housing and consumer-adjacent spending into Q4.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Longest run of US earnings upgrades in five years ends</strong>
+          <p>Bloomberg: the five-year run of consecutive US earnings estimate upgrades has snapped. Momentum in analyst revisions has rolled, a late-cycle-style signal into Q3 earnings season.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trump-Xi summit ahead; positioning cautious</strong>
+          <p>Trump-Xi summit looms as a binary catalyst for tariffs/trade headlines; futures soft and cautious positioning expected ahead of any readout.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>HSBC raises STOXX 600 year-end target</strong>
+          <p>Reuters: HSBC lifts STOXX 600 year-end target on a stronger earnings outlook. Counter-bullish read for European equities against the US risk-off lean.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>PMIs and Fed&#x27;s Barr speech on today&#x27;s calendar</strong>
+          <p>PMI data lands this morning plus a speech from Fed governor Barr. Watch for inflation/growth surprises after yesterday&#x27;s rate-hike chatter in the dollar.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">IONQ</td>
+        <td class="move pos">+10.90%</td>
+        <td>IonQ wants to be &#x27;the Nvidia of quantum&#x27; — Barron&#x27;s on Nvidia partnership + quantum error-correction breakthrough; sector-wide lift</td></tr><tr><td class="ticker">QNT</td>
+        <td class="move pos">+6.58%</td>
+        <td>Riding the quantum sympathy bid</td></tr><tr><td class="ticker">QBTS</td>
+        <td class="move pos">+5.01%</td>
+        <td>Riding the quantum sympathy bid</td></tr><tr><td class="ticker">TLSI</td>
+        <td class="move pos">+19.68%</td>
+        <td>FDA clearance for TriNav Advance</td></tr><tr><td class="ticker">CBRL</td>
+        <td class="move pos">+5.85%</td>
+        <td>Q4 earnings beat estimates</td></tr><tr><td class="ticker">ACN</td>
+        <td class="move pos">▲</td>
+        <td>Announced $1B AI partnership with Anthropic</td></tr><tr><td class="ticker">MCD</td>
+        <td class="move pos">▲</td>
+        <td>Set 2030 margin and market-share targets under new growth strategy; pledges $8.5B restaurant overhaul through 2036</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">PAYX</td>
+        <td class="move neg">-7.88%</td>
+        <td>FQ1 miss; payroll/HR name under pressure</td></tr><tr><td class="ticker">VOYG</td>
+        <td class="move neg">-9.09%</td>
+        <td>$350M convertible notes offering = dilution overhang</td></tr><tr><td class="ticker">IMVT</td>
+        <td class="move neg">-6.14%</td>
+        <td>Pulled plug on lupus program after study missed primary goal</td></tr><tr><td class="ticker">IMCC</td>
+        <td class="move neg">-22.30%</td>
+        <td>$1.31M registered direct offering pricing</td></tr><tr><td class="ticker">APP</td>
+        <td class="move neg">-3.5%</td>
+        <td>Edgewater flags slower market share expansion</td></tr><tr><td class="ticker">FWDI</td>
+        <td class="move neg">-5.81%</td>
+        <td>$25M registered direct offering</td></tr><tr><td class="ticker">ORKA</td>
+        <td class="move neg">-5%</td>
+        <td>Week 28 ORKA-001 trial data disappoints</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI trade: real money in, skepticism up</strong><p>Accenture&#x27;s $1B Anthropic deal and the IonQ/Nvidia partnership are fresh real spending and real partnership news, while Burry&#x27;s new warning and SoftBank&#x27;s IPO slowdown say the smart money is hedging the same trade.</p></div><div class="cc"><strong>Geopolitical energy bid vs softening demand signals</strong><p>A Hormuz vessel attack and Iran&#x27;s UN address are lifting crude and yields at the same time equities futures are slipping — energy inflation risk against softening growth signals.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Overnight flipped the script: a Hormuz vessel attack and a 7%+ mortgage rate print killed yesterday&#x27;s risk-on afterglow, and the five-year run of earnings upgrades just snapped — that&#x27;s the headline that actually matters for Q3 earnings positioning. The AI trade is still spending real money (IonQ/Nvidia, Accenture&#x27;s $1B Anthropic deal), but with crude, yields, and futures all moving against equities this morning, the path of least resistance is lower until the PMI/Barr headlines land.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -211,10 +306,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-09-23</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-09-23</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-09-22): Post-close score 56 (Risk-On Tilt): Meta&#x27;s Muse AI launch sparks AI rally — and hits financials.<br><span class='muted'>Scores: 56</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-09-22): Post-close score 56 (Risk-On Tilt): Meta&#x27;s Muse AI launch sparks AI rally — and hits financials.<br><span class='muted'>Scores: 56</span></p><p><strong>Final call</strong> (made 2026-09-23): Blended score 50 (prev post-close 56 on 2026-09-22 + pre-market 44): Hormuz incident + Iran UN address lift oil and yields.<br><span class='muted'>Scores: Post-close 56 (2026-09-22) + pre-market 44 (2026-09-23) = 50</span></p></details></td></tr><tr>
           <td><strong>2026-09-22</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">High</div><div class="v-miss">✗ MISS</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Moderate</div><div class="v-miss">✗ MISS</div></td><td>-0.02%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -230,7 +325,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
   <div class="tabpane" id="tab-archive">
     <h2 class='pane-title'>Archive</h2>
         <details class="day-card">
-          <summary><strong>2026-09-23</strong> </summary>
+          <summary><strong>2026-09-23</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card up ">
@@ -241,10 +336,105 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 56 (Risk-On Tilt): Meta&#x27;s Muse AI launch sparks AI rally — and hits financials.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-09-23</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 56 (2026-09-22) + pre-market 44 (2026-09-23) = 50</p>
+      <p class="cc-rationale">Blended score 50 (prev post-close 56 on 2026-09-22 + pre-market 44): Hormuz incident + Iran UN address lift oil and yields.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:01 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bearsoft" style="left:44%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bearsoft">44</span>
+      <span class="score-label bearsoft">Risk-Off Tilt</span></div>
+    </div>
+      <p class="ec-summary">A modestly risk-off pre-market. The overnight change is mostly geopolitical and rates-driven: a Hormuz vessel attack ahead of Iran&#x27;s UN address is lifting crude and yields while equity futures sag, US mortgage rates jumped above 7%, and the five-year run of earnings upgrades snapped. The AI trade still has legs underneath (IonQ/Nvidia partnership, Accenture&#x27;s $1B Anthropic deal, HSBC&#x27;s STOXX upgrade), but fresh skepticism (Burry&#x27;s warning, SoftBank&#x27;s IPO slowdown) caps it. Score 44: risk-off tilt, not fear.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Hormuz incident + Iran UN address lift oil and yields</strong>
+          <p>ZeroHedge reports a cargo vessel struck by an unknown projectile in Hormuz with casualties, just as Iran&#x27;s president addresses the UN. Crude and yields jumping, futures down.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Trump backs diesel export ban; diesel futures jump</strong>
+          <p>Trump tells the UN he backs banning diesel exports; European diesel futures jumped. Export-restriction policy talk adds a supply-side bid to distillates.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>US mortgage rates top 7%, highest in 2+ years</strong>
+          <p>Bloomberg reports US mortgage rates surged above 7% to a more-than-two-year high. Fresh headwind for housing and consumer-adjacent spending into Q4.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Longest run of US earnings upgrades in five years ends</strong>
+          <p>Bloomberg: the five-year run of consecutive US earnings estimate upgrades has snapped. Momentum in analyst revisions has rolled, a late-cycle-style signal into Q3 earnings season.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trump-Xi summit ahead; positioning cautious</strong>
+          <p>Trump-Xi summit looms as a binary catalyst for tariffs/trade headlines; futures soft and cautious positioning expected ahead of any readout.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>HSBC raises STOXX 600 year-end target</strong>
+          <p>Reuters: HSBC lifts STOXX 600 year-end target on a stronger earnings outlook. Counter-bullish read for European equities against the US risk-off lean.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>PMIs and Fed&#x27;s Barr speech on today&#x27;s calendar</strong>
+          <p>PMI data lands this morning plus a speech from Fed governor Barr. Watch for inflation/growth surprises after yesterday&#x27;s rate-hike chatter in the dollar.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">IONQ</td>
+        <td class="move pos">+10.90%</td>
+        <td>IonQ wants to be &#x27;the Nvidia of quantum&#x27; — Barron&#x27;s on Nvidia partnership + quantum error-correction breakthrough; sector-wide lift</td></tr><tr><td class="ticker">QNT</td>
+        <td class="move pos">+6.58%</td>
+        <td>Riding the quantum sympathy bid</td></tr><tr><td class="ticker">QBTS</td>
+        <td class="move pos">+5.01%</td>
+        <td>Riding the quantum sympathy bid</td></tr><tr><td class="ticker">TLSI</td>
+        <td class="move pos">+19.68%</td>
+        <td>FDA clearance for TriNav Advance</td></tr><tr><td class="ticker">CBRL</td>
+        <td class="move pos">+5.85%</td>
+        <td>Q4 earnings beat estimates</td></tr><tr><td class="ticker">ACN</td>
+        <td class="move pos">▲</td>
+        <td>Announced $1B AI partnership with Anthropic</td></tr><tr><td class="ticker">MCD</td>
+        <td class="move pos">▲</td>
+        <td>Set 2030 margin and market-share targets under new growth strategy; pledges $8.5B restaurant overhaul through 2036</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">PAYX</td>
+        <td class="move neg">-7.88%</td>
+        <td>FQ1 miss; payroll/HR name under pressure</td></tr><tr><td class="ticker">VOYG</td>
+        <td class="move neg">-9.09%</td>
+        <td>$350M convertible notes offering = dilution overhang</td></tr><tr><td class="ticker">IMVT</td>
+        <td class="move neg">-6.14%</td>
+        <td>Pulled plug on lupus program after study missed primary goal</td></tr><tr><td class="ticker">IMCC</td>
+        <td class="move neg">-22.30%</td>
+        <td>$1.31M registered direct offering pricing</td></tr><tr><td class="ticker">APP</td>
+        <td class="move neg">-3.5%</td>
+        <td>Edgewater flags slower market share expansion</td></tr><tr><td class="ticker">FWDI</td>
+        <td class="move neg">-5.81%</td>
+        <td>$25M registered direct offering</td></tr><tr><td class="ticker">ORKA</td>
+        <td class="move neg">-5%</td>
+        <td>Week 28 ORKA-001 trial data disappoints</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI trade: real money in, skepticism up</strong><p>Accenture&#x27;s $1B Anthropic deal and the IonQ/Nvidia partnership are fresh real spending and real partnership news, while Burry&#x27;s new warning and SoftBank&#x27;s IPO slowdown say the smart money is hedging the same trade.</p></div><div class="cc"><strong>Geopolitical energy bid vs softening demand signals</strong><p>A Hormuz vessel attack and Iran&#x27;s UN address are lifting crude and yields at the same time equities futures are slipping — energy inflation risk against softening growth signals.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Overnight flipped the script: a Hormuz vessel attack and a 7%+ mortgage rate print killed yesterday&#x27;s risk-on afterglow, and the five-year run of earnings upgrades just snapped — that&#x27;s the headline that actually matters for Q3 earnings positioning. The AI trade is still spending real money (IonQ/Nvidia, Accenture&#x27;s $1B Anthropic deal), but with crude, yields, and futures all moving against equities this morning, the path of least resistance is lower until the PMI/Barr headlines land.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -747,7 +937,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-22 18:39 ET.
+    Generated 2026-09-23 09:16 ET.
   </footer>
 </div>
 <script>
