@@ -2,7 +2,152 @@
   "days": [
     {
       "date": "2026-09-24",
-      "morning": null,
+      "morning": {
+        "score": 34,
+        "label": "Firmly Bearish",
+        "summary": "Overnight, a global bond rout pushed the US 30-year Treasury yield to its highest since 2004, with the NY Fed president signaling one more 2026 rate hike. Oil jumped above $100 on stalled US-Iran talks and warnings of wider conflict, compounding inflation fears. Stock futures are sliding as the market heads into today's open under both a rates and an oil squeeze, with the Trump-Xi summit the one near-term event that could shift the narrative.",
+        "drivers": [
+          {
+            "title": "30Y Treasury yield hits highest since 2004",
+            "detail": "Global bond selloff deepened overnight; WSJ, Bloomberg, Reuters, CNBC all reporting the multi-decade high.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "NY Fed signals one more 2026 hike",
+            "detail": "NY Fed president says it's 'reasonable' to expect one more rate hike in 2026; second hike chatter also building.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil above $100 on Iran tensions",
+            "detail": "US-Iran talks stalled; Iran warned war could expand to the Indian Ocean if US attacks resume; Saudis ramping exports.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump-Xi summit today",
+            "detail": "US-China trade truce extended 2 months (Bessent); first US-China AI talks held; China stocks fell as truce was 'shorter than Beijing hoped'.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Global yield spillover",
+            "detail": "Japan yields hit multi-decade highs; sterling near 3-month low; India/UK/Australia equities sliding on rate-hike worries.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US diesel export policy talk",
+            "detail": "Energy secretary discussing a voluntary cap on diesel exports rather than a ban; diesel prices racing ahead of US.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CRWV",
+            "move": "\u25b2",
+            "note": "UBS set a $120 target; fresh vote of confidence on AI cloud pricing."
+          },
+          {
+            "ticker": "PYPL",
+            "move": "\u25b2",
+            "note": "Struck a major Meta AI shopping deal."
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Muse shopping deal with PayPal; Wall Street sees Muse as next catalyst."
+          },
+          {
+            "ticker": "QCOM",
+            "move": "\u25b2",
+            "note": "Secured long-term Apple patent deal, easing revenue fears."
+          },
+          {
+            "ticker": "AMZN",
+            "move": "\u25b2",
+            "note": "$3B bet on India's next growth market."
+          },
+          {
+            "ticker": "PLTR",
+            "move": "\u25b2",
+            "note": "Hit a one-year high."
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "Memory boom showing up in prices."
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25b2",
+            "note": "Gemini 4 enters post-training; frontier AI race compressing."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MGM",
+            "move": "-10.67%",
+            "note": "Diller's People withdrew the $18B takeover bid."
+          },
+          {
+            "ticker": "SNX",
+            "move": "-8.65%",
+            "note": "TD SYNNEX Q3 earnings snapshot; stock sliding."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Snapped 5-day winning streak after a $300M insider sale."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "FSD hit a roadblock ahead of EU review; Cybercab showcase landed poorly."
+          },
+          {
+            "ticker": "SBUX",
+            "move": "\u25bc",
+            "note": "Closing 250 stores and cutting 900 jobs in restructuring."
+          },
+          {
+            "ticker": "DRI",
+            "move": "\u25bc",
+            "note": "Q1 earnings hit by high food and labor costs."
+          },
+          {
+            "ticker": "ORCL",
+            "move": "\u25bc",
+            "note": "Leading Nasdaq names lower on yield pressure; cited force majeure on data center."
+          },
+          {
+            "ticker": "BEAM/NTLA/CRSP",
+            "move": "\u25bc",
+            "note": "Gene-editing stocks falling after an Anthropic AI discovery."
+          },
+          {
+            "ticker": "MCD",
+            "move": "\u25bc",
+            "note": "Street trimming targets after investor day selloff."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI CapEx enthusiasm vs rate gravity",
+            "detail": "AI infra names (CRWV, PLTR, MU) drawing fresh buying while megacap tech sags under multi-decade yields \u2014 the market can't decide which force wins."
+          },
+          {
+            "title": "Trump-Xi read-through",
+            "detail": "Two-month truce extension and first US-China AI talks are a mild de-escalation, yet China stocks tumbled as the truce fell short of Beijing's hopes."
+          },
+          {
+            "title": "Oil surge cuts both ways",
+            "detail": "Crude above $100 is a tailwind for energy but a headwind for consumer margins and the inflation outlook \u2014 bullish and bearish at once."
+          },
+          {
+            "title": "Yields as bear vs macro-signal",
+            "detail": "Bond rout is crushing equity risk appetite, though part of the yield move reflects re-priced growth expectations rather than pure panic."
+          }
+        ],
+        "take": "Bonds are the whole story this morning: the 30-year just hit its highest yield since 2004 and the NY Fed is talking up another 2026 hike \u2014 that's a wrecking ball for equity multiples, full stop. Oil back over $100 on stalled Iran talks adds an inflation kicker on top. The only thing that can turn this tape is a genuinely upbeat Trump-Xi readout, and the bar is high given Beijing already soured on the short two-month truce extension.",
+        "published": "9:01 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +156,13 @@
         "made": "2026-09-23",
         "scores_detail": "Post-close 38 (2026-09-23)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Blended score 36 (prev post-close 38 on 2026-09-23 + pre-market 34): 30Y Treasury yield hits highest since 2004.",
+        "made": "2026-09-24",
+        "scores_detail": "Post-close 38 (2026-09-23) + pre-market 34 (2026-09-24) = 36"
+      },
       "result": null
     },
     {
