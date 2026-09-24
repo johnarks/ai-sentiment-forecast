@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-25",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.",
+        "made": "2026-09-24",
+        "scores_detail": "Post-close 40 (2026-09-24)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-24",
       "morning": {
         "score": 34,
@@ -148,7 +162,128 @@
         "take": "Bonds are the whole story this morning: the 30-year just hit its highest yield since 2004 and the NY Fed is talking up another 2026 hike \u2014 that's a wrecking ball for equity multiples, full stop. Oil back over $100 on stalled Iran talks adds an inflation kicker on top. The only thing that can turn this tape is a genuinely upbeat Trump-Xi readout, and the bar is high given Beijing already soured on the short two-month truce extension.",
         "published": "9:01 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Thursday was a two-act session: a morning defined by the worst bond rout in decades \u2014 the US 30-year at a 22-year high and the 10-year near 5.2% \u2014 that pushed the Dow to its third straight down day, followed by an afternoon rescue as reports of US-Iran talks over Hormuz sent crude and yields tumbling and lifted the S&P 500 and Nasdaq back to flat. The AI trade split hard: Akamai's $11.6B Anthropic deal and a CoreWeave upgrade signaled real demand, while Oracle's slide, Nvidia's warning, and capex-concentration fears argued for fatigue. Net: risk-off tilt with real recovery from the morning lows.",
+        "drivers": [
+          {
+            "title": "Global bond rout deepens",
+            "detail": "US 30-year hit its highest since 2004 (a 22-year high) with the 10-year near 5.2%; Treasury accepted just 68% of max buyback offers under Bessent, amplifying the selloff.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US-Iran Hormuz talks spark mid-session reversal",
+            "detail": "Bloomberg reported US-Iran talks over the Strait of Hormuz; crude tumbled, Treasury yields pulled back, and the S&P 500 and Nasdaq rallied from red to flat in the afternoon.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Energy rally and hawkish Fed talk fuel inflation worry",
+            "detail": "Europe's diesel prices raced ahead of the US on export-ban risks; Philly Fed's Anna Paulson said 'modest' rate moves likely remain ahead to tame inflation \u2014 both lifted inflation fear.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mortgage rates top 7%",
+            "detail": "30-year fixed mortgage rates topped 7% for the first time since early 2025; August new home sales rebounded but housing remains stagnant per the morning data.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US-China: first AI talks, truce extension hinted",
+            "detail": "China confirmed first AI talks with the US took place and hinted at a trade truce extension ahead of the Trump-Xi summit.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI demand: Anthropic-Akamai deal, CoreWeave upgrade",
+            "detail": "Akamai struck an $11.6B deal with Anthropic (shares +19% after hours) and JPMorgan upgraded CoreWeave on strong AI pricing and demand.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI capex worries: Oracle slide, Nvidia warning",
+            "detail": "Oracle fell on fears of an AI data-center setback and a warning to credit markets; Nvidia's CEO sent a 'stark warning' to the AI industry amid reports AI spending is highly concentrated.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "AKAM",
+            "move": "+18.99% AH",
+            "note": "Struck $11.6B deal with Anthropic after the close"
+          },
+          {
+            "ticker": "CRL",
+            "move": "+6.17%",
+            "note": "Outperformed competitors on a strong trading day"
+          },
+          {
+            "ticker": "RVTY",
+            "move": "+6.03%",
+            "note": "Outperformed competitors on a strong trading day"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25b2",
+            "note": "JPMorgan upgrade on strong AI pricing and demand"
+          },
+          {
+            "ticker": "COST",
+            "move": "\u25b2",
+            "note": "Q4 earnings beat, helped by tariff refunds; revenue missed estimates"
+          },
+          {
+            "ticker": "MRK",
+            "move": "\u25b2",
+            "note": "Jumped as Winrevair moves earlier in PAH treatment"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MGM",
+            "move": "-10.99%",
+            "note": "Diller withdrew the $18.8B bid for MGM Resorts"
+          },
+          {
+            "ticker": "FSLR",
+            "move": "-10.32%",
+            "note": "Fresh 52-week low on target cuts and slower booking visibility; solar peers down too"
+          },
+          {
+            "ticker": "ORCL",
+            "move": "-6.78%",
+            "note": "Fell Thursday on AI data-center setback fears and a credit-market warning"
+          },
+          {
+            "ticker": "XYL",
+            "move": "-5.50%",
+            "note": "Lagged competitors in a weak industrials tape"
+          },
+          {
+            "ticker": "SBUX",
+            "move": "\u25bc",
+            "note": "Announced closure of 250 US stores"
+          },
+          {
+            "ticker": "ROL",
+            "move": "-6.43%",
+            "note": "Underperformed peers on a strong trading day"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI infrastructure: demand signal vs capex fatigue",
+            "detail": "Akamai's $11.6B Anthropic deal (+19% after hours) and a JPMorgan CoreWeave upgrade point to real AI-infrastructure demand, while Nvidia's CEO warning, Oracle credit-market fears, and reports of highly concentrated AI spending point to capex fatigue \u2014 the same trade pulling both ways."
+          },
+          {
+            "title": "Rates vs geopolitics: the rout and the rescue",
+            "detail": "The worst bond rout in decades (US 30-year at a 22-year high, 10-year near 5.2%) kept equities under water all morning, yet late-day reports of US-Iran talks over Hormuz sparked a full intraday reversal \u2014 yields pulled back and the S&P 500 and Nasdaq recovered to flat."
+          },
+          {
+            "title": "Oil: supply-risk rally meets deal-driven selloff",
+            "detail": "Hormuz and diesel export-ban risk pushed oil and inflation fears up early, while Saudi exports hit their highest since the war began and crude then tumbled on the Iran-deal headlines \u2014 oil was a bull signal and a bear signal within hours."
+          }
+        ],
+        "take": "Two-act day: the worst bond rout in decades (30-year at a 22-year high, 10-year near 5.2%) crushed the tape all morning, then US-Iran Hormuz talks sparked a full afternoon reversal \u2014 S&P clawed from red to flat, crude tumbled. The score (40, Risk-Off Tilt) says the rescue was a headline bounce, not a regime change: yields never really broke, mortgage rates topped 7%, and AI names are still fighting capex-concentration fears. Tomorrow trades the follow-through: confirm-or-deny on the Iran talks and whether the 10-year holds under 5.2% decide if the flat close was a bottom or a breather before another leg down.",
+        "published": "5:03 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -163,7 +298,11 @@
         "made": "2026-09-24",
         "scores_detail": "Post-close 38 (2026-09-23) + pre-market 34 (2026-09-24) = 36"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.08,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-09-23",
