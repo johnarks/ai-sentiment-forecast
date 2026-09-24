@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-09-24",
+      "kind": "final",
+      "date": "2026-09-24",
+      "scores_detail": "Post-close 38 (2026-09-23) + pre-market 34 (2026-09-24) = 36",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 36 (prev post-close 38 on 2026-09-23 + pre-market 34): 30Y Treasury yield hits highest since 2004.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-24",
       "kind": "early",
       "date": "2026-09-23",
       "score": 38,
