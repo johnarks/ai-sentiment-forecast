@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-09-28",
+      "kind": "early",
+      "date": "2026-09-25",
+      "score": 63,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 63 (Risk-On Tilt): Oil retreats on US-Iran deal / Hormuz reopening hopes.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-09-25",
       "kind": "final",
       "date": "2026-09-25",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 49 (prev post-close 40 on 2026-09-24 + pre-market 58): AI-capex skepticism returns.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.54,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.54,
+      "hit": false,
       "push": false
     },
     {
