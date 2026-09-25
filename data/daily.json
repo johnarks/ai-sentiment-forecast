@@ -2,7 +2,113 @@
   "days": [
     {
       "date": "2026-09-25",
-      "morning": null,
+      "morning": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "A cautiously constructive open: futures are bid as oil retreats on US-Iran diplomacy hopes and the bond selloff fades, with Anthropic mega-deals reigniting AI-infrastructure names. But the bullish tape sits against real tension \u2014 Burry and Goldman are questioning AI capex sustainability, Barclays says the Trump-Xi summit is more signaling than substance, and next week's jobs and inflation data loom over a market where the 10-year just breached 5.2%.",
+        "drivers": [
+          {
+            "title": "Futures higher as oil cools and yields slip",
+            "detail": "Oil retreating on US-Iran diplomacy hopes and the Treasury selloff fading have futures pointing higher into the open, though the Dow is still tracking a fourth straight losing week.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US-Iran diplomacy hopes",
+            "detail": "Reports of a phased US-Iran deal and a 7-day roadmap proposal are easing the oil-and-yield pressure that hammered markets this week.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Trump-Xi truce: optics outrun substance",
+            "detail": "State-dinner pageantry and a touted new chapter in friendship, but Barclays calls it 'more signaling, less substance' and Xi is pressing Trump on Taiwan policy.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "AI infra euphoria: Anthropic deals fuel rotation",
+            "detail": "Akamai surging ~15% on a $12B Anthropic cloud deal, with European AI-linked names rallying on an $11.6B Anthropic computing deal.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI-capex skepticism returns",
+            "detail": "Burry warns Microsoft, Amazon and Oracle face AI write-off shock; Goldman issues an 'AI reality check'; WSJ flags cracks in Oracle's massive New Mexico data-center buildout.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fund flows turn back into equities",
+            "detail": "Global equity funds snapped a two-week outflow streak and US funds saw their first inflow in five weeks, per Reuters data.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Core durable goods: 17th straight monthly gain",
+            "detail": "August core durable goods orders rose for a 17th straight month, showing industrial demand still powering through 5%+ yields.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "AKAM",
+            "move": "+15.18%",
+            "note": "$12B Anthropic cloud deal; Piper sees shift from value asset to hypergrowth"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "AI memory stocks rallying, clearing buy points on AI demand"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "\u25b2",
+            "note": "Sandisk rallying with the memory group"
+          },
+          {
+            "ticker": "COST",
+            "move": "\u25b2",
+            "note": "Unveiled a massive $7.5B expansion plan"
+          },
+          {
+            "ticker": "ASML",
+            "move": "\u25b2",
+            "note": "European AI-linked rally on Anthropic's $11.6B computing deal"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NKE",
+            "move": "\u25bc",
+            "note": "BofA downgraded to underperform, cut price target to $30 on longer-than-expected turnaround"
+          },
+          {
+            "ticker": "CMCSA",
+            "move": "\u25bc",
+            "note": "Cut to Sell on deepening broadband woes"
+          },
+          {
+            "ticker": "TWLO",
+            "move": "\u25bc",
+            "note": "Slipping premarket alongside Comcast"
+          },
+          {
+            "ticker": "ORCL",
+            "move": "\u25bc",
+            "note": "WSJ flags cracks in New Mexico data-center buildout; Burry write-off warning lands on it"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs AI-capex doubt",
+            "detail": "Akamai's $12B Anthropic deal has memory and AI-infra names surging premarket, while Burry warns of write-off shocks and WSJ flags Oracle buildout cracks \u2014 the market is pricing both narratives at once."
+          },
+          {
+            "title": "Trump-Xi truce: theater or de-escalation",
+            "detail": "State-dinner pageantry and toast-to-friendship headlines vs Barclays' 'more signaling, less substance' verdict, with Xi pressing for a Taiwan policy shift."
+          },
+          {
+            "title": "Yields: 5.2% breach vs selloff fading",
+            "detail": "The 10-yr breached 5.2% and the 30-yr hit its highest since 2004, yet the bond selloff is abating this morning \u2014 relief could fade fast if next week's jobs/inflation data runs hot."
+          }
+        ],
+        "take": "The bond market finally blinked: the Treasury selloff is fading and oil is cooling on US-Iran diplomacy hopes, and futures are actually bid into the open \u2014 a real break after days of rate-driven punishment. AI-infrastructure names are the morning's fuel, with Akamai's $12B Anthropic deal dragging memory stocks like MU and SNDK higher premarket. But this rally is renting, not owning: Burry's write-off warning and the WSJ's Oracle buildout cracks hang over the same tape, and today's durable-goods and consumer-sentiment prints \u2014 plus next week's jobs and inflation data \u2014 will decide whether the 5.2% yield breach was a peak or a pause.",
+        "published": "9:02 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +117,13 @@
         "made": "2026-09-24",
         "scores_detail": "Post-close 40 (2026-09-24)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 49 (prev post-close 40 on 2026-09-24 + pre-market 58): AI-capex skepticism returns.",
+        "made": "2026-09-25",
+        "scores_detail": "Post-close 40 (2026-09-24) + pre-market 58 (2026-09-25) = 49"
+      },
       "result": null
     },
     {
