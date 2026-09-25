@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-24 18:31 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-25 09:15 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -189,26 +189,111 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     <section class="hero">
       <div class="call-card down hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-09-24</div>
+        <div class="cc-kicker">Current call · Final call · made 2026-09-25</div>
         <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Friday, Sep 25</div>
-        <div class="cc-conf">Confidence: Moderate</div>
-        <p class="cc-scores">Post-close 40 (Risk-Off Tilt)</p>
-        <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <div class="cc-conf">Confidence: Low</div>
+        <p class="cc-scores">Post-close 40 (2026-09-24) + pre-market 58 (2026-09-25) = 49</p>
+        <p class="cc-rationale">Blended score 49 (prev post-close 40 on 2026-09-24 + pre-market 58): AI-capex skepticism returns.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-09-25T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-09-25T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Fri, Sep 25 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Fri, Sep 25 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-09-25</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-24</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 40 (2026-09-24)</p>
+      <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:02 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:58%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">58</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">A cautiously constructive open: futures are bid as oil retreats on US-Iran diplomacy hopes and the bond selloff fades, with Anthropic mega-deals reigniting AI-infrastructure names. But the bullish tape sits against real tension — Burry and Goldman are questioning AI capex sustainability, Barclays says the Trump-Xi summit is more signaling than substance, and next week&#x27;s jobs and inflation data loom over a market where the 10-year just breached 5.2%.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Futures higher as oil cools and yields slip</strong>
+          <p>Oil retreating on US-Iran diplomacy hopes and the Treasury selloff fading have futures pointing higher into the open, though the Dow is still tracking a fourth straight losing week.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>US-Iran diplomacy hopes</strong>
+          <p>Reports of a phased US-Iran deal and a 7-day roadmap proposal are easing the oil-and-yield pressure that hammered markets this week.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trump-Xi truce: optics outrun substance</strong>
+          <p>State-dinner pageantry and a touted new chapter in friendship, but Barclays calls it &#x27;more signaling, less substance&#x27; and Xi is pressing Trump on Taiwan policy.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI infra euphoria: Anthropic deals fuel rotation</strong>
+          <p>Akamai surging ~15% on a $12B Anthropic cloud deal, with European AI-linked names rallying on an $11.6B Anthropic computing deal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI-capex skepticism returns</strong>
+          <p>Burry warns Microsoft, Amazon and Oracle face AI write-off shock; Goldman issues an &#x27;AI reality check&#x27;; WSJ flags cracks in Oracle&#x27;s massive New Mexico data-center buildout.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Fund flows turn back into equities</strong>
+          <p>Global equity funds snapped a two-week outflow streak and US funds saw their first inflow in five weeks, per Reuters data.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Core durable goods: 17th straight monthly gain</strong>
+          <p>August core durable goods orders rose for a 17th straight month, showing industrial demand still powering through 5%+ yields.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">AKAM</td>
+        <td class="move pos">+15.18%</td>
+        <td>$12B Anthropic cloud deal; Piper sees shift from value asset to hypergrowth</td></tr><tr><td class="ticker">MU</td>
+        <td class="move pos">▲</td>
+        <td>AI memory stocks rallying, clearing buy points on AI demand</td></tr><tr><td class="ticker">SNDK</td>
+        <td class="move pos">▲</td>
+        <td>Sandisk rallying with the memory group</td></tr><tr><td class="ticker">COST</td>
+        <td class="move pos">▲</td>
+        <td>Unveiled a massive $7.5B expansion plan</td></tr><tr><td class="ticker">ASML</td>
+        <td class="move pos">▲</td>
+        <td>European AI-linked rally on Anthropic&#x27;s $11.6B computing deal</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NKE</td>
+        <td class="move neg">▼</td>
+        <td>BofA downgraded to underperform, cut price target to $30 on longer-than-expected turnaround</td></tr><tr><td class="ticker">CMCSA</td>
+        <td class="move neg">▼</td>
+        <td>Cut to Sell on deepening broadband woes</td></tr><tr><td class="ticker">TWLO</td>
+        <td class="move neg">▼</td>
+        <td>Slipping premarket alongside Comcast</td></tr><tr><td class="ticker">ORCL</td>
+        <td class="move neg">▼</td>
+        <td>WSJ flags cracks in New Mexico data-center buildout; Burry write-off warning lands on it</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs AI-capex doubt</strong><p>Akamai&#x27;s $12B Anthropic deal has memory and AI-infra names surging premarket, while Burry warns of write-off shocks and WSJ flags Oracle buildout cracks — the market is pricing both narratives at once.</p></div><div class="cc"><strong>Trump-Xi truce: theater or de-escalation</strong><p>State-dinner pageantry and toast-to-friendship headlines vs Barclays&#x27; &#x27;more signaling, less substance&#x27; verdict, with Xi pressing for a Taiwan policy shift.</p></div><div class="cc"><strong>Yields: 5.2% breach vs selloff fading</strong><p>The 10-yr breached 5.2% and the 30-yr hit its highest since 2004, yet the bond selloff is abating this morning — relief could fade fast if next week&#x27;s jobs/inflation data runs hot.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The bond market finally blinked: the Treasury selloff is fading and oil is cooling on US-Iran diplomacy hopes, and futures are actually bid into the open — a real break after days of rate-driven punishment. AI-infrastructure names are the morning&#x27;s fuel, with Akamai&#x27;s $12B Anthropic deal dragging memory stocks like MU and SNDK higher premarket. But this rally is renting, not owning: Burry&#x27;s write-off warning and the WSJ&#x27;s Oracle buildout cracks hang over the same tape, and today&#x27;s durable-goods and consumer-sentiment prints — plus next week&#x27;s jobs and inflation data — will decide whether the 5.2% yield breach was a peak or a pause.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +314,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-09-25</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-09-25</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-09-24): Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.<br><span class='muted'>Scores: 40</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-09-24): Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.<br><span class='muted'>Scores: 40</span></p><p><strong>Final call</strong> (made 2026-09-25): Blended score 49 (prev post-close 40 on 2026-09-24 + pre-market 58): AI-capex skepticism returns.<br><span class='muted'>Scores: Post-close 40 (2026-09-24) + pre-market 58 (2026-09-25) = 49</span></p></details></td></tr><tr>
           <td><strong>2026-09-24</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-hit">✓ HIT</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-hit">✓ HIT</div></td><td>-0.08%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -267,7 +352,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-09-25</strong> </summary>
+          <summary><strong>2026-09-25</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card down ">
@@ -278,10 +363,95 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): Global bond rout deepens.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-09-25</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 40 (2026-09-24) + pre-market 58 (2026-09-25) = 49</p>
+      <p class="cc-rationale">Blended score 49 (prev post-close 40 on 2026-09-24 + pre-market 58): AI-capex skepticism returns.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 9:02 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:58%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">58</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">A cautiously constructive open: futures are bid as oil retreats on US-Iran diplomacy hopes and the bond selloff fades, with Anthropic mega-deals reigniting AI-infrastructure names. But the bullish tape sits against real tension — Burry and Goldman are questioning AI capex sustainability, Barclays says the Trump-Xi summit is more signaling than substance, and next week&#x27;s jobs and inflation data loom over a market where the 10-year just breached 5.2%.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Futures higher as oil cools and yields slip</strong>
+          <p>Oil retreating on US-Iran diplomacy hopes and the Treasury selloff fading have futures pointing higher into the open, though the Dow is still tracking a fourth straight losing week.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>US-Iran diplomacy hopes</strong>
+          <p>Reports of a phased US-Iran deal and a 7-day roadmap proposal are easing the oil-and-yield pressure that hammered markets this week.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trump-Xi truce: optics outrun substance</strong>
+          <p>State-dinner pageantry and a touted new chapter in friendship, but Barclays calls it &#x27;more signaling, less substance&#x27; and Xi is pressing Trump on Taiwan policy.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI infra euphoria: Anthropic deals fuel rotation</strong>
+          <p>Akamai surging ~15% on a $12B Anthropic cloud deal, with European AI-linked names rallying on an $11.6B Anthropic computing deal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI-capex skepticism returns</strong>
+          <p>Burry warns Microsoft, Amazon and Oracle face AI write-off shock; Goldman issues an &#x27;AI reality check&#x27;; WSJ flags cracks in Oracle&#x27;s massive New Mexico data-center buildout.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Fund flows turn back into equities</strong>
+          <p>Global equity funds snapped a two-week outflow streak and US funds saw their first inflow in five weeks, per Reuters data.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Core durable goods: 17th straight monthly gain</strong>
+          <p>August core durable goods orders rose for a 17th straight month, showing industrial demand still powering through 5%+ yields.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">AKAM</td>
+        <td class="move pos">+15.18%</td>
+        <td>$12B Anthropic cloud deal; Piper sees shift from value asset to hypergrowth</td></tr><tr><td class="ticker">MU</td>
+        <td class="move pos">▲</td>
+        <td>AI memory stocks rallying, clearing buy points on AI demand</td></tr><tr><td class="ticker">SNDK</td>
+        <td class="move pos">▲</td>
+        <td>Sandisk rallying with the memory group</td></tr><tr><td class="ticker">COST</td>
+        <td class="move pos">▲</td>
+        <td>Unveiled a massive $7.5B expansion plan</td></tr><tr><td class="ticker">ASML</td>
+        <td class="move pos">▲</td>
+        <td>European AI-linked rally on Anthropic&#x27;s $11.6B computing deal</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NKE</td>
+        <td class="move neg">▼</td>
+        <td>BofA downgraded to underperform, cut price target to $30 on longer-than-expected turnaround</td></tr><tr><td class="ticker">CMCSA</td>
+        <td class="move neg">▼</td>
+        <td>Cut to Sell on deepening broadband woes</td></tr><tr><td class="ticker">TWLO</td>
+        <td class="move neg">▼</td>
+        <td>Slipping premarket alongside Comcast</td></tr><tr><td class="ticker">ORCL</td>
+        <td class="move neg">▼</td>
+        <td>WSJ flags cracks in New Mexico data-center buildout; Burry write-off warning lands on it</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs AI-capex doubt</strong><p>Akamai&#x27;s $12B Anthropic deal has memory and AI-infra names surging premarket, while Burry warns of write-off shocks and WSJ flags Oracle buildout cracks — the market is pricing both narratives at once.</p></div><div class="cc"><strong>Trump-Xi truce: theater or de-escalation</strong><p>State-dinner pageantry and toast-to-friendship headlines vs Barclays&#x27; &#x27;more signaling, less substance&#x27; verdict, with Xi pressing for a Taiwan policy shift.</p></div><div class="cc"><strong>Yields: 5.2% breach vs selloff fading</strong><p>The 10-yr breached 5.2% and the 30-yr hit its highest since 2004, yet the bond selloff is abating this morning — relief could fade fast if next week&#x27;s jobs/inflation data runs hot.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The bond market finally blinked: the Treasury selloff is fading and oil is cooling on US-Iran diplomacy hopes, and futures are actually bid into the open — a real break after days of rate-driven punishment. AI-infrastructure names are the morning&#x27;s fuel, with Akamai&#x27;s $12B Anthropic deal dragging memory stocks like MU and SNDK higher premarket. But this rally is renting, not owning: Burry&#x27;s write-off warning and the WSJ&#x27;s Oracle buildout cracks hang over the same tape, and today&#x27;s durable-goods and consumer-sentiment prints — plus next week&#x27;s jobs and inflation data — will decide whether the 5.2% yield breach was a peak or a pause.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -1184,7 +1354,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-24 18:31 ET.
+    Generated 2026-09-25 09:15 ET.
   </footer>
 </div>
 <script>
