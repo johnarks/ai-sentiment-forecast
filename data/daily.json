@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-28",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 63 (Risk-On Tilt): Oil retreats on US-Iran deal / Hormuz reopening hopes.",
+        "made": "2026-09-25",
+        "scores_detail": "Post-close 63 (2026-09-25)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-25",
       "morning": {
         "score": 58,
@@ -109,7 +123,152 @@
         "take": "The bond market finally blinked: the Treasury selloff is fading and oil is cooling on US-Iran diplomacy hopes, and futures are actually bid into the open \u2014 a real break after days of rate-driven punishment. AI-infrastructure names are the morning's fuel, with Akamai's $12B Anthropic deal dragging memory stocks like MU and SNDK higher premarket. But this rally is renting, not owning: Burry's write-off warning and the WSJ's Oracle buildout cracks hang over the same tape, and today's durable-goods and consumer-sentiment prints \u2014 plus next week's jobs and inflation data \u2014 will decide whether the 5.2% yield breach was a peak or a pause.",
         "published": "9:02 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 63,
+        "label": "Risk-On Tilt",
+        "summary": "Stocks closed Friday with the Dow up more than 470 points, locking in weekly gains even as Treasury yields surged on renewed Fed-hike chatter. The day's pivot was oil retreating on US-Iran deal and Hormuz-reopening hopes, plus renewed AI optimism with Microsoft rallying and Akamai spiking on its $12B Anthropic cloud deal. Offset by weak September consumer sentiment and elevated Treasury volatility.",
+        "drivers": [
+          {
+            "title": "Oil retreats on US-Iran deal / Hormuz reopening hopes",
+            "detail": "Crude pulled back on reports of Iran proposing a 7-day roadmap to end the conflict and hopes of Hormuz reopening, lifting Friday's tape",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Weekly gains despite surging Treasury yields",
+            "detail": "Dow +470 Friday; S&P and Nasdaq notched winning weeks while bond yields spiked and Treasury vol saw its biggest jump of the year",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed-hike-before-midterms chatter builds",
+            "detail": "NYT and Apollo's Slok flag prospect of another rate increase into the midterms, warning the Fed may be overlooking the diesel-price surge",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US consumer sentiment falls to four-month low",
+            "detail": "September surveys show households worried about prices and the economy, down toward record-low territory",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Core capital goods orders point to robust business spending",
+            "detail": "August data showed solid equipment capex, a rare bright spot for growth alongside soft household sentiment",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Global equity funds snap outflow streak on AI optimism",
+            "detail": "First weekly inflow in five weeks (equity funds), five-week streak broken for US equity funds, driven by renewed AI trade buying",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Trump-Xi state dinner: warm words, little progress",
+            "detail": "Leaders exchanged pleasantries but produced no breakthrough on key issues; truce continues to buy China time",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Japan bond 'falling knife' stalls repatriation flows",
+            "detail": "JGB selloff deepened, complicating global bond dynamics alongside the US Treasury yield surge",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "AKAM",
+            "move": "\u25b2",
+            "note": "Rallying on $12B cloud deal with Anthropic; Wall Street rethinking the stock"
+          },
+          {
+            "ticker": "MSFT",
+            "move": "\u25b2",
+            "note": "Rallied as investors bought AI names into the close"
+          },
+          {
+            "ticker": "FFAI",
+            "move": "+22.90%",
+            "note": "Faraday chairman says Tesla Optimus commercialization next year 'very realistic'"
+          },
+          {
+            "ticker": "ACET",
+            "move": "+9.07%",
+            "note": "Clinical data webcast set for lupus drug prula-cel"
+          },
+          {
+            "ticker": "KLXE",
+            "move": "+9.52%",
+            "note": "Updated Q3 2026 guidance"
+          },
+          {
+            "ticker": "ON",
+            "move": "+5.54%",
+            "note": "Semis outperformed on strong trading day"
+          },
+          {
+            "ticker": "MCHP",
+            "move": "+5.36%",
+            "note": "Outperformed competitors Friday"
+          },
+          {
+            "ticker": "GNRC",
+            "move": "+5.09%",
+            "note": "Outperformed competitors Friday"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NKE",
+            "move": "\u25bc",
+            "note": "BofA downgrade; analyst sees Wall Street Nike fandom at 25-year low, one call targets $30"
+          },
+          {
+            "ticker": "ORCL",
+            "move": "\u25bc",
+            "note": "WSJ flags cracks in AI data-center build-out at New Mexico project; Barron's notes 'force majeure' move adding to bondholder worries"
+          },
+          {
+            "ticker": "HUBC",
+            "move": "-18.45%",
+            "note": "Nasdaq notification on market value of listed securities requirement"
+          },
+          {
+            "ticker": "GEN",
+            "move": "-6.29%",
+            "note": "Underperformed competitors on Friday"
+          },
+          {
+            "ticker": "CABO",
+            "move": "-6.27%",
+            "note": "S&P downgraded to B+ on weakening broadband outlook"
+          },
+          {
+            "ticker": "RXT",
+            "move": "-5.48%",
+            "note": "Class-action lead-plaintiff deadline reminder"
+          },
+          {
+            "ticker": "MRK",
+            "move": "\u25bc",
+            "note": "Voluntarily withdrew BLA for Ifinatamab deruxtecan in small-cell lung cancer"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Friday rally vs surging bond yields",
+            "detail": "Equities notched weekly gains while Treasury yields surged and Treasury volatility jumped the most this year \u2014 the rate market is pricing a very different 2027 than the stock market"
+          },
+          {
+            "title": "AI optimism vs Oracle build-out cracks",
+            "detail": "AI buying returned (MSFT, AKAM/Anthropic $12B deal, fund inflows) even as WSJ reported cracks in Oracle's AI data-center construction and bondholders fretted"
+          },
+          {
+            "title": "Strong business capex vs soft households",
+            "detail": "Core capital goods orders signal robust equipment spending while consumer sentiment sank to a four-month low on price worries"
+          },
+          {
+            "title": "Oil relief vs diesel/inflation tail risk",
+            "detail": "Crude fell on Iran-deal hopes, but Apollo's Slok warns a diesel-price surge the Fed is overlooking could force a hike before the midterms"
+          }
+        ],
+        "take": "Friday was the day the market decided the bond rout doesn't own it. The 30-year sat near a 22-year high with genuine Fed-hike-before-the-midterms chatter, and equities still closed the week green \u2014 because the oil story flipped from inflation threat to relief (Iran 7-day roadmap, Hormuz reopening hopes) and AI money came back hard (Akamai's $12B Anthropic deal, MSFT bid into the close). The tape is saying the real risk isn't yields \u2014 it's whether the Iran diplomacy collapses over the weekend and oil spikes back up. Watch crude first thing Monday; if Hormuz headlines hold, the Risk-On tilt has room to run into next week's jobs and inflation data.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -124,7 +283,11 @@
         "made": "2026-09-25",
         "scores_detail": "Post-close 40 (2026-09-24) + pre-market 58 (2026-09-25) = 49"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.54,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-09-24",
