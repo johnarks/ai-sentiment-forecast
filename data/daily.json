@@ -2,7 +2,124 @@
   "days": [
     {
       "date": "2026-09-28",
-      "morning": null,
+      "morning": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "Futures open the week in the red as oil spikes after Trump rejected an Iran peace offer and the 10-year Treasury yield touches its highest level since 2007. Two bullish offsets keep this from being a full risk-off day: Nvidia's record $150B buyback authorization and a US-China deal to cut tariffs on $60B of goods. October rate-hike bets are building ahead of consumer confidence and inflation data this week.",
+        "drivers": [
+          {
+            "title": "Trump rejects Iran peace proposal; oil spikes",
+            "detail": "Futures drop and crude jumps as US-Iran talks remain deadlocked; Saudi Arabia restarted its Yanbu pipeline and a Hormuz bypass line, partially offsetting supply fears.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "10-yr Treasury yield hits highest since 2007",
+            "detail": "Renewed bond selloff on sticky inflation fears; markets pricing rising odds of an October rate hike ahead of confidence and inflation prints this week.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia announces record $150B buyback",
+            "detail": "Largest single share-repurchase authorization in history; NVDA stock climbing pre-market alongside an AI safety platform launch.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US-China agree to cut tariffs on $60B of goods",
+            "detail": "Tangible de-escalation outcome; full list of qualifying goods published, easing trade-war overhang.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Qatar extends LNG force majeure amid Hormuz disruptions",
+            "detail": "European gas prices rising; Middle East oil exports rebounded in September on higher Saudi shipments, capping some of the upside.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Busy data week ahead",
+            "detail": "Consumer confidence and inflation data loom; Bloomberg notes key prints could bolster the case for an October Fed rate hike.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Record $150B buyback authorization, largest in history"
+          },
+          {
+            "ticker": "SOAR",
+            "move": "+73.54%",
+            "note": "$1.2B in AI infrastructure orders signed with large AI customer"
+          },
+          {
+            "ticker": "PMAX",
+            "move": "+19.12%",
+            "note": "Acquired stake in parent company of Remington Firearms brand"
+          },
+          {
+            "ticker": "SCYX",
+            "move": "+13.9%",
+            "note": "BARDA awarded SCY-247 development contract"
+          },
+          {
+            "ticker": "NIO",
+            "move": "\u25b2",
+            "note": "Rallying after Geely takes 30% stake in $2.4B unit"
+          },
+          {
+            "ticker": "DLHC",
+            "move": "+7.04%",
+            "note": "Awarded new NIH cybersecurity task order worth up to $19.1M"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MDB",
+            "move": "-15.70%",
+            "note": "CEO transition announced pre-market"
+          },
+          {
+            "ticker": "SNOW",
+            "move": "\u25bc",
+            "note": "Sliding on $3.5B convertible debt offering; dilution jitters"
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25bc",
+            "note": "Falling after report of 737 MAX software issue"
+          },
+          {
+            "ticker": "CRCL",
+            "move": "\u25bc",
+            "note": "CFO departure announced"
+          },
+          {
+            "ticker": "RBLX",
+            "move": "-5.06%",
+            "note": "Jefferies cut to Underperform; rally seen as too optimistic"
+          },
+          {
+            "ticker": "AU",
+            "move": "-6.75%",
+            "note": "Gold miners hit as gold drops on rate-hike bets"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "\u25bc",
+            "note": "Falling with Marvell and other AI hardware on rotation concerns"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI trade: record capital returns vs valuation warnings",
+            "detail": "Nvidia's $150B buyback signals confidence, but Michael Burry warns on the AI boom and Chinese chip/optical firms slide on proposed US curbs."
+          },
+          {
+            "title": "Oil: geopolitical premium vs fresh supply",
+            "detail": "Iran impasse and Hormuz disruptions lift crude, yet Saudi Arabia restarted critical bypass and Yanbu export lines, restoring some flow."
+          }
+        ],
+        "take": "Risk-Off Tilt at 43, and the drivers are all macro \u2014 Iran stalemate torching oil, the 10-year at its highest since 2007, and October rate-hike bets building. Nvidia's record $150B buyback and the US-China tariff cut keep this from being a full risk-off day, but the tape is dominated by rates and crude. Final call: Friday's post-close was 63, blending down to a sub-50 DOWN \u2014 the morning's macro weight wins, and there's no reason to fight a red futures tape with yields at 2007 levels.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +128,13 @@
         "made": "2026-09-25",
         "scores_detail": "Post-close 63 (2026-09-25)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 53 (prev post-close 63 on 2026-09-25 + pre-market 43): Nvidia announces record $150B buyback.",
+        "made": "2026-09-28",
+        "scores_detail": "Post-close 63 (2026-09-25) + pre-market 43 (2026-09-28) = 53"
+      },
       "result": null
     },
     {
