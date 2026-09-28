@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-09-29",
+      "kind": "early",
+      "date": "2026-09-28",
+      "score": 37,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 37 (Risk-Off Tilt): Trump rejects Iran's Hormuz peace proposal.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-09-28",
       "kind": "final",
       "date": "2026-09-28",
@@ -8,8 +21,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Blended score 53 (prev post-close 63 on 2026-09-25 + pre-market 43): Nvidia announces record $150B buyback.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.74,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Moderate",
       "rationale": "Post-close score 63 (Risk-On Tilt): Oil retreats on US-Iran deal / Hormuz reopening hopes.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.74,
+      "hit": false,
       "push": false
     },
     {
