@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-09-28",
+      "kind": "final",
+      "date": "2026-09-28",
+      "scores_detail": "Post-close 63 (2026-09-25) + pre-market 43 (2026-09-28) = 53",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 53 (prev post-close 63 on 2026-09-25 + pre-market 43): Nvidia announces record $150B buyback.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-28",
       "kind": "early",
       "date": "2026-09-25",
       "score": 63,
