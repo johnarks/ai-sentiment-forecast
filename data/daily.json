@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-29",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 37 (Risk-Off Tilt): Trump rejects Iran's Hormuz peace proposal.",
+        "made": "2026-09-28",
+        "scores_detail": "Post-close 37 (2026-09-28)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-28",
       "morning": {
         "score": 43,
@@ -120,7 +134,143 @@
         "take": "Risk-Off Tilt at 43, and the drivers are all macro \u2014 Iran stalemate torching oil, the 10-year at its highest since 2007, and October rate-hike bets building. Nvidia's record $150B buyback and the US-China tariff cut keep this from being a full risk-off day, but the tape is dominated by rates and crude. Final call: Friday's post-close was 63, blending down to a sub-50 DOWN \u2014 the morning's macro weight wins, and there's no reason to fight a red futures tape with yields at 2007 levels.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 37,
+        "label": "Risk-Off Tilt",
+        "summary": "Stocks fell Monday as Trump's weekend rejection of Iran's Hormuz peace proposal spiked Brent toward $108 and pushed the 10-year yield to 5.24%, its highest close since June 2007. AI names led the drop, and even Nvidia's record $150B buyback couldn't hold the rally. Offsets came from AMD's $8.2B World Labs deal and a US-China pledge to cut tariffs on $60B of goods. Net: a yields-and-oil driven risk-off session with the AI trade stalling.",
+        "drivers": [
+          {
+            "title": "Trump rejects Iran's Hormuz peace proposal",
+            "detail": "Over the weekend Trump rejected Tehran's plan to reopen the Strait of Hormuz; Brent spiked to ~$108, nearly 50% above pre-war levels, before fading late on renewed talk of talks this week.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Treasury yields hit 19-year highs",
+            "detail": "10Y closed at 5.24% \u2014 highest 3pm ET close since June 2007; 30Y highest since 2002 \u2014 as Wall Street asked how much more tech stocks can take.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia announces record $150B buyback",
+            "detail": "Largest stock buyback in history plus a new AI safety platform; even so, it couldn't keep the AI rally rolling against the bond rout.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AMD to buy World Labs for $8.2B",
+            "detail": "AMD's biggest AI acquisition, a direct shot at Nvidia's AI dominance; world-model talent and tech bet.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "China and US pledge tariff cuts on $60B in goods",
+            "detail": "Fresh de-escalation signal on trade following last week's leaders' meeting.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Man Group warns 5.5% yields risk cracking AI capex and the US consumer",
+            "detail": "Major asset manager flags the level where yields start breaking the two pillars of the rally.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Heavy data week ahead",
+            "detail": "August PCE Wednesday and September payrolls Friday are seen bolstering the case for an October rate hike.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Record $150B buyback + AI safety platform launch"
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Jumped amid Muse AI debut; poached MongoDB CEO; carved out enterprise offerings"
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25b2",
+            "note": "Began delivering Semi trucks after years of delays"
+          },
+          {
+            "ticker": "QNC",
+            "move": "+17.02%",
+            "note": "Acquiring Plurilock, expanding AI cybersecurity platform"
+          },
+          {
+            "ticker": "NVTS",
+            "move": "+13.08% AH",
+            "note": "Selected by US government for next-gen 10kV SiC semiconductors"
+          },
+          {
+            "ticker": "F",
+            "move": "\u25b2",
+            "note": "More breathing room on EV plans"
+          },
+          {
+            "ticker": "GM",
+            "move": "\u25b2",
+            "note": "More breathing room on EV plans"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MDB",
+            "move": "-18.46%",
+            "note": "Meta poached CEO Dev Ittycheria; leadership vacuum fears"
+          },
+          {
+            "ticker": "CLF",
+            "move": "-7.88%",
+            "note": "Stelco to idle some steel operations on US tariffs"
+          },
+          {
+            "ticker": "SKHY",
+            "move": "-5.03%",
+            "note": "SK Hynix falls as Nvidia Rubin memory moves into view"
+          },
+          {
+            "ticker": "FCEL",
+            "move": "-15%",
+            "note": "Scrutinized over Fit Energy disclosures"
+          },
+          {
+            "ticker": "JEF",
+            "move": "\u25bc",
+            "note": "Fell despite earnings beat and record banking revenue"
+          },
+          {
+            "ticker": "STLD",
+            "move": "\u25bc",
+            "note": "Steel stocks fell on Trump's $15B Iowa steel plant plan \u2014 new supply threat"
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "Ordered to pay $5.7B after losing vibration-tech patent suit"
+          },
+          {
+            "ticker": "SMCI",
+            "move": "\u25bc",
+            "note": "Underperformed in AI-capex selloff as yields rose"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI bulls vs the bond rout",
+            "detail": "Record buyback, AMD's $8.2B deal, Rajiv Jain flipping into the tech trade, Bianco's first bullish call since 2020 \u2014 yet the Nasdaq 100 tumbled as 19-year-high yields won the day."
+          },
+          {
+            "title": "Iran: rejected deal, open door",
+            "detail": "Trump's rejection spiked oil, but he told Axios he expects more talks this week; oil came off highs late \u2014 stalemate with a diplomatic door cracked open."
+          },
+          {
+            "title": "Growth vs rates",
+            "detail": "Bessent touting 5% GDP estimates while the bond market prices October rate-hike risk \u2014 strong economy as both bull case and bear fuel."
+          }
+        ],
+        "take": "The bond market dictated everything today. AI megacaps printed a historic capital-return day \u2014 Nvidia's record $150B buyback, AMD's $8.2B World Labs acquisition \u2014 and still got run over as the 10-year closed at 5.24%, its highest since 2007, while Trump's rejection of Iran's Hormuz proposal spiked Brent toward $108. Until the yield rip stops, rallies are sells: Wednesday's PCE and Friday's payrolls are the only catalysts that can reprieve this tape, and a hot print on either ends the debate \u2014 the market is now pricing an October hike.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -135,7 +285,11 @@
         "made": "2026-09-28",
         "scores_detail": "Post-close 63 (2026-09-25) + pre-market 43 (2026-09-28) = 53"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.74,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-09-25",
