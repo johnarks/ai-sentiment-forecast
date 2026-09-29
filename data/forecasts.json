@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-09-29",
+      "kind": "final",
+      "date": "2026-09-29",
+      "scores_detail": "Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-09-29",
       "kind": "early",
       "date": "2026-09-28",
       "score": 37,
