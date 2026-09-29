@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-28 18:30 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-29 09:15 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -189,26 +189,106 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     <section class="hero">
       <div class="call-card down hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-09-28</div>
+        <div class="cc-kicker">Current call · Final call · made 2026-09-29</div>
         <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Tuesday, Sep 29</div>
-        <div class="cc-conf">Confidence: Moderate</div>
-        <p class="cc-scores">Post-close 37 (Risk-Off Tilt)</p>
-        <p class="cc-rationale">Post-close score 37 (Risk-Off Tilt): Trump rejects Iran&#x27;s Hormuz peace proposal.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <div class="cc-conf">Confidence: Low</div>
+        <p class="cc-scores">Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47</p>
+        <p class="cc-rationale">Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-09-29T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-09-29T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Tue, Sep 29 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Tue, Sep 29 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-09-29</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-28</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 37 (2026-09-28)</p>
+      <p class="cc-rationale">Post-close score 37 (Risk-Off Tilt): Trump rejects Iran&#x27;s Hormuz peace proposal.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:56%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">56</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">Futures trade steady-to-higher into the open as oil prices and Treasury yields ease at the margin, lifting tech after the selloff. The relief is offset by fresh AI skepticism: Burry&#x27;s new 2027 puts on AI names, software&#x27;s selloff on AI disruption fears, and OpenAI scrapping a model rollout all weigh on the AI trade. Today&#x27;s session hinges on the looming labor data, which could reset rate expectations either way.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Key labor data looms after &#x27;strong&#x27; forecasts</strong>
+          <p>Traders bracing for today&#x27;s labor market report; strong data could dent rate-cut hopes and flip the script on bonds</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Oil and yields ease at the margin</strong>
+          <p>Both paused their climb into Tuesday but remain at painful highs — the relief bid is fragile with the US-Iran standoff unresolved</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Anthropic IPO filing leak: $2T ambition, $42B loss</strong>
+          <p>Prospectus details leaking across outlets; megavaluation vs mounting losses puts AI capex economics back under the microscope</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AMD bets $8.2B on physical AI via World Labs</strong>
+          <p>Fei-Fei Li&#x27;s lab acquired in AMD&#x27;s biggest AI-era deal — deal optimism is the main bullish offset this morning</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>US-China agree $60B in tariff cuts, rare earths snag</strong>
+          <p>Partial de-escalation overnight; rare-earths dispute keeps commodity risk alive</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Tech CEOs to meet Trump</strong>
+          <p>White House meeting adds policy headline risk into the session for big tech</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">NVDA</td>
+        <td class="move pos">▲</td>
+        <td>Closing in on a record high; technicals point to more gains</td></tr><tr><td class="ticker">CBOE</td>
+        <td class="move pos">+8.58%</td>
+        <td>25-year exclusive S&amp;P DJI licensing extension through 2051</td></tr><tr><td class="ticker">NVTS</td>
+        <td class="move pos">+9.54%</td>
+        <td>Navitas jumps after US Army picks it for 10 kV program</td></tr><tr><td class="ticker">NFLX</td>
+        <td class="move pos">▲</td>
+        <td>Barron&#x27;s upgrades to Buy after -26% slide this year</td></tr><tr><td class="ticker">META</td>
+        <td class="move pos">▲</td>
+        <td>Jumps on Muse AI debut, expands AI agent to small businesses</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">QS</td>
+        <td class="move neg">52-wk low</td>
+        <td>QuantumScape sinks to a new 52-week low amid EV-battery skepticism</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Tesla delays long-awaited Roadster launch event (WSJ)</td></tr><tr><td class="ticker">FDXF</td>
+        <td class="move neg">▼</td>
+        <td>FedEx Freight slips after BofA cuts its price target</td></tr><tr><td class="ticker">GRML</td>
+        <td class="move neg">-9.28%</td>
+        <td>Greenland Mines dilutive above-market raise weighs on shares</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs AI skepticism</strong><p>Anthropic IPO buzz and AMD&#x27;s $8.2B World Labs deal pull one way; Burry&#x27;s 2027 puts on AI names, software&#x27;s selloff on AI disruption fears, and OpenAI scrapping a rollout pull the other</p></div><div class="cc"><strong>Strong labor data = good economy, bad for cuts</strong><p>A hot report helps earnings but could push rate-cut pricing out — bonds and tech win only if the data comes in soft</p></div><div class="cc"><strong>Relief bid vs elevated baseline</strong><p>Oil and yields eased overnight, but both sit at painful highs with the Iran standoff unresolved — the rally is a thin layer over real pressure</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Yesterday&#x27;s selloff was real — the 10-year hit a 19-year high and Brent nearly tagged $108 — but this morning&#x27;s tape smells like exhaustion, not follow-through: oil and yields eased, futures are steady-to-higher, and AMD&#x27;s $8.2B World Labs bet gives the bulls a genuine story to lean on. The whole session hinges on one number: today&#x27;s labor report. Print hot and the relief bid dies on the spot; print soft and bonds bid, tech rips, and the bear case loses its teeth.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +309,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-09-29</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-09-29</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-09-28): Post-close score 37 (Risk-Off Tilt): Trump rejects Iran&#x27;s Hormuz peace proposal.<br><span class='muted'>Scores: 37</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-09-28): Post-close score 37 (Risk-Off Tilt): Trump rejects Iran&#x27;s Hormuz peace proposal.<br><span class='muted'>Scores: 37</span></p><p><strong>Final call</strong> (made 2026-09-29): Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.<br><span class='muted'>Scores: Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47</span></p></details></td></tr><tr>
           <td><strong>2026-09-28</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Moderate</div><div class="v-miss">✗ MISS</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-miss">✗ MISS</div></td><td>-0.74%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -275,7 +355,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-09-29</strong> </summary>
+          <summary><strong>2026-09-29</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card down ">
@@ -286,10 +366,90 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 37 (Risk-Off Tilt): Trump rejects Iran&#x27;s Hormuz peace proposal.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-09-29</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47</p>
+      <p class="cc-rationale">Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:56%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">56</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">Futures trade steady-to-higher into the open as oil prices and Treasury yields ease at the margin, lifting tech after the selloff. The relief is offset by fresh AI skepticism: Burry&#x27;s new 2027 puts on AI names, software&#x27;s selloff on AI disruption fears, and OpenAI scrapping a model rollout all weigh on the AI trade. Today&#x27;s session hinges on the looming labor data, which could reset rate expectations either way.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Key labor data looms after &#x27;strong&#x27; forecasts</strong>
+          <p>Traders bracing for today&#x27;s labor market report; strong data could dent rate-cut hopes and flip the script on bonds</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Oil and yields ease at the margin</strong>
+          <p>Both paused their climb into Tuesday but remain at painful highs — the relief bid is fragile with the US-Iran standoff unresolved</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Anthropic IPO filing leak: $2T ambition, $42B loss</strong>
+          <p>Prospectus details leaking across outlets; megavaluation vs mounting losses puts AI capex economics back under the microscope</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AMD bets $8.2B on physical AI via World Labs</strong>
+          <p>Fei-Fei Li&#x27;s lab acquired in AMD&#x27;s biggest AI-era deal — deal optimism is the main bullish offset this morning</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>US-China agree $60B in tariff cuts, rare earths snag</strong>
+          <p>Partial de-escalation overnight; rare-earths dispute keeps commodity risk alive</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Tech CEOs to meet Trump</strong>
+          <p>White House meeting adds policy headline risk into the session for big tech</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">NVDA</td>
+        <td class="move pos">▲</td>
+        <td>Closing in on a record high; technicals point to more gains</td></tr><tr><td class="ticker">CBOE</td>
+        <td class="move pos">+8.58%</td>
+        <td>25-year exclusive S&amp;P DJI licensing extension through 2051</td></tr><tr><td class="ticker">NVTS</td>
+        <td class="move pos">+9.54%</td>
+        <td>Navitas jumps after US Army picks it for 10 kV program</td></tr><tr><td class="ticker">NFLX</td>
+        <td class="move pos">▲</td>
+        <td>Barron&#x27;s upgrades to Buy after -26% slide this year</td></tr><tr><td class="ticker">META</td>
+        <td class="move pos">▲</td>
+        <td>Jumps on Muse AI debut, expands AI agent to small businesses</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">QS</td>
+        <td class="move neg">52-wk low</td>
+        <td>QuantumScape sinks to a new 52-week low amid EV-battery skepticism</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Tesla delays long-awaited Roadster launch event (WSJ)</td></tr><tr><td class="ticker">FDXF</td>
+        <td class="move neg">▼</td>
+        <td>FedEx Freight slips after BofA cuts its price target</td></tr><tr><td class="ticker">GRML</td>
+        <td class="move neg">-9.28%</td>
+        <td>Greenland Mines dilutive above-market raise weighs on shares</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI euphoria vs AI skepticism</strong><p>Anthropic IPO buzz and AMD&#x27;s $8.2B World Labs deal pull one way; Burry&#x27;s 2027 puts on AI names, software&#x27;s selloff on AI disruption fears, and OpenAI scrapping a rollout pull the other</p></div><div class="cc"><strong>Strong labor data = good economy, bad for cuts</strong><p>A hot report helps earnings but could push rate-cut pricing out — bonds and tech win only if the data comes in soft</p></div><div class="cc"><strong>Relief bid vs elevated baseline</strong><p>Oil and yields eased overnight, but both sit at painful highs with the Iran standoff unresolved — the rally is a thin layer over real pressure</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">Yesterday&#x27;s selloff was real — the 10-year hit a 19-year high and Brent nearly tagged $108 — but this morning&#x27;s tape smells like exhaustion, not follow-through: oil and yields eased, futures are steady-to-higher, and AMD&#x27;s $8.2B World Labs bet gives the bulls a genuine story to lean on. The whole session hinges on one number: today&#x27;s labor report. Print hot and the relief bid dies on the spot; print soft and bonds bid, tech rips, and the bear case loses its teeth.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -1586,7 +1746,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-28 18:30 ET.
+    Generated 2026-09-29 09:15 ET.
   </footer>
 </div>
 <script>
