@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-09-30",
+      "kind": "early",
+      "date": "2026-09-29",
+      "score": 43,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-09-29",
       "kind": "final",
       "date": "2026-09-29",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.18,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 37 (Risk-Off Tilt): Trump rejects Iran's Hormuz peace proposal.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.18,
+      "hit": true,
       "push": false
     },
     {
