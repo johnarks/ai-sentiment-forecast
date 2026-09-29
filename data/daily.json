@@ -2,7 +2,108 @@
   "days": [
     {
       "date": "2026-09-29",
-      "morning": null,
+      "morning": {
+        "score": 56,
+        "label": "Risk-On Tilt",
+        "summary": "Futures trade steady-to-higher into the open as oil prices and Treasury yields ease at the margin, lifting tech after the selloff. The relief is offset by fresh AI skepticism: Burry's new 2027 puts on AI names, software's selloff on AI disruption fears, and OpenAI scrapping a model rollout all weigh on the AI trade. Today's session hinges on the looming labor data, which could reset rate expectations either way.",
+        "drivers": [
+          {
+            "title": "Key labor data looms after 'strong' forecasts",
+            "detail": "Traders bracing for today's labor market report; strong data could dent rate-cut hopes and flip the script on bonds",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Oil and yields ease at the margin",
+            "detail": "Both paused their climb into Tuesday but remain at painful highs \u2014 the relief bid is fragile with the US-Iran standoff unresolved",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO filing leak: $2T ambition, $42B loss",
+            "detail": "Prospectus details leaking across outlets; megavaluation vs mounting losses puts AI capex economics back under the microscope",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AMD bets $8.2B on physical AI via World Labs",
+            "detail": "Fei-Fei Li's lab acquired in AMD's biggest AI-era deal \u2014 deal optimism is the main bullish offset this morning",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US-China agree $60B in tariff cuts, rare earths snag",
+            "detail": "Partial de-escalation overnight; rare-earths dispute keeps commodity risk alive",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Tech CEOs to meet Trump",
+            "detail": "White House meeting adds policy headline risk into the session for big tech",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Closing in on a record high; technicals point to more gains"
+          },
+          {
+            "ticker": "CBOE",
+            "move": "+8.58%",
+            "note": "25-year exclusive S&P DJI licensing extension through 2051"
+          },
+          {
+            "ticker": "NVTS",
+            "move": "+9.54%",
+            "note": "Navitas jumps after US Army picks it for 10 kV program"
+          },
+          {
+            "ticker": "NFLX",
+            "move": "\u25b2",
+            "note": "Barron's upgrades to Buy after -26% slide this year"
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Jumps on Muse AI debut, expands AI agent to small businesses"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "QS",
+            "move": "52-wk low",
+            "note": "QuantumScape sinks to a new 52-week low amid EV-battery skepticism"
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "Tesla delays long-awaited Roadster launch event (WSJ)"
+          },
+          {
+            "ticker": "FDXF",
+            "move": "\u25bc",
+            "note": "FedEx Freight slips after BofA cuts its price target"
+          },
+          {
+            "ticker": "GRML",
+            "move": "-9.28%",
+            "note": "Greenland Mines dilutive above-market raise weighs on shares"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs AI skepticism",
+            "detail": "Anthropic IPO buzz and AMD's $8.2B World Labs deal pull one way; Burry's 2027 puts on AI names, software's selloff on AI disruption fears, and OpenAI scrapping a rollout pull the other"
+          },
+          {
+            "title": "Strong labor data = good economy, bad for cuts",
+            "detail": "A hot report helps earnings but could push rate-cut pricing out \u2014 bonds and tech win only if the data comes in soft"
+          },
+          {
+            "title": "Relief bid vs elevated baseline",
+            "detail": "Oil and yields eased overnight, but both sit at painful highs with the Iran standoff unresolved \u2014 the rally is a thin layer over real pressure"
+          }
+        ],
+        "take": "Yesterday's selloff was real \u2014 the 10-year hit a 19-year high and Brent nearly tagged $108 \u2014 but this morning's tape smells like exhaustion, not follow-through: oil and yields eased, futures are steady-to-higher, and AMD's $8.2B World Labs bet gives the bulls a genuine story to lean on. The whole session hinges on one number: today's labor report. Print hot and the relief bid dies on the spot; print soft and bonds bid, tech rips, and the bear case loses its teeth.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +112,13 @@
         "made": "2026-09-28",
         "scores_detail": "Post-close 37 (2026-09-28)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 47 (prev post-close 37 on 2026-09-28 + pre-market 56): Oil and yields ease at the margin.",
+        "made": "2026-09-29",
+        "scores_detail": "Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47"
+      },
       "result": null
     },
     {
