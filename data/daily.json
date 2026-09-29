@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-09-30",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.",
+        "made": "2026-09-29",
+        "scores_detail": "Post-close 43 (2026-09-29)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-29",
       "morning": {
         "score": 56,
@@ -104,7 +118,112 @@
         "take": "Yesterday's selloff was real \u2014 the 10-year hit a 19-year high and Brent nearly tagged $108 \u2014 but this morning's tape smells like exhaustion, not follow-through: oil and yields eased, futures are steady-to-higher, and AMD's $8.2B World Labs bet gives the bulls a genuine story to lean on. The whole session hinges on one number: today's labor report. Print hot and the relief bid dies on the spot; print soft and bonds bid, tech rips, and the bear case loses its teeth.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "Bond-market fear ruled the post-close session: the 30-year yield hit a 24-year high, the Dow fell for a second straight day, and consumer confidence sank to its lowest since 2014. Fed voices split between Barr's hawkish 'more hikes likely' and Williams's dovish patience, keeping rate risk priced in. Tech provided the only real offset \u2014 Anthropic IPO optimism and OpenAI's DevDay (Dots agent, ~$70B run-rate) helped the Nasdaq pare losses into the green late.",
+        "drivers": [
+          {
+            "title": "Bond yields extend run to 24-year highs",
+            "detail": "30-year hit its highest since 2002 (24-year high); 10-year pushed higher too; Dow posted back-to-back losses and equities eased across the board.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed fedspeak split keeps hike risk alive",
+            "detail": "Barr says more hikes likely needed as growth picks up while Williams says hikes can wait; traders still debate back-to-back hikes; Barclays sees 30Y at 6% in a productivity boom.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Consumer confidence collapses to 2014 low",
+            "detail": "US consumer confidence plunged to its lowest level since 2014, a fresh demand-side warning flag for the cycle.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO optimism cushions tech",
+            "detail": "Leaked prospectus details fueled IPO optimism; Nasdaq pared losses into the green in the final hour as tech sentiment held up.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "OpenAI DevDay energizes the AI trade",
+            "detail": "OpenAI launched its Dots AI agent at DevDay 2026, Microsoft is pushing Dots into the enterprise, and annualized revenue is reportedly nearing $70B.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Muni rout deepens credit stress",
+            "detail": "Muni bonds set for worst month since 1987 on inflation angst, with trading volumes the highest since at least 1995 \u2014 a broader credit stress signal.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US-Canada trade bans take effect",
+            "detail": "The alcohol and dairy ban kicked in today, extending the trade-war drag with Canada; markets largely shrugged.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "BE",
+            "move": "+10.80%",
+            "note": "Rebounded from Monday's slide on analyst support; peers FCEL, PLUG edged higher."
+          },
+          {
+            "ticker": "AMAT",
+            "move": "+5.19%",
+            "note": "Outperformed competitors and announced Kioxia partnership at the EPIC Center for next-gen memory."
+          },
+          {
+            "ticker": "FNGR",
+            "move": "+15.32% AH",
+            "note": "Entered definitive agreement to acquire Newbit Technology's 9.9 MW powered site."
+          },
+          {
+            "ticker": "XERS",
+            "move": "\u25b2",
+            "note": "Bloomberg reports Lundbeck expressed interest in buying Xeris Biopharma."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "AIR",
+            "move": "-7.25%",
+            "note": "Moody's affirmed Ba2 but cut outlook to negative on the MRO deal."
+          },
+          {
+            "ticker": "CNXC",
+            "move": "-9.11% AH",
+            "note": "Q3 results disappointed in after-hours trade."
+          },
+          {
+            "ticker": "LULU",
+            "move": "\u25bc",
+            "note": "Underperformed competitors Tuesday; apparel names soft."
+          },
+          {
+            "ticker": "UZX",
+            "move": "-8.70% AH",
+            "note": "Terminated its non-binding letter of intent; round-trip day."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Fed hawks vs doves",
+            "detail": "Barr says more hikes likely needed as growth picks up; Williams says hikes can wait; Barclays now floats a 6% 30-year in a productivity boom."
+          },
+          {
+            "title": "Tech optimism vs bond-market fear",
+            "detail": "Anthropic IPO leak and OpenAI DevDay lifted tech late in the session (Nasdaq clawed back to green) while long bonds sold off to 24-year highs."
+          },
+          {
+            "title": "Weak soft data vs hopeful hard data",
+            "detail": "Confidence fell to its lowest since 2014, yet prediction-market traders expect September payrolls to beat economist estimates."
+          },
+          {
+            "title": "Credit stress vs deal financing",
+            "detail": "White Cap pulled a $4.1B loan deal amid rate anxiety, but banks drew $11.5B of demand for Paramount's Warner Bros. bridge loan."
+          }
+        ],
+        "take": "The only story that matters tonight is the bond market: the 30-year punching through to a 24-year high is doing more damage to equity risk appetite than any single headline, and the Dow's back-to-back losses say stocks still haven't priced in how far rates can run. Fed fedspeak is pure noise \u2014 Barr talking hikes and Williams talking patience just keeps hike risk alive into tomorrow's PCE print, which is now a landmine. The tech bounce on Anthropic IPO buzz and OpenAI DevDay is sentiment cotton candy next to a collapsed consumer confidence print; real demand is cracking while the market daydreams about AI IPOs. Tomorrow leans lower unless PCE comes in cool.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -119,7 +238,11 @@
         "made": "2026-09-29",
         "scores_detail": "Post-close 37 (2026-09-28) + pre-market 56 (2026-09-29) = 47"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.18,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-09-28",
