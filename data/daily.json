@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-01",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.",
+        "made": "2026-09-30",
+        "scores_detail": "Post-close 42 (2026-09-30)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-09-30",
       "morning": {
         "score": 60,
@@ -143,7 +157,123 @@
         "take": "The cool PCE print flipped the tape overnight: futures are up, yields are off, and the Fed hike chatter is dying down for now. Don't mistake a relief rally for a regime change \u2014 mortgage rates just hit 7.3%, consumer confidence is at a 2014 low, and the bond rout is still grinding on underneath. The session rides on whether the soft-landing bid holds past the open; any sniff of \"PCE was a fluke\" and the rate pain trade reasserts itself.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 42,
+        "label": "Risk-Off Tilt",
+        "summary": "The session closed on a risk-off note: the S&P 500 and Dow faded late into a losing September even though August PCE came in softer than expected and trimmed October rate-hike bets. The bond rout overpowered the good news \u2014 the 10Y hit a new 24-year high after its biggest quarterly jump in decades. The one real after-hours bright spot is Micron's blowout quarter and strong guidance, which sets up the AI/memory complex for Thursday.",
+        "drivers": [
+          {
+            "title": "Bond rout dominates: 10Y hits new 24-year high",
+            "detail": "Biggest quarterly jump in yields in decades; global bonds suffered worst quarter since 2024. Bonds ignored the softer PCE \u2014 traders still fear persistent inflation.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "S&P 500 and Dow fade into a losing September",
+            "detail": "Stocks wiped out gains late; S&P fell Wednesday despite the soft inflation read, locking in a down month. Nasdaq booked a gain but diverged late.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Micron blowout: $54.2B revenue, strong Q1 guide",
+            "detail": "AI memory demand surged; Micron warned the supply crunch will only get worse. Data-center revenue up 11-fold; shares up after hours.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Soft PCE trims October Fed-hike bets",
+            "detail": "August inflation cooled more than expected; ADP private payrolls +90k beat and Q2 GDP revised 0.7pp higher to 2.2% \u2014 growth still firm.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Paramount-WBD merger clears judge, Mattel CEO joins",
+            "detail": "Judge approved the antitrust settlement; Ynon Kreiz named co-CEO of the merged company alongside Paramount leadership.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Ford's 45% rally wiped out on AI windfall fizzle",
+            "detail": "Hopes for an AI-driven windfall deflated; Bloomberg flagged the full rally reversal as a one-day sentiment shock.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Robinhood launches AI trading agents, 24/7 markets",
+            "detail": "Push into agentic trading and round-the-clock access \u2014 a product/margin-growth catalyst.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed eases stress tests, watchdog clears renovation",
+            "detail": "Major bank-reg relief plus no-misconduct finding on the Fed's $2.4B renovation \u2014 clears overhang for the big banks.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MU",
+            "move": "\u25b2 (AH)",
+            "note": "Blowout Q4, $54.2B revenue, strong guide; memory crunch worsening"
+          },
+          {
+            "ticker": "CEG",
+            "move": "\u25b2",
+            "note": "Climbed on Amazon nuclear power deal"
+          },
+          {
+            "ticker": "GEN",
+            "move": "+5.61%",
+            "note": "Outperformed competitors on strong trading day"
+          },
+          {
+            "ticker": "TVGN",
+            "move": "+8.76% (AH)",
+            "note": "Regained Nasdaq compliance"
+          },
+          {
+            "ticker": "GRND",
+            "move": "\u25b2",
+            "note": "To acquire Freddie, expanding HIV-prevention access"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "F",
+            "move": "\u25bc",
+            "note": "45% rally fully reversed as AI-windfall hopes fizzled"
+          },
+          {
+            "ticker": "JBL",
+            "move": "-10.03%",
+            "note": "Underperformed peers Wednesday in post-earnings trade"
+          },
+          {
+            "ticker": "PRGS",
+            "move": "\u25bc",
+            "note": "Dropped after quarterly revenue fell short"
+          },
+          {
+            "ticker": "UNH",
+            "move": "\u25bc",
+            "note": "Must face CalPERS shareholder suit, judge rules"
+          },
+          {
+            "ticker": "GOOG",
+            "move": "\u25bc",
+            "note": "Slipped on report of internal doubts over Gemini 4, even as it debuted the model"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Cool PCE, hot bonds",
+            "detail": "Softer inflation trimmed Fed-hike bets intraday, but yields still hit a 24-year high and equities faded anyway \u2014 the bond market priced a different story."
+          },
+          {
+            "title": "Micron blowout vs. losing September",
+            "detail": "The AI/memory complex got its strongest fundamental signal of the quarter after hours, against a tape that just closed a losing month \u2014 Thursday's open decides which wins."
+          },
+          {
+            "title": "Strong growth vs. sticky inflation",
+            "detail": "Q2 GDP revised up to 2.2% and ADP beat (+90k), yet PCE remains elevated \u2014 the economy is firm enough to keep the Fed cautious."
+          }
+        ],
+        "take": "The bond market ate the good news for breakfast: a cooler PCE print should have been a green day, but the 10Y hitting a 24-year high told the tape the inflation fight isn't over. The one genuinely new signal is Micron's blowout \u2014 an 11-fold data-center revenue jump with a worsening memory crunch is about as fundamental as AI-demand evidence gets. Tomorrow is a tug-of-war between that after-hours euphoria and September's bearish close; if semis can't carry the open, the 10Y keeps running the show.",
+        "published": "5:00 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -158,7 +288,11 @@
         "made": "2026-09-30",
         "scores_detail": "Post-close 43 (2026-09-29) + pre-market 60 (2026-09-30) = 52"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.21,
+        "early_hit": true,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-09-29",
