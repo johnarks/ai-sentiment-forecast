@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-29 18:30 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-09-30 09:15 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -188,27 +188,127 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     
     <section class="hero">
-      <div class="call-card down hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-09-29</div>
-        <div class="hero-call">▼ DOWN</div>
+      <div class="call-card up hl">
+        <div class="cc-kicker">Current call · Final call · made 2026-09-30</div>
+        <div class="hero-call">▲ UP</div>
         <div class="hero-target">SPY · Wednesday, Sep 30</div>
         <div class="cc-conf">Confidence: Low</div>
-        <p class="cc-scores">Post-close 43 (Risk-Off Tilt)</p>
-        <p class="cc-rationale">Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <p class="cc-scores">Post-close 43 (2026-09-29) + pre-market 60 (2026-09-30) = 52</p>
+        <p class="cc-rationale">Blended score 52 (prev post-close 43 on 2026-09-29 + pre-market 60): Cool PCE print.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-09-30T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-09-30T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Wed, Sep 30 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Wed, Sep 30 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-09-30</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-29</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 43 (2026-09-29)</p>
+      <p class="cc-rationale">Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:60%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">60</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">A cooler-than-expected PCE print flipped this morning&#x27;s setup: Dow futures jumped roughly 200 points and yields fell as Fed hike expectations eased, with a 90k ADP jobs beat adding to the bid. The AI buildout remains the dominant narrative — Anthropic&#x27;s IPO documents, OpenAI&#x27;s $1.4T funding talk, and Nvidia cheerleading, countered by DeepSeek/Huawei gunning for Nvidia&#x27;s moat. Offsetting the risk-on tone: mortgage rates at a near-3-year high of 7.3%, a bruising month for bonds, European sovereign stress, and a court challenge to Trump&#x27;s tariffs.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Cool PCE print</strong>
+          <p>Cool August PCE flipped the morning setup: Dow futures jumped ~200 points and yields fell as Fed hike expectations eased.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>ADP jobs beat</strong>
+          <p>Private sector added 90,000 jobs in September, above expectations — supporting growth without reigniting cut-urgency.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Rates pain continues</strong>
+          <p>Bond rout grinds on: mortgage rates hit a near-3-year high of 7.3%, September set to be bruising for bonds, Wells Fargo warns rates stay high through 2027.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Tariffs challenged in court</strong>
+          <p>Trump&#x27;s newest tariffs face a familiar court challenge — fresh legal threat to the tariff regime.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Iran-US de-escalation signal</strong>
+          <p>Tehran says it received an official US counter-proposal to end the war — first concrete de-escalation signal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI funding frenzy</strong>
+          <p>Anthropic IPO docs reveal revenue concentration (~50% through Amazon/Google, $2T valuation talk), OpenAI eyes $1.4T raise, Nvidia plans a big buyback — Huang calls the buildout the economy&#x27;s &#x27;great chance.&#x27;</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Nvidia&#x27;s moat under attack</strong>
+          <p>NYT reports DeepSeek and Huawei are targeting a key source of Nvidia&#x27;s AI dominance — a fresh competitive threat.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Europe sovereign stress</strong>
+          <p>France&#x27;s 10Y bond risk premium rose to 120bp; European shares head for their first monthly loss in six as yields weigh.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">HPE</td>
+        <td class="move pos">+4.5%</td>
+        <td>Networking outlook upgrade plus a $1.2B Vultr AI deal.</td></tr><tr><td class="ticker">BE</td>
+        <td class="move pos">+10%</td>
+        <td>Jefferies raised its price target.</td></tr><tr><td class="ticker">CAG</td>
+        <td class="move pos">+3.2%</td>
+        <td>First-quarter earnings beat.</td></tr><tr><td class="ticker">BA</td>
+        <td class="move pos">▲</td>
+        <td>Wins a $20B next-generation fighter contract.</td></tr><tr><td class="ticker">NVO</td>
+        <td class="move pos">▲</td>
+        <td>Oral Wegovy switch study reports weight loss.</td></tr><tr><td class="ticker">SGMT</td>
+        <td class="move pos">+12.2%</td>
+        <td>Raised $115M at a premium to fund Phase 3 acne-drug trial.</td></tr><tr><td class="ticker">HOOD</td>
+        <td class="move pos">▲</td>
+        <td>Rolling out AI trading tools, perpetual futures, and 24/7 equity trading.</td></tr><tr><td class="ticker">TGT</td>
+        <td class="move pos">▲</td>
+        <td>HSBC upgrades to Buy, raises price target to $190.</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">JBL</td>
+        <td class="move neg">-4.0%</td>
+        <td>Fell despite Q4 earnings beat and a raised FY27 outlook.</td></tr><tr><td class="ticker">FDS</td>
+        <td class="move neg">-3.5%</td>
+        <td>Fiscal 2027 guidance came in below expectations.</td></tr><tr><td class="ticker">NVDA</td>
+        <td class="move neg">▼</td>
+        <td>DeepSeek and Huawei reportedly targeting a key source of its AI dominance.</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Barron&#x27;s flags an AI-driven cash crunch; secured a $30B credit line in response.</td></tr><tr><td class="ticker">DIS</td>
+        <td class="move neg">▼</td>
+        <td>Cutting hundreds of jobs across multiple departments.</td></tr><tr><td class="ticker">MAT</td>
+        <td class="move neg">▼</td>
+        <td>Chairman/CEO Ynon Kreiz resigns; Roger Lynch takes the reins.</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Inflation: cool print vs persistent pressure</strong><p>PCE surprise sparks a relief rally while the NYT&#x27;s &#x27;continued price pressures&#x27; read and inflation-volatility warnings keep Fed hawkishness in play.</p></div><div class="cc"><strong>AI: funding frenzy vs moat threats</strong><p>Anthropic/OpenAI valuations soar and Huang pitches an economy-reshaping buildout while DeepSeek/Huawei gun for Nvidia&#x27;s moat and Tesla faces cash-crunch questions over AI spend.</p></div><div class="cc"><strong>Rates: relief vs record pain</strong><p>Yields fall on the PCE print while mortgage rates sit at a near-3-year high of 7.3% and Wells Fargo warns rates stay elevated through 2027.</p></div><div class="cc"><strong>Geopolitics: de-escalation vs escalation risk</strong><p>US counter-proposal to Iran signals de-escalation while Beijing threatens EU retaliation and the war enters its eighth month.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The cool PCE print flipped the tape overnight: futures are up, yields are off, and the Fed hike chatter is dying down for now. Don&#x27;t mistake a relief rally for a regime change — mortgage rates just hit 7.3%, consumer confidence is at a 2014 low, and the bond rout is still grinding on underneath. The session rides on whether the soft-landing bid holds past the open; any sniff of &quot;PCE was a fluke&quot; and the rate pain trade reasserts itself.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +329,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-09-30</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-09-30</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-09-29): Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.<br><span class='muted'>Scores: 43</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-09-29): Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.<br><span class='muted'>Scores: 43</span></p><p><strong>Final call</strong> (made 2026-09-30): Blended score 52 (prev post-close 43 on 2026-09-29 + pre-market 60): Cool PCE print.<br><span class='muted'>Scores: Post-close 43 (2026-09-29) + pre-market 60 (2026-09-30) = 52</span></p></details></td></tr><tr>
           <td><strong>2026-09-29</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-hit">✓ HIT</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td>-0.18%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -279,7 +379,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-09-30</strong> </summary>
+          <summary><strong>2026-09-30</strong> <span class="up fc-mini">▲ UP</span></summary>
           <div class="call-cards small">
             
     <div class="call-card down ">
@@ -290,10 +390,110 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 43 (Risk-Off Tilt): Bond yields extend run to 24-year highs.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card up hl">
+      <div class="cc-kicker">Final call · made 2026-09-30</div>
+      <div class="cc-call">▲ UP</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 43 (2026-09-29) + pre-market 60 (2026-09-30) = 52</p>
+      <p class="cc-rationale">Blended score 52 (prev post-close 43 on 2026-09-29 + pre-market 60): Cool PCE print.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bullsoft" style="left:60%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bullsoft">60</span>
+      <span class="score-label bullsoft">Risk-On Tilt</span></div>
+    </div>
+      <p class="ec-summary">A cooler-than-expected PCE print flipped this morning&#x27;s setup: Dow futures jumped roughly 200 points and yields fell as Fed hike expectations eased, with a 90k ADP jobs beat adding to the bid. The AI buildout remains the dominant narrative — Anthropic&#x27;s IPO documents, OpenAI&#x27;s $1.4T funding talk, and Nvidia cheerleading, countered by DeepSeek/Huawei gunning for Nvidia&#x27;s moat. Offsetting the risk-on tone: mortgage rates at a near-3-year high of 7.3%, a bruising month for bonds, European sovereign stress, and a court challenge to Trump&#x27;s tariffs.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Cool PCE print</strong>
+          <p>Cool August PCE flipped the morning setup: Dow futures jumped ~200 points and yields fell as Fed hike expectations eased.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>ADP jobs beat</strong>
+          <p>Private sector added 90,000 jobs in September, above expectations — supporting growth without reigniting cut-urgency.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Rates pain continues</strong>
+          <p>Bond rout grinds on: mortgage rates hit a near-3-year high of 7.3%, September set to be bruising for bonds, Wells Fargo warns rates stay high through 2027.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Tariffs challenged in court</strong>
+          <p>Trump&#x27;s newest tariffs face a familiar court challenge — fresh legal threat to the tariff regime.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Iran-US de-escalation signal</strong>
+          <p>Tehran says it received an official US counter-proposal to end the war — first concrete de-escalation signal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI funding frenzy</strong>
+          <p>Anthropic IPO docs reveal revenue concentration (~50% through Amazon/Google, $2T valuation talk), OpenAI eyes $1.4T raise, Nvidia plans a big buyback — Huang calls the buildout the economy&#x27;s &#x27;great chance.&#x27;</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Nvidia&#x27;s moat under attack</strong>
+          <p>NYT reports DeepSeek and Huawei are targeting a key source of Nvidia&#x27;s AI dominance — a fresh competitive threat.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Europe sovereign stress</strong>
+          <p>France&#x27;s 10Y bond risk premium rose to 120bp; European shares head for their first monthly loss in six as yields weigh.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">HPE</td>
+        <td class="move pos">+4.5%</td>
+        <td>Networking outlook upgrade plus a $1.2B Vultr AI deal.</td></tr><tr><td class="ticker">BE</td>
+        <td class="move pos">+10%</td>
+        <td>Jefferies raised its price target.</td></tr><tr><td class="ticker">CAG</td>
+        <td class="move pos">+3.2%</td>
+        <td>First-quarter earnings beat.</td></tr><tr><td class="ticker">BA</td>
+        <td class="move pos">▲</td>
+        <td>Wins a $20B next-generation fighter contract.</td></tr><tr><td class="ticker">NVO</td>
+        <td class="move pos">▲</td>
+        <td>Oral Wegovy switch study reports weight loss.</td></tr><tr><td class="ticker">SGMT</td>
+        <td class="move pos">+12.2%</td>
+        <td>Raised $115M at a premium to fund Phase 3 acne-drug trial.</td></tr><tr><td class="ticker">HOOD</td>
+        <td class="move pos">▲</td>
+        <td>Rolling out AI trading tools, perpetual futures, and 24/7 equity trading.</td></tr><tr><td class="ticker">TGT</td>
+        <td class="move pos">▲</td>
+        <td>HSBC upgrades to Buy, raises price target to $190.</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">JBL</td>
+        <td class="move neg">-4.0%</td>
+        <td>Fell despite Q4 earnings beat and a raised FY27 outlook.</td></tr><tr><td class="ticker">FDS</td>
+        <td class="move neg">-3.5%</td>
+        <td>Fiscal 2027 guidance came in below expectations.</td></tr><tr><td class="ticker">NVDA</td>
+        <td class="move neg">▼</td>
+        <td>DeepSeek and Huawei reportedly targeting a key source of its AI dominance.</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Barron&#x27;s flags an AI-driven cash crunch; secured a $30B credit line in response.</td></tr><tr><td class="ticker">DIS</td>
+        <td class="move neg">▼</td>
+        <td>Cutting hundreds of jobs across multiple departments.</td></tr><tr><td class="ticker">MAT</td>
+        <td class="move neg">▼</td>
+        <td>Chairman/CEO Ynon Kreiz resigns; Roger Lynch takes the reins.</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Inflation: cool print vs persistent pressure</strong><p>PCE surprise sparks a relief rally while the NYT&#x27;s &#x27;continued price pressures&#x27; read and inflation-volatility warnings keep Fed hawkishness in play.</p></div><div class="cc"><strong>AI: funding frenzy vs moat threats</strong><p>Anthropic/OpenAI valuations soar and Huang pitches an economy-reshaping buildout while DeepSeek/Huawei gun for Nvidia&#x27;s moat and Tesla faces cash-crunch questions over AI spend.</p></div><div class="cc"><strong>Rates: relief vs record pain</strong><p>Yields fall on the PCE print while mortgage rates sit at a near-3-year high of 7.3% and Wells Fargo warns rates stay elevated through 2027.</p></div><div class="cc"><strong>Geopolitics: de-escalation vs escalation risk</strong><p>US counter-proposal to Iran signals de-escalation while Beijing threatens EU retaliation and the war enters its eighth month.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The cool PCE print flipped the tape overnight: futures are up, yields are off, and the Fed hike chatter is dying down for now. Don&#x27;t mistake a relief rally for a regime change — mortgage rates just hit 7.3%, consumer confidence is at a 2014 low, and the bond rout is still grinding on underneath. The session rides on whether the soft-landing bid holds past the open; any sniff of &quot;PCE was a fluke&quot; and the rate pain trade reasserts itself.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -1764,7 +1964,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-29 18:30 ET.
+    Generated 2026-09-30 09:15 ET.
   </footer>
 </div>
 <script>
