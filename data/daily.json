@@ -2,7 +2,147 @@
   "days": [
     {
       "date": "2026-09-30",
-      "morning": null,
+      "morning": {
+        "score": 60,
+        "label": "Risk-On Tilt",
+        "summary": "A cooler-than-expected PCE print flipped this morning's setup: Dow futures jumped roughly 200 points and yields fell as Fed hike expectations eased, with a 90k ADP jobs beat adding to the bid. The AI buildout remains the dominant narrative \u2014 Anthropic's IPO documents, OpenAI's $1.4T funding talk, and Nvidia cheerleading, countered by DeepSeek/Huawei gunning for Nvidia's moat. Offsetting the risk-on tone: mortgage rates at a near-3-year high of 7.3%, a bruising month for bonds, European sovereign stress, and a court challenge to Trump's tariffs.",
+        "drivers": [
+          {
+            "title": "Cool PCE print",
+            "detail": "Cool August PCE flipped the morning setup: Dow futures jumped ~200 points and yields fell as Fed hike expectations eased.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "ADP jobs beat",
+            "detail": "Private sector added 90,000 jobs in September, above expectations \u2014 supporting growth without reigniting cut-urgency.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Rates pain continues",
+            "detail": "Bond rout grinds on: mortgage rates hit a near-3-year high of 7.3%, September set to be bruising for bonds, Wells Fargo warns rates stay high through 2027.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Tariffs challenged in court",
+            "detail": "Trump's newest tariffs face a familiar court challenge \u2014 fresh legal threat to the tariff regime.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Iran-US de-escalation signal",
+            "detail": "Tehran says it received an official US counter-proposal to end the war \u2014 first concrete de-escalation signal.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI funding frenzy",
+            "detail": "Anthropic IPO docs reveal revenue concentration (~50% through Amazon/Google, $2T valuation talk), OpenAI eyes $1.4T raise, Nvidia plans a big buyback \u2014 Huang calls the buildout the economy's 'great chance.'",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nvidia's moat under attack",
+            "detail": "NYT reports DeepSeek and Huawei are targeting a key source of Nvidia's AI dominance \u2014 a fresh competitive threat.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Europe sovereign stress",
+            "detail": "France's 10Y bond risk premium rose to 120bp; European shares head for their first monthly loss in six as yields weigh.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "HPE",
+            "move": "+4.5%",
+            "note": "Networking outlook upgrade plus a $1.2B Vultr AI deal."
+          },
+          {
+            "ticker": "BE",
+            "move": "+10%",
+            "note": "Jefferies raised its price target."
+          },
+          {
+            "ticker": "CAG",
+            "move": "+3.2%",
+            "note": "First-quarter earnings beat."
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25b2",
+            "note": "Wins a $20B next-generation fighter contract."
+          },
+          {
+            "ticker": "NVO",
+            "move": "\u25b2",
+            "note": "Oral Wegovy switch study reports weight loss."
+          },
+          {
+            "ticker": "SGMT",
+            "move": "+12.2%",
+            "note": "Raised $115M at a premium to fund Phase 3 acne-drug trial."
+          },
+          {
+            "ticker": "HOOD",
+            "move": "\u25b2",
+            "note": "Rolling out AI trading tools, perpetual futures, and 24/7 equity trading."
+          },
+          {
+            "ticker": "TGT",
+            "move": "\u25b2",
+            "note": "HSBC upgrades to Buy, raises price target to $190."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "JBL",
+            "move": "-4.0%",
+            "note": "Fell despite Q4 earnings beat and a raised FY27 outlook."
+          },
+          {
+            "ticker": "FDS",
+            "move": "-3.5%",
+            "note": "Fiscal 2027 guidance came in below expectations."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "DeepSeek and Huawei reportedly targeting a key source of its AI dominance."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "Barron's flags an AI-driven cash crunch; secured a $30B credit line in response."
+          },
+          {
+            "ticker": "DIS",
+            "move": "\u25bc",
+            "note": "Cutting hundreds of jobs across multiple departments."
+          },
+          {
+            "ticker": "MAT",
+            "move": "\u25bc",
+            "note": "Chairman/CEO Ynon Kreiz resigns; Roger Lynch takes the reins."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Inflation: cool print vs persistent pressure",
+            "detail": "PCE surprise sparks a relief rally while the NYT's 'continued price pressures' read and inflation-volatility warnings keep Fed hawkishness in play."
+          },
+          {
+            "title": "AI: funding frenzy vs moat threats",
+            "detail": "Anthropic/OpenAI valuations soar and Huang pitches an economy-reshaping buildout while DeepSeek/Huawei gun for Nvidia's moat and Tesla faces cash-crunch questions over AI spend."
+          },
+          {
+            "title": "Rates: relief vs record pain",
+            "detail": "Yields fall on the PCE print while mortgage rates sit at a near-3-year high of 7.3% and Wells Fargo warns rates stay elevated through 2027."
+          },
+          {
+            "title": "Geopolitics: de-escalation vs escalation risk",
+            "detail": "US counter-proposal to Iran signals de-escalation while Beijing threatens EU retaliation and the war enters its eighth month."
+          }
+        ],
+        "take": "The cool PCE print flipped the tape overnight: futures are up, yields are off, and the Fed hike chatter is dying down for now. Don't mistake a relief rally for a regime change \u2014 mortgage rates just hit 7.3%, consumer confidence is at a 2014 low, and the bond rout is still grinding on underneath. The session rides on whether the soft-landing bid holds past the open; any sniff of \"PCE was a fluke\" and the rate pain trade reasserts itself.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +151,13 @@
         "made": "2026-09-29",
         "scores_detail": "Post-close 43 (2026-09-29)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 52 (prev post-close 43 on 2026-09-29 + pre-market 60): Cool PCE print.",
+        "made": "2026-09-30",
+        "scores_detail": "Post-close 43 (2026-09-29) + pre-market 60 (2026-09-30) = 52"
+      },
       "result": null
     },
     {
