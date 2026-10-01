@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-01",
+      "kind": "final",
+      "date": "2026-10-01",
+      "scores_detail": "Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-01",
       "kind": "early",
       "date": "2026-09-30",
       "score": 42,
