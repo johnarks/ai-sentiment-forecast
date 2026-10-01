@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-02",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 56 (Risk-On Tilt): Bond rout flips intraday.",
+        "made": "2026-10-01",
+        "scores_detail": "Post-close 56 (2026-10-01)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-01",
       "morning": {
         "score": 43,
@@ -153,7 +167,128 @@
         "take": "The tape this morning is one sentence: bonds are screaming, AI is buying the dip. The 10Y just hit its highest since 2002 and the dollar is at an 18-month high \u2014 that is real tightening, not noise, and it will cap any rally until yields crack. AI capex megadeals and an Accenture blowout keep a floor under tech, but respect the rate shock: today's upside has to be earned one ISM datapoint at a time.",
         "published": "8:47 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 56,
+        "label": "Risk-On Tilt",
+        "summary": "A genuine tale of two tapes: the morning belonged to the bond vigilantes, with Treasury yields hitting 24-year highs and mortgage rates jumping to nearly 7.3%, but buyers returned in the afternoon and the S&P 500 closed higher to start October, led by chip stocks. The defining single-stock story was Nike's double miss, partially offset by Synopsys, Mattel's takeover pop, and a refining surge on Trump's diesel export-ban threat. Sovereign stress in Europe (French spreads, 1998-high gilt yields) and still-historic yield levels keep the rebound fragile \u2014 a modest risk-on tilt rather than a clean all-clear.",
+        "drivers": [
+          {
+            "title": "Bond rout flips intraday",
+            "detail": "Yields spiked to 24-year highs by midday, then buyers returned; the S&P 500 and Nasdaq closed higher in a volatile session led by chip stocks.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nike's double miss",
+            "detail": "Q1 revenue miss plus guidance for a high-single-digit sales decline in FY27; the stock sank and questions about the turnaround deepened.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Labor market and factories resilient",
+            "detail": "Weekly jobless claims remain near historic lows and ISM manufacturing expanded for a ninth straight month \u2014 the economy is running warm.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Diesel/refining shock",
+            "detail": "Trump's threat to ban diesel exports set off global alarms; US refiners surged (MPC +6.25%, VLO +5.38%) as margins exploded \u2014 a potential inflation channel.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "European bond stress spreads",
+            "detail": "French debt risk spilled over, bond spreads spiked, gilt yields hit their highest since 1998 and UK banks tumbled \u2014 sovereign stress is the global shadow.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "30-year mortgage rate near 7.3%",
+            "detail": "Biggest jump in four years to nearly 7.3%; housing-market activity is freezing ('showings have stopped') \u2014 rate pain is landing on Main Street.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI capex cycle accelerates",
+            "detail": "Anthropic reportedly targeting a mega-IPO before Thanksgiving plus Broadcom lending Anthropic up to $42B to lease chips; Synopsys popped on its OpenAI/AWS deals \u2014 the AI buildout keeps accelerating.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MAT",
+            "move": "+18.80%",
+            "note": "WSJ report of takeover interest"
+          },
+          {
+            "ticker": "SNPS",
+            "move": "\u25b2",
+            "note": "Robust growth outlook; OpenAI and AWS deals"
+          },
+          {
+            "ticker": "MPC",
+            "move": "+6.25%",
+            "note": "Refining margins surged on diesel tightness"
+          },
+          {
+            "ticker": "VLO",
+            "move": "+5.38%",
+            "note": "Refining margins surged on diesel tightness"
+          },
+          {
+            "ticker": "BA",
+            "move": "+4%",
+            "note": "Engineers approved contract, easing strike risk"
+          },
+          {
+            "ticker": "ON",
+            "move": "+5.96% AH",
+            "note": "Revised merger agreement with Synaptics announced"
+          },
+          {
+            "ticker": "HPE",
+            "move": "record high",
+            "note": "$1.2B AMD Helios order on growing networking demand"
+          },
+          {
+            "ticker": "EW",
+            "move": "\u25b2",
+            "note": "FDA approval for AUTUS pediatric surgical pulmonary valve"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NKE",
+            "move": "\u25bc",
+            "note": "Revenue miss; warns of high-single-digit FY27 sales decline"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "Earnings report failed to wow; offered little support to chip tape"
+          },
+          {
+            "ticker": "SGMT",
+            "move": "-5.16%",
+            "note": "Closed underwritten stock offering"
+          },
+          {
+            "ticker": "ELVR",
+            "move": "-6.15%",
+            "note": "Ewoyaa sale update disappointed"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Morning bond vigilantes vs afternoon buyers",
+            "detail": "Yields screamed to 24-year highs by midday, then buyers stepped in and the selloff reversed \u2014 relief is real but the level (10Y highest since 2002) is still restrictive."
+          },
+          {
+            "title": "Strong data is its own headwind",
+            "detail": "Jobless claims near historic lows and ISM expanding for the ninth straight month are good for growth but bad for anyone hoping the Fed cuts aggressively."
+          },
+          {
+            "title": "AI capex boom vs rate reality",
+            "detail": "Anthropic's reported mega-IPO, Broadcom's $42B chip-lease deal, and Synopsys' OpenAI/AWS tie-ins keep the AI capex flywheel spinning against a historically tight rate backdrop."
+          }
+        ],
+        "take": "The morning's bond rout flipped by the afternoon \u2014 buyers stepped in as 10Y yields screamed to 24-year highs, and chips led the S&P to a higher close to start October. But don't confuse a relief bid with all-clear: the 10Y is still at its highest since 2002, jobless claims and ISM are strong enough to keep the Fed on hold, and Nike's ugly guide shows consumer cyclicals have real cracks. Tomorrow is about the Friday jobs report and whether yields stay put \u2014 this rally is a bounce until the bond market says otherwise.",
+        "published": "5:00 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -168,7 +303,11 @@
         "made": "2026-10-01",
         "scores_detail": "Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.18,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-09-30",
