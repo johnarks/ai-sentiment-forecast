@@ -2,7 +2,157 @@
   "days": [
     {
       "date": "2026-10-01",
-      "morning": null,
+      "morning": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "A global bond rout deepened overnight: the 10-year Treasury yield hit its highest since 2002, France became ground zero of the selloff, and the dollar rose to an 18-month high as hedge funds piled into euro shorts. AI remains the offset - a $42B Broadcom-Anthropic chip deal, Amazon's 20-year nuclear power agreement, and a blowout Accenture quarter are lifting US futures into the open. With yields at multidecade highs, every green flag gets discounted today; jobless claims, ISM, and five Fed speeches land before and during the session.",
+        "drivers": [
+          {
+            "title": "Global bond rout deepens, 10Y yield hits highest since 2002",
+            "detail": "Treasury selloff extends after the worst bond quarter since 1994; the WSJ names France ground zero and European banks lag as yields spook investors.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Dollar at 18-month high, euro at 17-month low",
+            "detail": "French debt risk drives hedge funds into euro-short bets; rising yields plus a strong dollar tighten global financial conditions.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI capex megadeals keep the bid under tech",
+            "detail": "Broadcom to lend Anthropic up to $42B to lease chips; Amazon locks 20 years of Constellation nuclear power; HPE raises networking outlook on a $1.2B Vultr AI order.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Earnings resilience: Accenture, McKesson, McCormick beat",
+            "detail": "ACN +17% premarket on a Q4 beat and strong full-year guide, lifting CTSH, IBM, and Wipro's ADR; MCK reaffirms FY27 EPS $44.20-$45.00 after extending its CVS distribution deal.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Micron's blowout earnings meet tougher comps",
+            "detail": "Record earnings and billions in cash flow support chip sentiment, but commentary notes Micron is 'not beating expectations to the extent that it used to' - tougher comps ahead.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Energy and input-cost pressure persists",
+            "detail": "China cancels fuel shipments, India charters ships to cross Hormuz, and crop prices post their biggest jump since 2022 - a fresh inflation tailwind.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trade-policy pulse: Alaska LNG and a diesel warning",
+            "detail": "Trump dangles a $54B Alaska LNG project inside the South Korea trade package while the US warns Europe to release emergency diesel or face an export ban.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Structural fragility: vol-funds maxed out",
+            "detail": "Volatility-control funds sit near maximum equity exposure, amplifying selloff risk if yields keep climbing; the BoE boss warns the AI boom itself could trigger market shocks.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "ACN",
+            "move": "+17.22%",
+            "note": "Q4 beat and strong full-year revenue guidance"
+          },
+          {
+            "ticker": "CTSH",
+            "move": "+7.43%",
+            "note": "read-through from Accenture's beat lifts consulting peers"
+          },
+          {
+            "ticker": "INFY",
+            "move": "+7.71%",
+            "note": "rides Accenture's beat; launched Columbia Enterprise AI center"
+          },
+          {
+            "ticker": "IBM",
+            "move": "+5.72%",
+            "note": "AI-services bid"
+          },
+          {
+            "ticker": "RKLB",
+            "move": "+5.2%",
+            "note": "Synspective launch deal plus Citi initiates at Buy with $105 target"
+          },
+          {
+            "ticker": "SNPS",
+            "move": "+2.5%",
+            "note": "investor day: FY27 EPS guide $19.04-$19.12, $11.15B revenue, $1B buyback"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "jaw-dropping earnings and billions in cash flow - comps caveat noted"
+          },
+          {
+            "ticker": "LLY",
+            "move": "\u25b2",
+            "note": "obesity combo posts record 23% weight loss in diabetics"
+          },
+          {
+            "ticker": "MKC",
+            "move": "\u25b2",
+            "note": "Q3 earnings and revenue beat"
+          },
+          {
+            "ticker": "AVGO",
+            "move": "\u25b2",
+            "note": "$42B Anthropic chip-lease deal"
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25b2",
+            "note": "first AI data center bound for space; Gemini 4 Argon undercuts Anthropic"
+          },
+          {
+            "ticker": "SCKT",
+            "move": "+31%",
+            "note": "premarket jump, no clear catalyst identified (Market Pulse)"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "CEO warns the business is 'not growing as fast as I want'"
+          },
+          {
+            "ticker": "SHFS",
+            "move": "-18%",
+            "note": "premarket decline, no clear catalyst identified (Market Pulse)"
+          },
+          {
+            "ticker": "LGHL",
+            "move": "-22%",
+            "note": "premarket drop after a prior spike, no clear catalyst (Market Pulse)"
+          },
+          {
+            "ticker": "NIO",
+            "move": "\u25bc",
+            "note": "Barron's calls the Chinese EV market 'still a mess' amid BYD/Leapmotor price wars"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI strength vs. rate pain",
+            "detail": "US futures rise premarket as AI-chip and consulting momentum offsets multi-decade-high Treasury yields - the whole session is a tug-of-war between the bond rout and AI capex demand."
+          },
+          {
+            "title": "Bond bear market, bull-market opinions",
+            "detail": "Gundlach warns the market is a 'hollow tree about to snap' while swap-market bulls argue Treasury and AI debt levels are not a problem - no consensus on whether yields stop here."
+          },
+          {
+            "title": "Micron's mixed message",
+            "detail": "'Jaw-dropping earnings, billions in cash flow' sits alongside 'isn't beating expectations to the extent it used to' - AI memory demand meets tougher comps."
+          },
+          {
+            "title": "CTVA's -81% quote is not a crash",
+            "detail": "Corteva printed -81.49% premarket, but that is the mechanical ex-distribution of the completed Vylor seed-business spin-off; VYLR begins NYSE trading today."
+          }
+        ],
+        "take": "The tape this morning is one sentence: bonds are screaming, AI is buying the dip. The 10Y just hit its highest since 2002 and the dollar is at an 18-month high \u2014 that is real tightening, not noise, and it will cap any rally until yields crack. AI capex megadeals and an Accenture blowout keep a floor under tech, but respect the rate shock: today's upside has to be earned one ISM datapoint at a time.",
+        "published": "8:47 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +161,13 @@
         "made": "2026-09-30",
         "scores_detail": "Post-close 42 (2026-09-30)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.",
+        "made": "2026-10-01",
+        "scores_detail": "Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43"
+      },
       "result": null
     },
     {
