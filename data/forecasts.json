@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-02",
+      "kind": "early",
+      "date": "2026-10-01",
+      "score": 56,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Post-close score 56 (Risk-On Tilt): Bond rout flips intraday.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-01",
       "kind": "final",
       "date": "2026-10-01",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.18,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.18,
+      "hit": false,
       "push": false
     },
     {
