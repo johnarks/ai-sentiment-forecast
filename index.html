@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-09-30 18:30 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-10-01 09:15 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -189,26 +189,130 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     <section class="hero">
       <div class="call-card down hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-09-30</div>
+        <div class="cc-kicker">Current call · Final call · made 2026-10-01</div>
         <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Thursday, Oct 1</div>
         <div class="cc-conf">Confidence: Low</div>
-        <p class="cc-scores">Post-close 42 (Risk-Off Tilt)</p>
-        <p class="cc-rationale">Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <p class="cc-scores">Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43</p>
+        <p class="cc-rationale">Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-10-01T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-10-01T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Thu, Oct 1 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Thu, Oct 1 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-10-01</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-09-30</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 42 (2026-09-30)</p>
+      <p class="cc-rationale">Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:47 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bearsoft" style="left:43%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bearsoft">43</span>
+      <span class="score-label bearsoft">Risk-Off Tilt</span></div>
+    </div>
+      <p class="ec-summary">A global bond rout deepened overnight: the 10-year Treasury yield hit its highest since 2002, France became ground zero of the selloff, and the dollar rose to an 18-month high as hedge funds piled into euro shorts. AI remains the offset - a $42B Broadcom-Anthropic chip deal, Amazon&#x27;s 20-year nuclear power agreement, and a blowout Accenture quarter are lifting US futures into the open. With yields at multidecade highs, every green flag gets discounted today; jobless claims, ISM, and five Fed speeches land before and during the session.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Global bond rout deepens, 10Y yield hits highest since 2002</strong>
+          <p>Treasury selloff extends after the worst bond quarter since 1994; the WSJ names France ground zero and European banks lag as yields spook investors.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Dollar at 18-month high, euro at 17-month low</strong>
+          <p>French debt risk drives hedge funds into euro-short bets; rising yields plus a strong dollar tighten global financial conditions.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI capex megadeals keep the bid under tech</strong>
+          <p>Broadcom to lend Anthropic up to $42B to lease chips; Amazon locks 20 years of Constellation nuclear power; HPE raises networking outlook on a $1.2B Vultr AI order.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Earnings resilience: Accenture, McKesson, McCormick beat</strong>
+          <p>ACN +17% premarket on a Q4 beat and strong full-year guide, lifting CTSH, IBM, and Wipro&#x27;s ADR; MCK reaffirms FY27 EPS $44.20-$45.00 after extending its CVS distribution deal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Micron&#x27;s blowout earnings meet tougher comps</strong>
+          <p>Record earnings and billions in cash flow support chip sentiment, but commentary notes Micron is &#x27;not beating expectations to the extent that it used to&#x27; - tougher comps ahead.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Energy and input-cost pressure persists</strong>
+          <p>China cancels fuel shipments, India charters ships to cross Hormuz, and crop prices post their biggest jump since 2022 - a fresh inflation tailwind.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trade-policy pulse: Alaska LNG and a diesel warning</strong>
+          <p>Trump dangles a $54B Alaska LNG project inside the South Korea trade package while the US warns Europe to release emergency diesel or face an export ban.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Structural fragility: vol-funds maxed out</strong>
+          <p>Volatility-control funds sit near maximum equity exposure, amplifying selloff risk if yields keep climbing; the BoE boss warns the AI boom itself could trigger market shocks.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">ACN</td>
+        <td class="move pos">+17.22%</td>
+        <td>Q4 beat and strong full-year revenue guidance</td></tr><tr><td class="ticker">CTSH</td>
+        <td class="move pos">+7.43%</td>
+        <td>read-through from Accenture&#x27;s beat lifts consulting peers</td></tr><tr><td class="ticker">INFY</td>
+        <td class="move pos">+7.71%</td>
+        <td>rides Accenture&#x27;s beat; launched Columbia Enterprise AI center</td></tr><tr><td class="ticker">IBM</td>
+        <td class="move pos">+5.72%</td>
+        <td>AI-services bid</td></tr><tr><td class="ticker">RKLB</td>
+        <td class="move pos">+5.2%</td>
+        <td>Synspective launch deal plus Citi initiates at Buy with $105 target</td></tr><tr><td class="ticker">SNPS</td>
+        <td class="move pos">+2.5%</td>
+        <td>investor day: FY27 EPS guide $19.04-$19.12, $11.15B revenue, $1B buyback</td></tr><tr><td class="ticker">MU</td>
+        <td class="move pos">▲</td>
+        <td>jaw-dropping earnings and billions in cash flow - comps caveat noted</td></tr><tr><td class="ticker">LLY</td>
+        <td class="move pos">▲</td>
+        <td>obesity combo posts record 23% weight loss in diabetics</td></tr><tr><td class="ticker">MKC</td>
+        <td class="move pos">▲</td>
+        <td>Q3 earnings and revenue beat</td></tr><tr><td class="ticker">AVGO</td>
+        <td class="move pos">▲</td>
+        <td>$42B Anthropic chip-lease deal</td></tr><tr><td class="ticker">GOOGL</td>
+        <td class="move pos">▲</td>
+        <td>first AI data center bound for space; Gemini 4 Argon undercuts Anthropic</td></tr><tr><td class="ticker">SCKT</td>
+        <td class="move pos">+31%</td>
+        <td>premarket jump, no clear catalyst identified (Market Pulse)</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NFLX</td>
+        <td class="move neg">▼</td>
+        <td>CEO warns the business is &#x27;not growing as fast as I want&#x27;</td></tr><tr><td class="ticker">SHFS</td>
+        <td class="move neg">-18%</td>
+        <td>premarket decline, no clear catalyst identified (Market Pulse)</td></tr><tr><td class="ticker">LGHL</td>
+        <td class="move neg">-22%</td>
+        <td>premarket drop after a prior spike, no clear catalyst (Market Pulse)</td></tr><tr><td class="ticker">NIO</td>
+        <td class="move neg">▼</td>
+        <td>Barron&#x27;s calls the Chinese EV market &#x27;still a mess&#x27; amid BYD/Leapmotor price wars</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI strength vs. rate pain</strong><p>US futures rise premarket as AI-chip and consulting momentum offsets multi-decade-high Treasury yields - the whole session is a tug-of-war between the bond rout and AI capex demand.</p></div><div class="cc"><strong>Bond bear market, bull-market opinions</strong><p>Gundlach warns the market is a &#x27;hollow tree about to snap&#x27; while swap-market bulls argue Treasury and AI debt levels are not a problem - no consensus on whether yields stop here.</p></div><div class="cc"><strong>Micron&#x27;s mixed message</strong><p>&#x27;Jaw-dropping earnings, billions in cash flow&#x27; sits alongside &#x27;isn&#x27;t beating expectations to the extent it used to&#x27; - AI memory demand meets tougher comps.</p></div><div class="cc"><strong>CTVA&#x27;s -81% quote is not a crash</strong><p>Corteva printed -81.49% premarket, but that is the mechanical ex-distribution of the completed Vylor seed-business spin-off; VYLR begins NYSE trading today.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The tape this morning is one sentence: bonds are screaming, AI is buying the dip. The 10Y just hit its highest since 2002 and the dollar is at an 18-month high — that is real tightening, not noise, and it will cap any rally until yields crack. AI capex megadeals and an Accenture blowout keep a floor under tech, but respect the rate shock: today&#x27;s upside has to be earned one ISM datapoint at a time.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +333,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-10-01</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-10-01</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-09-30): Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.<br><span class='muted'>Scores: 42</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-09-30): Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.<br><span class='muted'>Scores: 42</span></p><p><strong>Final call</strong> (made 2026-10-01): Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.<br><span class='muted'>Scores: Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43</span></p></details></td></tr><tr>
           <td><strong>2026-09-30</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-miss">✗ MISS</div></td><td>-0.21%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -283,7 +387,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-10-01</strong> </summary>
+          <summary><strong>2026-10-01</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card down ">
@@ -294,10 +398,114 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 42 (Risk-Off Tilt): Bond rout dominates: 10Y hits new 24-year high.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-10-01</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 42 (2026-09-30) + pre-market 43 (2026-10-01) = 43</p>
+      <p class="cc-rationale">Blended score 43 (prev post-close 42 on 2026-09-30 + pre-market 43): Global bond rout deepens, 10Y yield hits highest since 2002.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:47 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bearsoft" style="left:43%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bearsoft">43</span>
+      <span class="score-label bearsoft">Risk-Off Tilt</span></div>
+    </div>
+      <p class="ec-summary">A global bond rout deepened overnight: the 10-year Treasury yield hit its highest since 2002, France became ground zero of the selloff, and the dollar rose to an 18-month high as hedge funds piled into euro shorts. AI remains the offset - a $42B Broadcom-Anthropic chip deal, Amazon&#x27;s 20-year nuclear power agreement, and a blowout Accenture quarter are lifting US futures into the open. With yields at multidecade highs, every green flag gets discounted today; jobless claims, ISM, and five Fed speeches land before and during the session.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Global bond rout deepens, 10Y yield hits highest since 2002</strong>
+          <p>Treasury selloff extends after the worst bond quarter since 1994; the WSJ names France ground zero and European banks lag as yields spook investors.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Dollar at 18-month high, euro at 17-month low</strong>
+          <p>French debt risk drives hedge funds into euro-short bets; rising yields plus a strong dollar tighten global financial conditions.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>AI capex megadeals keep the bid under tech</strong>
+          <p>Broadcom to lend Anthropic up to $42B to lease chips; Amazon locks 20 years of Constellation nuclear power; HPE raises networking outlook on a $1.2B Vultr AI order.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Earnings resilience: Accenture, McKesson, McCormick beat</strong>
+          <p>ACN +17% premarket on a Q4 beat and strong full-year guide, lifting CTSH, IBM, and Wipro&#x27;s ADR; MCK reaffirms FY27 EPS $44.20-$45.00 after extending its CVS distribution deal.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Micron&#x27;s blowout earnings meet tougher comps</strong>
+          <p>Record earnings and billions in cash flow support chip sentiment, but commentary notes Micron is &#x27;not beating expectations to the extent that it used to&#x27; - tougher comps ahead.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Energy and input-cost pressure persists</strong>
+          <p>China cancels fuel shipments, India charters ships to cross Hormuz, and crop prices post their biggest jump since 2022 - a fresh inflation tailwind.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Trade-policy pulse: Alaska LNG and a diesel warning</strong>
+          <p>Trump dangles a $54B Alaska LNG project inside the South Korea trade package while the US warns Europe to release emergency diesel or face an export ban.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Structural fragility: vol-funds maxed out</strong>
+          <p>Volatility-control funds sit near maximum equity exposure, amplifying selloff risk if yields keep climbing; the BoE boss warns the AI boom itself could trigger market shocks.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">ACN</td>
+        <td class="move pos">+17.22%</td>
+        <td>Q4 beat and strong full-year revenue guidance</td></tr><tr><td class="ticker">CTSH</td>
+        <td class="move pos">+7.43%</td>
+        <td>read-through from Accenture&#x27;s beat lifts consulting peers</td></tr><tr><td class="ticker">INFY</td>
+        <td class="move pos">+7.71%</td>
+        <td>rides Accenture&#x27;s beat; launched Columbia Enterprise AI center</td></tr><tr><td class="ticker">IBM</td>
+        <td class="move pos">+5.72%</td>
+        <td>AI-services bid</td></tr><tr><td class="ticker">RKLB</td>
+        <td class="move pos">+5.2%</td>
+        <td>Synspective launch deal plus Citi initiates at Buy with $105 target</td></tr><tr><td class="ticker">SNPS</td>
+        <td class="move pos">+2.5%</td>
+        <td>investor day: FY27 EPS guide $19.04-$19.12, $11.15B revenue, $1B buyback</td></tr><tr><td class="ticker">MU</td>
+        <td class="move pos">▲</td>
+        <td>jaw-dropping earnings and billions in cash flow - comps caveat noted</td></tr><tr><td class="ticker">LLY</td>
+        <td class="move pos">▲</td>
+        <td>obesity combo posts record 23% weight loss in diabetics</td></tr><tr><td class="ticker">MKC</td>
+        <td class="move pos">▲</td>
+        <td>Q3 earnings and revenue beat</td></tr><tr><td class="ticker">AVGO</td>
+        <td class="move pos">▲</td>
+        <td>$42B Anthropic chip-lease deal</td></tr><tr><td class="ticker">GOOGL</td>
+        <td class="move pos">▲</td>
+        <td>first AI data center bound for space; Gemini 4 Argon undercuts Anthropic</td></tr><tr><td class="ticker">SCKT</td>
+        <td class="move pos">+31%</td>
+        <td>premarket jump, no clear catalyst identified (Market Pulse)</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">NFLX</td>
+        <td class="move neg">▼</td>
+        <td>CEO warns the business is &#x27;not growing as fast as I want&#x27;</td></tr><tr><td class="ticker">SHFS</td>
+        <td class="move neg">-18%</td>
+        <td>premarket decline, no clear catalyst identified (Market Pulse)</td></tr><tr><td class="ticker">LGHL</td>
+        <td class="move neg">-22%</td>
+        <td>premarket drop after a prior spike, no clear catalyst (Market Pulse)</td></tr><tr><td class="ticker">NIO</td>
+        <td class="move neg">▼</td>
+        <td>Barron&#x27;s calls the Chinese EV market &#x27;still a mess&#x27; amid BYD/Leapmotor price wars</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>AI strength vs. rate pain</strong><p>US futures rise premarket as AI-chip and consulting momentum offsets multi-decade-high Treasury yields - the whole session is a tug-of-war between the bond rout and AI capex demand.</p></div><div class="cc"><strong>Bond bear market, bull-market opinions</strong><p>Gundlach warns the market is a &#x27;hollow tree about to snap&#x27; while swap-market bulls argue Treasury and AI debt levels are not a problem - no consensus on whether yields stop here.</p></div><div class="cc"><strong>Micron&#x27;s mixed message</strong><p>&#x27;Jaw-dropping earnings, billions in cash flow&#x27; sits alongside &#x27;isn&#x27;t beating expectations to the extent it used to&#x27; - AI memory demand meets tougher comps.</p></div><div class="cc"><strong>CTVA&#x27;s -81% quote is not a crash</strong><p>Corteva printed -81.49% premarket, but that is the mechanical ex-distribution of the completed Vylor seed-business spin-off; VYLR begins NYSE trading today.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The tape this morning is one sentence: bonds are screaming, AI is buying the dip. The 10Y just hit its highest since 2002 and the dollar is at an 18-month high — that is real tightening, not noise, and it will cap any rally until yields crack. AI capex megadeals and an Accenture blowout keep a floor under tech, but respect the rate shock: today&#x27;s upside has to be earned one ISM datapoint at a time.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -1971,7 +2179,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-09-30 18:30 ET.
+    Generated 2026-10-01 09:15 ET.
   </footer>
 </div>
 <script>
