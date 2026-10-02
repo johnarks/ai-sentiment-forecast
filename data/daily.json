@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-05",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 62 (Risk-On Tilt): Soft September jobs report.",
+        "made": "2026-10-02",
+        "scores_detail": "Post-close 62 (2026-10-02)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-02",
       "morning": {
         "score": 60,
@@ -128,7 +142,143 @@
         "take": "The +29k payrolls miss is the whole morning: a soft labor market that markets immediately converted into rate relief, with Dow futures +400 and yields backing off. That \"bad news is good news\" reflex is priced and fragile \u2014 if growth fear takes over from Fed-relief joy into the open, the risk-on tilt flips fast. Watch Tesla's Q3 deliveries (previewed as a sales drop) as the afternoon catalyst that decides which narrative wins the day.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "A soft September jobs report (+29K jobs, unemployment up to 4.2%) reset the rate outlook: traders priced out an October Fed hike and the Nasdaq ran to a record, led by Nvidia's $5.7 trillion all-time high. But bonds sold off anyway \u2014 yields rose despite the weak data \u2014 and credit stress flared as Blue Owl capped BDC redemptions after heavy withdrawal requests. Trump pressured the G7 into a 100-million-barrel diesel and oil reserve release, adding an energy-policy wildcard into the weekend.",
+        "drivers": [
+          {
+            "title": "Soft September jobs report",
+            "detail": "Economy added 29K jobs vs expectations; unemployment rate rose to 4.2% with negative revisions \u2014 dovish repricing of the Fed path.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "October Fed hike bets collapse",
+            "detail": "Traders now see little chance of an October rate hike; soft jobs data pulled forward the end of the hiking cycle.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Bond yields rise anyway",
+            "detail": "Treasury selling resumed intraday despite the weak jobs data; the bond market is not buying the dovish read.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "December hike trigger stays alive",
+            "detail": "Reports that the Fed may skip October but pull the rate-hike trigger in December \u2014 hawks remain in play.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "G7 diesel and oil reserve release",
+            "detail": "G7 agreed to release up to 100M barrels of oil and diesel after Trump's export-ban threat; Europe released stockpiled diesel.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Nvidia hits all-time high",
+            "detail": "$5.7 trillion market cap, leading the Nasdaq to an intraday record as AI names carried the tape.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Credit stress flares",
+            "detail": "Blue Owl capped two BDCs after 39% and 17% withdrawal requests; hedge-fund exits fueled a rout in French bonds.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Energy supply cross-signals",
+            "detail": "Saudi Arabia ramped a key pipeline past 80% capacity and China curbed fuel exports \u2014 tightening signals against the reserve release.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "All-time high, $5.7T market cap; led the Nasdaq to a record."
+          },
+          {
+            "ticker": "TER",
+            "move": "+8.00%",
+            "note": "Top semiconductor gainer on a strong trading day."
+          },
+          {
+            "ticker": "MPWR",
+            "move": "+5.79%",
+            "note": "Outperformed peers on the dovish session."
+          },
+          {
+            "ticker": "NTAP",
+            "move": "+5.22%",
+            "note": "Outperformed on the soft-jobs rally."
+          },
+          {
+            "ticker": "VST",
+            "move": "\u25b2",
+            "note": "Bounced off lows on report of a $4B federal nuclear loan."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25b2",
+            "note": "Jumped after a reported 'massive operational victory'."
+          },
+          {
+            "ticker": "CRWD",
+            "move": "\u25b2",
+            "note": "Rising on $5.84B in recurring revenue."
+          },
+          {
+            "ticker": "SPCX",
+            "move": "+7.35%",
+            "note": "Climbed on three launches plus Google's $920M AI pact."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "STX",
+            "move": "\u25bc",
+            "note": "Cratered after Toshiba broke the hard-drive 'supply discipline' pact."
+          },
+          {
+            "ticker": "WDC",
+            "move": "\u25bc",
+            "note": "Fell with Seagate on the Toshiba supply-pact break."
+          },
+          {
+            "ticker": "EPAM",
+            "move": "-5.30%",
+            "note": "Slid after announcing its Q3 earnings release date."
+          },
+          {
+            "ticker": "DKNG",
+            "move": "\u25bc",
+            "note": "New multiyear lows as rival Kalshi eyes a $40B valuation."
+          },
+          {
+            "ticker": "ORCL",
+            "move": "\u25bc",
+            "note": "BofA sell list on software names exposed to AI-agent disruption."
+          },
+          {
+            "ticker": "IRTC",
+            "move": "\u25bc",
+            "note": "Weighed by update on the June 2026 cybersecurity incident."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Stocks rally, bonds sell",
+            "detail": "Equities priced out the October hike, but Treasury yields rose anyway \u2014 the bond market rejects the dovish read."
+          },
+          {
+            "title": "Energy pulled both ways",
+            "detail": "G7/Trump reserve release argues for lower fuel prices, while Saudi pipeline ramp and China export curbs argue for tightness."
+          },
+          {
+            "title": "Dovish repricing vs December risk",
+            "detail": "October hike bets collapsed on the weak jobs print, but a December hike trigger is still on the table."
+          }
+        ],
+        "take": "The tape told two stories today: equities celebrated the weak payrolls print (October hike bets dead, Nasdaq record, Nvidia at $5.7T) while the bond market openly refused the dovish read \u2014 yields rose anyway, and a December hike trigger stays on the table. The bond market is the senior tape, so treat Friday's rally as conditional: if Monday's Fed speakers lean hawkish on December, the rally's legs get cut fast. Watch the 10Y first, stocks second \u2014 it decides the next move, not the jobs report.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -143,7 +293,11 @@
         "made": "2026-10-02",
         "scores_detail": "Post-close 56 (2026-10-01) + pre-market 60 (2026-10-02) = 58"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.74,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-01",
