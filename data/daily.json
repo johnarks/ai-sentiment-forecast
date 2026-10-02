@@ -2,7 +2,132 @@
   "days": [
     {
       "date": "2026-10-02",
-      "morning": null,
+      "morning": {
+        "score": 60,
+        "label": "Risk-On Tilt",
+        "summary": "The September jobs report landed with a thud this morning \u2014 only 29,000 jobs added and rising unemployment \u2014 but markets treated it as rate-relief fuel: Dow futures jumped 400 and yields backed off as Fed hike odds fell. The selloff in global bonds paused while French fiscal stress kept European banks under pressure. Single-stock damage is real (Nike's dreadful quarter, the hard-drive makers on Toshiba competition), but the overall premarket posture is risk-on, driven by the dovish repricing.",
+        "drivers": [
+          {
+            "title": "September payrolls big miss",
+            "detail": "September added only 29,000 jobs, well below expectations, with unemployment rising \u2014 released 8:30 AM ET. Markets rallied anyway: Dow futures +400 and yields backed off as traders cut Fed rate-hike odds.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "European bond stress, selloff pauses",
+            "detail": "French bonds are deteriorating further, hitting European bank stocks; ECB hike bets are receding. Selloff easing this morning on the payrolls miss, but global mortgage costs and fiscal stress remain the backdrop.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Anthropic prospectus leak flags government risk",
+            "detail": "Leaked IPO prospectus says U.S. government attitudes could hurt Anthropic's business \u2014 a new regulatory-risk flag for the AI trade, alongside Wall Street doubts over Nvidia's AI-chip ROI claims.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI infrastructure economics in focus",
+            "detail": "Amazon is hiking AI chip rental prices and looking to shift $8B of Nvidia chips off its balance sheet, while Broadcom is lining up $60B to fuel its AI chip push against Nvidia. AI infrastructure economics are the day's big corporate theme.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Energy crosscurrents: curbs vs releases",
+            "detail": "China resumed curbs on fuel exports, tightening global energy markets; an OPEC+ quota review was reportedly delayed amid the Iran war. Countering that, oil fell ~3% on EU/US diesel and crude stock-release talks.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Second weekly equity inflow",
+            "detail": "US equity funds posted their second straight weekly inflow, with AI optimism tempering yield concerns \u2014 the risk bid survived the bond rout into the weekend.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PLTR",
+            "move": "\u25b2",
+            "note": "Shares climbing after a new AI infrastructure deal with Armada."
+          },
+          {
+            "ticker": "COIN",
+            "move": "\u25b2",
+            "note": "Bitcoin crossed $86,000 on Fed pause hopes; crypto stocks leading higher."
+          },
+          {
+            "ticker": "MSTR",
+            "move": "\u25b2",
+            "note": "Riding the same Bitcoin $86k move as Strategy."
+          },
+          {
+            "ticker": "SYNA",
+            "move": "+14.27%",
+            "note": "Climbing after accepting a lower buyout offer from ON Semiconductor."
+          },
+          {
+            "ticker": "ON",
+            "move": "+7.39%",
+            "note": "Gaining alongside its Synaptics acquisition."
+          },
+          {
+            "ticker": "SCNX",
+            "move": "+34.22%",
+            "note": "Its Arbli treatment added to formularies at three leading pediatric hospitals."
+          },
+          {
+            "ticker": "SNY",
+            "move": "\u25b2",
+            "note": "Paying Regeneron up to $8B to expand their immunology alliance."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NKE",
+            "move": "-8.09%",
+            "note": "Dreadful quarter and weak outlook; flagged as a top premarket mover."
+          },
+          {
+            "ticker": "STX",
+            "move": "-10.43%",
+            "note": "Sliding on a report that Toshiba will expand HDD production, adding competition."
+          },
+          {
+            "ticker": "WDC",
+            "move": "-7.77%",
+            "note": "Same Toshiba competition report as Seagate."
+          },
+          {
+            "ticker": "FICO",
+            "move": "-7.45%",
+            "note": "Continued whipsaw, falling in premarket trading."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Wall Street doubts its claim that AI chips 'pay for a decade'."
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "Barron's lays out reasons for caution on the memory name."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Weak payrolls vs dovish rate repricing",
+            "detail": "The September miss (+29k jobs, rising unemployment) is a growth warning, but futures rallied on it (+400) as traders price reduced Fed hike odds \u2014 good-for-stocks and bad-for-the-economy are the same headline today."
+          },
+          {
+            "title": "AI trade: ROI doubts vs continued capex",
+            "detail": "WSJ reports Wall Street doubts Nvidia's claim its AI chips 'pay for a decade', and the Anthropic prospectus leak flags government-attitude risk \u2014 yet Broadcom is lining up $60B in AI financing and Amazon keeps expanding AI infrastructure."
+          },
+          {
+            "title": "Bond selloff easing intraday, structural pressure intact",
+            "detail": "French bonds are deteriorating and hitting European bank stocks, and high government debt remains the structural driver \u2014 Pimco's Stracke argues AI spending, not inflation, is what drove yields up."
+          },
+          {
+            "title": "Energy: supply curbs vs stock-release talks",
+            "detail": "China's resumed fuel-export curbs tighten global energy markets, but oil fell ~3% on talks of EU/US diesel and crude stock releases and an OPEC+ quota review delayed amid the Iran war."
+          }
+        ],
+        "take": "The +29k payrolls miss is the whole morning: a soft labor market that markets immediately converted into rate relief, with Dow futures +400 and yields backing off. That \"bad news is good news\" reflex is priced and fragile \u2014 if growth fear takes over from Fed-relief joy into the open, the risk-on tilt flips fast. Watch Tesla's Q3 deliveries (previewed as a sales drop) as the afternoon catalyst that decides which narrative wins the day.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +136,13 @@
         "made": "2026-10-01",
         "scores_detail": "Post-close 56 (2026-10-01)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 58 (prev post-close 56 on 2026-10-01 + pre-market 60): September payrolls big miss.",
+        "made": "2026-10-02",
+        "scores_detail": "Post-close 56 (2026-10-01) + pre-market 60 (2026-10-02) = 58"
+      },
       "result": null
     },
     {
