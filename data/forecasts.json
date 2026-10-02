@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-02",
+      "kind": "final",
+      "date": "2026-10-02",
+      "scores_detail": "Post-close 56 (2026-10-01) + pre-market 60 (2026-10-02) = 58",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 58 (prev post-close 56 on 2026-10-01 + pre-market 60): September payrolls big miss.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-02",
       "kind": "early",
       "date": "2026-10-01",
       "score": 56,
