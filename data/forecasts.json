@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-05",
+      "kind": "final",
+      "date": "2026-10-05",
+      "scores_detail": "Post-close 62 (2026-10-02) + pre-market 44 (2026-10-05) = 53",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 53 (prev post-close 62 on 2026-10-02 + pre-market 44): Schneider\u2013PTC $22.6B AI software deal confirmed.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-05",
       "kind": "early",
       "date": "2026-10-02",
       "score": 62,
