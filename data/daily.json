@@ -2,7 +2,128 @@
   "days": [
     {
       "date": "2026-10-05",
-      "morning": null,
+      "morning": {
+        "score": 44,
+        "label": "Risk-Off Tilt",
+        "summary": "European political and fiscal turmoil dominates the overnight tape: French bond yields keep soaring with a political crisis deepening, Spain's PM resigns, and the euro sits at a 17-month low \u2014 denting global risk appetite while US yields stay elevated and futures drift lower. Offsetting positives: Schneider's confirmed $22.6B PTC buy and the $5.8B C.H. Robinson/RXO deal show M&A appetite is alive, a Phase 3 win sent Vaxcyte +57%, Foxconn's record sales add to the NVDA demand case, and Brazil assets are set for a Monday surge on Bolsonaro's first-round lead. Today's setup hinges on the US services PMI and how European risk transmits through bonds and the dollar.",
+        "drivers": [
+          {
+            "title": "European political crisis deepens \u2014 French yields soar",
+            "detail": "French bond yields continue to soar amid deepening political crisis; Spanish PM resigns; euro at 17-month low; Euro-zone investor morale (Sentix) fell in October; Japanese selling risk on outsized French bond stakes.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US yields stay heightened, futures mixed-to-lower",
+            "detail": "Futures mixed/dipping as bond yields remain elevated; tech taking a breather; dollar strengthening as investors look for safety; September jobs miss (29k, 4.2%) has taken an October hike off the table.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Services PMI today; Fed minutes Wednesday",
+            "detail": "US services PMI (ISM) lands this morning; Fed meeting minutes due Wednesday \u2014 the week's macro catalysts alongside jobs-report aftermath.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Schneider\u2013PTC $22.6B AI software deal confirmed",
+            "detail": "Schneider Electric confirms $22.6B purchase of PTC; PTC shares soar ~34%. Goldman sees US data-center growth intact despite opposition.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US\u2013India trade talks at an impasse",
+            "detail": "US and India officials signal trade-deal negotiations stalled, per Bloomberg \u2014 fresh negative on the trade front.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Saudi cuts Asia oil price to six-year low; OPEC+ holds steady",
+            "detail": "Saudis cut flagship Asia oil price to lowest in six years; OPEC+ agrees to keep November output targets steady \u2014 disinflationary tilt.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Brazil assets set for Monday surge on Bolsonaro lead",
+            "detail": "Bolsonaro's first-round lead over Lula has Brazil assets positioned for a Monday surge, per Bloomberg.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PCVX",
+            "move": "+56.96%",
+            "note": "VAX-31 meets primary endpoints in Phase 3 trial"
+          },
+          {
+            "ticker": "PTC",
+            "move": "+34%",
+            "note": "Soaring on confirmed $22.6B Schneider Electric buyout"
+          },
+          {
+            "ticker": "RXO",
+            "move": "+22.98%",
+            "note": "C.H. Robinson agrees $5.8B acquisition"
+          },
+          {
+            "ticker": "BEAT",
+            "move": "+21.01%",
+            "note": "FDA breakthrough device designation for heart-attack assessment"
+          },
+          {
+            "ticker": "CRML",
+            "move": "+13.66%",
+            "note": "Formal Greenland mining approvals for Tanbreez mine through 2050"
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "New AI demand signal: Foxconn sales hit record; hits new buy point"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CHRW",
+            "move": "-8.74%",
+            "note": "Falling on $5.8B RXO acquisition \u2014 paying up in logistics consolidation"
+          },
+          {
+            "ticker": "INTC",
+            "move": "\u25bc",
+            "note": "Shares fall as TSMC discusses potential 'Terafab' collaboration"
+          },
+          {
+            "ticker": "WFCF",
+            "move": "-5.42%",
+            "note": "Sliding despite Whole Foods expansion of RaiseWell certified program"
+          },
+          {
+            "ticker": "NVO",
+            "move": "\u25bc",
+            "note": "FDA extends review of haemophilia A treatment Denecimig"
+          },
+          {
+            "ticker": "WMT",
+            "move": "\u25bc",
+            "note": "Frozen berry recall expanded over E. coli risk"
+          },
+          {
+            "ticker": "VBIO",
+            "move": "-6.18%",
+            "note": "New board chair amid biotech turnaround attempt"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI bull case alive vs yield-driven valuation jitters",
+            "detail": "Schneider\u2013PTC, Foxconn record sales, Vistra's $4B nuclear loan, and CME AI-compute futures argue demand is real; but 'Wall Street's AI Party on Edge as Soaring Yields Raise Risks' and tech taking a breather show multiple compression is biting"
+          },
+          {
+            "title": "Soft jobs = dovish read vs bonds screaming otherwise",
+            "detail": "The September miss took an October hike off the table and gold is gaining; yet yields keep rising despite the weak report \u2014 the bond market rebuking Bessent's 'house always wins' line"
+          },
+          {
+            "title": "Europe's split screen",
+            "detail": "European shares rose after last week's selloff, but French stocks lag and yields soar \u2014 the crisis is localized to French fiscal politics, not (yet) a broad European selloff"
+          }
+        ],
+        "take": "Europe owns this morning, and it's not a sideshow. French yields are screaming into a full-blown political crisis with Spain's PM out and the euro at a 17-month low \u2014 that is a genuine global risk-off driver, and US futures are dipping because of it, not because of anything domestic. The AI capex story is still very much alive (Schneider's $22.6B PTC buyout, record Foxconn sales, Vistra's $4B nuclear loan), but capital rotation is choosing safety over story today: the bond market is rebuking Friday's dovish jobs read by selling Treasuries anyway. Today's session is priced for pain at the open \u2014 the only bull case is that the US services PMI this morning and Fed minutes Wednesday give the market a domestic reason to decouple from the European mess.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +132,13 @@
         "made": "2026-10-02",
         "scores_detail": "Post-close 62 (2026-10-02)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 53 (prev post-close 62 on 2026-10-02 + pre-market 44): Schneider\u2013PTC $22.6B AI software deal confirmed.",
+        "made": "2026-10-05",
+        "scores_detail": "Post-close 62 (2026-10-02) + pre-market 44 (2026-10-05) = 53"
+      },
       "result": null
     },
     {
