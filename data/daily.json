@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-06",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 58 (Risk-On Tilt): Nasdaq closes at record high, S&P tracks records.",
+        "made": "2026-10-05",
+        "scores_detail": "Post-close 58 (2026-10-05)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-05",
       "morning": {
         "score": 44,
@@ -124,7 +138,123 @@
         "take": "Europe owns this morning, and it's not a sideshow. French yields are screaming into a full-blown political crisis with Spain's PM out and the euro at a 17-month low \u2014 that is a genuine global risk-off driver, and US futures are dipping because of it, not because of anything domestic. The AI capex story is still very much alive (Schneider's $22.6B PTC buyout, record Foxconn sales, Vistra's $4B nuclear loan), but capital rotation is choosing safety over story today: the bond market is rebuking Friday's dovish jobs read by selling Treasuries anyway. Today's session is priced for pain at the open \u2014 the only bull case is that the US services PMI this morning and Fed minutes Wednesday give the market a domestic reason to decouple from the European mess.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "Equities ended Monday on a firmly risk-on note: the Nasdaq closed at a record high and the S&P 500 tracked records as big tech led, with traders looking past a fresh climb in Treasury yields. The session's real sentiment drivers were abroad: Brazil's Bolsonaro topped the first-round vote and local stocks jumped, while French bond yields spiked and bank credit risk surged amid political stress (Spain's PM resigned). The bond rout itself deepened \u2014 BMO floated 6% on the long bond and muni borrowers delayed deals \u2014 but today the equity market shrugged it off.",
+        "drivers": [
+          {
+            "title": "Nasdaq closes at record high, S&P tracks records",
+            "detail": "Tech-led rally into the close; investors looked past surging Treasury yields to bid mega-caps higher",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Bond rout deepens as yields climb",
+            "detail": "10-year yield rose again; BMO sees long bond heading to 6%, muni borrowers delaying refinancings, 'new hazard' flagged in bond-futures plumbing",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "European political stress rattles bonds",
+            "detail": "French bond yields soared and French banks' credit risk jumped above major European peers; Spanish PM resigned",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Brazil election surprise lifts equities",
+            "detail": "Bolsonaro topped the first-round presidential vote; Brazilian stocks jumped as markets priced a heavy favorite",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US services cools, price pressures build; dollar strongest this year",
+            "detail": "September services PMI cooled while prices rose; dollar neared its strongest level of the year; Citadel framed higher yields as growth-driven",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Gulf energy-trade fears meet supply cushion",
+            "detail": "Attacks in the Gulf heightened fears over Hormuz energy flows, but Kuwait is pumping at ~75% of prewar rates",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Trump moves to expand tax-exempt diesel access",
+            "detail": "Order set to ease off-road diesel restrictions ahead of the midterms; fuel-price relief angle",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PTC",
+            "move": "+33.49%",
+            "note": "Soared on a $23B deal"
+          },
+          {
+            "ticker": "OPCH",
+            "move": "+21.74% AH",
+            "note": "After-hours spike on report McKesson and CD&R near a $5B-plus buyout"
+          },
+          {
+            "ticker": "EWZ",
+            "move": "\u25b2",
+            "note": "Brazilian stocks jumped as Bolsonaro emerged as heavy favorite"
+          },
+          {
+            "ticker": "CLF",
+            "move": "+7.77%",
+            "note": "Energy Secretary visit to showcase GOES expansion project"
+          },
+          {
+            "ticker": "ILMN",
+            "move": "+7.56%",
+            "note": "Outperformed on a strong trading day"
+          },
+          {
+            "ticker": "MSTR",
+            "move": "\u25b2",
+            "note": "Returned to profitability on a $21B Q3 gain"
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Posted a record high alongside the Nasdaq"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "INTC",
+            "move": "\u25bc",
+            "note": "Dropped as Musk hinted at an additional partner for his big chip venture"
+          },
+          {
+            "ticker": "CHRW",
+            "move": "-10.85%",
+            "note": "Underperformed sharply on Monday vs competitors"
+          },
+          {
+            "ticker": "LEN",
+            "move": "-6.73%",
+            "note": "Homebuilder weakness as mortgage/yield backdrop worsened"
+          },
+          {
+            "ticker": "Herm\u00e8s",
+            "move": "\u25bc",
+            "note": "Rare sell calls from Goldman and UBS on weaker growth outlook"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Yields up: growth signal vs bond hazard",
+            "detail": "Citadel framed higher yields as economic strength; bond desks warned of a rout with a 6% long-bond call \u2014 equities sided with growth today"
+          },
+          {
+            "title": "AI boom ignores high rates \u2014 a problem for the Fed?",
+            "detail": "AI capex is not slowing despite elevated rates, which bulls read as resilience and hawks read as a reason policy can't ease"
+          },
+          {
+            "title": "Gulf risk premium vs supply cushion",
+            "detail": "Hormuz attack fears pushed energy-risk headlines while Kuwait's restored output and Iraqi tanker plans argued the supply overhang persists"
+          }
+        ],
+        "take": "Equities won the argument with the bond market today: the Nasdaq closed at a record and big tech carried the S&P right up behind it, even as the 10-year kept climbing and bond desks started throwing around a 6% long-bond call. What mattered wasn't the US data \u2014 it was abroad: Bolsonaro's first-round win re-lit Brazil and French fiscal stress hit another gear with the Spanish PM out. The setup for tomorrow is a tug-of-war \u2014 AI capex news and record tech momentum against a yield backdrop that gets harder to ignore the longer it runs, with Fed minutes on Wednesday as the real judge.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -139,7 +269,11 @@
         "made": "2026-10-05",
         "scores_detail": "Post-close 62 (2026-10-02) + pre-market 44 (2026-10-05) = 53"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.67,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-02",
