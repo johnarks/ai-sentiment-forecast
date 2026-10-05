@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-06",
+      "kind": "early",
+      "date": "2026-10-05",
+      "score": 58,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Post-close score 58 (Risk-On Tilt): Nasdaq closes at record high, S&P tracks records.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-05",
       "kind": "final",
       "date": "2026-10-05",
@@ -8,8 +21,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Blended score 53 (prev post-close 62 on 2026-10-02 + pre-market 44): Schneider\u2013PTC $22.6B AI software deal confirmed.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.67,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Moderate",
       "rationale": "Post-close score 62 (Risk-On Tilt): Soft September jobs report.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.67,
+      "hit": true,
       "push": false
     },
     {
