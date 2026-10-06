@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-06",
+      "kind": "final",
+      "date": "2026-10-06",
+      "scores_detail": "Post-close 58 (2026-10-05) + pre-market 62 (2026-10-06) = 60",
+      "call": "UP",
+      "confidence": "Moderate",
+      "rationale": "Blended score 60 (prev post-close 58 on 2026-10-05 + pre-market 62): S&P 500 futures target record open as bond rout pauses.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-06",
       "kind": "early",
       "date": "2026-10-05",
       "score": 58,
