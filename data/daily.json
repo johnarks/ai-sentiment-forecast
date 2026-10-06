@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-07",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 63 (Risk-On Tilt): S&P 500 first close above 7,800; Nasdaq record.",
+        "made": "2026-10-06",
+        "scores_detail": "Post-close 63 (2026-10-06)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-06",
       "morning": {
         "score": 62,
@@ -143,7 +157,147 @@
         "take": "The bond rout finally blinked: yields backing off multi-decade highs and oil sliding is exactly the relief valve equities needed, and futures are going straight for a record open. The AI trade is doing all the heavy lifting again \u2014 NVDA at a record, a $12B DeepSeek raise, and Google throwing nuclear money at the power crunch \u2014 so this session lives or dies on big tech's ability to keep running through a record tape. Macro backdrop is clean enough that the only real risk is France's fiscal soap opera spilling over; otherwise, dips are buyable today.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 63,
+        "label": "Risk-On Tilt",
+        "summary": "A decisively risk-on Tuesday: the S&P 500 notched its first close above 7,800 and the Nasdaq hit a record as AI/tech momentum \u2014 Nvidia's march toward $6 trillion, a broad chipmaker rally, and a power-stock breakout \u2014 overwhelmed lingering rate anxiety. Treasury yields backing off multi-decade highs and cooling oil gave the tape room to run. New data cut both ways: record imports and AI-investment optimism versus a widening trade gap, plunging pending home sales, and fresh credit-stress flags from JPMorgan.",
+        "drivers": [
+          {
+            "title": "S&P 500 first close above 7,800; Nasdaq record",
+            "detail": "Tech-led rally on earnings optimism carried both indexes to record closes; the morning's 24-year-high yield fears faded by the close.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Treasury yields retreat from multi-decade highs",
+            "detail": "3Y auction stopped through, Bessent vowed action on debt, and softer oil pulled yields off 2002/24-year highs; Pimco called them 'screaming good value'.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI megacap momentum accelerates",
+            "detail": "Nvidia hit a record closing in on $6T; Morgan Stanley reinstated it as top semi pick; Citi sees AMD up 25%; software hit fresh 2026 highs as AI-disruption fears faded.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Power/AI infrastructure surge",
+            "detail": "Constellation Energy +12.25% as Google joined Microsoft, Amazon and Meta on its customer roster; Vistra +10.77%, Talen +12.43% on AI power demand.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil crossfire: soft supply data vs disruption risk",
+            "detail": "Middle East exports above pre-war levels pushed crude lower, but Iran ramped Hormuz ship attacks, crude freight hit record highs, and Vitol said Western inventories are exhausted.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Credit and housing stress flags",
+            "detail": "JPMorgan says deeply distressed loans at highest since the pandemic; office CMBS delinquency re-spiked to 12.2%, above the GFC peak; pending home sales plunged on higher mortgage rates.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Paramount-WBD $110B merger closes",
+            "detail": "The deal closed after a nearly yearlong battle, removing a major media-sector overhang and clearing the path for Skydance.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US trade deficit widens to $105.6B",
+            "detail": "August trade gap widened as imports hit a record; Canada's US exports surged ahead of new tariffs \u2014 strong demand, but tariff front-running clouds the read.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CEG",
+            "move": "+12.25%",
+            "note": "Google joins Microsoft, Amazon, Meta on its energy roster"
+          },
+          {
+            "ticker": "VST",
+            "move": "+10.77%",
+            "note": "Power breakout on AI demand"
+          },
+          {
+            "ticker": "TLN",
+            "move": "+12.43%",
+            "note": "Power breakout on AI demand"
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Record close, market cap closing in on $6 trillion"
+          },
+          {
+            "ticker": "MRVL",
+            "move": "+5.81%",
+            "note": "AI chipmaker rally with AVGO, AMD"
+          },
+          {
+            "ticker": "PENG",
+            "move": "+5.77%",
+            "note": "AI-driven beat-and-raise report"
+          },
+          {
+            "ticker": "LW",
+            "move": "+7.49%",
+            "note": "Q1 earnings beat"
+          },
+          {
+            "ticker": "NEOG",
+            "move": "+10.28% AH",
+            "note": "Better-than-expected Q1 results and guidance"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "STZ",
+            "move": "\u25bc",
+            "note": "FY27 guidance disappoints despite higher beer/spirits sales"
+          },
+          {
+            "ticker": "MRNA",
+            "move": "-7.75%",
+            "note": "Selloff after WHO calls plague risk 'low'"
+          },
+          {
+            "ticker": "LCID",
+            "move": "\u25bc",
+            "note": "BNP negative after Q3 delivery miss"
+          },
+          {
+            "ticker": "F",
+            "move": "\u25bc",
+            "note": "Selloff tests Wall Street faith in earnings recovery"
+          },
+          {
+            "ticker": "MAT",
+            "move": "\u25bc",
+            "note": "Slips as investor urges strategic review"
+          },
+          {
+            "ticker": "ASOS",
+            "move": "\u25bc",
+            "note": "Shares slide after hack/breach notifications"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Yield relief vs still-historic level",
+            "detail": "Yields fell from multi-decade highs today, but the 24-year-high level plus Goldman's ballooning-debt warning keep the bond-vigilante case alive."
+          },
+          {
+            "title": "AI euphoria vs bubble calls",
+            "detail": "Records on AI earnings optimism even as BofA sees a tech bubble brewing and Paulsen warns of a 15% S&P 500 drop on rising oil, rates and dollar."
+          },
+          {
+            "title": "Crude: glut signals vs disruption risk",
+            "detail": "Exports above pre-war levels pulled oil lower, yet Hormuz attacks, record freight rates, a Sochi tanker fire and depleted Western inventories argue the other way."
+          },
+          {
+            "title": "Records vs breadth",
+            "detail": "Index records on megacap tech while dividend stocks lagged at 24-year yield highs and Ford, Mattel and Constellation Brands sold off \u2014 a tale of three markets."
+          }
+        ],
+        "take": "The tape today was one big AI bid: first S&P close above 7,800, a Nasdaq record, Nvidia marching toward $6 trillion, and power stocks like CEG (+12.25%) going vertical on data-center demand \u2014 the market has decided earnings season will be won by whoever sells the most GPUs. The catch: all of this is happening with yields still sitting at multi-decade highs and the bubble-call chorus (BofA, Paulsen's 15% drop warning) getting louder, so this rally is priced on hope, not hedged on risk. Tomorrow the momentum says higher, but in record territory with a bond market one bad auction away from a tantrum, any crack in the AI narrative gets punished instantly \u2014 this is a melt-up setup, not a comfort zone.",
+        "published": "5:09 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -158,7 +312,11 @@
         "made": "2026-10-06",
         "scores_detail": "Post-close 58 (2026-10-05) + pre-market 62 (2026-10-06) = 60"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.55,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-05",
