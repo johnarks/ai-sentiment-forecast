@@ -2,7 +2,147 @@
   "days": [
     {
       "date": "2026-10-06",
-      "morning": null,
+      "morning": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "Futures point to an S&P 500 record open as the bond rout takes a breather \u2014 yields retreating from 2002 highs and oil sliding are letting the AI trade run hot again, with Nvidia back at a record and fresh AI power/deal catalysts (Google nuclear bet, $12B DeepSeek raise, Paramount-WBD closing). The backdrop still carries real weight: multi-decade debt piles, EU-China trade hardening, and French fiscal nerves temper what is otherwise a firmly risk-on morning setup.",
+        "drivers": [
+          {
+            "title": "S&P 500 futures target record open as bond rout pauses",
+            "detail": "Futures rose ahead of Q3 earnings season; Treasury yields fell from 2002 highs and oil slid, taking pressure off equities.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI trade accelerates: Nvidia at record, fresh deal and funding flow",
+            "detail": "NVDA back at record ($6T market-cap talk) on Foxconn's Q3 revenue surge; DeepSeek raising at least $12B with Tencent backing; Reflection emerges as an open-weight challenger to Anthropic.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Google makes a fresh nuclear bet for the AI power crunch",
+            "detail": "New nuclear commitments aimed at data-center power demand; Constellation Energy (CEG) jumped 8.4% premarket.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Paramount completes Warner Bros. Discovery acquisition",
+            "detail": "Nearly yearlong fight ends with Skydance-led combined entertainment giant; closes today.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "French fiscal pivot calms bond contagion fears",
+            "detail": "Le Pen unveiled a shadow budget aimed at pulling France from the fiscal brink, sparking a French bond rally after contagion fears rattled the euro.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Oil and diesel tug-of-war",
+            "detail": "Trump plans another oil stockpile sell-off and signed an order easing diesel costs, while Chevron/Goldman warn diesel curbs could send prices higher, Houthis launched a missile barrage on Saudi Arabia targeting Riyadh airport and an Aramco facility, and a tropical disturbance threatens Gulf refineries.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "EU hardening stance on Chinese trade",
+            "detail": "Germany and France are driving the EU to get tough on Chinese trade \u2014 a fresh protectionist risk for global supply chains.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bessent vows on debt as yields cool",
+            "detail": "Treasury Secretary signaled debt discipline as yields retreated; Goldman warned rising rates remain a harsh reality for America's ballooning debt pile.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "APOG",
+            "move": "+21.56%",
+            "note": "Q2 earnings beat and raised guidance."
+          },
+          {
+            "ticker": "CEG",
+            "move": "+8.40%",
+            "note": "Google's fresh nuclear bet for AI data-center power demand."
+          },
+          {
+            "ticker": "XHG",
+            "move": "+70%",
+            "note": "Microcap announced US AI business expansion and China reduction."
+          },
+          {
+            "ticker": "CLF",
+            "move": "+5.63%",
+            "note": "Wells Fargo upgrade to $14 on 2027 upside."
+          },
+          {
+            "ticker": "PENN",
+            "move": "+5.96%",
+            "note": "Deutsche Bank upgrade on improving gaming demand; BYD upgraded too."
+          },
+          {
+            "ticker": "LW",
+            "move": "\u25b2",
+            "note": "Q1 earnings topped estimates; cost-saving measures working."
+          },
+          {
+            "ticker": "ZS",
+            "move": "\u25b2",
+            "note": "Rising premarket after reaffirming FY2027 guidance."
+          },
+          {
+            "ticker": "AMD",
+            "move": "\u25b2",
+            "note": "Citi sees 25% upside riding the Meta Muse AI wave."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Back at record on Foxconn Q3 revenue surge; $6T market-cap chatter."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "SXTP",
+            "move": "-25.69%",
+            "note": "Hospitalized babesiosis data readout pushed to Jan 2027; pre-sNDA meeting planned."
+          },
+          {
+            "ticker": "INTT",
+            "move": "-10%",
+            "note": "Shares fell after preliminary Q3 business update disappointed."
+          },
+          {
+            "ticker": "HSCS",
+            "move": "-13.53%",
+            "note": "Sell-the-news after FDA 510(k) clearance for MyoVista device."
+          },
+          {
+            "ticker": "GURE",
+            "move": "-7.20%",
+            "note": "Regained Nasdaq listing compliance but sold off anyway."
+          },
+          {
+            "ticker": "MCRP",
+            "move": "-5.25%",
+            "note": "Weak session despite Dubai police patrol-deployment headlines."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Bond market: relief rally vs debt-pile dread",
+            "detail": "Yields fell from 2002 highs on Bessent's debt vows, but Goldman warns rising rates could brutalize America's ballooning debt \u2014 bond bulls see 2026 rout opportunity, bears see a fiscal cliff."
+          },
+          {
+            "title": "Oil: supply-shock risk vs price-suppression policy",
+            "detail": "Houthi barrage on Aramco, thin global reserves, and a Gulf storm threat argue for higher prices, while stockpile sell-offs and diesel deregulation push the other way \u2014 prices sliding for now."
+          },
+          {
+            "title": "France: fiscal crisis vs political fix",
+            "detail": "Euro-contagion fears on French bonds collided overnight with a Le Pen shadow-budget rally \u2014 markets want a fiscal plan, and one is finally on the table."
+          },
+          {
+            "title": "AI: euphoria vs power/debt ceilings",
+            "detail": "$12B DeepSeek raise and record NVDA versus Morgan Stanley flagging data-center power constraints and Google itself scrambling for nuclear capacity \u2014 the boom's bottleneck is electricity."
+          }
+        ],
+        "take": "The bond rout finally blinked: yields backing off multi-decade highs and oil sliding is exactly the relief valve equities needed, and futures are going straight for a record open. The AI trade is doing all the heavy lifting again \u2014 NVDA at a record, a $12B DeepSeek raise, and Google throwing nuclear money at the power crunch \u2014 so this session lives or dies on big tech's ability to keep running through a record tape. Macro backdrop is clean enough that the only real risk is France's fiscal soap opera spilling over; otherwise, dips are buyable today.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +151,13 @@
         "made": "2026-10-05",
         "scores_detail": "Post-close 58 (2026-10-05)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Blended score 60 (prev post-close 58 on 2026-10-05 + pre-market 62): S&P 500 futures target record open as bond rout pauses.",
+        "made": "2026-10-06",
+        "scores_detail": "Post-close 58 (2026-10-05) + pre-market 62 (2026-10-06) = 60"
+      },
       "result": null
     },
     {
