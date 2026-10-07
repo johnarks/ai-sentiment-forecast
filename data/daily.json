@@ -2,7 +2,148 @@
   "days": [
     {
       "date": "2026-10-07",
-      "morning": null,
+      "morning": {
+        "score": 42,
+        "label": "Risk-Off Tilt",
+        "summary": "Overnight sentiment tilted risk-off: the US 30-year yield hit a fresh 24-year high, oil jumped above $100 on Strait of Hormuz tanker attacks, and futures pointed to a weaker open after a record run with narrowing breadth. France's escalating debt crisis and sober AI-bubble talk from Singapore forums added to the caution. Offsetting the gloom were genuine AI demand signals \u2014 SpaceX reportedly seeking $40B in debt to buy Nvidia chips, CoreWeave's India data-center push, and Google's power deal with Constellation Energy \u2014 plus record refining margins lifting energy names. With Fed minutes due at 2 p.m. ET and Hurricane Isaias threatening Gulf refineries, the morning tape reads defensive with bullish pockets.",
+        "drivers": [
+          {
+            "title": "US 30Y yield hits fresh 24-year high",
+            "detail": "Treasury yields pushed higher overnight; S&P 500, Dow, Nasdaq futures all set for a weaker open as bonds compete with stocks (BofA's Subramanian).",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil jumps above $100 on Strait of Hormuz attacks",
+            "detail": "Tanker attacks in Hormuz plus Hurricane Isaias threatening Gulf Coast refineries; Standard Chartered says Hormuz flows 'far from normal' \u2014 fresh inflation risk.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed minutes due at 2 p.m. ET",
+            "detail": "Market looks for rate-path clues from the latest meeting minutes after a volatile September payrolls miss.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "France fiscal crisis escalates",
+            "detail": "France tops Germany as Europe's most distressed corporate market; budget deficit blowout, riots, falling European bank shares as spreads widen.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI bubble fears resurface at Singapore forums",
+            "detail": "AI mood sobering \u2014 existential-risk talk joining bubble-fear analysis; AI mood a stated top concern of IMF's Georgieva.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI demand signals stay red-hot",
+            "detail": "SpaceX reportedly seeking $40B in debt to buy Nvidia chips; CoreWeave expanding into India with Adani; Google's Constellation Energy power deal rallying uranium miners.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "IMF/World Bank sound the alarm on debt and energy",
+            "detail": "'Risk cocktail from AI, oil and debt' per IMF chief; World Bank warns Asia is running out of money to fight the energy shock.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "U",
+            "move": "+5%",
+            "note": "Rises on Google AI game-creation partnership"
+          },
+          {
+            "ticker": "NEOG",
+            "move": "+15.13%",
+            "note": "Strong pre-market gainer on Dow-400-point tape"
+          },
+          {
+            "ticker": "HALO",
+            "move": "\u25b2",
+            "note": "Wins injunction stopping manufacture/sale of Merck's Keytruda SC in multiple European markets"
+          },
+          {
+            "ticker": "ABBV",
+            "move": "\u25b2",
+            "note": "Temab-A gets two FDA Breakthrough Therapy designations for CRC and NSCLC"
+          },
+          {
+            "ticker": "SHEL",
+            "move": "\u25b2",
+            "note": "Refining margins at record highs as wars hit supply"
+          },
+          {
+            "ticker": "RARE",
+            "move": "\u25b2",
+            "note": "Selling rare pediatric disease PRV for $210 million"
+          },
+          {
+            "ticker": "SPAI",
+            "move": "\u25b2",
+            "note": "Projects record 2,300% Q3 revenue growth on government AI threat-detection contracts"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "Analyst says chip stock could soar ~200%"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "BULL",
+            "move": "-28.83%",
+            "note": "House China committee finds Webull tied to Chinese government \u2014 security risk"
+          },
+          {
+            "ticker": "CMND",
+            "move": "-14.13%",
+            "note": "Selloff despite advancing FDA dialogue on psychedelic therapies"
+          },
+          {
+            "ticker": "RBLX",
+            "move": "\u25bc",
+            "note": "Google and Unity announce AI game creation platform \u2014 competitive threat"
+          },
+          {
+            "ticker": "STZ",
+            "move": "\u25bc",
+            "note": "Sinks as beer sales demand faces durability questions"
+          },
+          {
+            "ticker": "FLUT",
+            "move": "\u25bc",
+            "note": "Heading for worst year ever; weakness called 'overblown' by bulls"
+          },
+          {
+            "ticker": "HOOD",
+            "move": "\u25bc",
+            "note": "Falls despite Barclays price-target hike; crypto selloff (BTC, XRP, ETH) weighs"
+          },
+          {
+            "ticker": "COIN",
+            "move": "\u25bc",
+            "note": "Crypto perfect storm \u2014 Bitcoin, XRP, Ethereum drop"
+          },
+          {
+            "ticker": "RKT/UWMC",
+            "move": "\u25bc",
+            "note": "Mortgage activity hit as 30Y rate jumps to 7.49%, highest since 2023"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI bubble talk vs AI capex boom",
+            "detail": "Bubble fears sober the mood in Singapore and IMF commentary, yet SpaceX's $40B Nvidia-chip debt raise, CoreWeave's India expansion, and Google's Constellation power deal show spending still accelerating."
+          },
+          {
+            "title": "Yields: strong economy or inflation shock?",
+            "detail": "Yields surge on growth narratives (bonds now in 'rare competition with stocks'), but oil above $100 on Hormuz attacks threatens to revive inflation pressure."
+          },
+          {
+            "title": "Europe diverging from the US",
+            "detail": "France's debt crisis, riots, and falling European bank shares clash with the US record run \u2014 though US breadth has narrowed noticeably."
+          }
+        ],
+        "take": "What actually matters this morning: the bond market is screaming at stocks \u2014 the 30-year at a fresh 24-year high plus oil over $100 on Hormuz tanker attacks is a two-front stagflation scare that easily overrides yesterday's record-chasing euphoria. But the session isn't dead on arrival: Fed minutes at 2 p.m. are the one catalyst that can flip the tape, and AI capex headlines (SpaceX's $40B Nvidia-chip raise, Google's Constellation power deal) show the spending engine behind this rally hasn't blinked. Watch whether the record-high open gap-down gets bought like every dip this quarter \u2014 if it does, the risk-off tilt is noise; if not, this is the week bonds finally matter.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +152,13 @@
         "made": "2026-10-06",
         "scores_detail": "Post-close 63 (2026-10-06)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 53 (prev post-close 63 on 2026-10-06 + pre-market 42): AI demand signals stay red-hot.",
+        "made": "2026-10-07",
+        "scores_detail": "Post-close 63 (2026-10-06) + pre-market 42 (2026-10-07) = 53"
+      },
       "result": null
     },
     {
