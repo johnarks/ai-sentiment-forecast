@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-08",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 43 (Risk-Off Tilt): Hawkish FOMC minutes.",
+        "made": "2026-10-07",
+        "scores_detail": "Post-close 43 (2026-10-07)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-07",
       "morning": {
         "score": 42,
@@ -144,7 +158,127 @@
         "take": "What actually matters this morning: the bond market is screaming at stocks \u2014 the 30-year at a fresh 24-year high plus oil over $100 on Hormuz tanker attacks is a two-front stagflation scare that easily overrides yesterday's record-chasing euphoria. But the session isn't dead on arrival: Fed minutes at 2 p.m. are the one catalyst that can flip the tape, and AI capex headlines (SpaceX's $40B Nvidia-chip raise, Google's Constellation power deal) show the spending engine behind this rally hasn't blinked. Watch whether the record-high open gap-down gets bought like every dip this quarter \u2014 if it does, the risk-off tilt is noise; if not, this is the week bonds finally matter.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "Stocks closed lower but off the day's lows after the 2 PM FOMC minutes confirmed a unanimous September hike, with most officials expecting one more by year-end; the 30-year yield hit a fresh 24-year high before a strong Treasury auction steadied bonds into the close. Oil held above $100 on Strait of Hormuz attacks and Iran-war fears, and the dollar touched a new high of the year. Bright spots were scarce but real: Levi Strauss beat and raised on tariff refunds, Wolfspeed surged 28% after hours on a $1.5B defense loan, while Webull plunged 19% after lawmakers flagged its China ties.",
+        "drivers": [
+          {
+            "title": "Hawkish FOMC minutes",
+            "detail": "Minutes confirm unanimous September hike; 'most' officials see another hike by year-end \u2014 but no appetite for a series.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "30-year Treasury yield at 24-year high",
+            "detail": "Fresh 24-year high pre-market, then a strong afternoon auction steadied the bond market into the close.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil above $100 on Hormuz attacks",
+            "detail": "Strait of Hormuz attacks and a Gulf storm threat; reports of Pentagon Iran strike options and Iraq seeking a Syria bypass route.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Equities retreat from record highs",
+            "detail": "Stocks end down but off day's lows on inflation worry; dollar nears new high of the year as investors rush to safety.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mortgage rates spike",
+            "detail": "30-year fixed hits 7.49%, the highest in nearly 3 years.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "EM outflows on hawkish Fed",
+            "detail": "Reuters: September flows reversed on the hawkish Fed pivot.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "SpaceX credit-risk red flag",
+            "detail": "Reports of a $40B debt raise to buy Nvidia chips push its credit-risk gauge to a record high \u2014 AI capex financing anxiety.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Auction demand relief",
+            "detail": "Strong auction demand lured buyers at 2002-high yields, calming Treasurys in the final hour.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "WOLF",
+            "move": "+27.58% AH",
+            "note": "Surges on $1.5B defense loan"
+          },
+          {
+            "ticker": "PROF",
+            "move": "+17.74% AH",
+            "note": "Rebounds after hours on strong preliminary Q3 revenue"
+          },
+          {
+            "ticker": "LEVI",
+            "move": "\u25b2",
+            "note": "Edges higher after beating Q3 and raising outlook on tariff refunds"
+          },
+          {
+            "ticker": "TXRH",
+            "move": "\u25b2",
+            "note": "Analysts say buy after hoax-driven 20% plunge"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "BULL",
+            "move": "-19.09%",
+            "note": "Worst day in a year after lawmakers flagged China ties"
+          },
+          {
+            "ticker": "HESM",
+            "move": "-14.63%",
+            "note": "Plunges on Chevron deal overhang (Barron's)"
+          },
+          {
+            "ticker": "RGP",
+            "move": "-9.89% AH",
+            "note": "Slides after-hours on earnings"
+          },
+          {
+            "ticker": "CDNL",
+            "move": "-9.23%",
+            "note": "Hit by investor class-action notice"
+          },
+          {
+            "ticker": "APLD",
+            "move": "-6.04%",
+            "note": "Falls on fiscal Q1 results"
+          },
+          {
+            "ticker": "VALN",
+            "move": "\u25bc",
+            "note": "ADRs fall as UK revokes IXCHIQ vaccine authorization"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Hawkish but bounded Fed",
+            "detail": "Unanimous September hike, 'most' officials expect one more by year-end \u2014 yet no appetite for a series of hikes."
+          },
+          {
+            "title": "Yield pain vs yield appetite",
+            "detail": "30-year at a 24-year high lured strong auction demand \u2014 pain for duration holders, appetite for yield buyers."
+          },
+          {
+            "title": "AI fear vs AI greed",
+            "detail": "Bubble warnings from Novogratz and Taleb, sobering AI chatter at Singapore forums \u2014 against Anthropic's Haiku 5.5 launch and the Nvidia-powered Surface debut."
+          },
+          {
+            "title": "Rate-cut bets vs hike reality",
+            "detail": "Options traders betting on a dramatic rate drop even as the Fed minutes point to another hike."
+          }
+        ],
+        "take": "Today's close killed the \"rates are done\" trade. The Fed minutes confirmed a unanimous September hike with most officials expecting one more this year \u2014 and the 30-year punching a 24-year high before a strong auction steadied nerves says bonds are now outright competing with stocks, not cushioning them. Throw in $100+ oil from the Hormuz attacks and bubble calls getting louder while breadth narrows, and tomorrow's tape has a clear bias: sell the rallies, because every bounce runs straight into a Fed that's still hiking and a bond market that just broke a generation-long record.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -159,7 +293,11 @@
         "made": "2026-10-07",
         "scores_detail": "Post-close 63 (2026-10-06) + pre-market 42 (2026-10-07) = 53"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.24,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-06",
