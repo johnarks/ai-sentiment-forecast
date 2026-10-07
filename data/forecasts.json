@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-07",
+      "kind": "final",
+      "date": "2026-10-07",
+      "scores_detail": "Post-close 63 (2026-10-06) + pre-market 42 (2026-10-07) = 53",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 53 (prev post-close 63 on 2026-10-06 + pre-market 42): AI demand signals stay red-hot.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-07",
       "kind": "early",
       "date": "2026-10-06",
       "score": 63,
