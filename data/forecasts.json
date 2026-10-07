@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-08",
+      "kind": "early",
+      "date": "2026-10-07",
+      "score": 43,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 43 (Risk-Off Tilt): Hawkish FOMC minutes.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-07",
       "kind": "final",
       "date": "2026-10-07",
@@ -8,8 +21,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Blended score 53 (prev post-close 63 on 2026-10-06 + pre-market 42): AI demand signals stay red-hot.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.24,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Moderate",
       "rationale": "Post-close score 63 (Risk-On Tilt): S&P 500 first close above 7,800; Nasdaq record.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.24,
+      "hit": false,
       "push": false
     },
     {
