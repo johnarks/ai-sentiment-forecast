@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-09",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): OpenAI revenue disappointment sinks AI trade.",
+        "made": "2026-10-08",
+        "scores_detail": "Post-close 40 (2026-10-08)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-08",
       "morning": {
         "score": 40,
@@ -139,7 +153,143 @@
         "take": "The tape belongs to the Middle East this morning, not the earnings desk. A tanker hit off Qatar and Pentagon strike options against Iran sent crude up 5% and Dow futures down 300, while the 30-year yield grinds to fresh 24-year highs ahead of today's auction \u2014 Waller pouring cold water on an October cut just adds to the pressure. Samsung's record AI-chip profit is the only real bullish macro driver, and it isn't enough to offset an energy shock: today is a sell-first, ask-questions-later tape.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "A risk-off session driven by a fresh wobble in the AI trade: reports that OpenAI's revenues are disappointing sank chipmakers and pushed the Nasdaq down ~1% while the Dow eked out a gain. Oil surged on Middle East violence, fresh tanker-mine attacks, and a hurricane shutting 63% of Gulf output, and hawkish Fed rhetoric (Waller floating more hikes) plus a 3-year-high 7.40% mortgage rate kept pressure on sentiment. The one relief valve: the $22B 30-year Treasury sale passed cleanly, and yields eased into the close.",
+        "drivers": [
+          {
+            "title": "OpenAI revenue disappointment sinks AI trade",
+            "detail": "Reports that OpenAI's revenues are disappointing sank chipmakers; Nasdaq closed down ~1% while the Dow eked out a gain \u2014 the day's dominant sentiment mover.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil spikes on geopolitical + hurricane supply risks",
+            "detail": "Middle East violence, fresh tanker-mine attacks (Iran claims more struck; Houthi strikes on Riyadh airport halted flights), plus a hurricane shutting 63% of US Gulf output \u2014 supply-risk bid across crude.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Treasury passes crucial auction test",
+            "detail": "The $22B 30-year sale passed without a stumble and yields eased into the close \u2014 a confidence vote after a morning bond squeeze, with longer-dated bonds rising.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Hawkish Fed + hot labor data",
+            "detail": "Fed's Waller said additional rate hikes may be needed to get inflation down faster; jobless claims held near a 57-year low for a fourth straight week \u2014 rate-cut hopes eroded.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mortgage rates hit 3-year high",
+            "detail": "30-year fixed mortgage hit 7.40%, a 3-year high \u2014 further chilling housing demand; multiple outlets flagged housing-market drag.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Europe bond turmoil: France debt fears",
+            "detail": "NYT flagged a potential French debt crisis; ECB wary of stepping into France's bond turmoil \u2014 ongoing Europe fiscal stress spilled into risk tone.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Germany growth upgrade + resilient trade",
+            "detail": "Germany doubled its 2026 growth outlook as manufacturing rallied; WTO said global trade proved more resilient than expected \u2014 genuine bright spots.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CSGP",
+            "move": "+8.01%",
+            "note": "Outperformed on a strong trading day"
+          },
+          {
+            "ticker": "GDDY",
+            "move": "+6.15%",
+            "note": "Outperformed competitors Thursday"
+          },
+          {
+            "ticker": "ACN",
+            "move": "+5.96%",
+            "note": "Accenture rallied on strong trading day"
+          },
+          {
+            "ticker": "IT",
+            "move": "+5.19%",
+            "note": "Gartner outperformed on a strong day"
+          },
+          {
+            "ticker": "FDS",
+            "move": "+5.04%",
+            "note": "FactSet outperformed competitors"
+          },
+          {
+            "ticker": "PLTR",
+            "move": "\u25b2",
+            "note": "Nearing all-time high after Goldman Sachs upgrade highlighted next phase of growth"
+          },
+          {
+            "ticker": "CMG",
+            "move": "\u25b2",
+            "note": "Jumped on report of Starbucks takeover talk; lifted peers (JMKE +5.55%)"
+          },
+          {
+            "ticker": "MPC",
+            "move": "\u25b2",
+            "note": "Refiners outperformed as crude surged (MPC, VLO)"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MSFT",
+            "move": "\u25bc",
+            "note": "Sold off with chipmakers on OpenAI revenue report; also hit by White House suspending it from foreign-worker hiring program"
+          },
+          {
+            "ticker": "GLW",
+            "move": "\u25bc",
+            "note": "Underperformed as chip selloff hit suppliers; optical hardware caught in the AI-capex wobble"
+          },
+          {
+            "ticker": "SMCI",
+            "move": "\u25bc",
+            "note": "Underperformed Thursday alongside AI-infrastructure complex"
+          },
+          {
+            "ticker": "OLED",
+            "move": "-5.59%",
+            "note": "Caught in the chip/semiconductor selloff"
+          },
+          {
+            "ticker": "BTDR",
+            "move": "-6.54%",
+            "note": "Sold off despite announcing 60MW AI facility progress in Malaysia"
+          },
+          {
+            "ticker": "KOPN",
+            "move": "-8.10%",
+            "note": "Tumbled intraday after Army IBAS award news; recovered to +5.48% after hours"
+          },
+          {
+            "ticker": "AXP",
+            "move": "\u25bc",
+            "note": "Hit by $350M AML-process fine"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI bubble fears vs. AI earnings strength",
+            "detail": "Chip stocks sank on the revenue disappointment, but Palantir neared an all-time high on a Goldman upgrade and Samsung posted a record operating profit \u2014 AI demand fears vs. real AI earnings power."
+          },
+          {
+            "title": "Bond relief vs. hawkish Fed signals",
+            "detail": "The $22B 30-year sale went well and yields eased into the close, yet Fed's Waller floated additional rate hikes and jobless claims sat near a 57-year low \u2014 bond relief vs. a still-hawkish Fed."
+          },
+          {
+            "title": "Oil supply risk: good for energy, bad for consumers",
+            "detail": "Crude jumped on Middle East violence, tanker attacks, and a Gulf hurricane shutting 63% of output \u2014 a supply-risk bid that lifts energy stocks but squeezes consumers facing 7.4% mortgages."
+          }
+        ],
+        "take": "The OpenAI revenue story is the one that matters: it turned a healthy AI trade into a chip selloff, and that single narrative now overrides Samsung's record quarter and Palantir's Goldman upgrade. Oil's surge on Middle East tanker attacks plus Waller openly floating more hikes is a two-front squeeze on consumers and rate-cut hopes \u2014 the clean 30-year auction was just a breather, not a reprieve. Tomorrow opens heavy until chipmakers find a bid or the open-source of the OpenAI story gets rebutted.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -154,7 +304,11 @@
         "made": "2026-10-08",
         "scores_detail": "Post-close 43 (2026-10-07) + pre-market 40 (2026-10-08) = 42"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.42,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-07",
