@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-09",
+      "kind": "early",
+      "date": "2026-10-08",
+      "score": 40,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 40 (Risk-Off Tilt): OpenAI revenue disappointment sinks AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-08",
       "kind": "final",
       "date": "2026-10-08",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 42 (prev post-close 43 on 2026-10-07 + pre-market 40): Iran strike risk / energy shock.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.42,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 43 (Risk-Off Tilt): Hawkish FOMC minutes.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.42,
+      "hit": true,
       "push": false
     },
     {
