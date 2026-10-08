@@ -2,7 +2,143 @@
   "days": [
     {
       "date": "2026-10-08",
-      "morning": null,
+      "morning": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Overnight risk came almost entirely from the Middle East: reports of a tanker attacked off Qatar and Pentagon strike options against Iran sent oil up 5% and Dow futures down 300 points, while the bond rout resumed with long-term yields at new 24-year highs ahead of a 30Y auction. Fed's Waller added a hawkish note, saying more rate hikes are needed (though not immediately). Offsetting positives: Samsung's record AI-chip-driven profit and HBM4E qualification by Nvidia confirm AI demand, and PepsiCo beat expectations.",
+        "drivers": [
+          {
+            "title": "Iran strike risk / energy shock",
+            "detail": "Tanker attacked off Qatar; Pentagon preparing strike options against Iran before midterms; oil surges 5%; Dow futures slide 300 points",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bond rout resumes",
+            "detail": "Long-term bond yields hit new 24-year highs; stocks and bonds slide together ahead of today's 30Y Treasury auction",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Waller hawkish on rates",
+            "detail": "Fed's Waller says additional rate hikes are needed to bring inflation down faster, but not immediately; casts doubt on an October move",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Samsung record AI-chip profit",
+            "detail": "Highest operating profit of any tech company ever on AI chip boom; next-gen HBM4E passes Nvidia quality tests",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI bubble anxiety builds",
+            "detail": "Nomura and Daiwa CEOs flag AI bubble risk; 'AI Bubble Risks Worst S&P 500 Crash Since 2008' strategist note circulates",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Germany doubles 2026 growth outlook",
+            "detail": "Manufacturing rally lifts Germany's 2026 GDP forecast",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "US data on deck",
+            "detail": "Jobless claims and monthly wholesale trade data due this morning; could shift the Fed path either way",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PEP",
+            "move": "\u25b2",
+            "note": "Rises after Q3 earnings beat despite reduced full-year profit outlook"
+          },
+          {
+            "ticker": "HELE",
+            "move": "+14.68%",
+            "note": "Jumps after Q2 earnings beat and raised full-year guidance"
+          },
+          {
+            "ticker": "PLTR",
+            "move": "\u25b2",
+            "note": "Gains on bullish Goldman call; ~$8 from another record high"
+          },
+          {
+            "ticker": "APLD",
+            "move": "+4%",
+            "note": "Rises after Q1 revenue beat and AI data-center capacity expansion"
+          },
+          {
+            "ticker": "TLRY",
+            "move": "\u25b2",
+            "note": "Q1 revenue rises 23% to $257.1M as beverage sales surge post-BrewDog acquisition"
+          },
+          {
+            "ticker": "HYPR",
+            "move": "+15.21%",
+            "note": "Reports record preliminary Q3 revenue, up 53% sequentially"
+          },
+          {
+            "ticker": "SOAR",
+            "move": "+17.51%",
+            "note": "Rebrand as SOAR AI as company scales AI infrastructure business"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "WFC",
+            "move": "\u25bc",
+            "note": "Trump administration investigates Wells Fargo for race-based lending"
+          },
+          {
+            "ticker": "NXP",
+            "move": "\u25bc",
+            "note": "Tumbles on analyst downgrade"
+          },
+          {
+            "ticker": "ARGX",
+            "move": "-14.09%",
+            "note": "Plunging in premarket trade"
+          },
+          {
+            "ticker": "LEVI",
+            "move": "\u25bc",
+            "note": "Slides on weak guidance"
+          },
+          {
+            "ticker": "STZ",
+            "move": "\u25bc",
+            "note": "Slides on guidance cut and analyst cuts"
+          },
+          {
+            "ticker": "PSX",
+            "move": "\u25bc",
+            "note": "Mizuho cuts Phillips 66, Delek, Par Pacific as refiner rally is deemed priced in despite oil spike"
+          },
+          {
+            "ticker": "DK",
+            "move": "\u25bc",
+            "note": "Mizuho downgrade in same refiner note"
+          },
+          {
+            "ticker": "ANGO",
+            "move": "-4.3%",
+            "note": "Falls despite Q1 earnings beat and strong med tech growth"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Oil spike vs refiner downgrades",
+            "detail": "Crude jumps 5% on Iran escalation, yet Mizuho cuts refiners (PSX, DK, PARR) arguing the rally is priced in"
+          },
+          {
+            "title": "AI demand confirmed vs AI bubble fears",
+            "detail": "Samsung's record AI-chip profit and HBM4E qualification signal real demand, while bank CEOs and strategists warn of a bubble"
+          },
+          {
+            "title": "Rate-cut hopes vs hawkish Fed",
+            "detail": "Options traders betting on dramatic rate drops versus Waller's 'more hikes needed' and 24-year-high long yields"
+          }
+        ],
+        "take": "The tape belongs to the Middle East this morning, not the earnings desk. A tanker hit off Qatar and Pentagon strike options against Iran sent crude up 5% and Dow futures down 300, while the 30-year yield grinds to fresh 24-year highs ahead of today's auction \u2014 Waller pouring cold water on an October cut just adds to the pressure. Samsung's record AI-chip profit is the only real bullish macro driver, and it isn't enough to offset an energy shock: today is a sell-first, ask-questions-later tape.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +147,13 @@
         "made": "2026-10-07",
         "scores_detail": "Post-close 43 (2026-10-07)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 42 (prev post-close 43 on 2026-10-07 + pre-market 40): Iran strike risk / energy shock.",
+        "made": "2026-10-08",
+        "scores_detail": "Post-close 43 (2026-10-07) + pre-market 40 (2026-10-08) = 42"
+      },
       "result": null
     },
     {
