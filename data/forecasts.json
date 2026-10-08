@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-08",
+      "kind": "final",
+      "date": "2026-10-08",
+      "scores_detail": "Post-close 43 (2026-10-07) + pre-market 40 (2026-10-08) = 42",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 42 (prev post-close 43 on 2026-10-07 + pre-market 40): Iran strike risk / energy shock.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-08",
       "kind": "early",
       "date": "2026-10-07",
       "score": 43,
