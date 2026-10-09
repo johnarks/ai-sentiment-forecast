@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-12",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 62 (Risk-On Tilt): Big-tech AI rally extends into fourth week.",
+        "made": "2026-10-09",
+        "scores_detail": "Post-close 62 (2026-10-09)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-09",
       "morning": {
         "score": 58,
@@ -129,7 +143,123 @@
         "take": "This morning is genuinely better than yesterday's tape: the AI-revenue scare that sank chips is fading, futures are green, and Trump's no-strike pledge took the crude boil off. Don't confuse a relief bounce with a trend, though \u2014 $166B just fled to money markets, Delta's miss just kicked travel sentiment in the teeth, and the macro drivers split nearly evenly. Yesterday's ugly 40 post-close drags today's 58 pre-market into a 49 blend, and that's the honest read: a market that wants to bounce but still has too much debt to climb.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "Wall Street ended a volatile week on a strong note: the Dow added ~400 points Friday, the S&P 500 closed near a record, and the Nasdaq logged its fourth straight week of gains as AI-bubble fears faded and NVDA/MU bounced on OpenAI clarity. The day's genuine shock was SpaceX's spectrum move, which crushed telecoms (TMUS -13.27%, T -10.82%, VZ -10.14%). Trump also announced a deal for Russia to release 2.2M barrels of diesel 'immediately' alongside a sanctions pause, sending oil lower. Offsetting the bullish tape: a bond selloff with the deficit near $2T, mortgage rates at their highest since 2023, and consumer sentiment at a 5-month low.",
+        "drivers": [
+          {
+            "title": "Big-tech AI rally extends into fourth week",
+            "detail": "Nasdaq logged a fourth straight week of gains, S&P 500 closed near record; 'AI bubble fears fade' as NVDA/MU bounced on clarity over a key OpenAI matter; PLTR hit an all-time high.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "SpaceX spectrum move crushes telecoms",
+            "detail": "Reports that SpaceX picked up spectrum assets triggered a sector rout: TMUS -13.27%, T -10.82%, VZ -10.14%; Street weighs a direct satellite-to-phone threat.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump-Putin diesel deal pressures oil",
+            "detail": "Trump announced Russia will release 2.2M barrels of diesel 'immediately' with a pause on sanctions; oil dropped on the news.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Bond selloff continues on $2T deficit",
+            "detail": "Treasury yields climbed as the federal deficit nears $2T; mortgage rates hit their highest since 2023; money-market funds drew massive inflows.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Consumer sentiment falls to 5-month low",
+            "detail": "October sentiment deteriorated further; Fed reported household income, wealth, and debt stress increased from 2022 to 2025.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI capex skepticism flares: Oracle",
+            "detail": "Morgan Stanley warned Oracle data-center delays could crush its debt ('Delayed Revenue, Delayed Cash Flow'); a $30B data-center IPO dream collapsed in 48 hours.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MRNA",
+            "move": "+14.21%",
+            "note": "New 52-week/4-year high on planned national cancer-vaccine effort with NIH push; Nasdaq-100 reentry."
+          },
+          {
+            "ticker": "NVAX",
+            "move": "+15.80%",
+            "note": "Rode the same national cancer-vaccine catalyst."
+          },
+          {
+            "ticker": "PLTR",
+            "move": "+5.17%",
+            "note": "All-time high as Wall Street grew bullish on next phase of growth."
+          },
+          {
+            "ticker": "AKAM",
+            "move": "+6.00%",
+            "note": "Outperformed on a strong trading day."
+          },
+          {
+            "ticker": "ILMN",
+            "move": "+5.14%",
+            "note": "Outperformed competitors on strong trading day."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "TMUS",
+            "move": "-13.27%",
+            "note": "Crushed after SpaceX picked up spectrum assets, threatening carrier business model."
+          },
+          {
+            "ticker": "T",
+            "move": "-10.82%",
+            "note": "Sold off alongside telecom peers on SpaceX spectrum news."
+          },
+          {
+            "ticker": "VZ",
+            "move": "-10.14%",
+            "note": "Down double digits on the same SpaceX wireless threat."
+          },
+          {
+            "ticker": "HPQ",
+            "move": "-6.91%",
+            "note": "Underperformed Friday vs competitors."
+          },
+          {
+            "ticker": "CHTR",
+            "move": "-5.74%",
+            "note": "Cable caught in the SpaceX fallout."
+          },
+          {
+            "ticker": "XRPN",
+            "move": "-29.38%",
+            "note": "Plunged after Evernorth completed its business combination with Armada Acquisition Corp II."
+          },
+          {
+            "ticker": "DAL",
+            "move": "\u25bc",
+            "note": "Fell after a Q3 earnings miss ahead of the bell."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Rally vs rates",
+            "detail": "Stocks closed near records on AI euphoria while bond yields spiked, mortgage rates hit 2023 highs, and money-market inflows surged \u2014 bond-market caution vs equity risk-on."
+          },
+          {
+            "title": "Oil lower vs geopolitical strikes",
+            "detail": "Crude fell on the Trump-Putin diesel deal, yet an Iranian strike on an LPG tanker in Hormuz and Houthi mining of Bab al-Mandab kept supply-risk premium alive."
+          },
+          {
+            "title": "AI faith vs AI capex doubts",
+            "detail": "Big tech rallied as AI bubble fears faded, but Morgan Stanley's Oracle debt warning and a crushed $30B data-center IPO showed financing skepticism is rising underneath."
+          }
+        ],
+        "take": "Friday's rally was relief, not conviction: AI-bubble jitters faded and the tape closed near records, but the day's real story was SpaceX gutting the telecom sector (TMUS -13% and friends) while the bond market flashed red on a near-$2T deficit and 2023-high mortgage rates. Into Monday the setup is headline-fragile \u2014 bank earnings and CPI ahead, diesel-deal follow-through, SpaceX fallout still rippling \u2014 so one bad headline and that record close gets tested fast.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -144,7 +274,11 @@
         "made": "2026-10-09",
         "scores_detail": "Post-close 40 (2026-10-08) + pre-market 58 (2026-10-09) = 49"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.6,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-08",
