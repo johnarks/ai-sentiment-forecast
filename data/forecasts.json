@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-09",
+      "kind": "final",
+      "date": "2026-10-09",
+      "scores_detail": "Post-close 40 (2026-10-08) + pre-market 58 (2026-10-09) = 49",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 49 (prev post-close 40 on 2026-10-08 + pre-market 58): Bond-market stress and flight to cash.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-09",
       "kind": "early",
       "date": "2026-10-08",
       "score": 40,
