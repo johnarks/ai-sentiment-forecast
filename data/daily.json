@@ -2,7 +2,118 @@
   "days": [
     {
       "date": "2026-10-12",
-      "morning": null,
+      "morning": {
+        "score": 47,
+        "label": "Neutral \u2014 Risk-Off Lean",
+        "summary": "Pre-market futures are flat as Trump's announced Russia\u2013Ukraine energy ceasefire unraveled \u2014 Zelensky called it 'news to me' while Russia hit a powerplant, leaving oil above $100. The week's real catalysts land later: big-bank earnings kick off Q3 season plus CPI and retail sales. Against that, Bristol Myers' Phase 3 wins and Goldman's global-stocks upgrade argue for risk-on, but housing/credit stress, memory-stock weakness, and an EU\u2013China hybrid cap that tanked lithium 10% keep the tape cautious. Net: neutral with a risk-off lean, 47/100.",
+        "drivers": [
+          {
+            "title": "Contested Russia\u2013Ukraine energy ceasefire",
+            "detail": "Trump announced a Russia\u2013Ukraine energy ceasefire and diesel deal with Putin; Zelensky said it was 'news to me' as Russia hit a powerplant \u2014 oil rebounded after the 'ceasefire' unraveled; futures flat.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Energy prices elevated on war spillover",
+            "detail": "Oil holds above $100 with fresh energy strikes in Ukraine, extended reach of the Iran war, tanker attacks, and EU nat gas near multi-year highs.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "EU\u2013China hybrid cap rattles battery chain",
+            "detail": "EU deal caps Chinese hybrid exports at 350,000; Chinese lithium futures plunged 10%; EU also weighing curbs on Chinese inverters after the trade meet.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "India draws a line on the rupee",
+            "detail": "RBI steps up rupee defense; Indian bonds fell and traders debate how far the intervention goes \u2014 EM FX strain into the week.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Earnings season opens; CPI + retail sales ahead",
+            "detail": "Big banks kick off Q3 earnings this week; CPI and retail sales data also land \u2014 the week's two big catalysts for rate-cut pricing.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Housing and credit stress signals",
+            "detail": "US pending home sales near a 12-year low, Fannie/Freddie credit-score shift shaking mortgage market, and bankruptcy filings +11% in the first 9 months of 2026.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Goldman upgrades global stocks",
+            "detail": "Goldman strategists upgraded global stocks on the earnings boost \u2014 a bullish sell-side call into the new quarter.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "BMY",
+            "move": "+6.5%",
+            "note": "Positive Phase 3 trial results for two therapies."
+          },
+          {
+            "ticker": "CTNM",
+            "move": "+27%",
+            "note": "Surging after positive Phase 3 results alongside Bristol Myers."
+          },
+          {
+            "ticker": "ENVX",
+            "move": "+14.23%",
+            "note": "Q3 revenue +38% to $11M, beating guidance on defense demand."
+          },
+          {
+            "ticker": "CRM",
+            "move": "\u25b2",
+            "note": "Jumps on upgrade per pre-market live coverage."
+          },
+          {
+            "ticker": "IREN",
+            "move": "\u25b2",
+            "note": "Reportedly joining Anthropic's cloud providers; shares jump."
+          },
+          {
+            "ticker": "FSLR",
+            "move": "\u25b2",
+            "note": "Upgraded; solar strength."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "Reportedly readying first major layoffs since 2022 (5% of staff); shares down ~42% in a year."
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "Falling as a Chinese memory maker announced progress in a new design; SK Hynix also lower."
+          },
+          {
+            "ticker": "DKNG",
+            "move": "\u25bc",
+            "note": "Susquehanna flags weak October sports betting margins."
+          },
+          {
+            "ticker": "LULU",
+            "move": "\u25bc",
+            "note": "Cutting product lines to lift margins \u2014 defensive apparel move."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Earnings optimism vs. the bond market",
+            "detail": "S&P holds near record on earnings optimism and Goldman upgraded global stocks on earnings \u2014 but bond yields surge, bankruptcy filings +11% YTD, and pending home sales near a 12-year low. Profits vs. rates is the whole market right now."
+          },
+          {
+            "title": "Ceasefire diplomacy vs. strikes on the ground",
+            "detail": "Trump announced a Russia\u2013Ukraine energy ceasefire and a diesel deal with Putin \u2014 but Zelensky called it 'news to me' as Russia attacked a powerplant, and oil rebounded above $100 after the 'ceasefire' unraveled pre-market."
+          },
+          {
+            "title": "AI momentum vs. hype warnings",
+            "detail": "The bull market turns four on the AI trade and Barron's says it has room to run \u2014 but TikTok's CEO and a Microsoft exec warned AI hype is outpacing reality, and Korean AI stocks are struggling for buyers."
+          }
+        ],
+        "take": "Trump's \"ceasefire\" lasted about as long as a pre-market headline \u2014 Zelensky was caught flat-footed, Russia hit a powerplant anyway, and oil is right back above $100. The tape is noise until someone actually stops shooting.\n\nWhat actually matters: the S&P sits near records while bond yields scream higher, bankruptcies run 11% above last year, and pending home sales scrape a 12-year low. Profits vs. rates is the entire market this week, and the verdict lands with big-bank earnings and CPI \u2014 until then, treat green futures as borrowed.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +122,13 @@
         "made": "2026-10-09",
         "scores_detail": "Post-close 62 (2026-10-09)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 55 (prev post-close 62 on 2026-10-09 + pre-market 47): Goldman upgrades global stocks.",
+        "made": "2026-10-12",
+        "scores_detail": "Post-close 62 (2026-10-09) + pre-market 47 (2026-10-12) = 55"
+      },
       "result": null
     },
     {
