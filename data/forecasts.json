@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-12",
+      "kind": "final",
+      "date": "2026-10-12",
+      "scores_detail": "Post-close 62 (2026-10-09) + pre-market 47 (2026-10-12) = 55",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 55 (prev post-close 62 on 2026-10-09 + pre-market 47): Goldman upgrades global stocks.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-12",
       "kind": "early",
       "date": "2026-10-09",
       "score": 62,
