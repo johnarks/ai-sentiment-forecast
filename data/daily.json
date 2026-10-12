@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-13",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 43 (Risk-Off Tilt): Middle East escalation lifts oil.",
+        "made": "2026-10-12",
+        "scores_detail": "Post-close 43 (2026-10-12)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-12",
       "morning": {
         "score": 47,
@@ -114,7 +128,137 @@
         "take": "Trump's \"ceasefire\" lasted about as long as a pre-market headline \u2014 Zelensky was caught flat-footed, Russia hit a powerplant anyway, and oil is right back above $100. The tape is noise until someone actually stops shooting.\n\nWhat actually matters: the S&P sits near records while bond yields scream higher, bankruptcies run 11% above last year, and pending home sales scrape a 12-year low. Profits vs. rates is the entire market this week, and the verdict lands with big-bank earnings and CPI \u2014 until then, treat green futures as borrowed.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "A split tape on the slowest trading day of 2026: the Dow added nearly 200 points on Microsoft and Salesforce strength while the S&P 500 closed near flat and the Nasdaq sagged under surging oil prices and a broad selloff in optical and memory-chip names. A Treasury yield surge toward the 5% threat level, the worst mortgage-bond-fund outflows since 2021, and a hawkish tilt from Fed's Hammack kept the mood risk-off \u2014 with Goldman's flip to bullish on earnings optimism the lone strong counterweight.",
+        "drivers": [
+          {
+            "title": "Middle East escalation lifts oil",
+            "detail": "Fighting flares in the Middle East and Ukraine; supertankers divert from the Gulf transfer hub amid Iranian attacks; Delta delays Saudi nonstops.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "5% Treasury yield threat rattles bonds and banks",
+            "detail": "Yield surge triggers a mortgage-hedging wave; mortgage bond funds post one of their worst outflows since 2021; bank stocks mired in correction ahead of earnings.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed's Hammack tilts hawkish",
+            "detail": "Hammack says higher rates could be needed as 'inflationary mindset' risks form; prefers smaller, more frequent rate adjustments.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump-Putin diesel deal sparks backlash",
+            "detail": "Trump's Russia-Ukraine 'energy ceasefire'/diesel deal draws Senate GOP backlash; policy direction uncertain even as strikes continue.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Goldman flips bullish on stocks",
+            "detail": "Goldman strategists upgrade global equities into year-end on earnings optimism \u2014 a bullish counterweight on a heavy tape.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI-hardware selloff ahead of earnings",
+            "detail": "Optical and memory-chip names routed (CIEN, LITE, COHR, BE, GLW) as Barron's flags a high-stakes earnings season for AI stocks.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mixed AI signals from megacaps",
+            "detail": "Meta unveils Wonder model family; Microsoft reveals Maia 300 chip to cut Nvidia/AMD dependence \u2014 same day Nadella calls for an AI 'emergency brake'.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Mortgage market shaken by GSE rule shift",
+            "detail": "Fannie and Freddie credit-score shift shakes up the mortgage market as yields rise \u2014 a fresh headwind for housing finance.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "BMBL",
+            "move": "+49.61%",
+            "note": "$1B take-private talks"
+          },
+          {
+            "ticker": "FICO",
+            "move": "+10.85%",
+            "note": "Outperformer on strong trading day"
+          },
+          {
+            "ticker": "PRCT",
+            "move": "+6.36%",
+            "note": "Post earnings-date announcement momentum"
+          },
+          {
+            "ticker": "BMEA",
+            "move": "+10.29% AH",
+            "note": "Oral GLP-1 Phase I results"
+          },
+          {
+            "ticker": "NVTS",
+            "move": "+6.21% AH",
+            "note": "NVIDIA 800V-to-12V power-delivery collaboration (after -7.33% day)"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CIEN",
+            "move": "-9.95%",
+            "note": "Optical stocks cratered; among Monday's biggest losers"
+          },
+          {
+            "ticker": "LITE",
+            "move": "-9.78%",
+            "note": "Optical selloff on AI-earnings anxiety"
+          },
+          {
+            "ticker": "COHR",
+            "move": "-7.87%",
+            "note": "Optical selloff on AI-earnings anxiety"
+          },
+          {
+            "ticker": "BE",
+            "move": "-6.50%",
+            "note": "Memory chip losses on high-stakes AI earnings season"
+          },
+          {
+            "ticker": "GLW",
+            "move": "-6.00%",
+            "note": "Memory/optical losses weighed on tech"
+          },
+          {
+            "ticker": "ALAB",
+            "move": "-5.29%",
+            "note": "Optical/AI-hardware selloff"
+          },
+          {
+            "ticker": "SNDX",
+            "move": "-16.92% AH",
+            "note": "Tumbled after failed IPF trial"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Goldman's bullish flip vs the bond rout",
+            "detail": "Goldman strategists upgrade global equities on earnings optimism the same day the 10-year surges toward the 5% threat level and Hammack flags higher rates."
+          },
+          {
+            "title": "AI ambition vs AI caution",
+            "detail": "Meta's Wonder model family and Microsoft's Maia 300 chip land the same session Nadella calls for an 'emergency brake' on AI \u2014 and optical/memory names get routed."
+          },
+          {
+            "title": "Energy-ceasefire diplomacy vs fresh escalation",
+            "detail": "Trump-Putin Russia-Ukraine 'energy ceasefire'/diesel deal draws Senate GOP backlash even as Iranian strikes divert supertankers from the Gulf hub and Saudi strikes pressure."
+          },
+          {
+            "title": "Inflation peaked vs inflation resurging",
+            "detail": "Prediction markets say inflation peaked for 2026, while the oil spike, record gasoline streak, and Hammack's 'inflationary mindset' warning fan the opposite fear."
+          }
+        ],
+        "take": "Monday's tape told you exactly where the landmines are: optical and memory names got carpet-bombed (CIEN -10%, LITE -10%, COHR -8%) as the AI earnings bar moved beyond what capex narratives can clear, while the Dow's green close on Microsoft and Salesforce strength was index makeup on the slowest trading day of the year. With the 10-year screaming toward 5%, oil bid on Middle East escalation, and Hammack jawboning higher rates into bank-earnings week, the 43 risk-off tilt has real teeth \u2014 tomorrow belongs to the sellers until CPI or the banks give buyers a reason.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -129,7 +273,11 @@
         "made": "2026-10-12",
         "scores_detail": "Post-close 62 (2026-10-09) + pre-market 47 (2026-10-12) = 55"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.06,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-09",
