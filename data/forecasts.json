@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-14",
+      "kind": "early",
+      "date": "2026-10-13",
+      "score": 43,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 43 (Risk-Off Tilt): Memory-chip rout deepens.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-13",
       "kind": "final",
       "date": "2026-10-13",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 43 (prev post-close 43 on 2026-10-12 + pre-market 43): JPMorgan misses; Dimon warns forces shifting 'under the surface'.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.01,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 43 (Risk-Off Tilt): Middle East escalation lifts oil.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.01,
+      "hit": true,
       "push": false
     },
     {
