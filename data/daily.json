@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-14",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 43 (Risk-Off Tilt): Memory-chip rout deepens.",
+        "made": "2026-10-13",
+        "scores_detail": "Post-close 43 (2026-10-13)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-13",
       "morning": {
         "score": 43,
@@ -138,7 +152,153 @@
         "take": "The tape this morning is a bait-and-switch: banks broadly beat (Goldman +72% equities trading, Citi's best Q3 in a decade) yet bank stocks are down premarket \u2014 beats are getting sold. That means the real story is the other side: JPMorgan missed, Dimon is telling people to prepare for 6% yields, and the Korean memory-chip rout is rolling through MU, Sandisk and Hynix into Nasdaq futures. Blended with yesterday's 43 post-close read, the final call is DOWN \u2014 tech positioning is maxed out (BofA) into a genuine semicon selloff, and earnings beats can't save it today.",
         "published": "8:47 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "Risk stayed off after the close. A memory-chip rout \u2014 driven by a China report and AI-spending jitters, the worst stretch in 16 months \u2014 dragged the Nasdaq down, while strong big-bank earnings got a cold shrug from the market and rising bond yields took what the NYT called a troubling turn. The one lift came from NY Fed's Williams, whose dovish 'no hikes needed in 2027' remark pulled stocks off their lows. Score holds at 43, Risk-Off Tilt.",
+        "drivers": [
+          {
+            "title": "Memory-chip rout deepens",
+            "detail": "China memory report plus AI-spending jitters drove chip stocks to their worst stretch in 16 months; MU, WDC, SK Hynix and equipment names sank.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bank earnings strong, market unimpressed",
+            "detail": "JPMorgan and Goldman profits rose, but higher rates bit JPMorgan and the market shrugged \u2014 Citi fell 5.6% despite results.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "BofA hit with $1.2B penalties",
+            "detail": "US government penalties for AML and sanctions compliance failures; one of the day's biggest single-bank headlines.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Williams' dovish surprise",
+            "detail": "NY Fed president said the Fed may not have to hike in 2027, at odds with traders; stocks bounced off intraday lows on the remarks.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Bond yields take a troubling turn",
+            "detail": "NYT flags the forces driving up yields taking a 'troubling turn'; Bassman warns of a nightmare scenario amplifying the bond selloff; talk of 6% yields.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Strategy shops turn cautious",
+            "detail": "BlackRock turned more bearish on stocks; Citigroup turned cautious citing exuberance \u2014 fresh institutional caution calls.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mexico trade-deal signal",
+            "detail": "Mexico's president vowed to buy more US goods to secure a trade deal \u2014 a fresh constructive trade-policy signal.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "India-US talks progress",
+            "detail": "India's top diplomat encouraged by US talks while defending Russia ties \u2014 slow thaw in the US-India tariff fight.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CDW",
+            "move": "+5.71%",
+            "note": "Outperformed peers on a strong trading day"
+          },
+          {
+            "ticker": "BKD",
+            "move": "+5.24% AH",
+            "note": "Closed 17-community acquisition, agreed to buy 30 more from Welltower"
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25b2",
+            "note": "Toe-touched $5 trillion market cap again"
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25b2",
+            "note": "Popped on Gemini 4 'Argon' launch"
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Popped again as new Muse AI models got spotlight"
+          },
+          {
+            "ticker": "GRMN",
+            "move": "\u25b2",
+            "note": "Rose on luxury watch upgrades beyond navigation"
+          },
+          {
+            "ticker": "T",
+            "move": "\u25b2",
+            "note": "To sell AT&T Mexico to Grupo Televisa"
+          },
+          {
+            "ticker": "AGMH",
+            "move": "+22.68% AH",
+            "note": "Nasdaq listing compliance confirmed"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "AMAT",
+            "move": "-6.69%",
+            "note": "Chip equipment slammed in the AI-spending/memory selloff"
+          },
+          {
+            "ticker": "C",
+            "move": "-5.60%",
+            "note": "Fell despite bank-earnings season \u2014 market shrugging strong results"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "Center of the China-memory-report selloff along with DRAM peers"
+          },
+          {
+            "ticker": "BAC",
+            "move": "\u25bc",
+            "note": "$1.2B AML/sanctions penalties hit the stock"
+          },
+          {
+            "ticker": "FUN",
+            "move": "-14.43%",
+            "note": "Plunged after a Goliath roller coaster rider death in Georgia"
+          },
+          {
+            "ticker": "JBLU",
+            "move": "-7.46%",
+            "note": "Sold off alongside the broader risk-off tape"
+          },
+          {
+            "ticker": "NWTG",
+            "move": "-24.55%",
+            "note": "Micro-cap spike faded after research flash report"
+          },
+          {
+            "ticker": "DETX",
+            "move": "-15.68%",
+            "note": "Management change announcement weighed"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Strong bank earnings vs market shrug",
+            "detail": "JPM, Goldman and peers posted strong results, but stocks of the banks still fell (Citi -5.6%) \u2014 good earnings aren't being rewarded."
+          },
+          {
+            "title": "Dovish Williams vs bond-selloff fears",
+            "detail": "Williams signaled the Fed may not need to hike in 2027 and stocks bounced off the lows, while Bassman warned of a 'nightmare scenario' amplifying the bond selloff."
+          },
+          {
+            "title": "AI fatigue vs AI product wins",
+            "detail": "Memory names (MU, WDC) and chip equipment (AMAT -6.7%) sold off hard, yet Google's Gemini 4 launch and Meta's Muse AI pop show the AI trade is bifurcating, not dead."
+          }
+        ],
+        "take": "The market stopped rewarding good earnings today and that's the story \u2014 Citi fell 5.6% on a strong print, and the memory-chip rout (AMAT -6.7%, MU at the center of it, worst stretch in 16 months) is now a genuine growth scare rather than a rotation hiccup. Williams' dovish 2027 remark only lifted stocks off the lows, not back into risk-on, so tomorrow runs on two things: whether ASML stabilizes the chip narrative at the open and whether Wednesday's CPI makes the bond-yield selloff worse.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -153,7 +313,11 @@
         "made": "2026-10-13",
         "scores_detail": "Post-close 43 (2026-10-12) + pre-market 43 (2026-10-13) = 43"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.01,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-12",
