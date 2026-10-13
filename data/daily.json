@@ -2,7 +2,142 @@
   "days": [
     {
       "date": "2026-10-13",
-      "morning": null,
+      "morning": {
+        "score": 43,
+        "label": "Risk-Off Tilt",
+        "summary": "Bank earnings season opened with a split: Goldman, Citi, Wells Fargo and J&J all beat \u2014 but JPMorgan missed on weak fixed-income trading, and Jamie Dimon warned that economic forces are shifting 'under the surface' and told people to prepare for 6% Treasury yields. The bigger overnight story is the AI trade cracking further: memory-chip stocks were crushed in Korea on Chinese-competition fears and Broadcom CEO Hock Tan's 'casino' remarks, dragging Nasdaq futures lower while the Dow held up on bank strength. Positioning data adds to the caution \u2014 BofA finds investors most exposed to tech since 2020, and BlackRock just cooled on US stocks in favor of short-dated Treasuries.",
+        "drivers": [
+          {
+            "title": "JPMorgan misses; Dimon warns forces shifting 'under the surface'",
+            "detail": "Q3 revenue and EPS miss on weak fixed-income trading; Dimon says prepare for 6% Treasury yields",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Memory-chip selloff deepens overnight",
+            "detail": "Korean chip stocks crushed on Chinese rival worry and Hock Tan's 'casino' remarks; Micron, Sandisk, SK Hynix slide; Nasdaq futures lower; AirTrunk said to delay $1.5B IPO",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Tech positioning maxed out; BlackRock de-risks",
+            "detail": "BofA poll: investors most exposed to tech since 2020; BlackRock cools on US stocks, turns bullish on short-dated Treasuries",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bank earnings broadly beat elsewhere",
+            "detail": "Goldman (equities trading +72%), Citi (+40%, best Q3 revenue in a decade), Wells Fargo and J&J (beat and raise) all top estimates",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "China trade friction flares with EU",
+            "detail": "Beijing state media warns EU against 'new tricks' after car deal; European automakers seek policy support amid China pressure",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Visa wins China bank-card license",
+            "detail": "Beijing green-lights Visa's bank card business after 40 years in the country",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "ADP weekly pulse: hiring pace cools",
+            "detail": "Four-week average slips to 24,750 jobs/week for the period ending Sept 26, breaking five straight weeks of strengthening",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "LVMH China letdown cools luxury",
+            "detail": "Market turns cold on luxury names after LVMH's China sales disappointment",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "GS",
+            "move": "\u25b2",
+            "note": "Q3 beat; equities trading revenue surges 72%"
+          },
+          {
+            "ticker": "JNJ",
+            "move": "\u25b2",
+            "note": "Beats Q3 and raises 2026 revenue and profit outlook"
+          },
+          {
+            "ticker": "WFC",
+            "move": "\u25b2",
+            "note": "Beats Q3 on loan growth and improved efficiency"
+          },
+          {
+            "ticker": "BMBL",
+            "move": "\u25b2",
+            "note": "To be acquired by Ithaca Holdings; $1bn takeover talks confirmed"
+          },
+          {
+            "ticker": "V",
+            "move": "\u25b2",
+            "note": "Beijing green-lights bank card business after 40 years"
+          },
+          {
+            "ticker": "SMTC",
+            "move": "\u25b2",
+            "note": "Bucks chip selloff on AI chip deal securing capacity across 3 regions"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "JPM",
+            "move": "\u25bc",
+            "note": "Q3 revenue/EPS miss on weak fixed-income trading; Dimon warns forces shifting 'under the surface'"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25bc",
+            "note": "Memory names sell off after Korea rout on Chinese-competition fears"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "\u25bc",
+            "note": "Swept up in the memory-chip selloff"
+          },
+          {
+            "ticker": "C",
+            "move": "\u25bc",
+            "note": "Dips premarket despite 40% earnings climb to best Q3 revenue in a decade"
+          },
+          {
+            "ticker": "BNTX",
+            "move": "-5%",
+            "note": "BNT113 cancer trial misses progression-free survival endpoint"
+          },
+          {
+            "ticker": "S",
+            "move": "-8.65%",
+            "note": "Drops on $1.25B convertible notes offering"
+          },
+          {
+            "ticker": "DPZ",
+            "move": "\u25bc",
+            "note": "Beats Q3 estimates but shares fall as same-store sales growth slows"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Record bank profits vs falling bank stocks",
+            "detail": "Goldman, Citi, Wells Fargo and J&J all beat, yet JPMorgan missed and Citi dips premarket on its own record quarter \u2014 strong prints aren't converting into price action"
+          },
+          {
+            "title": "Dow up, Nasdaq down",
+            "detail": "Bank earnings lift the Dow while the memory-chip rout drags Nasdaq futures \u2014 rotation out of semis into banks, not broad risk-on"
+          },
+          {
+            "title": "Dimon's caution vs maxed-out positioning",
+            "detail": "Dimon warns to prepare for 6% yields while BofA finds investors most exposed to tech since 2020 \u2014 the crowd is longest the trade that's breaking"
+          },
+          {
+            "title": "China: open door, slammed door",
+            "detail": "Visa wins its 40-year China license the same morning Beijing warns the EU against 'new tricks' after the car deal \u2014 selective openness"
+          }
+        ],
+        "take": "The tape this morning is a bait-and-switch: banks broadly beat (Goldman +72% equities trading, Citi's best Q3 in a decade) yet bank stocks are down premarket \u2014 beats are getting sold. That means the real story is the other side: JPMorgan missed, Dimon is telling people to prepare for 6% yields, and the Korean memory-chip rout is rolling through MU, Sandisk and Hynix into Nasdaq futures. Blended with yesterday's 43 post-close read, the final call is DOWN \u2014 tech positioning is maxed out (BofA) into a genuine semicon selloff, and earnings beats can't save it today.",
+        "published": "8:47 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +146,13 @@
         "made": "2026-10-12",
         "scores_detail": "Post-close 43 (2026-10-12)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 43 (prev post-close 43 on 2026-10-12 + pre-market 43): JPMorgan misses; Dimon warns forces shifting 'under the surface'.",
+        "made": "2026-10-13",
+        "scores_detail": "Post-close 43 (2026-10-12) + pre-market 43 (2026-10-13) = 43"
+      },
       "result": null
     },
     {
