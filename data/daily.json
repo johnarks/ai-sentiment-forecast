@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-15",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 37 (Risk-Off Tilt): September CPI runs hot.",
+        "made": "2026-10-14",
+        "scores_detail": "Post-close 37 (2026-10-14)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-14",
       "morning": {
         "score": 40,
@@ -119,7 +133,118 @@
         "take": "Hot September CPI at 3.7% is the whole story this morning \u2014 futures are red, yields are jumping, and the market is repricing Fed-hike odds higher. The AI-capex bid (ASML raising its outlook with orders stretching to 2030, Morgan Stanley's trading beat) is real, but it's fighting a discount-rate headwind it can't beat today. Bank earnings keep getting punished instead of rewarded \u2014 BofA's $1.2B fine and 17% profit drop is the session's second anchor \u2014 so expect a defensive tape into the open.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 37,
+        "label": "Risk-Off Tilt",
+        "summary": "September CPI came in hot at 3.7%, driven by surging gas prices, and the market repriced Fed policy on the spot \u2014 Treasuries slumped, rate-hike bets jumped, and the S&P 500 logged its worst day since July. The AI trade took the brunt: CoreWeave's bonds turned distressed and sparked credit-stress fears, while Dell, Nebius, Oracle, and AMD sold off hard. One bright spot: Apple retook a $5 trillion market cap. The tape says risk-off, but not panic \u2014 the S&P closed down about 1%.",
+        "drivers": [
+          {
+            "title": "September CPI runs hot",
+            "detail": "Headline CPI 3.7% in September, driven by costlier gasoline; core inflation firmer than expected",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed rate-hike bets jump, Treasuries slump",
+            "detail": "Yields spiked after the CPI beat; dollar hit its strongest since May 2025 as rate-hike odds rose",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI trade stumbles on inflation shock",
+            "detail": "S&P 500 and Nasdaq logged their worst day since July as AI-infrastructure names led the selloff",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "CoreWeave bonds turn distressed, sparking credit-stress fears",
+            "detail": "Bonds tumbled and drew 'yikes' from Musk; CEO sent a memo to reassure staff amid market scrutiny",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bank of America profit tumble and trading miss",
+            "detail": "Profit fell 17%, missed estimates on trading weakness, booked a $1.2B charge; stock shed ~$30B in value",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Netflix cuts ~1,000 jobs",
+            "detail": "About 6% of workforce cut, the largest layoff since 2022, as growth slows",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Piper Sandler\u2013Perella Weinberg $6bn talks collapse",
+            "detail": "Investment-bank tie-up talks ended; PWP shares collapsed ~19%",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "IonQ raise crushes quantum stocks",
+            "detail": "$2B equity offering hit the whole quantum group: IONQ, QBTS, QNT, RGTI all fell 8\u201310%",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "AAPL",
+            "move": "\u25b2",
+            "note": "Retook $5T market cap \u2014 only the second company to eclipse the milestone"
+          },
+          {
+            "ticker": "RCT",
+            "move": "+8.27%",
+            "note": "Filed Nasdaq delisting appeal; listing preserved pending panel hearing"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CRWV",
+            "move": "-15.46%",
+            "note": "Bonds turned distressed; credit-market stress fears spread"
+          },
+          {
+            "ticker": "PWP",
+            "move": "-19.13%",
+            "note": "$6bn Piper Sandler merger talks ended"
+          },
+          {
+            "ticker": "DELL",
+            "move": "-11.27%",
+            "note": "One of the S&P 500's biggest laggards as AI capex fears bit"
+          },
+          {
+            "ticker": "NBIS",
+            "move": "-10.08%",
+            "note": "Chip rout on hot CPI"
+          },
+          {
+            "ticker": "IONQ",
+            "move": "-9.53%",
+            "note": "$2B equity raise; quantum group fell together"
+          },
+          {
+            "ticker": "ORCL",
+            "move": "-8.83%",
+            "note": "AI-infrastructure selloff"
+          },
+          {
+            "ticker": "AMD",
+            "move": "-5.73%",
+            "note": "Barron's flags 'cracks in the AI trade'"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Exponential AI capex vs cracking AI trade",
+            "detail": "Hyperscaler capex growth called 'exponential' the same day CRWV, DELL, NBIS, ORCL posted 8\u201315% down days"
+          },
+          {
+            "title": "Hot inflation vs cooling housing market",
+            "detail": "CPI ran 3.7% on gas, but home sellers are cutting prices and mortgage rates hit 7.5% with the buying slump in week six"
+          },
+          {
+            "title": "Apple milestone vs broad chip selloff",
+            "detail": "Apple reclaimed $5T while semis and AI-infrastructure names led the worst session since July"
+          }
+        ],
+        "take": "September's 3.7% CPI killed the soft-landing bid in a single session: rate-hike pricing is back, Treasuries slumped, and the AI trade took its worst beating since July \u2014 CoreWeave's bonds going distressed is the flashing red light for the whole AI-capex complex. Tomorrow's tape is simple: if Fed speakers validate the hot read, the selloff in AI infrastructure has further to run; if they shrug it off, dip-buyers get their cover. Respect the repricing until yields calm \u2014 the driver just shifted from earnings to the Fed's next move.",
+        "published": "5:05 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -134,7 +259,11 @@
         "made": "2026-10-14",
         "scores_detail": "Post-close 43 (2026-10-13) + pre-market 40 (2026-10-14) = 42"
       },
-      "result": null
+      "result": {
+        "spy_pct": -1.08,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-13",
