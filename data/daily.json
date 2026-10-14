@@ -2,7 +2,123 @@
   "days": [
     {
       "date": "2026-10-14",
-      "morning": null,
+      "morning": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "September CPI printed 3.7%, hotter than expected, flipping stock futures red, pushing bond yields higher, and reviving Fed-hike bets \u2014 the day's dominant risk-off driver into the open. Partly offsetting: ASML raised its full-year sales outlook on AI demand and Morgan Stanley beat on strong equity trading, while Middle East escalation (Iran attacks, Houthis vs Aramco) is lifting oil. Bank earnings split \u2014 BofA's profit tumbled 17% with a $1.2B fine and a trading miss, sending the stock down ~6%.",
+        "drivers": [
+          {
+            "title": "Hot September CPI (3.7%)",
+            "detail": "Inflation came in above expectations; futures fell, yields jumped, Fed-hike odds repriced higher.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "ASML raises full-year outlook on AI demand",
+            "detail": "Customers placing orders as far out as 2030; lifted European tech and chip sentiment overnight.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Middle East escalation lifts oil",
+            "detail": "Iran stepping up attacks and Houthis striking Aramco assets; Saudi accelerating Hormuz-bypass pipeline.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "BofA Q3 profit tumbles 17% on $1.2B fine, trading miss",
+            "detail": "Money-laundering fines plus weak deals/trading revenue; shares off ~5.8% pre-market.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Morgan Stanley beats on strong equity trading",
+            "detail": "Record wealth quarter; counters BofA weakness within big-bank earnings season.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US-Japan chip initiative: GlobalFoundries to run two new NY fabs",
+            "detail": "Landmark onshoring headline reinforcing semiconductor capex demand narrative.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Higher-for-longer reinforced",
+            "detail": "Bowman's 'wait and see' plus Fink saying higher rates are here to stay; consistent with CPI repricing.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China export surge, $1T surplus in sight",
+            "detail": "September exports soared; factory-gate inflation accelerated \u2014 supportive globally but stokes trade-tension backdrop.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "GFS",
+            "move": "\u25b2",
+            "note": "Selected to operate two new NY semiconductor fabs under landmark US-Japan initiative."
+          },
+          {
+            "ticker": "ASML",
+            "move": "\u25b2",
+            "note": "Raised full-year sales outlook; AI demand, orders stretching to 2030."
+          },
+          {
+            "ticker": "MS",
+            "move": "\u25b2",
+            "note": "Beat on strong equity trading; record wealth-management quarter."
+          },
+          {
+            "ticker": "MXCT",
+            "move": "+15.70%",
+            "note": "Raised full-year 2026 revenue guidance on prelim Q3 beat."
+          },
+          {
+            "ticker": "VIR",
+            "move": "+12.91%",
+            "note": "Multi-program collaboration and license deal with Gilead."
+          },
+          {
+            "ticker": "GURE",
+            "move": "+8.96%",
+            "note": "Government approval for bromine factories No. 2 and No. 10."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "BAC",
+            "move": "-5.78%",
+            "note": "Q3 profit tumbles 17% on trading miss plus $1.2B money-laundering fine."
+          },
+          {
+            "ticker": "FAST",
+            "move": "-6.67%",
+            "note": "Fastenal profit up but spending climbs; market punishing cost pressure."
+          },
+          {
+            "ticker": "PGR",
+            "move": "-5.78%",
+            "note": "Progressive off on September results."
+          },
+          {
+            "ticker": "DPZ",
+            "move": "\u25bc",
+            "note": "Price-target cuts after Q3 report."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Chip boom vs rate shock",
+            "detail": "ASML/GFS AI-capex strength argues for tech rotation while the hot CPI reprices the rate path \u2014 growth multiples vs discount-rate headwind."
+          },
+          {
+            "title": "Bank earnings split",
+            "detail": "Morgan Stanley's trading beat and record wealth quarter vs BofA's trading miss, fines, and 17% profit drop \u2014 trading businesses diverging, not confirming a sector trend."
+          },
+          {
+            "title": "Oil up on geopolitics vs domestic demand softness",
+            "detail": "Crude rising on Middle East attacks while Redfin shows sellers outnumbering buyers by 63%, the widest gap in 13+ years \u2014 energy inflation risk into a weakening housing tape."
+          }
+        ],
+        "take": "Hot September CPI at 3.7% is the whole story this morning \u2014 futures are red, yields are jumping, and the market is repricing Fed-hike odds higher. The AI-capex bid (ASML raising its outlook with orders stretching to 2030, Morgan Stanley's trading beat) is real, but it's fighting a discount-rate headwind it can't beat today. Bank earnings keep getting punished instead of rewarded \u2014 BofA's $1.2B fine and 17% profit drop is the session's second anchor \u2014 so expect a defensive tape into the open.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +127,13 @@
         "made": "2026-10-13",
         "scores_detail": "Post-close 43 (2026-10-13)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 42 (prev post-close 43 on 2026-10-13 + pre-market 40): Hot September CPI (3.7%).",
+        "made": "2026-10-14",
+        "scores_detail": "Post-close 43 (2026-10-13) + pre-market 40 (2026-10-14) = 42"
+      },
       "result": null
     },
     {
