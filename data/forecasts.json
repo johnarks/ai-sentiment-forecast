@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-15",
+      "kind": "final",
+      "date": "2026-10-15",
+      "scores_detail": "Post-close 37 (2026-10-14) + pre-market 35 (2026-10-15) = 36",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 36 (prev post-close 37 on 2026-10-14 + pre-market 35): PPI hotter than expected.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-15",
       "kind": "early",
       "date": "2026-10-14",
       "score": 37,
