@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-16",
+      "kind": "early",
+      "date": "2026-10-15",
+      "score": 46,
+      "label": "Neutral \u2014 Risk-Off Lean",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 46 (Neutral \u2014 Risk-Off Lean): Hot September PPI reprices the Fed.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-15",
       "kind": "final",
       "date": "2026-10-15",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Blended score 36 (prev post-close 37 on 2026-10-14 + pre-market 35): PPI hotter than expected.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.28,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 37 (Risk-Off Tilt): September CPI runs hot.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.28,
+      "hit": false,
       "push": false
     },
     {
