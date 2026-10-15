@@ -2,7 +2,133 @@
   "days": [
     {
       "date": "2026-10-15",
-      "morning": null,
+      "morning": {
+        "score": 35,
+        "label": "Firmly Bearish",
+        "summary": "Risk is being priced, not rumored: a hotter-than-expected September PPI landed at 8:30 AM with a 50bp December hike back on the table, while the AI funding-debt panic enters its second day \u2014 CoreWeave unraveling, chips and neoclouds down across the globe, money fleeing into Treasuries. The tape is firmly bearish; the few bright spots (TSMC record profit, Anthropic's $16.8B quarter, a handful of earnings beats and upgrades) are being overwhelmed by the rate-plus-deleveraging double hit.",
+        "drivers": [
+          {
+            "title": "PPI hotter than expected",
+            "detail": "September wholesale prices rose faster than expected (largest jump in 4 years per one wire), released 8:30 AM \u2014 a top forecaster says a 50bp Fed hike is back on the table for December.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI funding-debt panic deepens",
+            "detail": "CoreWeave unravels further \u2014 shares and bonds sliding as debt-funding fears spread to the broader 'neocloud' trade; Baird says Wall Street is tiring of the 'Bank of Nvidia/AMD/Broadcom' capex-financing model.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Global chip/tech selloff day two",
+            "detail": "Second day of tech selling: Nasdaq futures down ~1%, European and Korean shares lower, KOSPI at a 6-month low as chip names (WDC, STX, SK Hynix) lead down premarket.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Flight to Treasuries",
+            "detail": "10-year Treasury yield diving on tech-stock fears as money rotates into safety \u2014 cushioning for risk assets but confirming the risk-off posture.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "TSMC record profit, no slowdown seen",
+            "detail": "Record quarterly profit, CEO sees 'no sign of a slowdown' \u2014 the demand-side counterweight to funding fears, but not enough to steady the tape.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Anthropic results blockbuster",
+            "detail": "Revenue up 45% to nearly $17B, growing faster than almost any startup ever \u2014 supports the AI demand thesis even as analysts say it won't save the AI trade near-term.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Tesla debuts $200K+ Roadster; SpaceX merger rumor",
+            "detail": "EV sports car priced at $200K+, launched amid 'Tesla story falling apart' commentary; separate IBD headline that Musk could announce a Tesla-SpaceX merger in coming weeks.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "PAG",
+            "move": "+8.37%",
+            "note": "Penske Automotive going private"
+          },
+          {
+            "ticker": "DRMA",
+            "move": "+37.54%",
+            "note": "Positive topline results from cosmetic study of Tome treatment"
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25b2",
+            "note": "JPMorgan says stock can jump 24%, defies AI fears"
+          },
+          {
+            "ticker": "KMX",
+            "move": "\u25b2",
+            "note": "BofA upgrades to Buy on improving outlook"
+          },
+          {
+            "ticker": "TSM",
+            "move": "\u25b2",
+            "note": "Record quarterly profit, CEO sees no slowdown \u2014 lone AI-demand bright spot"
+          },
+          {
+            "ticker": "VG",
+            "move": "\u25b2",
+            "note": "Up premarket on GE Vernova/Baker Hughes power deals"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "FMC",
+            "move": "-42.52%",
+            "note": "Slashed Q3 2026 outlook on weak demand and inventory pressures"
+          },
+          {
+            "ticker": "MAN",
+            "move": "-14.36%",
+            "note": "Revenue miss plus weak Q4 outlook"
+          },
+          {
+            "ticker": "RKLB",
+            "move": "-10.09%",
+            "note": "Neutron first launch pushed back again"
+          },
+          {
+            "ticker": "WDC",
+            "move": "-5.52%",
+            "note": "Chip selloff drags memory makers premarket"
+          },
+          {
+            "ticker": "STX",
+            "move": "-5.01%",
+            "note": "Chip selloff drags memory makers premarket"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25bc",
+            "note": "Shares and bonds sliding as AI debt-funding fears mount; premarket losses extending"
+          },
+          {
+            "ticker": "BE",
+            "move": "-5.36%",
+            "note": "AI power-supply bellwether tumbling with neocloud names"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Hot PPI vs falling yields",
+            "detail": "Headlines say prices ran faster than expected while equity futures slid and Treasury yields fell \u2014 one print supports both a hike and a flight to safety; the bond market's vote is risk-off."
+          },
+          {
+            "title": "AI demand intact vs AI funding fear",
+            "detail": "Neocloud funding panic is crushing CoreWeave and chip names even as TSMC posts record profit with no slowdown seen, Anthropic grew revenue 45% to ~$17B, and hyperscaler capex keeps printing records \u2014 demand intact, balance-sheet financing in doubt."
+          },
+          {
+            "title": "Bargain-hunting vs de-risking",
+            "detail": "Rotations like JPMorgan's 'GOOGL can jump 24%, defy AI fears' and CarMax's upgrade compete with wholesale de-risking of the AI trade \u2014 stock-pickers see bargains where the tape sees a second selloff day."
+          }
+        ],
+        "take": "September PPI just printed the hottest wholesale inflation read in four years, and the market heard \"50bp December hike\" \u2014 that's the same tape that already sold off hard on yesterday's hot CPI, and now it gets a second day of the AI funding-debt panic with CoreWeave unraveling and chips dumping globally. The only cushion is falling Treasury yields as money flees to safety, which is risk-off confirmation, not a buy signal. Buying this open is catching a falling knife: nothing matters this session until either the AI-credit stress stabilizes or dip buyers show they can hold through a second inflation shock.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +137,13 @@
         "made": "2026-10-14",
         "scores_detail": "Post-close 37 (2026-10-14)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Blended score 36 (prev post-close 37 on 2026-10-14 + pre-market 35): PPI hotter than expected.",
+        "made": "2026-10-15",
+        "scores_detail": "Post-close 37 (2026-10-14) + pre-market 35 (2026-10-15) = 36"
+      },
       "result": null
     },
     {
