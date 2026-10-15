@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-16",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 46 (Neutral \u2014 Risk-Off Lean): Hot September PPI reprices the Fed.",
+        "made": "2026-10-15",
+        "scores_detail": "Post-close 46 (2026-10-15)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-15",
       "morning": {
         "score": 35,
@@ -129,7 +143,112 @@
         "take": "September PPI just printed the hottest wholesale inflation read in four years, and the market heard \"50bp December hike\" \u2014 that's the same tape that already sold off hard on yesterday's hot CPI, and now it gets a second day of the AI funding-debt panic with CoreWeave unraveling and chips dumping globally. The only cushion is falling Treasury yields as money flees to safety, which is risk-off confirmation, not a buy signal. Buying this open is catching a falling knife: nothing matters this session until either the AI-credit stress stabilizes or dip buyers show they can hold through a second inflation shock.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 46,
+        "label": "Neutral \u2014 Risk-Off Lean",
+        "summary": "Morning's firm bearishness (35) on the hot September PPI gave way to a sharp intraday reversal: AI jitters faded, bond yields sank, and buyers rotated out of AI into healthcare, defensives, and housing \u2014 leaving the Dow up 500+, the S&P 500 green, and the Nasdaq clawing back from deep red. CoreWeave bond stress (yields toward 15%) and back-to-back hot inflation prints keep risk off the table overnight, but the close was a material improvement over the morning tape.",
+        "drivers": [
+          {
+            "title": "Hot September PPI reprices the Fed",
+            "detail": "Hottest wholesale-inflation print in ~4 years (8:30 AM ET) put a 50bp December hike back on the table; second hot inflation binary in two days after the September CPI.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI funding-debt stress hits a new stage, then eases",
+            "detail": "CoreWeave bonds spiked toward 15% yields; the 'neocloud wipeout' fallout dominated the morning tape before CRWV shares rebounded +5.94% into the close.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI jitters fade: sharp late-session rotation",
+            "detail": "Buyers rotated out of AI into healthcare, defensives, and housing; Dow +500+, S&P 500 ended higher, Nasdaq clawed back from deep red as yields sank.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Flight to Treasuries, Bessent yield-watch",
+            "detail": "The 10Y dove on tech-stock fears (3-week low) and Wall Street is on alert for Treasury action on yields \u2014 policy-backstop talk added a bid under bonds.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Hormuz shipping attacks vs IEA reserve release",
+            "detail": "Escalating tanker attacks in Hormuz met with the IEA's 100M-barrel release; exports steady so far.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Mortgage rates hit 7.4%",
+            "detail": "Highest mortgage rate since 2023 deepens the affordability squeeze \u2014 even as falling yields lifted housing stocks today.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Critical-minerals thaw: rare earths + $1B loans",
+            "detail": "Beijing signaled rare earths keep flowing to the EU, and the US mineral stockpile is preparing up to $1B in loans \u2014 a de-escalation signal for critical minerals.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "OPEN",
+            "move": "+16.58%",
+            "note": "Led the housing-stock rally as the AI selloff drove bond yields down"
+          },
+          {
+            "ticker": "SITC",
+            "move": "+19.26% AH",
+            "note": "Announced sale of DTP interests plus special common distribution"
+          },
+          {
+            "ticker": "APPS",
+            "move": "+10.71%",
+            "note": "Ad-tech software bounced with the rotation; TTD +7.80% and APP +6.52% also strong"
+          },
+          {
+            "ticker": "LEN",
+            "move": "+5.66%",
+            "note": "Homebuilders outperformed on the yield drop; CSGP +6.28%, FICO +6.99% also strong"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "RKLB",
+            "move": "-6.64%",
+            "note": "Neutron's push to take share from SpaceX slips to 2027"
+          },
+          {
+            "ticker": "IBKR",
+            "move": "-2%",
+            "note": "Mixed Q3: profit climbed but customer stock trading slowed"
+          },
+          {
+            "ticker": "Skydance",
+            "move": "\u25bc",
+            "note": "Plunged after distributing nearly 471M warrants"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25bc",
+            "note": "Bonds spiked toward 15% yields on AI debt fears; shares rebounded +5.94% off the lows"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Rebound vs repricing",
+            "detail": "Afternoon dip-buyers and Bessent-put chatter vs a 50bp December hike repriced back in after two straight hot inflation prints (CPI then PPI)."
+          },
+          {
+            "title": "Housing paradox",
+            "detail": "Mortgage rates hit 7.4%, highest since 2023, while housing stocks posted the day's biggest gains (+6% to +16%) on falling long yields."
+          },
+          {
+            "title": "AI capital: stress vs selectivity",
+            "detail": "Neocloud funding stress (CoreWeave bonds toward 15% yields) vs selective AI capital still flowing: Nvidia-backed Iambic IPO +16% and leveraged-ETF dip-buying into the $1T chip rout."
+          },
+          {
+            "title": "Energy: escalation vs counter-supply",
+            "detail": "Iran ramping Hormuz shipping attacks vs the IEA agreeing to release 100M barrels \u2014 escalation answered with coordinated counter-supply; oil exports steady so far."
+          }
+        ],
+        "take": "Today's real news was the 8:30 AM PPI \u2014 the hottest wholesale print in four years \u2014 which put a 50bp December hike back on the table and capped a brutal two-day inflation double-tap. The afternoon rebound was dip-buyers and Bessent-put chatter, not conviction: money rotated out of AI into defensives and housing because yields sank, not because anyone decided the Fed story changed. Tomorrow is a show-me tape \u2014 if Friday's retail sales run hot, this green close gets forgotten by the open.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -144,7 +263,11 @@
         "made": "2026-10-15",
         "scores_detail": "Post-close 37 (2026-10-14) + pre-market 35 (2026-10-15) = 36"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.28,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-14",
