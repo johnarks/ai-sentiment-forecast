@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-16",
+      "kind": "final",
+      "date": "2026-10-16",
+      "scores_detail": "Post-close 46 (2026-10-15) + pre-market 47 (2026-10-16) = 47",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 47 (prev post-close 46 on 2026-10-15 + pre-market 47): CoreWeave AI-credit stress deepens.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-16",
       "kind": "early",
       "date": "2026-10-15",
       "score": 46,
