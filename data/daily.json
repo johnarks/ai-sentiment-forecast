@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-19",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.",
+        "made": "2026-10-16",
+        "scores_detail": "Post-close 40 (2026-10-16)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-16",
       "morning": {
         "score": 47,
@@ -144,7 +158,134 @@
         "take": "Futures are green because Kevin Warsh declined to guide on rates, which unwound the week's rate-hike panic \u2014 but relief isn't conviction. CoreWeave's credit unwind is deepening into the open and record analyst bearishness on Adobe shows the AI fear trade spreading from infra debt to software names. A 47 pre-market blended with yesterday's 46 keeps the final call DOWN: rallies on non-news don't get the benefit of the doubt after two straight shock days.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Friday closed a brutal week with the Nasdaq down 2% \u2014 its worst week since June \u2014 as the 'AI burnout trade' took full hold. Chip stocks posted their longest losing streak since 2008, CoreWeave cratered ~12% on AI credit fears, the software complex shed $260B as Palantir's breakout unraveled, and high oil prices weighed on the broader tape. The day's one real positive was September industrial production up 0.7%, but it was drowned out by the AI unwind and a $1.992 trillion fiscal deficit.",
+        "drivers": [
+          {
+            "title": "AI burnout trade: Nasdaq -2%, worst week since June",
+            "detail": "Chip stocks posted their longest losing streak since 2008; AI anxieties mounted across the tape all session.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "CoreWeave credit scare deepens",
+            "detail": "CRWV -11.91%; filings show CEO sold nearly $1B of stock since IPO; bonds headed for steep weekly losses on AI borrowing concerns.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Software complex sheds $260B; Palantir breakout unravels",
+            "detail": "FTNT and CRWD -7%, AXON -6.45%, NOW/AKAM/ANET all underperformed; Adobe analysts at record bearishness on AI fears.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "High oil prices weigh on Wall Street",
+            "detail": "Diesel prices soar; Exxon signals knockout refining earnings; US steel prices hit four-year high as tariffs bite.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bank stocks eye worst weekly losing streak since 2008",
+            "detail": "Mortgage bond sales put on hold as investors demand more yield \u2014 credit stress broadening.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US budget deficit hits $1.992 trillion",
+            "detail": "Fiscal 2026 closed with a ~$2T deficit and a record $1.4T in interest paid.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China restricts solar-tech exports, warns EU on trade",
+            "detail": "Fresh trade-escalation signal on the export-control front.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "September industrial production +0.7%",
+            "detail": "Powered by utilities \u2014 one of the day's few genuinely positive data points.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "VTRS",
+            "move": "\u25b2",
+            "note": "FDA approval for RYZUMVI (presbyopia)"
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25b2",
+            "note": "FAA nearing approval of 737 MAX 10 jetliner"
+          },
+          {
+            "ticker": "XOM",
+            "move": "\u25b2",
+            "note": "Signals knockout refining earnings as diesel soars"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CRWV",
+            "move": "-11.91%",
+            "note": "AI credit fears; CEO sold ~$1B since IPO per filings"
+          },
+          {
+            "ticker": "KOPN",
+            "move": "-13.53%",
+            "note": "AI infrastructure optics in a risk-off tape"
+          },
+          {
+            "ticker": "SMCI",
+            "move": "-9.86%",
+            "note": "New CFO named after burning ~$7B in free cash flow"
+          },
+          {
+            "ticker": "MSTR",
+            "move": "-9.56%",
+            "note": "Faces MSCI ouster under new rules; billions in passive holdings at risk"
+          },
+          {
+            "ticker": "HOOD",
+            "move": "\u2248-9%",
+            "note": "Wolfe downgrade; valuation was already shrinking"
+          },
+          {
+            "ticker": "ASTS",
+            "move": "-8.55%",
+            "note": "Blue Origin vs SpaceX competitive read"
+          },
+          {
+            "ticker": "FTNT",
+            "move": "-7.03%",
+            "note": "Software/security leg of the AI unwind"
+          },
+          {
+            "ticker": "CRWD",
+            "move": "-7.02%",
+            "note": "Software/security leg of the AI unwind"
+          },
+          {
+            "ticker": "INTC",
+            "move": "-5.79%",
+            "note": "Chip slump continuation"
+          },
+          {
+            "ticker": "COIN",
+            "move": "-5.79%",
+            "note": "Crypto-linked risk-off"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI capex demand vs AI credit fear",
+            "detail": "Bloomberg asks why tech's AI borrowing binge is rattling markets while Jump/DRW bet on a new compute market \u2014 the same buildout is both the bull case and the bear case"
+          },
+          {
+            "title": "Oil surge cuts both ways",
+            "detail": "High oil weighed on Wall Street Friday even as refiners like Exxon signal knockout earnings"
+          }
+        ],
+        "take": "The AI burnout trade isn't a scare anymore, it's the tape: chips just printed their longest losing streak since 2008 while CoreWeave cratered 12% and insiders ran for the exits \u2014 the market is now pricing AI credit risk as the central story, not a sideshow. Warsh's refusal to guide gave futures a brief sugar high and the close faded anyway; that's the tell that the real bid under this market is gone. For Monday, the only thing that matters is whether the software complex finds a floor \u2014 the Palantir breakout unraveling says no.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -159,7 +300,11 @@
         "made": "2026-10-16",
         "scores_detail": "Post-close 46 (2026-10-15) + pre-market 47 (2026-10-16) = 47"
       },
-      "result": null
+      "result": {
+        "spy_pct": -1.11,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-15",
