@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-19",
+      "kind": "early",
+      "date": "2026-10-16",
+      "score": 40,
+      "label": "Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-16",
       "kind": "final",
       "date": "2026-10-16",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 47 (prev post-close 46 on 2026-10-15 + pre-market 47): CoreWeave AI-credit stress deepens.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.11,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 46 (Neutral \u2014 Risk-Off Lean): Hot September PPI reprices the Fed.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.11,
+      "hit": true,
       "push": false
     },
     {
