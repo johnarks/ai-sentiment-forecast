@@ -2,7 +2,148 @@
   "days": [
     {
       "date": "2026-10-16",
-      "morning": null,
+      "morning": {
+        "score": 47,
+        "label": "Neutral \u2014 Cautious",
+        "summary": "Futures rebounded after Kevin Warsh declined to guide on rates and vowed price stability, unwinding some of this week's rate-hike fears. But the rebound is fragile: CoreWeave's credit unwind deepened overnight (shares and bonds tumbling, founders cashed out $3.3B pre-meltdown), Adobe drew record analyst bearishness on AI fears, and tech is wobbling again into the open.",
+        "drivers": [
+          {
+            "title": "Warsh relief rally: rate-hike fears ebb",
+            "detail": "Warsh declined to guide on next Fed move, vowed price stability; futures rose and WSJ/Bloomberg wrap the tape as rate-hike bets being pared overnight.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "CoreWeave AI-credit stress deepens",
+            "detail": "Shares and bonds headed for steep weekly losses; ZeroHedge reports founders cashed out $3.3B before the meltdown; AI-borrowing concerns spreading to the riskiest AI-credit corner.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Adobe hits record analyst bearishness",
+            "detail": "Bloomberg: analysts have never been so bearish on Adobe as AI-disruption fears mount \u2014 the software fear trade is broadening.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China moves on solar exports; props own market",
+            "detail": "Beijing restricts exports of some solar technologies (new policy signal) while rolling out selling curbs and buybacks to prop up its stock market.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "India IT earnings boom",
+            "detail": "Tech Mahindra +6% on strong deal wins, Wipro up, and India's IT stocks headed for their best week in 18 years \u2014 offshore services thriving while US AI-credit shakes.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil/Hormuz risk flares",
+            "detail": "Ship-attack reports near Hormuz hit record highs, tanker rates at records, crude set for a weekly gain \u2014 inflation tail-risk re-engaging.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Tariffs bite: US steel at 4-year high",
+            "detail": "Bloomberg: US steel prices at four-year highs as Trump's tariffs take hold \u2014 cost pressure for downstream manufacturers.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Flows still constructive",
+            "detail": "Global equity funds drew inflows for a fourth straight week as Treasury yields eased; Thursday's session ended higher on rotation from AI into healthcare.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "TSLA",
+            "move": "\u25b2",
+            "note": "Roadster 'flying debut'; stock rising premarket, interrupting the AI liquidation narrative"
+          },
+          {
+            "ticker": "MBLY",
+            "move": "+4.3%",
+            "note": "Citi initiates at Buy with $11 price target"
+          },
+          {
+            "ticker": "SMTC",
+            "move": "+2.7%",
+            "note": "Raised Q3 guidance plus Northland upgrade"
+          },
+          {
+            "ticker": "KO",
+            "move": "\u25b2",
+            "note": "Wins KFC US fountain business from Pepsi starting 2027"
+          },
+          {
+            "ticker": "TECHM",
+            "move": "+6%",
+            "note": "Strong deal wins; India IT on best week in 18 years"
+          },
+          {
+            "ticker": "NI",
+            "move": "\u25b2",
+            "note": "20-year Microsoft 1,100 MW power deal for Indiana data-center campus"
+          },
+          {
+            "ticker": "AZN",
+            "move": "\u25b2",
+            "note": "AI drug-discovery deal with Insitro"
+          },
+          {
+            "ticker": "EUTELSAT",
+            "move": "\u25b2",
+            "note": "Shares extend rally after Ukraine Starshield limits"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "CRWV",
+            "move": "-5.73%",
+            "note": "AI-credit unwind: shares and bonds tumble, founders reportedly cashed out $3.3B pre-meltdown"
+          },
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "Chief content officer replaced; Barron's notes the stock is falling on the shakeup"
+          },
+          {
+            "ticker": "ADBE",
+            "move": "\u25bc",
+            "note": "Record analyst bearishness as AI-disruption fears mount"
+          },
+          {
+            "ticker": "FOXF",
+            "move": "-22.59%",
+            "note": "CEO transition announced"
+          },
+          {
+            "ticker": "CFG",
+            "move": "-5.4%",
+            "note": "Q3 revenue miss despite earnings beat"
+          },
+          {
+            "ticker": "OMER",
+            "move": "-4%",
+            "note": "EU regulators uphold negative opinion on narsoplimab"
+          },
+          {
+            "ticker": "PEP",
+            "move": "\u25bc",
+            "note": "KFC to switch US fountains from Pepsi to Coca-Cola in 2027"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Rate relief vs AI-credit unwind",
+            "detail": "Warsh's non-guidance lifted futures and pared rate-hike bets, but CoreWeave's bonds and shares kept falling overnight \u2014 the tape is being pulled in two directions at the open."
+          },
+          {
+            "title": "AI fear vs AI spend",
+            "detail": "Adobe drew record bearishness and AI-credit stress spread, while Microsoft signed a 1,100 MW power deal, AstraZeneca inked an AI drug-discovery pact, and Meta+Apple pushed an 816B open model \u2014 fear and capex are coexisting."
+          },
+          {
+            "title": "Rotation vs risk-avoidance",
+            "detail": "Thursday ended higher on rotation from AI into healthcare and global equity inflows ran a 4th week, but BofA's Hartnett reports investors are actively avoiding risk on Fed and midterm uncertainty."
+          }
+        ],
+        "take": "Futures are green because Kevin Warsh declined to guide on rates, which unwound the week's rate-hike panic \u2014 but relief isn't conviction. CoreWeave's credit unwind is deepening into the open and record analyst bearishness on Adobe shows the AI fear trade spreading from infra debt to software names. A 47 pre-market blended with yesterday's 46 keeps the final call DOWN: rallies on non-news don't get the benefit of the doubt after two straight shock days.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +152,13 @@
         "made": "2026-10-15",
         "scores_detail": "Post-close 46 (2026-10-15)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 47 (prev post-close 46 on 2026-10-15 + pre-market 47): CoreWeave AI-credit stress deepens.",
+        "made": "2026-10-16",
+        "scores_detail": "Post-close 46 (2026-10-15) + pre-market 47 (2026-10-16) = 47"
+      },
       "result": null
     },
     {
