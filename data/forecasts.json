@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-19",
+      "kind": "final",
+      "date": "2026-10-19",
+      "scores_detail": "Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 47 (prev post-close 40 on 2026-10-16 + pre-market 53): France riots pressure bonds and stocks.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-19",
       "kind": "early",
       "date": "2026-10-16",
       "score": 40,
