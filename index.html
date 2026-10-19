@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-10-16 18:30 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-10-19 09:15 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -189,26 +189,117 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     <section class="hero">
       <div class="call-card down hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-10-16</div>
+        <div class="cc-kicker">Current call · Final call · made 2026-10-19</div>
         <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Monday, Oct 19</div>
-        <div class="cc-conf">Confidence: Moderate</div>
-        <p class="cc-scores">Post-close 40 (Risk-Off Tilt)</p>
-        <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <div class="cc-conf">Confidence: Low</div>
+        <p class="cc-scores">Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47</p>
+        <p class="cc-rationale">Blended score 47 (prev post-close 40 on 2026-10-16 + pre-market 53): France riots pressure bonds and stocks.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-10-19T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-10-19T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Mon, Oct 19 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Mon, Oct 19 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-10-19</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card down ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-10-16</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 40 (2026-10-16)</p>
+      <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker neutral" style="left:53%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num neutral">53</span>
+      <span class="score-label neutral">Neutral</span></div>
+    </div>
+      <p class="ec-summary">Futures point to a bounce after the worst Nasdaq week since &#x27;Liberation Day,&#x27; with dip buyers rushing back into chips — CRWV +6.5% on a Goldman Sachs upgrade to Buy, Intel upgraded, NVDA and AMD rallying pre-market — while oil slips from its 5-month high on Trump&#x27;s Russia sanctions waiver. Offsetting the bid: weekend riots are pressuring French bonds and stocks, Indonesia&#x27;s rout deepened with the exchange meeting MSCI on Monday, and Microsoft&#x27;s exit from the UK&#x27;s largest AI data centre is feeding AI-capex jitters ahead of this week&#x27;s META and TSLA earnings. Net: a stabilization bid, but earnings and geopolitics will decide whether it sticks.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Chips bounce after worst weekly selloff in months</strong>
+          <p>US chip stocks rebound pre-market; CRWV +6.5% on Goldman Sachs upgrade to Buy; Intel upgraded by Barron&#x27;s/JPMorgan; NVDA and AMD rallying.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>France riots pressure bonds and stocks</strong>
+          <p>Weekend protests (reports of 500k+ involved); French OATs and CAC sliding; euro dented; Macron under pressure to restore order.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Indonesia rout meets MSCI test</strong>
+          <p>Record two-day rout, lowest since 2020 after MSCI&#x27;s shock index threat; exchange meets MSCI on Monday.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Oil off 5-month high on sanctions-waiver hopes</strong>
+          <p>Brent had touched ~$110 (5-month high); now slips as Trump&#x27;s Russia sanctions waiver could bring more supply; Secretary Wright says pump prices have &#x27;peaked&#x27;.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>China: state buying meets new export curbs</strong>
+          <p>State funds active after record weekly losing run; overnight rate set to become main policy benchmark; export curbs extended to more drones and industrial machinery.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI-capex jitters: MSFT exits UK mega data centre</strong>
+          <p>Microsoft pulls out of the UK&#x27;s largest AI data centre amid mounting scrutiny of AI spending and AI-bond weak points.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>DeepSeek model rattles Korean chips</strong>
+          <p>New DeepSeek model plus funding worries rattles chip names; Korean market among the day&#x27;s weak spots.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">CRWV</td>
+        <td class="move pos">+6.53%</td>
+        <td>Goldman Sachs upgrade to Buy.</td></tr><tr><td class="ticker">INTC</td>
+        <td class="move pos">▲</td>
+        <td>JPMorgan/Barron&#x27;s upgrades as the chip selloff is viewed overdone.</td></tr><tr><td class="ticker">YMAT</td>
+        <td class="move pos">+88.51%</td>
+        <td>US drone manufacturing initiative; Houston facility acquisition.</td></tr><tr><td class="ticker">EOSE</td>
+        <td class="move pos">+16.48%</td>
+        <td>Preliminary Q3 revenue growth and continued margin improvement.</td></tr><tr><td class="ticker">XE</td>
+        <td class="move pos">+9.07%</td>
+        <td>AEP + Amazon + X-energy SMR project in Indiana.</td></tr><tr><td class="ticker">SLGN</td>
+        <td class="move pos">▲</td>
+        <td>$3.4B Trivium packaging deal.</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move pos">▲</td>
+        <td>Tesla-SpaceX merger mania ahead of earnings.</td></tr><tr><td class="ticker">ASTS</td>
+        <td class="move pos">▲</td>
+        <td>Rises on European broadband push.</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">EYPT</td>
+        <td class="move neg">-81.86%</td>
+        <td>Key eye drug fails; staff slashed.</td></tr><tr><td class="ticker">AAPL</td>
+        <td class="move neg">▼</td>
+        <td>Analyst says iPhone 18 demand weakness is &#x27;intensifying&#x27;.</td></tr><tr><td class="ticker">VFS</td>
+        <td class="move neg">▼</td>
+        <td>Misses EPS estimates despite revenue beat.</td></tr><tr><td class="ticker">CBZ</td>
+        <td class="move neg">▼</td>
+        <td>Q3 revenue $702M; earnings fall below analyst estimates.</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Dip-buying chips vs AI-capex doubts</strong><p>Futures and upgrades fuel the chip rebound, but MSFT&#x27;s UK data-centre exit, &#x27;weak points in AI bonds&#x27; talk, and IBD&#x27;s &#x27;earnings gut check&#x27; keep spending fears alive.</p></div><div class="cc"><strong>Oil high vs oil easing</strong><p>Brent held near $110 on Mideast/Ukraine risk, yet slips as Trump&#x27;s sanctions waiver and Wright&#x27;s &#x27;peaked&#x27; call point to more supply.</p></div><div class="cc"><strong>China support vs China tightening</strong><p>State funds buy the dip after a record weekly losing run while Beijing extends export curbs on drones and industrial machinery.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The chip bounce is real — CRWV up 6.5% on Goldman&#x27;s Buy upgrade, Intel and NVDA rallying pre-market after the worst Nasdaq week since Liberation Day — but the same AI-capex doubts that wrecked the tape (MSFT&#x27;s UK data-centre exit, &quot;weak points in AI bonds&quot;) haven&#x27;t gone anywhere. France riots and the Indonesia-MSCI standoff are live tail risks; oil sliding off $110 is the one genuine de-escalation. Net: dip buyers own this morning, so don&#x27;t fight the bounce — just don&#x27;t trust it past the close.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +320,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-10-19</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-10-19</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-10-16): Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.<br><span class='muted'>Scores: 40</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-10-16): Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.<br><span class='muted'>Scores: 40</span></p><p><strong>Final call</strong> (made 2026-10-19): Blended score 47 (prev post-close 40 on 2026-10-16 + pre-market 53): France riots pressure bonds and stocks.<br><span class='muted'>Scores: Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47</span></p></details></td></tr><tr>
           <td><strong>2026-10-16</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td>-1.11%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -331,7 +422,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-10-19</strong> </summary>
+          <summary><strong>2026-10-19</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card down ">
@@ -342,10 +433,101 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 40 (Risk-Off Tilt): AI burnout trade: Nasdaq -2%, worst week since June.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-10-19</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47</p>
+      <p class="cc-rationale">Blended score 47 (prev post-close 40 on 2026-10-16 + pre-market 53): France riots pressure bonds and stocks.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker neutral" style="left:53%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num neutral">53</span>
+      <span class="score-label neutral">Neutral</span></div>
+    </div>
+      <p class="ec-summary">Futures point to a bounce after the worst Nasdaq week since &#x27;Liberation Day,&#x27; with dip buyers rushing back into chips — CRWV +6.5% on a Goldman Sachs upgrade to Buy, Intel upgraded, NVDA and AMD rallying pre-market — while oil slips from its 5-month high on Trump&#x27;s Russia sanctions waiver. Offsetting the bid: weekend riots are pressuring French bonds and stocks, Indonesia&#x27;s rout deepened with the exchange meeting MSCI on Monday, and Microsoft&#x27;s exit from the UK&#x27;s largest AI data centre is feeding AI-capex jitters ahead of this week&#x27;s META and TSLA earnings. Net: a stabilization bid, but earnings and geopolitics will decide whether it sticks.</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Chips bounce after worst weekly selloff in months</strong>
+          <p>US chip stocks rebound pre-market; CRWV +6.5% on Goldman Sachs upgrade to Buy; Intel upgraded by Barron&#x27;s/JPMorgan; NVDA and AMD rallying.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>France riots pressure bonds and stocks</strong>
+          <p>Weekend protests (reports of 500k+ involved); French OATs and CAC sliding; euro dented; Macron under pressure to restore order.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Indonesia rout meets MSCI test</strong>
+          <p>Record two-day rout, lowest since 2020 after MSCI&#x27;s shock index threat; exchange meets MSCI on Monday.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Oil off 5-month high on sanctions-waiver hopes</strong>
+          <p>Brent had touched ~$110 (5-month high); now slips as Trump&#x27;s Russia sanctions waiver could bring more supply; Secretary Wright says pump prices have &#x27;peaked&#x27;.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>China: state buying meets new export curbs</strong>
+          <p>State funds active after record weekly losing run; overnight rate set to become main policy benchmark; export curbs extended to more drones and industrial machinery.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI-capex jitters: MSFT exits UK mega data centre</strong>
+          <p>Microsoft pulls out of the UK&#x27;s largest AI data centre amid mounting scrutiny of AI spending and AI-bond weak points.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>DeepSeek model rattles Korean chips</strong>
+          <p>New DeepSeek model plus funding worries rattles chip names; Korean market among the day&#x27;s weak spots.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">CRWV</td>
+        <td class="move pos">+6.53%</td>
+        <td>Goldman Sachs upgrade to Buy.</td></tr><tr><td class="ticker">INTC</td>
+        <td class="move pos">▲</td>
+        <td>JPMorgan/Barron&#x27;s upgrades as the chip selloff is viewed overdone.</td></tr><tr><td class="ticker">YMAT</td>
+        <td class="move pos">+88.51%</td>
+        <td>US drone manufacturing initiative; Houston facility acquisition.</td></tr><tr><td class="ticker">EOSE</td>
+        <td class="move pos">+16.48%</td>
+        <td>Preliminary Q3 revenue growth and continued margin improvement.</td></tr><tr><td class="ticker">XE</td>
+        <td class="move pos">+9.07%</td>
+        <td>AEP + Amazon + X-energy SMR project in Indiana.</td></tr><tr><td class="ticker">SLGN</td>
+        <td class="move pos">▲</td>
+        <td>$3.4B Trivium packaging deal.</td></tr><tr><td class="ticker">TSLA</td>
+        <td class="move pos">▲</td>
+        <td>Tesla-SpaceX merger mania ahead of earnings.</td></tr><tr><td class="ticker">ASTS</td>
+        <td class="move pos">▲</td>
+        <td>Rises on European broadband push.</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">EYPT</td>
+        <td class="move neg">-81.86%</td>
+        <td>Key eye drug fails; staff slashed.</td></tr><tr><td class="ticker">AAPL</td>
+        <td class="move neg">▼</td>
+        <td>Analyst says iPhone 18 demand weakness is &#x27;intensifying&#x27;.</td></tr><tr><td class="ticker">VFS</td>
+        <td class="move neg">▼</td>
+        <td>Misses EPS estimates despite revenue beat.</td></tr><tr><td class="ticker">CBZ</td>
+        <td class="move neg">▼</td>
+        <td>Q3 revenue $702M; earnings fall below analyst estimates.</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Dip-buying chips vs AI-capex doubts</strong><p>Futures and upgrades fuel the chip rebound, but MSFT&#x27;s UK data-centre exit, &#x27;weak points in AI bonds&#x27; talk, and IBD&#x27;s &#x27;earnings gut check&#x27; keep spending fears alive.</p></div><div class="cc"><strong>Oil high vs oil easing</strong><p>Brent held near $110 on Mideast/Ukraine risk, yet slips as Trump&#x27;s sanctions waiver and Wright&#x27;s &#x27;peaked&#x27; call point to more supply.</p></div><div class="cc"><strong>China support vs China tightening</strong><p>State funds buy the dip after a record weekly losing run while Beijing extends export curbs on drones and industrial machinery.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">The chip bounce is real — CRWV up 6.5% on Goldman&#x27;s Buy upgrade, Intel and NVDA rallying pre-market after the worst Nasdaq week since Liberation Day — but the same AI-capex doubts that wrecked the tape (MSFT&#x27;s UK data-centre exit, &quot;weak points in AI bonds&quot;) haven&#x27;t gone anywhere. France riots and the Indonesia-MSCI standoff are live tail risks; oil sliding off $110 is the one genuine de-escalation. Net: dip buyers own this morning, so don&#x27;t fight the bounce — just don&#x27;t trust it past the close.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -4423,7 +4605,7 @@ What actually matters: the S&amp;P sits near records while bond yields scream hi
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-10-16 18:30 ET.
+    Generated 2026-10-19 09:15 ET.
   </footer>
 </div>
 <script>
