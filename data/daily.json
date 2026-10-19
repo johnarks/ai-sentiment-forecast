@@ -2,7 +2,128 @@
   "days": [
     {
       "date": "2026-10-19",
-      "morning": null,
+      "morning": {
+        "score": 53,
+        "label": "Neutral",
+        "summary": "Futures point to a bounce after the worst Nasdaq week since 'Liberation Day,' with dip buyers rushing back into chips \u2014 CRWV +6.5% on a Goldman Sachs upgrade to Buy, Intel upgraded, NVDA and AMD rallying pre-market \u2014 while oil slips from its 5-month high on Trump's Russia sanctions waiver. Offsetting the bid: weekend riots are pressuring French bonds and stocks, Indonesia's rout deepened with the exchange meeting MSCI on Monday, and Microsoft's exit from the UK's largest AI data centre is feeding AI-capex jitters ahead of this week's META and TSLA earnings. Net: a stabilization bid, but earnings and geopolitics will decide whether it sticks.",
+        "drivers": [
+          {
+            "title": "Chips bounce after worst weekly selloff in months",
+            "detail": "US chip stocks rebound pre-market; CRWV +6.5% on Goldman Sachs upgrade to Buy; Intel upgraded by Barron's/JPMorgan; NVDA and AMD rallying.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "France riots pressure bonds and stocks",
+            "detail": "Weekend protests (reports of 500k+ involved); French OATs and CAC sliding; euro dented; Macron under pressure to restore order.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Indonesia rout meets MSCI test",
+            "detail": "Record two-day rout, lowest since 2020 after MSCI's shock index threat; exchange meets MSCI on Monday.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil off 5-month high on sanctions-waiver hopes",
+            "detail": "Brent had touched ~$110 (5-month high); now slips as Trump's Russia sanctions waiver could bring more supply; Secretary Wright says pump prices have 'peaked'.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "China: state buying meets new export curbs",
+            "detail": "State funds active after record weekly losing run; overnight rate set to become main policy benchmark; export curbs extended to more drones and industrial machinery.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "AI-capex jitters: MSFT exits UK mega data centre",
+            "detail": "Microsoft pulls out of the UK's largest AI data centre amid mounting scrutiny of AI spending and AI-bond weak points.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "DeepSeek model rattles Korean chips",
+            "detail": "New DeepSeek model plus funding worries rattles chip names; Korean market among the day's weak spots.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CRWV",
+            "move": "+6.53%",
+            "note": "Goldman Sachs upgrade to Buy."
+          },
+          {
+            "ticker": "INTC",
+            "move": "\u25b2",
+            "note": "JPMorgan/Barron's upgrades as the chip selloff is viewed overdone."
+          },
+          {
+            "ticker": "YMAT",
+            "move": "+88.51%",
+            "note": "US drone manufacturing initiative; Houston facility acquisition."
+          },
+          {
+            "ticker": "EOSE",
+            "move": "+16.48%",
+            "note": "Preliminary Q3 revenue growth and continued margin improvement."
+          },
+          {
+            "ticker": "XE",
+            "move": "+9.07%",
+            "note": "AEP + Amazon + X-energy SMR project in Indiana."
+          },
+          {
+            "ticker": "SLGN",
+            "move": "\u25b2",
+            "note": "$3.4B Trivium packaging deal."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25b2",
+            "note": "Tesla-SpaceX merger mania ahead of earnings."
+          },
+          {
+            "ticker": "ASTS",
+            "move": "\u25b2",
+            "note": "Rises on European broadband push."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "EYPT",
+            "move": "-81.86%",
+            "note": "Key eye drug fails; staff slashed."
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "Analyst says iPhone 18 demand weakness is 'intensifying'."
+          },
+          {
+            "ticker": "VFS",
+            "move": "\u25bc",
+            "note": "Misses EPS estimates despite revenue beat."
+          },
+          {
+            "ticker": "CBZ",
+            "move": "\u25bc",
+            "note": "Q3 revenue $702M; earnings fall below analyst estimates."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Dip-buying chips vs AI-capex doubts",
+            "detail": "Futures and upgrades fuel the chip rebound, but MSFT's UK data-centre exit, 'weak points in AI bonds' talk, and IBD's 'earnings gut check' keep spending fears alive."
+          },
+          {
+            "title": "Oil high vs oil easing",
+            "detail": "Brent held near $110 on Mideast/Ukraine risk, yet slips as Trump's sanctions waiver and Wright's 'peaked' call point to more supply."
+          },
+          {
+            "title": "China support vs China tightening",
+            "detail": "State funds buy the dip after a record weekly losing run while Beijing extends export curbs on drones and industrial machinery."
+          }
+        ],
+        "take": "The chip bounce is real \u2014 CRWV up 6.5% on Goldman's Buy upgrade, Intel and NVDA rallying pre-market after the worst Nasdaq week since Liberation Day \u2014 but the same AI-capex doubts that wrecked the tape (MSFT's UK data-centre exit, \"weak points in AI bonds\") haven't gone anywhere. France riots and the Indonesia-MSCI standoff are live tail risks; oil sliding off $110 is the one genuine de-escalation. Net: dip buyers own this morning, so don't fight the bounce \u2014 just don't trust it past the close.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +132,13 @@
         "made": "2026-10-16",
         "scores_detail": "Post-close 40 (2026-10-16)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 47 (prev post-close 40 on 2026-10-16 + pre-market 53): France riots pressure bonds and stocks.",
+        "made": "2026-10-19",
+        "scores_detail": "Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47"
+      },
       "result": null
     },
     {
