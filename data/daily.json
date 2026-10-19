@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-20",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 56 (Risk-On Tilt): AI trade snaps back after brutal selloff.",
+        "made": "2026-10-19",
+        "scores_detail": "Post-close 56 (2026-10-19)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-19",
       "morning": {
         "score": 53,
@@ -124,7 +138,138 @@
         "take": "The chip bounce is real \u2014 CRWV up 6.5% on Goldman's Buy upgrade, Intel and NVDA rallying pre-market after the worst Nasdaq week since Liberation Day \u2014 but the same AI-capex doubts that wrecked the tape (MSFT's UK data-centre exit, \"weak points in AI bonds\") haven't gone anywhere. France riots and the Indonesia-MSCI standoff are live tail risks; oil sliding off $110 is the one genuine de-escalation. Net: dip buyers own this morning, so don't fight the bounce \u2014 just don't trust it past the close.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 56,
+        "label": "Risk-On Tilt",
+        "summary": "Tech snapped back hard on Monday: the Nasdaq climbed more than 1% and chips \u2014 MU, INTC, AMD, NVDA \u2014 rebounded after the worst tech selling week in five years, with WDC, SNDK and DDOG each up 5%+. But the bounce came with caveats: Goldman says hedge funds cut tech at their fastest pace in a decade, rising yields left the Dow lower, and early earnings reads were soft. Geopolitics stayed noisy \u2014 France's unrest hit its markets, Trump waived Russia sanctions to push oil off its highs, and China added drone export curbs. Score 56: risk-on tape, still-guarded positioning.",
+        "drivers": [
+          {
+            "title": "AI trade snaps back after brutal selloff",
+            "detail": "Nasdaq climbed more than 1% and chip stocks (MU, INTC, AMD, NVDA) rebounded after the worst tech selling week in 5 years; WDC +6.1%, SNDK +5.5%, DDOG +5.4%, TWLO +5.3%. S&P 500 closed higher.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Hedge funds cut tech at fastest pace in a decade (Goldman)",
+            "detail": "Positioning overhang remains: the unwind that crushed tech last week was the most aggressive in ten years, capping conviction in today's bounce.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Rising yields on haven unwind; Treasury financing anxiety",
+            "detail": "Treasuries fell as the tech rebound weakened haven demand; Dow slipped as yields rose. MarketWatch flags Wall Street anxiety over Treasury financing plans.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump waives Russia sanctions as Putin floats Ukraine summit",
+            "detail": "Crude slipped from a 5-month high on expectations of more Russian supply returning; mildly disinflationary.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "France unrest rattles markets; Saudi event postponed",
+            "detail": "Riots and 8PM curfews sank French stocks and bonds; Saudi Arabia postponed its FII investment event after Houthi attacks on Saudi airports and Aramco sites.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China slaps export curbs on more drones and industrial machinery",
+            "detail": "Fresh escalation in tech-trade restrictions adds to the trade-war overhang on industrials and semis.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Housing weakness: buyers canceling at near-record rates",
+            "detail": "Cancellation rates near records and mortgage rates 'eating up all the good news' \u2014 consumer/housing stress keeps building even as equities bounced.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Indonesia market turmoil",
+            "detail": "Record two-day rout prompted the exchange to calm the market and exclude tightly owned stocks from the benchmark; NYT warns of a looming economic crisis.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CLF",
+            "move": "+16.34%",
+            "note": "Q3 2026 blowout; biggest single-stock gainer of the day"
+          },
+          {
+            "ticker": "WDC",
+            "move": "+6.09%",
+            "note": "Led AI-infrastructure rebound in the S&P 500"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "+5.53%",
+            "note": "AI rebound; among the day's top S&P gainers"
+          },
+          {
+            "ticker": "DDOG",
+            "move": "+5.36%",
+            "note": "AI/software bounce-back after the selloff"
+          },
+          {
+            "ticker": "TWLO",
+            "move": "+5.29%",
+            "note": "Rode the AI-stock rebound higher"
+          },
+          {
+            "ticker": "BTDR",
+            "move": "+6.24% AH",
+            "note": "September production and operations update well received"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25b2",
+            "note": "Rebounding on Goldman Sachs upgrade to Buy"
+          },
+          {
+            "ticker": "RAMP",
+            "move": "\u25b2",
+            "note": "FTC cleared the Publicis acquisition \u2014 deal overhang removed"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "STLD",
+            "move": "-6.68% AH",
+            "note": "Q3 results out; stock sold off after hours despite higher profit on improved pricing"
+          },
+          {
+            "ticker": "CCK",
+            "move": "-5.13% AH",
+            "note": "Q3 beat but weak Q4 guidance from Crown Holdings"
+          },
+          {
+            "ticker": "KARO",
+            "move": "-6.92% AH",
+            "note": "Fiscal Q2 earnings snapshot; sold off after hours"
+          },
+          {
+            "ticker": "NUBURU",
+            "move": "-6.08%",
+            "note": "Received NYSE American warning letter on disclosure requirements"
+          },
+          {
+            "ticker": "CEG",
+            "move": "\u25bc",
+            "note": "Constellation Energy fell Monday and underperformed the market"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI rebound vs. fastest tech exit in a decade",
+            "detail": "Today's powerful snapback vs. Goldman's finding that hedge funds cut tech at their fastest pace in a decade \u2014 is the positioning wash-out over, or is the bounce a sell-the-rip setup?"
+          },
+          {
+            "title": "Rising yields on tech strength vs. housing stress",
+            "detail": "The tech rebound killed haven demand, pushing yields up and dragging the Dow lower \u2014 yet housing data (near-record buyer cancellations) argues for easier conditions. Bonds and equities are pointing opposite ways."
+          },
+          {
+            "title": "AI capex boom vs. cracking AI credit",
+            "detail": "Reports of a $45B Anthropic compute deal with an Nvidia-backed cloud firm signal capex keeps flowing \u2014 but the WSJ flags 'weak points in AI bonds becoming clearer' as credit markets grow skeptical of AI debt."
+          }
+        ],
+        "take": "Today's bounce was real but shallow: the Nasdaq's 1%+ snapback and the chip rebound (MU, INTC, AMD, NVDA) say dip-buyers are alive after the worst tech selling week in five years, yet Goldman's finding that hedge funds just dumped tech at their fastest pace in a decade means the smart money is still running for the exit \u2014 this is positioning repair, not a trend reversal. Watch Tuesday: Meta and Tesla earnings plus GM and GE Aerospace land into a tape that wants to believe AI capex is back, while WSJ's warning that \"weak points in AI bonds\" are getting clearer hangs over the whole trade. If META/TSLA don't confirm the capex story with actual spend guidance, the fastest-tech-exit-in-a-decade crowd will be vindicated and tomorrow's open sells off; if they do, the short-cover rally has room to run into Wednesday.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -139,7 +284,11 @@
         "made": "2026-10-19",
         "scores_detail": "Post-close 40 (2026-10-16) + pre-market 53 (2026-10-19) = 47"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.42,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-16",
