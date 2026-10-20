@@ -2,7 +2,147 @@
   "days": [
     {
       "date": "2026-10-20",
-      "morning": null,
+      "morning": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Pre-market tape is firmly defensive: the AI trade is wobbling again after a Korean neocloud IPO flop revived the data-center sustainability debate, GM is down 6.5% despite a beat plus $20B buyback, oil sits at 5-month highs with Iran threatening shipping, and France is becoming a short-seller target. Bright spots are limited to select earnings beats (3M, Halliburton, Northrop) and M&A-driven small caps. Today's session hinges on Netflix earnings, SpaceX headlines, the ADP preliminary jobs report, and whether oil/Iran escalation forces a rates repricing.",
+        "drivers": [
+          {
+            "title": "AI trade wobble returns overnight",
+            "detail": "Korean neocloud IPO flopped; futures slip as NBIS/IREN/CRWV sell off again and the 'AI trade rebound stalls' narrative returns ahead of SpaceX results and big-tech earnings.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Energy price shock risk rises",
+            "detail": "Oil at 5-month highs with two tankers on fire off Oman and IRGC naval-mine threats; European gas tops \u20ac90 for first time since 2022; German ZEW investor morale falls more than expected on energy prices.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "GM punished despite beat + buyback",
+            "detail": "GM down 6.5% pre-market despite a Q3 beat and a $20B buyback \u2014 the market is punishing rather than rewarding auto earnings; tariffs/diesel-cost backdrop in focus.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "France becomes short-seller target",
+            "detail": "Bloomberg: France now a go-to market for short sellers; French bond-risk gauge breaches key level after protests and riot curfews; European political risk re-pricing.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mega-cap cracks ahead of earnings",
+            "detail": "AAPL downgraded on iPhone shipment concerns (growth slowing); Netflix under the 'needs blockbusters to reverse its $135B wipeout' lens into today's earnings.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "$8B farm bailout announced",
+            "detail": "Trump announces $8B plan covering farm diesel losses \u2014 fresh policy support, agricultural tailwind but adds to fiscal/deficit chatter.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Defense stocks at a crossroads",
+            "detail": "WSJ floats the 'play the retreat' thesis while Northrop's solid Q3 was 'good is good enough' and Halliburton flags years of Mideast rebuild demand.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Rate-hike talk gains volume",
+            "detail": "Fox Business: 'Fed could hike rates up to four times in 18 months'; WSJ: 'Yes, the Fed Can Kill the AI Boom' \u2014 hot-CPI narrative gaining volume into today's data.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MYGN",
+            "move": "+12.12%",
+            "note": "Definitive deal to sell prenatal testing business to Labcorp"
+          },
+          {
+            "ticker": "HAL",
+            "move": "\u25b2",
+            "note": "Q3 beat; Mideast rebuild growth thesis"
+          },
+          {
+            "ticker": "MMM",
+            "move": "\u25b2",
+            "note": "Beat + raised guidance; Amazon deal driving it"
+          },
+          {
+            "ticker": "NOC",
+            "move": "\u25b2",
+            "note": "Good Q3 \u2014 'for defense stocks, good is good enough'"
+          },
+          {
+            "ticker": "STX/WDC",
+            "move": "\u25b2",
+            "note": "Morgan Stanley says it would be 'aggressive buyers' after selloff"
+          },
+          {
+            "ticker": "HOST",
+            "move": "+9.38%",
+            "note": "$15M buyback authorization"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "GM",
+            "move": "-6.47%",
+            "note": "Q3 beat + $20B buyback not enough; tariff/cost overhang"
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "Downgraded on iPhone shipment concerns; growth slowing"
+          },
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "'Needs blockbusters to reverse $135B wipeout' into today's earnings"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25bc",
+            "note": "Neocloud selloff; JPMorgan 'what happens if CoreWeave defaults' math"
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "China boost not enough; Korea-chip contagion weighs"
+          },
+          {
+            "ticker": "GE",
+            "move": "\u25bc",
+            "note": "Higher guidance swamped by rising costs, insurance loss"
+          },
+          {
+            "ticker": "QBTS/RGTI/IONQ",
+            "move": "\u25bc",
+            "note": "Barron's '2028 reality check' on quantum timelines"
+          },
+          {
+            "ticker": "SMR",
+            "move": "-7.21%",
+            "note": "Barclays cut; warns of commercial execution risks"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI data-center debt: sustainability doubt vs hardware strength",
+            "detail": "IPO flops (Korea's Elice neocloud), HSBC warning not every data center is a good bet, and SoftBank credit risk at a 4-year high on AI funding strain \u2014 all feeding 'AI capex sustainability' doubt even as bulls point to TSMC/Seagate strength."
+          },
+          {
+            "title": "Oil rally: energy earnings tailwind vs inflation/consumer headwind",
+            "detail": "Surge supports energy names (Halliburton beat, Citgo raising profit outlook $2B) but German ZEW morale already falling on energy prices and '70s oil shock' analogies are back \u2014 rate-cut hopes erode."
+          },
+          {
+            "title": "Defense: post-drawdown caution vs rebuild tailwinds",
+            "detail": "WSJ: 'How to Play the Retreat in Defense Stocks' \u2014 yet Northrop's Q3 was 'good is good enough', Halliburton sees years of Mideast rebuild growth."
+          },
+          {
+            "title": "Treasuries: safe-haven bid vs structural doubt",
+            "detail": "Treasuries rally overnight as AI worries return, but Citi Australia's CEO says they're 'losing luster as a hedge tool' with yields under 'bad inflation' pressure."
+          }
+        ],
+        "take": "The AI trade is falling apart again, and this time the tell is credit: a Korean neocloud IPO flopped, SoftBank credit risk hit a 4-year high, and JPMorgan is running the math on what happens if CoreWeave defaults. Meanwhile GM got smoked 6.5% after a Q3 beat AND a $20B buyback \u2014 when the market punishes good news that loudly, the tape is telling you sentiment, not numbers, runs the session. Oil at 5-month highs with tankers on fire off Oman and France becoming a short-seller target just stacks macro risk on top. Yesterday's snapback looks dead on arrival.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +151,13 @@
         "made": "2026-10-19",
         "scores_detail": "Post-close 56 (2026-10-19)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 48 (prev post-close 56 on 2026-10-19 + pre-market 40): AI trade wobble returns overnight.",
+        "made": "2026-10-20",
+        "scores_detail": "Post-close 56 (2026-10-19) + pre-market 40 (2026-10-20) = 48"
+      },
       "result": null
     },
     {
