@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-21",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 47 (Neutral, Risk-Off Tilt): Netflix guide disappoints \u2014 -6% after hours.",
+        "made": "2026-10-20",
+        "scores_detail": "Post-close 47 (2026-10-20)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-20",
       "morning": {
         "score": 40,
@@ -143,7 +157,94 @@
         "take": "The AI trade is falling apart again, and this time the tell is credit: a Korean neocloud IPO flopped, SoftBank credit risk hit a 4-year high, and JPMorgan is running the math on what happens if CoreWeave defaults. Meanwhile GM got smoked 6.5% after a Q3 beat AND a $20B buyback \u2014 when the market punishes good news that loudly, the tape is telling you sentiment, not numbers, runs the session. Oil at 5-month highs with tankers on fire off Oman and France becoming a short-seller target just stacks macro risk on top. Yesterday's snapback looks dead on arrival.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 47,
+        "label": "Neutral, Risk-Off Tilt",
+        "summary": "A split tape: SpaceX's blowout quarter and a late diplomacy-driven rally lifted the Dow ~500 points, but Netflix's weak guide sank 6% after hours, Anthropic's $80.7B half-year S-1 loss poured cold water on AI economics, and the Hormuz escalation plus Russia's crude shortfall pushed European gas above \u20ac90. AI optimism and AI spending fear remain in direct tension, leaving sentiment cautiously tilted risk-off.",
+        "drivers": [
+          {
+            "title": "SpaceX beats \u2014 profit swing, revenue doubling, AI unit surging",
+            "detail": "Q3 print: revenue doubled (+161% per one outlet) on Starlink and AI compute; swung to a profit while capex undershot estimates; shares rose after-hours.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Netflix guide disappoints \u2014 -6% after hours",
+            "detail": "Higher Q3 profit but Q4 revenue guide came in light; shares fell ~6% after-hours. Viewership retention is the worry, not the money.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic S-1: $80.7B half-year loss, $750B compute tab",
+            "detail": "Half-year loss of $80.7B and a ~$750B compute tab flagged in updated S-1; undercuts the 'AI capex pays off' story just as Meta's AI bill is being questioned.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Hormuz escalation + Russian crude shortfall = energy squeeze",
+            "detail": "Iran struck more ship engine rooms in the Hormuz ramp-up; Tehran rejected 'close to deal' talk; Russia shipped the least oil in a month. Trump later announced an $8B farmer bailout covering diesel costs \u2014 energy stress is hitting supply chains.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Diplomacy hopes whipsaw oil; European gas >\u20ac90",
+            "detail": "Late-session rally on hopes of US-Iran diplomacy (Dow closed up ~500); gas jumped above \u20ac90 for the first time since 2022.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SMCI",
+            "move": "+11.18% AH",
+            "note": "Preliminary FY27 Q1 business update impressed"
+          },
+          {
+            "ticker": "EFX",
+            "move": "+11.33%",
+            "note": "Strong session, outperformed competitors"
+          },
+          {
+            "ticker": "HAS",
+            "move": "+11.20%",
+            "note": "Strong trading day, outperformed competitors"
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25b2",
+            "note": "FAA approval for the 737 Max-10 after years of delay"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "-6.06% AH",
+            "note": "Q4 revenue forecast fell short; ads-revenue guide also light"
+          },
+          {
+            "ticker": "ISRG",
+            "move": "-6.86% AH",
+            "note": "Earnings beat overshadowed by disclosed settlement"
+          },
+          {
+            "ticker": "GM",
+            "move": "-6.84%",
+            "note": "Q3 beat and $20B buyback weren't enough; EV margins in focus"
+          },
+          {
+            "ticker": "UAL",
+            "move": "weak Q4 guide",
+            "note": "Cut 2026 profit forecast as jet fuel at $4.80/gal bites"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI boom economics: SpaceX beat vs Anthropic's burn",
+            "detail": "SpaceX's AI unit is surging and Meta's Muse scored wins over ChatGPT \u2014 yet Meta's own AI bill keeps growing and Anthropic's S-1 showed a $80.7B half-year loss. The market can't decide if AI spend is a moat or a furnace."
+          },
+          {
+            "title": "Hormuz escalation vs diplomacy hopes",
+            "detail": "Iran struck ship engine rooms and rejected 'close to deal' reports \u2014 yet the tape rallied late on hopes of US-Iran diplomacy. Energy prices surged anyway."
+          }
+        ],
+        "take": "SpaceX's blowout quarter and a late diplomacy-driven rally papered over a day that was really about Netflix's weak guide and Anthropic's $80.7B half-year loss \u2014 the market is now openly questioning whether AI capex is a moat or a furnace. With the score at 47 and Meta reporting straight into that skepticism, tomorrow's tape starts defensive; anyone buying the AI dip is fighting the S-1.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -158,7 +259,11 @@
         "made": "2026-10-20",
         "scores_detail": "Post-close 56 (2026-10-19) + pre-market 40 (2026-10-20) = 48"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.34,
+        "early_hit": true,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-19",
