@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-21",
+      "kind": "early",
+      "date": "2026-10-20",
+      "score": 47,
+      "label": "Neutral, Risk-Off Tilt",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 47 (Neutral, Risk-Off Tilt): Netflix guide disappoints \u2014 -6% after hours.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-20",
       "kind": "final",
       "date": "2026-10-20",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 48 (prev post-close 56 on 2026-10-19 + pre-market 40): AI trade wobble returns overnight.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.34,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Post-close score 56 (Risk-On Tilt): AI trade snaps back after brutal selloff.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.34,
+      "hit": true,
       "push": false
     },
     {
