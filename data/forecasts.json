@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-20",
+      "kind": "final",
+      "date": "2026-10-20",
+      "scores_detail": "Post-close 56 (2026-10-19) + pre-market 40 (2026-10-20) = 48",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 48 (prev post-close 56 on 2026-10-19 + pre-market 40): AI trade wobble returns overnight.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-20",
       "kind": "early",
       "date": "2026-10-19",
       "score": 56,
