@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-21",
+      "kind": "final",
+      "date": "2026-10-21",
+      "scores_detail": "Post-close 47 (2026-10-20) + pre-market 58 (2026-10-21) = 53",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 53 (prev post-close 47 on 2026-10-20 + pre-market 58): SpaceX blowout Q3 revives the AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-21",
       "kind": "early",
       "date": "2026-10-20",
       "score": 47,
