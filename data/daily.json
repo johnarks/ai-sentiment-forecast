@@ -2,7 +2,123 @@
   "days": [
     {
       "date": "2026-10-21",
-      "morning": null,
+      "morning": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "A SpaceX blowout quarter (profit beat, capex undershoot, surging AI revenue) and Supermicro's raised forecast have reignited the AI trade, with Dow/S&P/Nasdaq futures pointing modestly higher ahead of Meta and Tesla earnings tonight. The offset is a nasty sovereign-bonds backdrop: French 10-year yields hit a 24-year high near 5%, UK inflation printed hot at 3.5% ahead of the Budget, and Brent crude pushed back above $110, fanning fuel-cost and inflation pressure. Tape is net constructive \u2014 earnings strength is winning the morning over the rates story.",
+        "drivers": [
+          {
+            "title": "SpaceX blowout Q3 revives the AI trade",
+            "detail": "Profit beat estimates, capex undershot, AI revenue surged; Musk confirmed committees are discussing a SpaceX\u2013Tesla merger, calling it a 'good idea'. Shares +8.3% premarket.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Supermicro raises forecast on robust AI demand",
+            "detail": "Upbeat guidance lifted SMCI +12% premarket and carried the AI server complex (Dell +6.8%) higher.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Meta and Tesla report after the close today",
+            "detail": "Futures bid into the reports; Tesla's capex/spending plans and any SpaceX-merger commentary in focus.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "French 10Y yields hit 24-year high near 5%",
+            "detail": "Unrest and a budget/fiscal crisis colliding; French bond risk at a 15-year high.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "UK inflation hot at 3.5% ahead of Budget",
+            "detail": "Fuel-driven spike; pound hedging costs at five-month high; UK debt tops \u00a33tn before the Budget.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Brent crude back above $110",
+            "detail": "Oil rally fans inflation concerns (gold dipped for a fourth session); jet-fuel costs squeezed United's quarter.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Boeing 737 MAX 10 wins FAA certification",
+            "detail": "Largest MAX jet cleared; opens deliveries on 1,555 ordered planes.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Defense earnings: three raised forecasts, two record backlogs",
+            "detail": "Strong openings from the defense majors (NOC, LMT, RTX, LHX) \u2014 a constructive read-through for the tape.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SPCX",
+            "move": "+8.26%",
+            "note": "Blowout Q3: profit beat, capex undershoot, AI revenue surge; merger-committee talk."
+          },
+          {
+            "ticker": "SMCI",
+            "move": "+12.14%",
+            "note": "Lifted revenue forecast on robust AI demand."
+          },
+          {
+            "ticker": "AMKR",
+            "move": "+8.08%",
+            "note": "Jumped as Nvidia outlined plans to expand chipmaking capacity."
+          },
+          {
+            "ticker": "DELL",
+            "move": "+6.76%",
+            "note": "Riding the Supermicro/AI-server demand wave."
+          },
+          {
+            "ticker": "CRWD",
+            "move": "\u25b2",
+            "note": "Rising on expanded Nvidia AI-security partnership."
+          },
+          {
+            "ticker": "NOC",
+            "move": "\u25b2",
+            "note": "Defense earnings week: raised forecasts and record backlogs across the group."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "-6.81%",
+            "note": "Weak profit and ad outlook intensified investor anxiety; post-earnings sell."
+          },
+          {
+            "ticker": "ABT",
+            "move": "\u25bc",
+            "note": "Shares slid despite revenue beat on plan to spin off troubled nutrition unit."
+          },
+          {
+            "ticker": "T",
+            "move": "\u25bc",
+            "note": "AT&T sank despite Q3 beat-and-raise \u2014 a cautious post-earnings tape pattern."
+          },
+          {
+            "ticker": "UAL",
+            "move": "\u25bc",
+            "note": "Missed estimates, squeezed by soaring jet fuel costs."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs energy-driven inflation",
+            "detail": "SpaceX/SMCI/NVDA re-accelerating the AI bid while Brent >$110, hot UK inflation, and soaring jet-fuel costs argue the other way."
+          },
+          {
+            "title": "Sovereign debt stress vs credit bulls",
+            "detail": "French 24-year-high yields and \u00a33tn UK debt vs BlackRock flagging 'generational high yields' in corporate credit."
+          },
+          {
+            "title": "Beat-and-raise punished",
+            "detail": "AT&T and Abbott sold off on their prints while AI capex names are bid \u2014 earnings-day reactions are inconsistent."
+          }
+        ],
+        "take": "The AI trade is back on this morning, and it's not a rumor \u2014 it's two hard prints: SpaceX's blowout Q3 (profit swing, capex undershoot, AI revenue surging, shares +8.3% premarket) and Supermicro's raised forecast (+12% premarket) dragging the whole AI-server complex up with it. Yesterday's post-close 47 \u2014 weighed down by Netflix's weak guide, Anthropic's $80.7B S-1 burn, and Hormuz escalation \u2014 gets blended with today's 58 for a FINAL call of 53, i.e. UP. What could break it: French yields at 24-year highs, Brent north of $110, and Meta/Tesla reporting after the close \u2014 today's rally is conviction, but it's thinly armored.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +127,13 @@
         "made": "2026-10-20",
         "scores_detail": "Post-close 47 (2026-10-20)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 53 (prev post-close 47 on 2026-10-20 + pre-market 58): SpaceX blowout Q3 revives the AI trade.",
+        "made": "2026-10-21",
+        "scores_detail": "Post-close 47 (2026-10-20) + pre-market 58 (2026-10-21) = 53"
+      },
       "result": null
     },
     {
