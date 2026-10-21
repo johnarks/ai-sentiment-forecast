@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-22",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.",
+        "made": "2026-10-21",
+        "scores_detail": "Post-close 61 (2026-10-21)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-21",
       "morning": {
         "score": 58,
@@ -119,7 +133,127 @@
         "take": "The AI trade is back on this morning, and it's not a rumor \u2014 it's two hard prints: SpaceX's blowout Q3 (profit swing, capex undershoot, AI revenue surging, shares +8.3% premarket) and Supermicro's raised forecast (+12% premarket) dragging the whole AI-server complex up with it. Yesterday's post-close 47 \u2014 weighed down by Netflix's weak guide, Anthropic's $80.7B S-1 burn, and Hormuz escalation \u2014 gets blended with today's 58 for a FINAL call of 53, i.e. UP. What could break it: French yields at 24-year highs, Brent north of $110, and Meta/Tesla reporting after the close \u2014 today's rally is conviction, but it's thinly armored.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 61,
+        "label": "Risk-On Tilt",
+        "summary": "A strong AI-driven session: Nasdaq jumped ~1% and the S&P notched a 3-day win streak as SpaceX's blowout results (revenue +161%) and an upbeat Super Micro forecast lit up AI sentiment, then Meta's Q3 revenue beat plus a 2-for-1 stock split (+5.2% after hours) and Tesla's margin beat (shares higher AH despite a 56% drop in operating profit) kept the momentum going post-close. The rally survived headwinds \u2014 a tailing 20-year Treasury auction, a $25B privacy verdict against Meta, and Netflix's weak profit/ad outlook \u2014 but bond-market wobbles and oil whiplash kept it from becoming full risk-on euphoria.",
+        "drivers": [
+          {
+            "title": "Meta Q3 beat + 2-for-1 stock split",
+            "detail": "Topped Q3 revenue expectations, announced 2-for-1 split; shares +5.2% after hours, Zuckerberg laid out a path for Reality Labs profitability",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Tesla Q3: profit collapse but margin/FCF beat lifts shares AH",
+            "detail": "Revenue flat, operating profit -56%, but better-than-feared margins and record EV backlog sent shares to 3-month highs after hours",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "SpaceX results supercharge AI sentiment",
+            "detail": "Revenue surged 161%, capex undershot; SPCX +7.8% in session, lift spread to SMCI (+9.6%), DELL (+5.3%) and AI names broadly",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Tesla-SpaceX merger exploration confirmed",
+            "detail": "Musk confirmed both companies formed special committees to evaluate a combination; fueled AI/compute-premium narrative in the session",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Anthropic to file IPO as early as Friday",
+            "detail": "Reported public filing plans add a fresh catalyst to the AI trade and set up the next sentiment checkpoint",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Tailing 20Y Treasury auction revives yield anxiety",
+            "detail": "Poor 20-year auction tail kept 'AI bubble fears and rising Treasury yields' in the tape alongside French 10Y at 5% (highest since 2002)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Meta hit with $25B privacy verdict in New Mexico",
+            "detail": "Jury found Meta misled consumers on data privacy; overshadowed by earnings beat but a real legal/financial overhang",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil whipsaw on Middle East escalation vs Russia talks",
+            "detail": "Crude jumped as US evacuated embassies on regional-escalation fears, then slid on news Russia may resume trilateral Ukraine talks",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "META",
+            "move": "+5.20% AH",
+            "note": "Q3 revenue beat + 2-for-1 split; Reality Labs path laid out"
+          },
+          {
+            "ticker": "SMCI",
+            "move": "+9.55%",
+            "note": "Upbeat forecast underscored robust AI demand"
+          },
+          {
+            "ticker": "SPCX",
+            "move": "+7.79%",
+            "note": "SpaceX-linked fund rode 161% revenue surge"
+          },
+          {
+            "ticker": "DELL",
+            "move": "+5.27%",
+            "note": "AI infrastructure coattails in the session rally"
+          },
+          {
+            "ticker": "TXN",
+            "move": "\u25b2",
+            "note": "Beat quarterly estimates and lifted outlook on robust chip demand"
+          },
+          {
+            "ticker": "IBM",
+            "move": "\u25b2",
+            "note": "Q3 earnings and revenue beat expectations"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "Slid on weak profit and ad outlook, intensifying investor anxiety"
+          },
+          {
+            "ticker": "LRCX",
+            "move": "-5.30% AH",
+            "note": "Chip-gear outlook failed to impress despite AI demand backdrop"
+          },
+          {
+            "ticker": "NVEC",
+            "move": "-20.44% AH",
+            "note": "Fiscal Q2 miss crushed the micro-cap after hours"
+          },
+          {
+            "ticker": "TSLA",
+            "move": "-56% op profit",
+            "note": "Core auto profit halved even as AH price action turned positive on margins"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI demand evidence vs AI bubble fears",
+            "detail": "SpaceX/SMCI/TXN delivered hard demand proof while a tailing 20Y auction and 'bubble fears' commentary kept valuation anxiety alive"
+          },
+          {
+            "title": "Meta's double-barreled day",
+            "detail": "Q3 beat + split drove +5.2% AH while a $25B New Mexico privacy verdict landed the same afternoon \u2014 market chose to price the beat first"
+          },
+          {
+            "title": "Tesla's profit collapse vs its AH rally",
+            "detail": "Operating profit -56% would normally be a disaster print, but margin/FCF beat plus merger talk flipped the tape positive after hours"
+          },
+          {
+            "title": "Oil bid on escalation, offered on diplomacy",
+            "detail": "Embassy evacuations bid crude up while Russia's willingness to talk pulled it back down \u2014 crude is pure headline-risk now"
+          }
+        ],
+        "take": "Tonight the tape finally got the proof the AI bulls have been begging for: SpaceX posted real revenue growth (+161%), Super Micro guided up, and the AI capex names ripped \u2014 bubble chatter be damned. Meta's beat-and-split and Tesla's after-hours rally off a profit collapse show this market will forgive anything as long as the AI demand story stays alive. For tomorrow: the open has to validate the afterhours moves in Meta and Tesla, and Friday's potential Anthropic IPO filing is the next real sentiment catalyst \u2014 a $80.7B-loss S-1 would test this bid fast.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -134,7 +268,11 @@
         "made": "2026-10-21",
         "scores_detail": "Post-close 47 (2026-10-20) + pre-market 58 (2026-10-21) = 53"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.53,
+        "early_hit": false,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-20",
