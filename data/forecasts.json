@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-23",
+      "kind": "early",
+      "date": "2026-10-22",
+      "score": 32,
+      "label": "Firmly Bearish",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 32 (Firmly Bearish): AI-jitters tech selloff.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-22",
       "kind": "final",
       "date": "2026-10-22",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.18,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Moderate",
       "rationale": "Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.18,
+      "hit": false,
       "push": false
     },
     {
