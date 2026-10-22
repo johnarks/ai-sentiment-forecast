@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-22",
+      "kind": "final",
+      "date": "2026-10-22",
+      "scores_detail": "Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-22",
       "kind": "early",
       "date": "2026-10-21",
       "score": 61,
