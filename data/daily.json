@@ -2,7 +2,142 @@
   "days": [
     {
       "date": "2026-10-22",
-      "morning": null,
+      "morning": {
+        "score": 30,
+        "label": "Firmly Bearish",
+        "summary": "Futures are sliding on a one-two punch: mega-cap AI names (Meta, Tesla) are being punished for AI capex after earnings, and a geopolitical oil shock has Brent above $112. France's debt crisis is deepening with the France\u2013Germany bond spread at a 15-year high, driving a broad flight to Treasuries. Only offsets: jobless claims near 60-year lows and a few solid earnings prints (UNP, NSC, LMT).",
+        "drivers": [
+          {
+            "title": "AI capex revolt hits mega-caps",
+            "detail": "Meta falls after a revenue beat as AI costs surge (Muse growth vs AI bill); Tesla capex cut raises AI/robotics doubts; Ken Griffin calls AI \"almost certainly\" a bubble; hedge funds pile into shorts; data-center backlash building.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil shock: Brent tops $112",
+            "detail": "Tanker attacks and Saudi strikes fuel escalation fears; futures rally even as physical barrels slide.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "France debt crisis deepens",
+            "detail": "Budget rejections push France\u2013Germany yield spread to a 15-year high; foreign investors exit; French riots and Italian trucker blockades add political risk.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Flight to Treasuries",
+            "detail": "Long-end US yield hits a one-month low on haven bid; gold drops 1%+ as the oil rally cements the higher-for-longer rate outlook.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Labor market still tight",
+            "detail": "Weekly jobless claims near 60-year lows; freight earnings (UNP, NSC) show demand holding.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "China tech slide",
+            "detail": "Alibaba leads Hong Kong tech lower on a China regulatory move; mainland stocks drift toward bear market; IBM -6.67% adds to tech weakness.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NMTC",
+            "move": "+9.73%",
+            "note": "First pharma purchase order for StereoCED drug-delivery platform"
+          },
+          {
+            "ticker": "CXAI",
+            "move": "+5.73%",
+            "note": "$1M buyback program and standstill agreement"
+          },
+          {
+            "ticker": "NSC",
+            "move": "\u25b2",
+            "note": "Tops profit estimates as freight demand stays strong"
+          },
+          {
+            "ticker": "UNP",
+            "move": "\u25b2",
+            "note": "Higher profit and revenue on volume growth"
+          },
+          {
+            "ticker": "LMT",
+            "move": "\u25b2",
+            "note": "Raises 2026 guidance; F-35 production plan"
+          },
+          {
+            "ticker": "GEVO",
+            "move": "\u25b2",
+            "note": "Anticipates $50M+ carbon business revenue in 2026"
+          },
+          {
+            "ticker": "MRNA",
+            "move": "\u25b2",
+            "note": "Cancer vaccine trial results imminent \u2014 a lot riding on the data"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "Capex cut raises AI/robotics doubts, even as Musk touts demand exceeding production ahead of Dallas Cybercab launch"
+          },
+          {
+            "ticker": "META",
+            "move": "\u25bc",
+            "note": "Falls post-beat as investors weigh Muse growth against rising AI costs, despite revenue beat and 2-for-1 stock split"
+          },
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "Premarket scrutiny \u2014 \"If Netflix Can't Shine in Show Business, Who Can?\""
+          },
+          {
+            "ticker": "IBM",
+            "move": "-6.67%",
+            "note": "Earnings weakness in the tech rotation"
+          },
+          {
+            "ticker": "SON",
+            "move": "-9.73%",
+            "note": "Q3 miss with reduced sales outlook"
+          },
+          {
+            "ticker": "BMI",
+            "move": "-5.20%",
+            "note": "Q3 results disappoint"
+          },
+          {
+            "ticker": "LHSW",
+            "move": "-19.60%",
+            "note": "1-for-8 share consolidation"
+          },
+          {
+            "ticker": "PPCB",
+            "move": "-12.43%",
+            "note": "Reverse split to support Nasdaq listing"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Meta: beat-and-split vs AI-cost fear",
+            "detail": "Revenue beat plus a 2-for-1 split is shareholder-friendly, but the market is punishing the rising AI bill \u2014 bulls see returns, bears see a capex treadmill."
+          },
+          {
+            "title": "Tesla: capex cut vs demand claims",
+            "detail": "Spending pullback reads as an AI-slowdown signal, while Musk insists demand exceeds production and pushes the Cybercab launch."
+          },
+          {
+            "title": "Oil: paper vs physical split",
+            "detail": "Futures rally past $112 on escalation headlines even as physical barrel prices slide \u2014 sentiment and fundamentals are diverging."
+          },
+          {
+            "title": "Strong labor vs risk-off tape",
+            "detail": "Claims near 60-year lows argue the economy is fine, but the tape is selling \u2014 macro data and market mood are misaligned."
+          }
+        ],
+        "take": "This is the AI capex revolt, and it's the only story that matters this morning: Meta beat on revenue and split its stock, and got sold anyway \u2014 the market now treats the AI bill as a furnace, not a moat. Stack Brent over $112 and a France\u2013Germany bond spread at a 15-year high on top of that, and there's no clean bid anywhere except a genuinely tight labor market (claims near 60-year lows) and a couple of freight prints. Any rally attempt today has to run through the mega-cap AI names being re-priced in real time, which is why the tape opens heavy.",
+        "published": "8:46 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +146,13 @@
         "made": "2026-10-21",
         "scores_detail": "Post-close 61 (2026-10-21)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.",
+        "made": "2026-10-22",
+        "scores_detail": "Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46"
+      },
       "result": null
     },
     {
