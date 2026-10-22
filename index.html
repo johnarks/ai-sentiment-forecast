@@ -174,7 +174,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <div class="brand">AI Sentiment Forecast</div>
     <h1>Will the market be up or down?</h1>
     <p class="tag">Twice-daily investor sentiment, distilled — with graded next-day SPY calls.</p>
-    <div class="dateline">Updated 2026-10-21 18:30 ET · Weekdays, twice daily</div>
+    <div class="dateline">Updated 2026-10-22 09:16 ET · Weekdays, twice daily</div>
   </header>
 
   <nav class="tabs">
@@ -188,27 +188,119 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     
     
     <section class="hero">
-      <div class="call-card up hl">
-        <div class="cc-kicker">Current call · Early call · made 2026-10-21</div>
-        <div class="hero-call">▲ UP</div>
+      <div class="call-card down hl">
+        <div class="cc-kicker">Current call · Final call · made 2026-10-22</div>
+        <div class="hero-call">▼ DOWN</div>
         <div class="hero-target">SPY · Thursday, Oct 22</div>
-        <div class="cc-conf">Confidence: Moderate</div>
-        <p class="cc-scores">Post-close 61 (Risk-On Tilt)</p>
-        <p class="cc-rationale">Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.</p>
-        <div class="verdict pending">⏳ Open — the final call lands at the next morning update</div>
+        <div class="cc-conf">Confidence: Low</div>
+        <p class="cc-scores">Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46</p>
+        <p class="cc-rationale">Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.</p>
+        <div class="verdict pending">⏳ Open — graded after today's close</div>
       </div>
     </section>
-    <div class="next-update" id="next-update" data-iso="2026-10-22T09:15:00-04:00">
+    <div class="next-update" id="next-update" data-iso="2026-10-22T18:30:00-04:00">
       <span class="nu-dot"></span>
-      <span>Next update: <strong>Thu, Oct 22 · 9:15 AM ET</strong></span>
+      <span>Next update: <strong>Thu, Oct 22 · 6:30 PM ET</strong></span>
       <span class="nu-count" id="countdown"></span>
     </div>
     <h2 class="pane-title">Today's read — 2026-10-22</h2>
     <div class="call-cards">
-      <div class="call-card empty hl"><div class="cc-kicker">Final call <span class='tag-sm'>(this morning)</span></div><div class="muted">Not yet made.</div></div>
+      
+    <div class="call-card up ">
+      <div class="cc-kicker">Early call <span class='tag-sm'>(yesterday evening)</span> · made 2026-10-21</div>
+      <div class="cc-call">▲ UP</div>
+      <div class="cc-conf">Confidence: Moderate</div>
+      <p class="cc-scores">Post-close 61 (2026-10-21)</p>
+      <p class="cc-rationale">Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
     </div>
     <div class="editions">
-      <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+      
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bear" style="left:30%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bear">30</span>
+      <span class="score-label bear">Firmly Bearish</span></div>
+    </div>
+      <p class="ec-summary">Futures are sliding on a one-two punch: mega-cap AI names (Meta, Tesla) are being punished for AI capex after earnings, and a geopolitical oil shock has Brent above $112. France&#x27;s debt crisis is deepening with the France–Germany bond spread at a 15-year high, driving a broad flight to Treasuries. Only offsets: jobless claims near 60-year lows and a few solid earnings prints (UNP, NSC, LMT).</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI capex revolt hits mega-caps</strong>
+          <p>Meta falls after a revenue beat as AI costs surge (Muse growth vs AI bill); Tesla capex cut raises AI/robotics doubts; Ken Griffin calls AI &quot;almost certainly&quot; a bubble; hedge funds pile into shorts; data-center backlash building.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Oil shock: Brent tops $112</strong>
+          <p>Tanker attacks and Saudi strikes fuel escalation fears; futures rally even as physical barrels slide.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>France debt crisis deepens</strong>
+          <p>Budget rejections push France–Germany yield spread to a 15-year high; foreign investors exit; French riots and Italian trucker blockades add political risk.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Flight to Treasuries</strong>
+          <p>Long-end US yield hits a one-month low on haven bid; gold drops 1%+ as the oil rally cements the higher-for-longer rate outlook.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Labor market still tight</strong>
+          <p>Weekly jobless claims near 60-year lows; freight earnings (UNP, NSC) show demand holding.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>China tech slide</strong>
+          <p>Alibaba leads Hong Kong tech lower on a China regulatory move; mainland stocks drift toward bear market; IBM -6.67% adds to tech weakness.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">NMTC</td>
+        <td class="move pos">+9.73%</td>
+        <td>First pharma purchase order for StereoCED drug-delivery platform</td></tr><tr><td class="ticker">CXAI</td>
+        <td class="move pos">+5.73%</td>
+        <td>$1M buyback program and standstill agreement</td></tr><tr><td class="ticker">NSC</td>
+        <td class="move pos">▲</td>
+        <td>Tops profit estimates as freight demand stays strong</td></tr><tr><td class="ticker">UNP</td>
+        <td class="move pos">▲</td>
+        <td>Higher profit and revenue on volume growth</td></tr><tr><td class="ticker">LMT</td>
+        <td class="move pos">▲</td>
+        <td>Raises 2026 guidance; F-35 production plan</td></tr><tr><td class="ticker">GEVO</td>
+        <td class="move pos">▲</td>
+        <td>Anticipates $50M+ carbon business revenue in 2026</td></tr><tr><td class="ticker">MRNA</td>
+        <td class="move pos">▲</td>
+        <td>Cancer vaccine trial results imminent — a lot riding on the data</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Capex cut raises AI/robotics doubts, even as Musk touts demand exceeding production ahead of Dallas Cybercab launch</td></tr><tr><td class="ticker">META</td>
+        <td class="move neg">▼</td>
+        <td>Falls post-beat as investors weigh Muse growth against rising AI costs, despite revenue beat and 2-for-1 stock split</td></tr><tr><td class="ticker">NFLX</td>
+        <td class="move neg">▼</td>
+        <td>Premarket scrutiny — &quot;If Netflix Can&#x27;t Shine in Show Business, Who Can?&quot;</td></tr><tr><td class="ticker">IBM</td>
+        <td class="move neg">-6.67%</td>
+        <td>Earnings weakness in the tech rotation</td></tr><tr><td class="ticker">SON</td>
+        <td class="move neg">-9.73%</td>
+        <td>Q3 miss with reduced sales outlook</td></tr><tr><td class="ticker">BMI</td>
+        <td class="move neg">-5.20%</td>
+        <td>Q3 results disappoint</td></tr><tr><td class="ticker">LHSW</td>
+        <td class="move neg">-19.60%</td>
+        <td>1-for-8 share consolidation</td></tr><tr><td class="ticker">PPCB</td>
+        <td class="move neg">-12.43%</td>
+        <td>Reverse split to support Nasdaq listing</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Meta: beat-and-split vs AI-cost fear</strong><p>Revenue beat plus a 2-for-1 split is shareholder-friendly, but the market is punishing the rising AI bill — bulls see returns, bears see a capex treadmill.</p></div><div class="cc"><strong>Tesla: capex cut vs demand claims</strong><p>Spending pullback reads as an AI-slowdown signal, while Musk insists demand exceeds production and pushes the Cybercab launch.</p></div><div class="cc"><strong>Oil: paper vs physical split</strong><p>Futures rally past $112 on escalation headlines even as physical barrel prices slide — sentiment and fundamentals are diverging.</p></div><div class="cc"><strong>Strong labor vs risk-off tape</strong><p>Claims near 60-year lows argue the economy is fine, but the tape is selling — macro data and market mood are misaligned.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">This is the AI capex revolt, and it&#x27;s the only story that matters this morning: Meta beat on revenue and split its stock, and got sold anyway — the market now treats the AI bill as a furnace, not a moat. Stack Brent over $112 and a France–Germany bond spread at a 15-year high on top of that, and there&#x27;s no clean bid anywhere except a genuinely tight labor market (claims near 60-year lows) and a couple of freight prints. Any rally attempt today has to run through the mega-cap AI names being re-priced in real time, which is why the tape opens heavy.</p></details>
+    </div>
       <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
     </div>
   </div>
@@ -229,10 +321,10 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
     <table class="ledger">
       <thead><tr><th>Target day</th><th>Early call</th><th>Final call</th><th>SPY %</th></tr></thead>
       <tbody><tr>
-          <td><strong>2026-10-22</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="muted">—</td><td>—</td>
+          <td><strong>2026-10-22</strong></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Moderate</div><div class="v-pend">⏳ PENDING</div></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-pend">⏳ PENDING</div></td><td>—</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
-        <p><strong>Early call</strong> (made 2026-10-21): Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.<br><span class='muted'>Scores: 61</span></p></details></td></tr><tr>
+        <p><strong>Early call</strong> (made 2026-10-21): Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.<br><span class='muted'>Scores: 61</span></p><p><strong>Final call</strong> (made 2026-10-22): Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.<br><span class='muted'>Scores: Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46</span></p></details></td></tr><tr>
           <td><strong>2026-10-21</strong></td><td class="down"><strong>▼ DOWN</strong><div class="cell-conf">Low</div><div class="v-miss">✗ MISS</div></td><td class="up"><strong>▲ UP</strong><div class="cell-conf">Low</div><div class="v-hit">✓ HIT</div></td><td>+0.53%</td>
         </tr>
         <tr class="rat-row"><td colspan="4"><details><summary>Why these calls</summary>
@@ -343,7 +435,7 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       Updated with every forecast.</div>
     </div>
         <details class="day-card">
-          <summary><strong>2026-10-22</strong> </summary>
+          <summary><strong>2026-10-22</strong> <span class="down fc-mini">▼ DOWN</span></summary>
           <div class="call-cards small">
             
     <div class="call-card up ">
@@ -354,10 +446,102 @@ footer{color:var(--muted);font-size:12.5px;text-align:center;margin-top:30px;
       <p class="cc-rationale">Post-close score 61 (Risk-On Tilt): Meta Q3 beat + 2-for-1 stock split.</p>
       <div class="verdict pending">⏳ Graded after the close</div>
     </div>
-            <div class="call-card empty hl"><div class="cc-kicker">Final call</div><div class="muted">Not yet made.</div></div>
+            
+    <div class="call-card down hl">
+      <div class="cc-kicker">Final call · made 2026-10-22</div>
+      <div class="cc-call">▼ DOWN</div>
+      <div class="cc-conf">Confidence: Low</div>
+      <p class="cc-scores">Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46</p>
+      <p class="cc-rationale">Blended score 46 (prev post-close 61 on 2026-10-21 + pre-market 30): AI capex revolt hits mega-caps.</p>
+      <div class="verdict pending">⏳ Graded after the close</div>
+    </div>
           </div>
           <div class="editions">
-            <div class="edition-card empty"><div class="ec-head"><span>☀️ Morning</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
+            
+    <div class="edition-card">
+      <div class="ec-head"><span class="ec-name">☀️ Morning</span><span class="pub">Published 8:46 AM ET</span></div>
+      
+    <div class="scorebar">
+      <div class="scorebar-track">
+        <div class="scorebar-mid"></div>
+        <div class="scorebar-marker bear" style="left:30%"></div>
+      </div>
+      <div class="scorebar-labels"><span>0 Bearish</span><span>50 Neutral</span><span>100 Bullish</span></div>
+      <div class="score-line"><span class="score-num bear">30</span>
+      <span class="score-label bear">Firmly Bearish</span></div>
+    </div>
+      <p class="ec-summary">Futures are sliding on a one-two punch: mega-cap AI names (Meta, Tesla) are being punished for AI capex after earnings, and a geopolitical oil shock has Brent above $112. France&#x27;s debt crisis is deepening with the France–Germany bond spread at a 15-year high, driving a broad flight to Treasuries. Only offsets: jobless claims near 60-year lows and a few solid earnings prints (UNP, NSC, LMT).</p>
+      <details><summary>What moved sentiment</summary>
+        <div class="drivers">
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>AI capex revolt hits mega-caps</strong>
+          <p>Meta falls after a revenue beat as AI costs surge (Muse growth vs AI bill); Tesla capex cut raises AI/robotics doubts; Ken Griffin calls AI &quot;almost certainly&quot; a bubble; hedge funds pile into shorts; data-center backlash building.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>Oil shock: Brent tops $112</strong>
+          <p>Tanker attacks and Saudi strikes fuel escalation fears; futures rally even as physical barrels slide.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>France debt crisis deepens</strong>
+          <p>Budget rejections push France–Germany yield spread to a 15-year high; foreign investors exit; French riots and Italian trucker blockades add political risk.</p>
+        </div>
+        <div class="driver">
+          <span class="pill neutral">NEUTRAL</span>
+          <strong>Flight to Treasuries</strong>
+          <p>Long-end US yield hits a one-month low on haven bid; gold drops 1%+ as the oil rally cements the higher-for-longer rate outlook.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bullish">BULLISH</span>
+          <strong>Labor market still tight</strong>
+          <p>Weekly jobless claims near 60-year lows; freight earnings (UNP, NSC) show demand holding.</p>
+        </div>
+        <div class="driver">
+          <span class="pill bearish">BEARISH</span>
+          <strong>China tech slide</strong>
+          <p>Alibaba leads Hong Kong tech lower on a China regulatory move; mainland stocks drift toward bear market; IBM -6.67% adds to tech weakness.</p>
+        </div></div></details>
+      <details><summary>Winners &amp; losers</summary>
+        <div class="movers-grid">
+          <div><h4>📈 Strength</h4><table class="movers"><tbody><tr><td class="ticker">NMTC</td>
+        <td class="move pos">+9.73%</td>
+        <td>First pharma purchase order for StereoCED drug-delivery platform</td></tr><tr><td class="ticker">CXAI</td>
+        <td class="move pos">+5.73%</td>
+        <td>$1M buyback program and standstill agreement</td></tr><tr><td class="ticker">NSC</td>
+        <td class="move pos">▲</td>
+        <td>Tops profit estimates as freight demand stays strong</td></tr><tr><td class="ticker">UNP</td>
+        <td class="move pos">▲</td>
+        <td>Higher profit and revenue on volume growth</td></tr><tr><td class="ticker">LMT</td>
+        <td class="move pos">▲</td>
+        <td>Raises 2026 guidance; F-35 production plan</td></tr><tr><td class="ticker">GEVO</td>
+        <td class="move pos">▲</td>
+        <td>Anticipates $50M+ carbon business revenue in 2026</td></tr><tr><td class="ticker">MRNA</td>
+        <td class="move pos">▲</td>
+        <td>Cancer vaccine trial results imminent — a lot riding on the data</td></tr></tbody></table></div>
+          <div><h4>📉 Pressure</h4><table class="movers"><tbody><tr><td class="ticker">TSLA</td>
+        <td class="move neg">▼</td>
+        <td>Capex cut raises AI/robotics doubts, even as Musk touts demand exceeding production ahead of Dallas Cybercab launch</td></tr><tr><td class="ticker">META</td>
+        <td class="move neg">▼</td>
+        <td>Falls post-beat as investors weigh Muse growth against rising AI costs, despite revenue beat and 2-for-1 stock split</td></tr><tr><td class="ticker">NFLX</td>
+        <td class="move neg">▼</td>
+        <td>Premarket scrutiny — &quot;If Netflix Can&#x27;t Shine in Show Business, Who Can?&quot;</td></tr><tr><td class="ticker">IBM</td>
+        <td class="move neg">-6.67%</td>
+        <td>Earnings weakness in the tech rotation</td></tr><tr><td class="ticker">SON</td>
+        <td class="move neg">-9.73%</td>
+        <td>Q3 miss with reduced sales outlook</td></tr><tr><td class="ticker">BMI</td>
+        <td class="move neg">-5.20%</td>
+        <td>Q3 results disappoint</td></tr><tr><td class="ticker">LHSW</td>
+        <td class="move neg">-19.60%</td>
+        <td>1-for-8 share consolidation</td></tr><tr><td class="ticker">PPCB</td>
+        <td class="move neg">-12.43%</td>
+        <td>Reverse split to support Nasdaq listing</td></tr></tbody></table></div>
+        </div>
+      </details>
+      <details><summary>Cross-currents</summary><div class="ccs"><div class="cc"><strong>Meta: beat-and-split vs AI-cost fear</strong><p>Revenue beat plus a 2-for-1 split is shareholder-friendly, but the market is punishing the rising AI bill — bulls see returns, bears see a capex treadmill.</p></div><div class="cc"><strong>Tesla: capex cut vs demand claims</strong><p>Spending pullback reads as an AI-slowdown signal, while Musk insists demand exceeds production and pushes the Cybercab launch.</p></div><div class="cc"><strong>Oil: paper vs physical split</strong><p>Futures rally past $112 on escalation headlines even as physical barrel prices slide — sentiment and fundamentals are diverging.</p></div><div class="cc"><strong>Strong labor vs risk-off tape</strong><p>Claims near 60-year lows argue the economy is fine, but the tape is selling — macro data and market mood are misaligned.</p></div></div></details>
+      <details><summary>Analyst take</summary><p class="take-p">This is the AI capex revolt, and it&#x27;s the only story that matters this morning: Meta beat on revenue and split its stock, and got sold anyway — the market now treats the AI bill as a furnace, not a moat. Stack Brent over $112 and a France–Germany bond spread at a 15-year high on top of that, and there&#x27;s no clean bid anywhere except a genuinely tight labor market (claims near 60-year lows) and a couple of freight prints. Any rally attempt today has to run through the mega-cap AI names being re-priced in real time, which is why the tape opens heavy.</p></details>
+    </div>
             <div class="edition-card empty"><div class="ec-head"><span>🌙 Evening</span></div><p class="muted">No edition published (market holiday or feed gap).</p></div>
           </div>
         </details>
@@ -5014,7 +5198,7 @@ What actually matters: the S&amp;P sits near records while bond yields scream hi
     Sentiment data: finviz.com macro + single-stock news feeds, novelty-filtered twice daily.<br>
     Price data: SPY via Yahoo Finance. Forecasts are directional experiments,
     not financial advice.<br>
-    Generated 2026-10-21 18:30 ET.
+    Generated 2026-10-22 09:16 ET.
   </footer>
 </div>
 <script>
