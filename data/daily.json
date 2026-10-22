@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-23",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 32 (Firmly Bearish): AI-jitters tech selloff.",
+        "made": "2026-10-22",
+        "scores_detail": "Post-close 32 (2026-10-22)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-22",
       "morning": {
         "score": 30,
@@ -138,7 +152,137 @@
         "take": "This is the AI capex revolt, and it's the only story that matters this morning: Meta beat on revenue and split its stock, and got sold anyway \u2014 the market now treats the AI bill as a furnace, not a moat. Stack Brent over $112 and a France\u2013Germany bond spread at a 15-year high on top of that, and there's no clean bid anywhere except a genuinely tight labor market (claims near 60-year lows) and a couple of freight prints. Any rally attempt today has to run through the mega-cap AI names being re-priced in real time, which is why the tape opens heavy.",
         "published": "8:46 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 32,
+        "label": "Firmly Bearish",
+        "summary": "Today was a firm risk-off session: the Nasdaq 100 dropped 3% for its worst day since June as revived AI doubts \u2014 led by Meta's -7% on AI funding fears and a semiconductor rout \u2014 ignited a broad tech selloff, while oil jumped on fresh geopolitical headlines and money fled into Treasuries, pushing yields below 5%. The tape was unforgiving even to winners: Bloom Energy and Western Digital sold off on beats, and Moderna shed ~$24B on leaked vaccine data. Pockets of strength held \u2014 Lockheed's 850-jet Pentagon deal, gold miners, and L'Oreal's beat \u2014 but they didn't change the day's direction.",
+        "drivers": [
+          {
+            "title": "AI-jitters tech selloff",
+            "detail": "Nasdaq 100 fell 3% \u2014 worst day since June \u2014 as revived AI doubts ignited a broad tech selloff; S&P 500 ended sharply lower, Dow flat (Bloomberg, CNBC, Reuters)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Meta -7% on AI capital fears",
+            "detail": "Beat Q3 and announced a stock split, but Wall Street fixated on the AI funding hunt; credit-risk indicator hit a record high as investors punished the capex bill (Reuters, WSJ)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Moderna -17.6% on data leak",
+            "detail": "Melanoma vaccine hit its targets but data leaked pre-embargo, triggering a sell-the-news retreat that wiped roughly $24B in market cap (Reuters, MarketWatch)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Semiconductor rout",
+            "detail": "LRCX -11.8%, AMAT -8.2%, AMD -8.1%, WDC beat erased; Lam cited supply-chain constraints as AI-spend fears hit the equipment trade (Yahoo Finance)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil jumps on geopolitical headlines",
+            "detail": "Geopolitical risk back on the radar \u2014 Iran deployed troops to Kurdish border areas and Saudi Aramco evacuated HQ to remote work, pushing crude higher (ZeroHedge, Capital Spectator)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Flight into Treasuries",
+            "detail": "'AI is on trial': bond yields sank below 5% as investors sought safety; cost of hedging against a Treasuries rally is soaring \u2014 a classic risk-off tape signal (MarketWatch, Bloomberg)",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Good earnings punished",
+            "detail": "Bloom Energy fell 8.7% after lifting its outlook and Western Digital fell 6.4% on an earnings beat \u2014 even good prints got sold, the hallmark of a sell-the-news regime (WSJ, Barrons)",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Defense and consumer bright spots",
+            "detail": "Pentagon-Lockheed agreement for 850 F-35 jets over 10 years lifted LMT 7%, and L'Oreal's Q3 beat showed premium consumer demand alive \u2014 pockets of strength in a down tape (AFP, Reuters)",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "LMT",
+            "move": "+6.96%",
+            "note": "Pentagon agreement for 850 F-35 jets over 10 years"
+          },
+          {
+            "ticker": "NEM",
+            "move": "\u25b2",
+            "note": "Rose on expected return to growth in 2027 (Barrons) \u2014 gold bid in risk-off tape"
+          },
+          {
+            "ticker": "AVEX",
+            "move": "+13.22%",
+            "note": "Strong Q3 earnings results despite the selloff"
+          },
+          {
+            "ticker": "KN",
+            "move": "+5.65% AH",
+            "note": "Q3 snapshot drew buyers after hours"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MRNA",
+            "move": "-17.57%",
+            "note": "Cancer vaccine data leaked pre-embargo; sell-the-news, ~$24B wiped"
+          },
+          {
+            "ticker": "LRCX",
+            "move": "-11.76%",
+            "note": "Cited supply-chain constraints; AI-capex fears hit semi equipment"
+          },
+          {
+            "ticker": "AMAT",
+            "move": "-8.16%",
+            "note": "Part of the chip-equipment rout after a $3T sector drawdown"
+          },
+          {
+            "ticker": "AMD",
+            "move": "-8.10%",
+            "note": "Sold with the AI trade despite no company-specific news"
+          },
+          {
+            "ticker": "META",
+            "move": "-6.98%",
+            "note": "Q3 beat + stock split couldn't offset AI funding fears; credit risk at record"
+          },
+          {
+            "ticker": "BE",
+            "move": "-8.70%",
+            "note": "Lifted outlook but logged lower profit; AI-power trade disappointment"
+          },
+          {
+            "ticker": "WDC",
+            "move": "-6.43%",
+            "note": "Earnings beat erased by the AI selloff"
+          },
+          {
+            "ticker": "DECK",
+            "move": "-7.89% AH",
+            "note": "Cut sales outlook on slower Hoka/Ugg growth \u2014 consumer discretionary weakness"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI demand vs AI capex bill",
+            "detail": "Demand signals still read strong (Musk says Tesla demand exceeds production; data-center power plays like Bloom Energy lifted outlooks) yet Wall Street hammered the capex bill \u2014 Meta -7%, semis -8-12%. The open question: is this a buyable panic or the start of repricing AI returns?"
+          },
+          {
+            "title": "Oil up vs yields down",
+            "detail": "Oil jumped on fresh geopolitical headlines (Iran troop moves, Saudi Aramco HQ evacuated) while Treasury yields fell below 5% on growth fears \u2014 the market is pricing both an inflation shock and a slowdown at once."
+          },
+          {
+            "title": "Bottom callers vs momentum",
+            "detail": "One strategist says the tailspin 'might have run its course' while the Nasdaq logged its worst day since June \u2014 genuine disagreement on whether capitulation happened today or is still ahead."
+          },
+          {
+            "title": "Rotation bid vs de-risking",
+            "detail": "Defense and gold names bid up (LMT +7% on the 850-jet deal, gold miners rising) while tech de-risked \u2014 rotation into hard assets or just a full flight from risk?"
+          }
+        ],
+        "take": "Today's tape wasn't about earnings \u2014 it was about the AI bill coming due. Meta beat and split its stock and still got cut 7%, semis got taken out back (LRCX -12%, AMAT and AMD -8%), and the Nasdaq logged its worst day since June while oil jumped on Iran headlines. That's the worst combo: growth fear and inflation fear priced at the same time.\n\nThe demand story hasn't broken \u2014 Musk still says Tesla demand exceeds production, and defense/gold bid into the mess \u2014 so this is a confidence crisis, not a demand crisis. Tomorrow is bounce-or-breakdown day: a red open after this washout is usually a sucker move, but if chip names make new lows the market's telling you the AI capex revolt has legs.",
+        "published": "5:03 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -153,7 +297,11 @@
         "made": "2026-10-22",
         "scores_detail": "Post-close 61 (2026-10-21) + pre-market 30 (2026-10-22) = 46"
       },
-      "result": null
+      "result": {
+        "spy_pct": -1.18,
+        "early_hit": false,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-21",
