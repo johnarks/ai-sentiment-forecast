@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-26",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): Broad selloff caps rocky week.",
+        "made": "2026-10-23",
+        "scores_detail": "Post-close 40 (2026-10-23)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-23",
       "morning": {
         "score": 36,
@@ -149,7 +163,142 @@
         "take": "Thursday's AI-led rout is spilling into Friday's open \u2014 futures are red, hedge funds just posted their worst daily drawdown since Covid, and BofA's Hartnett doesn't see risk-off lifting until mid-November. There is nothing on this morning's board worth front-running: $100+ crude on Mideast escalation, France's political crisis running into a Moody's review, and Kering's -11% China collapse all point to staying defensive into the weekend. The lone green is a SpaceX tower rumor bid in CCI, SBAC and AMT \u2014 idiosyncratic noise, not a tape signal.",
         "published": "8:47 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Friday ended a rocky week with a broad selloff: the Dow closed 650 points lower as the AI trade unwind spread from data-center names into the wider market and oil surged to a 6-month high (~$117/bbl) on looming US strikes on Iran. New sentiment-moving signals included Trump exempting some Canadian goods from tariffs and a SpaceX fourth-carrier bid that rotated telecoms. Offsetting the gloom: consumer stress deepened (sentiment near record low, dollar stores sliding), equity fund inflows continued, and the AI financing narrative kept darkening.",
+        "drivers": [
+          {
+            "title": "Broad selloff caps rocky week",
+            "detail": "Dow closed 650 points lower; S&P 500 and Nasdaq fell as the AI selloff spread from data-center names into the rest of the market, compounded by rising oil prices.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil at 6-month high on Iran strike fears",
+            "detail": "Oil hit ~$117/bbl, highest since April, as fresh US strikes on Iran loom ahead of the midterms; bullish energy, bearish for equities.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Trump exempts some Canadian goods from tariffs",
+            "detail": "White House announced tariff relief for some Canadian goods (ahead of a tight race); a fresh, mildly bullish trade signal.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Consumer stress deepens",
+            "detail": "US consumer sentiment slipped to a five-month low (near record low per Reuters) on inflation; Dollar Tree/Dollar General slid as core shoppers get squeezed.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI financing fears spread",
+            "detail": "CoreWeave headed for a third weekly loss on AI financing fears; 'AI anxiety seeping into markets' and Amazon Trainium chipping at the training crown kept the capex-funding narrative dark.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Telecom shakeup: SpaceX fourth-carrier bid",
+            "detail": "SpaceX wants to be America's fourth phone carrier; tower owners (CCI +9.06%) cashed in while AT&T (-7.96%) and T-Mobile (-7.71%) sold off.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "NYSE Options Exchange halted by technical issue",
+            "detail": "Bloomberg reported the options venue halted on a technical glitch; a market-structure blip, not a fundamental driver.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CCI",
+            "move": "+9.06%",
+            "note": "Tower owners cashing in on SpaceX carrier plans"
+          },
+          {
+            "ticker": "CART",
+            "move": "+9.21%",
+            "note": "Jumped on report of potential Uber/DoorDash sale"
+          },
+          {
+            "ticker": "CRWD",
+            "move": "+8.25%",
+            "note": "Rose Friday, outperformed market"
+          },
+          {
+            "ticker": "SLB",
+            "move": "+7.08%",
+            "note": "Oil services outperform on crude surge"
+          },
+          {
+            "ticker": "HAL",
+            "move": "+5.21%",
+            "note": "Oil services outperform on crude surge"
+          },
+          {
+            "ticker": "EAF",
+            "move": "+14.23%",
+            "note": "GrafTech beat; pricing inflection call"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "BE",
+            "move": "-11.24%",
+            "note": "AI selloff crushing data-center build-out names"
+          },
+          {
+            "ticker": "CRDO",
+            "move": "-9.51%",
+            "note": "Same AI-buildout unwind"
+          },
+          {
+            "ticker": "FIX",
+            "move": "-9.26%",
+            "note": "Same AI-buildout unwind"
+          },
+          {
+            "ticker": "T",
+            "move": "-7.96%",
+            "note": "SpaceX fourth-carrier threat"
+          },
+          {
+            "ticker": "TMUS",
+            "move": "-7.71%",
+            "note": "SpaceX fourth-carrier threat"
+          },
+          {
+            "ticker": "FICO",
+            "move": "-7.96% AH",
+            "note": "Held mortgage score pricing at $10"
+          },
+          {
+            "ticker": "BMY",
+            "move": "-2%",
+            "note": "Patient death in early MS CAR-T trial"
+          },
+          {
+            "ticker": "MRNA",
+            "move": "\u25bc",
+            "note": "Extended losses on melanoma vaccine trial data"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI demand vs AI funding",
+            "detail": "Data-center demand narrative ('energy demand set to surge as AI data centers expand') vs financing anxiety ('AI anxiety seeping into markets', CoreWeave's third weekly loss)."
+          },
+          {
+            "title": "Trade relief vs trade uncertainty",
+            "detail": "Trump exempts some Canadian goods (relief) but tariff policy remains a headline-driven source of uncertainty."
+          },
+          {
+            "title": "Inflows vs selloff",
+            "detail": "US and global equity funds posted fresh weekly inflows even as the broad market sold off \u2014 dip-buying continued into weakness."
+          },
+          {
+            "title": "Oil boom vs consumer squeeze",
+            "detail": "Crude rallied to a 6-month high on supply fear while consumer sentiment hit near-record lows \u2014 energy strength against demand weakness."
+          }
+        ],
+        "take": "The Friday washout wasn't about one headline \u2014 it was the AI trade dying in public, spreading from data-center names into the whole market while $117 oil and near-record-low consumer sentiment closed every escape hatch. Tariff relief for Canada is a footnote, not a floor. Heading into a weekend loaded with Iran-strike headlines and an FOMC decision plus an earnings deluge next week, the path of least resistance is down: score is 40/100, the early call is DOWN for Monday.",
+        "published": "5:03 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -164,7 +313,11 @@
         "made": "2026-10-23",
         "scores_detail": "Post-close 32 (2026-10-22) + pre-market 36 (2026-10-23) = 34"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.52,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-22",
