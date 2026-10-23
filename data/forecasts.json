@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-23",
+      "kind": "final",
+      "date": "2026-10-23",
+      "scores_detail": "Post-close 32 (2026-10-22) + pre-market 36 (2026-10-23) = 34",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 34 (prev post-close 32 on 2026-10-22 + pre-market 36): AI rout bleeds into Friday's premarket.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-23",
       "kind": "early",
       "date": "2026-10-22",
       "score": 32,
