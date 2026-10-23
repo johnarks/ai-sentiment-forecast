@@ -2,7 +2,153 @@
   "days": [
     {
       "date": "2026-10-23",
-      "morning": null,
+      "morning": {
+        "score": 36,
+        "label": "Risk-Off Tilt",
+        "summary": "Friday opens with the AI-led rout still in charge: futures are under pressure again, hedge funds just printed their widest daily drawdown since Covid, and BofA's Hartnett sees risk-off lasting into mid-November. A $100+ oil spike on Mideast tensions and a deepening French political crisis are capping any relief bounce, while bonds are back in haven mode. Offsets are narrow \u2014 fund inflows continue and tower REITs are surging on the SpaceX story \u2014 so the tape stays defensively tilted into the open.",
+        "drivers": [
+          {
+            "title": "AI rout bleeds into Friday's premarket",
+            "detail": "Futures set to fall again after Thursday's AI-led selloff; hedge funds logged their widest daily drawdown since Covid; BofA's Hartnett sees risk-off lasting until mid-November.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil spike caps relief",
+            "detail": "Brent touched $114 and WTI topped $100 on rising Mideast tensions \u2014 five-month highs \u2014 re-fueling Fed rate concerns and capping any relief bounce.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "France crisis deepens ahead of Moody's",
+            "detail": "French bond risk nears its biggest weekly rise as the political crisis deepens ahead of Moody's; Carrefour plunged ~\u20ac2B on the unrest.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China demand shock hits luxury and autos",
+            "detail": "Kering -11% on sliding Gucci sales; Herm\u00e8s/Cartier's China shoppers retreating; Volvo Cars' China sales collapsed; China AI-model stocks' $150B drop shows no easing.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Haven bid returns to bonds",
+            "detail": "Yields tumbled as the tech rout drove haven demand (Japanese yields fell); oddly, gold heads for a steep weekly loss near three-month lows.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "SpaceX telecom disruption bid",
+            "detail": "Reports of SpaceX targeting 80,000 cell sites / Crown Castle talks sent tower stocks up 10-13% premarket while telcos (TMUS -5%) slid.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Fund flows still constructive",
+            "detail": "US equity funds posted inflows for a second straight week, global funds for a fifth \u2014 a bullish counterweight to the rout.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CCI",
+            "move": "+12.66%",
+            "note": "Jumps on SpaceX tower talks"
+          },
+          {
+            "ticker": "SBAC",
+            "move": "+11.37%",
+            "note": "Rallies on SpaceX tower report"
+          },
+          {
+            "ticker": "AMT",
+            "move": "+10.15%",
+            "note": "Tower stocks bid on SpaceX disruption story"
+          },
+          {
+            "ticker": "FGL",
+            "move": "+21.25%",
+            "note": "Regains Nasdaq compliance"
+          },
+          {
+            "ticker": "AXP",
+            "move": "\u25b2",
+            "note": "Raises full-year profit forecast on rising card spending"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "Memory names bouncing after Thursday's markdown"
+          },
+          {
+            "ticker": "OR",
+            "move": "\u25b2",
+            "note": "Bounces on Q3 sales beat"
+          },
+          {
+            "ticker": "SLB",
+            "move": "\u25b2",
+            "note": "Sees growth from Middle East oil-field recovery"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "LKQ",
+            "move": "-16.82%",
+            "note": "Preliminary Q3 miss plus CEO ouster"
+          },
+          {
+            "ticker": "TNGX",
+            "move": "-13.35%",
+            "note": "Falls despite positive cancer trial data"
+          },
+          {
+            "ticker": "KER",
+            "move": "-11%",
+            "note": "Gucci sales slide sinks Kering"
+          },
+          {
+            "ticker": "INFY",
+            "move": "-7.72%",
+            "note": "Slides with the tech rout despite 29% sequential AI revenue growth"
+          },
+          {
+            "ticker": "GNTX",
+            "move": "-7.82%",
+            "note": "Q3 results disappoint"
+          },
+          {
+            "ticker": "TMUS",
+            "move": "-5.04%",
+            "note": "SpaceX cell-tower threat weighs on telcos"
+          },
+          {
+            "ticker": "BCS",
+            "move": "\u25bc",
+            "note": "Barclays to cut 5,000 roles in AI push"
+          },
+          {
+            "ticker": "CMG",
+            "move": "\u25bc",
+            "note": "Analyst 'throws in the towel' on softening sales"
+          },
+          {
+            "ticker": "ALV",
+            "move": "\u25bc",
+            "note": "Slides in premarket"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Safe-haven split",
+            "detail": "Bonds are rallying hard on the tech rout while gold heads for a steep weekly loss near three-month lows \u2014 the two classic hedges are diverging."
+          },
+          {
+            "title": "Flows vs positioning",
+            "detail": "US equity funds posted inflows for a second straight week and global funds for a fifth, even as hedge funds just logged their widest daily drawdown since Covid."
+          },
+          {
+            "title": "Luxury demand: crack or Gucci-specific?",
+            "detail": "Kering -11% and Herm\u00e8s' China shopper retreat vs L'Oreal's Q3 sales bounce \u2014 is the China consumer cracking or is it Gucci-specific?"
+          }
+        ],
+        "take": "Thursday's AI-led rout is spilling into Friday's open \u2014 futures are red, hedge funds just posted their worst daily drawdown since Covid, and BofA's Hartnett doesn't see risk-off lifting until mid-November. There is nothing on this morning's board worth front-running: $100+ crude on Mideast escalation, France's political crisis running into a Moody's review, and Kering's -11% China collapse all point to staying defensive into the weekend. The lone green is a SpaceX tower rumor bid in CCI, SBAC and AMT \u2014 idiosyncratic noise, not a tape signal.",
+        "published": "8:47 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +157,13 @@
         "made": "2026-10-22",
         "scores_detail": "Post-close 32 (2026-10-22)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Blended score 34 (prev post-close 32 on 2026-10-22 + pre-market 36): AI rout bleeds into Friday's premarket.",
+        "made": "2026-10-23",
+        "scores_detail": "Post-close 32 (2026-10-22) + pre-market 36 (2026-10-23) = 34"
+      },
       "result": null
     },
     {
