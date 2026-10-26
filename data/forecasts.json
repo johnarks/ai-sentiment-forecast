@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-26",
+      "kind": "final",
+      "date": "2026-10-26",
+      "scores_detail": "Post-close 40 (2026-10-23) + pre-market 47 (2026-10-26) = 44",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 44 (prev post-close 40 on 2026-10-23 + pre-market 47): Brazil shock: Lula's surprise re-election craters local assets.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-26",
       "kind": "early",
       "date": "2026-10-23",
       "score": 40,
