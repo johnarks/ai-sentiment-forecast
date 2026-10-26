@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-27",
+      "kind": "early",
+      "date": "2026-10-26",
+      "score": 58,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Post-close score 58 (Risk-On Tilt): Anthropic files for historic IPO.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-26",
       "kind": "final",
       "date": "2026-10-26",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 44 (prev post-close 40 on 2026-10-23 + pre-market 47): Brazil shock: Lula's surprise re-election craters local assets.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.71,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 40 (Risk-Off Tilt): Broad selloff caps rocky week.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.71,
+      "hit": false,
       "push": false
     },
     {
