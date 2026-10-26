@@ -2,7 +2,132 @@
   "days": [
     {
       "date": "2026-10-26",
-      "morning": null,
+      "morning": {
+        "score": 47,
+        "label": "Neutral, Cautious Undertone",
+        "summary": "US futures point higher into a huge Fed-and-Big-Tech-earnings week, but the overnight tape is split: a shock Lula re-election win cratered Brazilian assets, while AI-bubble warnings from Musk, a CoreWeave rout, and hedge-fund losses keep AI sentiment fragile. Meta's giant $35B-plus stock offering \u2014 with Nvidia, AMD and Broadcom reportedly eyeing a stake \u2014 is being taken surprisingly well premarket. Net: a higher open is on offer, but confidence is thin and headline-sensitive.",
+        "drivers": [
+          {
+            "title": "Brazil shock: Lula's surprise re-election craters local assets",
+            "detail": "Brazil stocks cratered and EWZ fell 27.6% overnight after Lula's improbable comeback win, with traders warning of circuit-breaker chaos.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Meta launches $35B stock offering, chip giants may buy in",
+            "detail": "Meta's offering to fund AI expansion could reach $95B including a planned 2027 program; Nvidia, AMD and Broadcom are reportedly eyeing up to $5B combined \u2014 and Meta shares rose premarket despite the dilution.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "AI-bubble anxiety deepens",
+            "detail": "Musk warned of 'guppy-level death' for scores of AI firms, Reuters reported China's AI bubble has already burst, CoreWeave's rout is flagged as a market warning, and Goldman said trend hedge funds just had their worst week since 2024 as AI stocks fell.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Futures higher into Fed decision and Big Tech earnings barrage",
+            "detail": "Dow, S&P 500 and Nasdaq futures set for a higher open with 36% of the S&P 500 reporting this week and the Fed decision capping the week.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slides as Iran tensions cool, lifting risk appetite",
+            "detail": "Oil fell from a six-month high and futures rose as traders priced cooling Iran tensions; FTSE gained on falling oil prices.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Anthropic reportedly plans mega-IPO filing Monday",
+            "detail": "A public filing from Anthropic would be one of the biggest AI listings yet and a fresh sentiment test for the AI trade.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "SpaceX closes $40B Nvidia chip debt deal",
+            "detail": "SpaceX's Apollo-backed AI-chip financing underscores how much debt is funding the AI buildout \u2014 fuel for both the bull case and the credit-worry case.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NXTS",
+            "move": "+12.55%",
+            "note": "Jumps as its MitoCareX AI drug-discovery unit completes initial screening."
+          },
+          {
+            "ticker": "RRC",
+            "move": "+10.08%",
+            "note": "Surges on the $50B natural-gas deal tied to AI data-center demand."
+          },
+          {
+            "ticker": "APVO",
+            "move": "+8.07%",
+            "note": "Rises as mipletamig combo advanced 21% of frontline AML patients toward transplant."
+          },
+          {
+            "ticker": "BEAT",
+            "move": "+6.79%",
+            "note": "Gains as its heart-attack assessment tech enters the FDA's TAP program."
+          },
+          {
+            "ticker": "MED",
+            "move": "+5.31%",
+            "note": "Up on a Q3 earnings beat."
+          },
+          {
+            "ticker": "META",
+            "move": "\u25b2",
+            "note": "Rises premarket despite the $35B offering, with chip giants reportedly ready to buy in."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "EWZ",
+            "move": "-27.61%",
+            "note": "Brazil ETF craters on Lula's shock re-election win."
+          },
+          {
+            "ticker": "NU",
+            "move": "-25.13%",
+            "note": "Brazil fintech slammed alongside the broader Brazil rout."
+          },
+          {
+            "ticker": "SHFS",
+            "move": "-16.62%",
+            "note": "Falls on non-binding combination term sheet with Opifex Media."
+          },
+          {
+            "ticker": "EQ",
+            "move": "-8.92%",
+            "note": "Drops as first subject dosed in Phase 1 trial of EQ504."
+          },
+          {
+            "ticker": "EQT",
+            "move": "-7.87%",
+            "note": "Slides on the $50B natural-gas deal feeding AI data centers."
+          },
+          {
+            "ticker": "VZ",
+            "move": "\u25bc",
+            "note": "Falling premarket despite a 5-year high in phone additions and a raised 2026 outlook."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Higher futures vs persistent AI jitters",
+            "detail": "Stocks are set to gain at the open even as the WSJ headline sums up the mood: 'AI jitters persist' after a bruising week for AI names."
+          },
+          {
+            "title": "Meta's raise: dilution vs validation",
+            "detail": "A $35B-plus offering is normally dilutive, but reported Nvidia/AMD/Broadcom interest and a rising premarket price frame it as a vote of confidence in Meta's AI spend."
+          },
+          {
+            "title": "AI buildout debt: boom vs crunch",
+            "detail": "SpaceX's $40B chip-debt deal and Meta's raise show funding still flowing, while Musk's neocloud-death warning and the CoreWeave rout argue the funding chain is fraying."
+          },
+          {
+            "title": "Brazil rout vs US resilience",
+            "detail": "A full-blown EM shock overnight has barely dented US futures so far \u2014 the open will test whether that decoupling holds."
+          }
+        ],
+        "take": "Don't trust this morning's higher futures. The tape is still defined by AI-bubble anxiety \u2014 Musk's warning, the CoreWeave rout, hedge funds nursing their worst week since 2024 \u2014 and an overnight Brazil shock that cratered EWZ 27.6% on Lula's surprise re-election. Meta's $35B offering getting a premarket bid with chip giants reportedly circling is the one real vote of confidence, but into a Fed decision and 36% of the S&P reporting this week, this bounce is a sell-the-strength setup until earnings prove the AI spend is still paying.",
+        "published": "8:45 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +136,13 @@
         "made": "2026-10-23",
         "scores_detail": "Post-close 40 (2026-10-23)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 44 (prev post-close 40 on 2026-10-23 + pre-market 47): Brazil shock: Lula's surprise re-election craters local assets.",
+        "made": "2026-10-26",
+        "scores_detail": "Post-close 40 (2026-10-23) + pre-market 47 (2026-10-26) = 44"
+      },
       "result": null
     },
     {
