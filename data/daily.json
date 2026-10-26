@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-27",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 58 (Risk-On Tilt): Anthropic files for historic IPO.",
+        "made": "2026-10-26",
+        "scores_detail": "Post-close 58 (2026-10-26)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-26",
       "morning": {
         "score": 47,
@@ -128,7 +142,128 @@
         "take": "Don't trust this morning's higher futures. The tape is still defined by AI-bubble anxiety \u2014 Musk's warning, the CoreWeave rout, hedge funds nursing their worst week since 2024 \u2014 and an overnight Brazil shock that cratered EWZ 27.6% on Lula's surprise re-election. Meta's $35B offering getting a premarket bid with chip giants reportedly circling is the one real vote of confidence, but into a Fed decision and 36% of the S&P reporting this week, this bounce is a sell-the-strength setup until earnings prove the AI spend is still paying.",
         "published": "8:45 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "Stocks closed broadly higher as Anthropic's IPO filing reignited AI enthusiasm and lifted tech, with Tesla leading the Magnificent Seven. The risk-on tape was tempered, not derailed, by a violent Brazil selloff after Lula's shock win, stress in AI-infrastructure credit around CoreWeave, and a weak 2-year Treasury auction ahead of this week's Fed decision. Versus the morning, the session resolved bullish: the IPO story, not the caution flags, set the close.",
+        "drivers": [
+          {
+            "title": "Anthropic files for historic IPO",
+            "detail": "Public filing revealing strong growth and massive spending buoyed AI and tech stocks all session; stocks closed on broad gains.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Meta launches $35B offering to fund AI",
+            "detail": "Nvidia, AMD and Broadcom could buy Meta shares as part of the offering, tying chip leaders directly to Meta's AI buildout.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Microsoft offers buyouts to ~60,000 employees",
+            "detail": "Voluntary buyouts framed as reshaping the workforce as the AI spending boom changes staffing.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Shock Lula win convulses Brazilian markets",
+            "detail": "Brazilian stocks collapsed and the real plunged as the 'Bolsonaro trade' unwound; banks reeled and $6B in equity sales were derailed.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Weak 2-year Treasury auction ahead of Fed decision",
+            "detail": "Foreign demand cratered for a tailing 2-year auction, a soft bond signal heading into a Fed week.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI-infrastructure credit stress: CoreWeave sinks",
+            "detail": "CoreWeave and AI landlord stocks hit 1-year-plus lows as the cost of insuring CoreWeave debt doubled.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI funding drives high-grade bond sales to annual record",
+            "detail": "AI funding needs pushed US high-grade bond issuance to a yearly record, showing the scale of capital being raised.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "TSLA",
+            "move": "+5.21%",
+            "note": "Sped to the front of the Magnificent Seven and October's top spot."
+          },
+          {
+            "ticker": "NN",
+            "move": "+11.90%",
+            "note": "Soared as SpaceX backed 900 MHz for satellite rules."
+          },
+          {
+            "ticker": "DOCN",
+            "move": "+6.77%",
+            "note": "AI surge name higher into its earnings test."
+          },
+          {
+            "ticker": "SNPS",
+            "move": "+5.62%",
+            "note": "Chip-design leader lifted by AI demand; S&P raised it to BBB+."
+          },
+          {
+            "ticker": "LMT",
+            "move": "+5.13%",
+            "note": "Outperformed on a strong trading day."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "EWZ",
+            "move": "-19.82%",
+            "note": "Brazil ETF collapsed after Lula's shock election win."
+          },
+          {
+            "ticker": "NU",
+            "move": "-16.95%",
+            "note": "Brazil fintech hit by the Lula-win selloff."
+          },
+          {
+            "ticker": "PBR",
+            "move": "-13.99%",
+            "note": "Petrobras swept up in Brazil market carnage."
+          },
+          {
+            "ticker": "JBLU",
+            "move": "-9.71%",
+            "note": "Creditors hired advisors as financial concerns grew."
+          },
+          {
+            "ticker": "DASH",
+            "move": "-6.10%",
+            "note": "Fell as DoorDash/Instacart buyout talks sent the two names in opposite directions."
+          },
+          {
+            "ticker": "WHR",
+            "move": "-5.91%",
+            "note": "Heading for a full-year loss as costs mount and sales fall; down further after hours."
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25bc",
+            "note": "Sank to lowest in over a year as debt-insurance costs doubled."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "IPO euphoria vs AI credit stress",
+            "detail": "Anthropic's filing lifted AI stocks while CoreWeave's debt-insurance spike warned the AI buildout's financing is getting strained."
+          },
+          {
+            "title": "AI spending vs AI returns",
+            "detail": "Investors cheered new AI capital raises but voices from Hayes to Citadel demanded ROI and warned the AI trade has 'no margin for error'."
+          },
+          {
+            "title": "US gains vs Brazil collapse",
+            "detail": "Broad US gains coexisted with a -20% Brazil ETF day, an EM political shock that did not spill into US sentiment at the close."
+          }
+        ],
+        "take": "Anthropic's IPO filing did what a week of AI-bubble hand-wringing couldn't: it put a bid back under the AI trade, with Tesla leading the Magnificent Seven and the tape closing broadly higher despite a violent Brazil selloff. The Brazil collapse and CoreWeave credit stress are real warnings, but today they were background noise, not the story \u2014 the market chose to buy the AI growth narrative again. That sets up tomorrow as a momentum test, not a relief rally: with the Fed decision and a Big Tech earnings barrage dead ahead, any upside needs earnings to validate the spending, or this bounce unwinds fast.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -143,7 +278,11 @@
         "made": "2026-10-26",
         "scores_detail": "Post-close 40 (2026-10-23) + pre-market 47 (2026-10-26) = 44"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.71,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-10-23",
