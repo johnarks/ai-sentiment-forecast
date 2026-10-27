@@ -2,7 +2,113 @@
   "days": [
     {
       "date": "2026-10-27",
-      "morning": null,
+      "morning": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "Overnight sentiment leans risk-on into the open: futures are higher as oil eases below $110 on Middle East diplomacy signals and chip stocks gain for a second day on AI demand. Earnings are doing most of the lifting \u2014 SoFi surged on an exceptional quarter and UPS raised its outlook \u2014 but the tape is not clean: HSBC's profit miss is dragging banks, and the Fed decision ahead keeps a lid on conviction.",
+        "drivers": [
+          {
+            "title": "Oil eases on Middle East diplomacy",
+            "detail": "Brent slipped just below $110 as Iran's leader talked peace and China dispatched envoys to prevent escalation; futures rose to session highs on the move.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Chip stocks gain for a second day",
+            "detail": "AI demand signals keep lifting semis \u2014 Corning beat on AI fiber-optic demand and Asian chip stocks rose on the Anthropic IPO filing.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed decision in focus, hold expected",
+            "detail": "The Fed is expected to hold rates steady, with Warsh set to explain why; gold eased on a firmer dollar ahead of the call.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "HSBC profit miss drags banks",
+            "detail": "HSBC's quarterly profit growth missed and it set a $1B buyback; the stock fell ~7% and dragged the FTSE and European banks lower.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO momentum builds",
+            "detail": "Fresh reporting on the IPO's bank windfall, adjusted-profit scrutiny, and a rekindled AI trade in Asian chip names.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Earnings barrage: beats outweigh misses",
+            "detail": "SoFi surged on an exceptional quarter and raised outlook, UPS raised 2026 guidance, Corning beat \u2014 offset by Whirlpool's softer quarter.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "DoorDash in exclusive talks to buy Instacart",
+            "detail": "Advanced talks on a potential ~$17B deal, a fresh M&A signal for the delivery sector.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Durable goods orders rise, AI-spend proxy dips",
+            "detail": "Core durable goods orders rose for an 18th straight month, but the AI-spend proxy within the data dipped \u2014 a mixed macro read.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SOFI",
+            "move": "+11.48%",
+            "note": "Surges on an exceptional quarter and raised outlook."
+          },
+          {
+            "ticker": "UPS",
+            "move": "\u25b2",
+            "note": "Raises 2026 outlook after a better-than-expected Q3."
+          },
+          {
+            "ticker": "GLW",
+            "move": "\u25b2",
+            "note": "Beat profit expectations on AI demand for fiber-optic materials."
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "A big prediction is lifting the stock into the open."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "HSBC",
+            "move": "-6.97%",
+            "note": "Quarterly profit growth missed; dragging European banks lower."
+          },
+          {
+            "ticker": "WHR",
+            "move": "-7.07%",
+            "note": "Softer quarter as inflation weighed on sales."
+          },
+          {
+            "ticker": "NFLX",
+            "move": "\u25bc",
+            "note": "Still unable to catch a break after earnings."
+          },
+          {
+            "ticker": "ONON",
+            "move": "\u25bc",
+            "note": "Falls as Mbapp\u00e9 loses Chinese sponsors over Mao remarks."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Oil: diplomacy vs. live supply risk",
+            "detail": "Prices ease on peace signals, but an Aramco fire near Ras Tanura after an attack and Iran's threat against Sinokor ships in Hormuz keep supply risk priced in."
+          },
+          {
+            "title": "AI: demand strength vs. scrutiny",
+            "detail": "Chip and fiber names rally on AI demand, while Anthropic's 'adjusted' profit draws scrutiny and the AI-spend proxy in durable goods dipped."
+          },
+          {
+            "title": "Banks vs. the tape",
+            "detail": "HSBC's miss drags banks and the FTSE lower even as US futures rise \u2014 a European bank drag against a risk-on US open."
+          }
+        ],
+        "take": "This morning's risk-on lean is earned, not just futures noise: oil easing below $110 on real diplomacy signals plus a second straight day of chip strength on genuine AI demand \u2014 Corning beating on fiber, SoFi surging 11.5% on an exceptional quarter \u2014 is a tape with buyers, not just short-covering. Don't overread it, though: an Aramco fire and an Iranian threat against ships in Hormuz mean the oil relief can reverse in one headline, and HSBC's 7% miss is a live reminder that earnings season still bites. Into a Fed hold and a Big Tech earnings barrage, this is a buy-the-open tape with a tight leash \u2014 strength is real until the next Hormuz or earnings headline says otherwise.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +117,13 @@
         "made": "2026-10-26",
         "scores_detail": "Post-close 58 (2026-10-26)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 58 (prev post-close 58 on 2026-10-26 + pre-market 58): Oil eases on Middle East diplomacy.",
+        "made": "2026-10-27",
+        "scores_detail": "Post-close 58 (2026-10-26) + pre-market 58 (2026-10-27) = 58"
+      },
       "result": null
     },
     {
