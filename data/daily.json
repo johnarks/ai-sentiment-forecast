@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-28",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 58 (Risk-On Tilt): Chips lead a late Nasdaq rally.",
+        "made": "2026-10-27",
+        "scores_detail": "Post-close 58 (2026-10-27)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-27",
       "morning": {
         "score": 58,
@@ -109,7 +123,118 @@
         "take": "This morning's risk-on lean is earned, not just futures noise: oil easing below $110 on real diplomacy signals plus a second straight day of chip strength on genuine AI demand \u2014 Corning beating on fiber, SoFi surging 11.5% on an exceptional quarter \u2014 is a tape with buyers, not just short-covering. Don't overread it, though: an Aramco fire and an Iranian threat against ships in Hormuz mean the oil relief can reverse in one headline, and HSBC's 7% miss is a live reminder that earnings season still bites. Into a Fed hold and a Big Tech earnings barrage, this is a buy-the-open tape with a tight leash \u2014 strength is real until the next Hormuz or earnings headline says otherwise.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 58,
+        "label": "Risk-On Tilt",
+        "summary": "The session delivered on the morning's AI-optimism setup: chips led a sharp late Nasdaq rally, the S&P 500 posted back-to-back winning days, and oil fell almost $2 as Middle East diplomacy eased supply worries. The rally was capped, not reversed, by earnings caution \u2014 Boeing's cautious growth forecast sent it down 10.7% and several chip names sold off after hours despite beats. Net: a risk-on close with earnings, not macro fear, as the main drag.",
+        "drivers": [
+          {
+            "title": "Chips lead a late Nasdaq rally",
+            "detail": "Nasdaq rose sharply in the final hour on a chip bounce; S&P 500 posted back-to-back winning days as AI momentum revived into Big Tech earnings.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slides almost $2 on diplomacy",
+            "detail": "Middle East talks eased supply worries and Saudi Aramco offered Europe more spot oil, cooling energy prices and inflation fears.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI funding wave accelerates",
+            "detail": "Broadcom's CEO intervened to seal a $63B Anthropic debt deal and Meta's $25B stock sale ended five times oversubscribed, funding the AI buildout.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US data firms up",
+            "detail": "AI investment powered a rise in September business equipment spending and the economy is gathering steam, per fresh reporting.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed meeting kicks off, hold expected",
+            "detail": "The FOMC began its meeting with markets expecting rates held steady; the decision and explanation are now the next catalyst.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Earnings caution caps the rally",
+            "detail": "Boeing tumbled on a cautious growth forecast and new home sales fell 0.6% in September, a reminder that company and housing data are softening.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "DELL",
+            "move": "+7.47%",
+            "note": "Rose and outperformed the market on the chip/AI bounce."
+          },
+          {
+            "ticker": "SMCI",
+            "move": "+7.34%",
+            "note": "Outperformed as chip and AI hardware names rallied."
+          },
+          {
+            "ticker": "ON",
+            "move": "+6.22%",
+            "note": "Outperformed on the semiconductor rebound."
+          },
+          {
+            "ticker": "ALB",
+            "move": "+5.93%",
+            "note": "Outperformed competitors on a strong trading day."
+          },
+          {
+            "ticker": "ULBI",
+            "move": "+144.18% AH",
+            "note": "Spiked after hours on EnerSys acquisition news."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "BA",
+            "move": "-10.69%",
+            "note": "Tumbled after a cautious growth forecast post-earnings."
+          },
+          {
+            "ticker": "XYL",
+            "move": "-14.21%",
+            "note": "Steepest large-cap decliner in the day's tape."
+          },
+          {
+            "ticker": "INTA",
+            "move": "-8.91%",
+            "note": "Tumbled on weak Q2 guidance; down further after hours."
+          },
+          {
+            "ticker": "STX",
+            "move": "-5.94% AH",
+            "note": "Fell after hours despite a Q1 beat and raised guidance."
+          },
+          {
+            "ticker": "PSX",
+            "move": "-7.03%",
+            "note": "Underperformed as oil prices slid."
+          },
+          {
+            "ticker": "DG",
+            "move": "\u25bc",
+            "note": "Sued by the FTC and 20 states over alleged overcharging."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs AI funding strain",
+            "detail": "Chips rallied and Anthropic/Meta raised huge sums, yet Meta's near-$100B sale shows the buildout is being paid for with heavy issuance and debt."
+          },
+          {
+            "title": "Chip rally vs after-hours chip selloffs",
+            "detail": "Semis led the regular session higher, but Seagate, NXP and Intapp all fell after hours on earnings/guidance \u2014 beats were not enough."
+          },
+          {
+            "title": "Oil down on diplomacy vs attack risk",
+            "detail": "Prices fell on talks, but an Aramco fire near Ras Tanura after an attack kept supply risk live in the same tape."
+          }
+        ],
+        "take": "The tape finally delivered on the morning's AI-optimism setup: chips led a sharp late Nasdaq rally, the S&P 500 notched back-to-back wins, and oil fell almost $2 on Middle East diplomacy. But the funding story underneath is the one to watch \u2014 Meta's near-$100B raise and a $63B Anthropic debt deal show the buildout is being financed with heavy issuance, and after-hours selloffs in Seagate, NXP and Intapp say beats alone no longer clear the bar. Tomorrow belongs to the Fed decision and Big Tech earnings: the rally has room to run only if Google and Microsoft prove AI is actually paying off.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -124,7 +249,11 @@
         "made": "2026-10-27",
         "scores_detail": "Post-close 58 (2026-10-26) + pre-market 58 (2026-10-27) = 58"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.56,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-26",
