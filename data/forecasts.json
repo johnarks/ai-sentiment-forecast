@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-28",
+      "kind": "final",
+      "date": "2026-10-28",
+      "scores_detail": "Post-close 58 (2026-10-27) + pre-market 53 (2026-10-28) = 56",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 56 (prev post-close 58 on 2026-10-27 + pre-market 53): SK Hynix profit boom reignites the memory/AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-28",
       "kind": "early",
       "date": "2026-10-27",
       "score": 58,
