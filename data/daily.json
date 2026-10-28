@@ -2,7 +2,123 @@
   "days": [
     {
       "date": "2026-10-28",
-      "morning": null,
+      "morning": {
+        "score": 53,
+        "label": "Neutral \u2014 Leaning Positive",
+        "summary": "A cautious, chip-led pre-market: SK Hynix's profit boom and Vertiv's order surge revived the AI trade, lifting Nasdaq futures, while the Dow drifted lower into today's 2 p.m. Fed decision. Rising oil and questions over whether Big Tech's AI spending is paying off kept the mood from turning outright bullish, and Robinhood's crypto-driven profit miss added a drag.",
+        "drivers": [
+          {
+            "title": "Fed decision at 2 p.m. \u2014 expected hold, with a nod to December",
+            "detail": "Futures split ahead of the call: Dow set to open lower, Nasdaq higher, as traders wait on the rate decision and Powell's guidance.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "SK Hynix profit boom reignites the memory/AI trade",
+            "detail": "Nasdaq futures gained after SK Hynix's profit surge; chip stocks led higher for a third straight day (NVDA, AMD, MU).",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Big Tech earnings face the $600B AI-spending question",
+            "detail": "Investors brace for whether MSFT/GOOGL/AMZN results show AI capex paying off \u2014 the week's defining earnings test.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Oil jumps, stoking inflation fears into the Fed meeting",
+            "detail": "Higher oil weighed on European stocks and pushed gold lower on oil-fuelled inflation worries ahead of the decision.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Vertiv orders double amid AI build-out",
+            "detail": "Vertiv beat Q3 estimates and raised its outlook as AI infrastructure orders doubled \u2014 the strongest single-company AI signal overnight.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI debt machine starting to choke on supply",
+            "detail": "Bloomberg/WSJ flags caution: AI lending is booming but bankers sound cautious and AI debt supply is straining absorption.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "VRT",
+            "move": "+15.75%",
+            "note": "Orders doubled amid AI build-out; beat and raised outlook."
+          },
+          {
+            "ticker": "WEN",
+            "move": "+15.36%",
+            "note": "Nelson Peltz's Trian offered $1.4B to take Wendy's private."
+          },
+          {
+            "ticker": "GEHC",
+            "move": "+8.45%",
+            "note": "Climbing after earnings."
+          },
+          {
+            "ticker": "WING",
+            "move": "+8.12%",
+            "note": "Fiscal Q3 results lifted shares."
+          },
+          {
+            "ticker": "SKHY",
+            "move": "+6.98%",
+            "note": "SK Hynix profit boom lifting memory/chip names."
+          },
+          {
+            "ticker": "ETSY",
+            "move": "+6.38%",
+            "note": "Sales rose as active buyers increased."
+          },
+          {
+            "ticker": "EAT",
+            "move": "+5.30%",
+            "note": "Lifted forecast as Chili's drove profit."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "ENPH",
+            "move": "-20.03%",
+            "note": "Premarket slide led the morning's decliners."
+          },
+          {
+            "ticker": "VIR",
+            "move": "-9.25%",
+            "note": "Shares fell sharply in premarket trading."
+          },
+          {
+            "ticker": "NXPI",
+            "move": "-8.33%",
+            "note": "Premarket slide alongside Enphase."
+          },
+          {
+            "ticker": "HOOD",
+            "move": "-6.62%",
+            "note": "Profit miss as cooling crypto markets chilled results."
+          },
+          {
+            "ticker": "LOGI",
+            "move": "\u25bc",
+            "note": "Shed ~$2B in market cap as margin concerns overshadowed a profit beat."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI boom vs AI bill",
+            "detail": "SK Hynix and Vertiv show the AI trade roaring back, while the AI debt-supply warning and the $600B spending-payoff question argue the bill is coming due."
+          },
+          {
+            "title": "Fed hold vs hawkish hold",
+            "detail": "The base case is a hold with a December nod, but oil-driven inflation fears and 'hawkish hold' chatter keep a hawkish surprise live."
+          },
+          {
+            "title": "Consumer strength vs crypto chill",
+            "detail": "Brinker, Etsy and Wingstop beat, but Robinhood's crypto-driven miss and a stagnant housing market cut the other way."
+          }
+        ],
+        "take": "Chips are doing the heavy lifting again \u2014 SK Hynix's profit boom and Vertiv's doubled orders revived the AI trade, but the tape is split for a reason: the Nasdaq is climbing while the Dow sags into a 2 p.m. Fed decision nobody wants to front-run. The real test isn't the hold everyone expects, it's whether MSFT, GOOGL and AMZN can justify the $600B AI spend this week \u2014 if they can't, today's chip bounce is just a pre-earnings sugar rush. Oil creeping higher into the decision is the quiet risk: a hawkish hold would turn this cautious lean-positive morning into a fade.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +127,13 @@
         "made": "2026-10-27",
         "scores_detail": "Post-close 58 (2026-10-27)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 56 (prev post-close 58 on 2026-10-27 + pre-market 53): SK Hynix profit boom reignites the memory/AI trade.",
+        "made": "2026-10-28",
+        "scores_detail": "Post-close 58 (2026-10-27) + pre-market 53 (2026-10-28) = 56"
+      },
       "result": null
     },
     {
