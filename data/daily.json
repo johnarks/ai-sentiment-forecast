@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-29",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 47 (Cautious Tilt): Alphabet misses as ad sales fall short.",
+        "made": "2026-10-28",
+        "scores_detail": "Post-close 47 (2026-10-28)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-28",
       "morning": {
         "score": 53,
@@ -119,7 +133,113 @@
         "take": "Chips are doing the heavy lifting again \u2014 SK Hynix's profit boom and Vertiv's doubled orders revived the AI trade, but the tape is split for a reason: the Nasdaq is climbing while the Dow sags into a 2 p.m. Fed decision nobody wants to front-run. The real test isn't the hold everyone expects, it's whether MSFT, GOOGL and AMZN can justify the $600B AI spend this week \u2014 if they can't, today's chip bounce is just a pre-earnings sugar rush. Oil creeping higher into the decision is the quiet risk: a hawkish hold would turn this cautious lean-positive morning into a fade.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 47,
+        "label": "Cautious Tilt",
+        "summary": "Stocks ended higher after the Fed held rates steady, with the S&P 500 and Dow rising for a third straight day and Oracle's surge easing AI-spending fears. But the tone soured after the bell: Alphabet missed on ad sales and posted another quarter of negative free cash flow, sending shares down nearly 9% after hours, while ServiceNow plunged almost 16% on its own miss. Microsoft's AI-driven beat kept the mega-cap picture from turning outright negative, leaving sentiment cautiously tilted risk-off heading into Thursday's open.",
+        "drivers": [
+          {
+            "title": "Fed holds rates steady, two dissents wanted a hike",
+            "detail": "Warsh-led Fed kept rates unchanged with Hammack and Cook dissenting in favor of a hike; stocks still ended higher and the Fed will hold fewer meetings from next year.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Alphabet misses as ad sales fall short",
+            "detail": "Google's profit miss, slowing search growth and another quarter of negative free cash flow sent shares down about 8.7% after hours.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Microsoft beats on AI growth",
+            "detail": "Microsoft topped Q1 expectations on top and bottom line, with Azure strength offsetting softer Windows revenue.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oracle surges, easing AI-spending worries",
+            "detail": "Oracle jumped about 11% on a plan to turn cash flow positive, calming fears about AI infrastructure spending.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "ServiceNow slides on earnings miss",
+            "detail": "ServiceNow fell nearly 16% after hours as an earnings miss clouded a raised AI outlook.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil tops $115 as energy-inflation fears linger",
+            "detail": "Oil's climb and a World Bank outlook for energy prices up 32% this year kept hot-inflation concerns in focus around the Fed decision.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Chip stocks rally for a third straight day",
+            "detail": "AMD, Broadcom and Micron led chip stocks higher, with SK hynix and Nvidia also sending upbeat signals.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "UK's first Healey Budget lands calmly",
+            "detail": "The Chancellor's first Budget, including \u00a3100 off energy bills and a bank tax, was taken in stride by British markets.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SKHY",
+            "move": "+13.3%",
+            "note": "Sky Harbour among the day's biggest gainers as stocks rose post-Fed."
+          },
+          {
+            "ticker": "ORCL",
+            "move": "+10.7%",
+            "note": "Plan to turn cash flow positive eased AI-spending worries."
+          },
+          {
+            "ticker": "CVNA",
+            "move": "+9.6% AH",
+            "note": "Carvana profit soared as vehicle sales climbed nearly 40%."
+          },
+          {
+            "ticker": "NNBR",
+            "move": "+8.3%",
+            "note": "NN Inc. gained on its Q3 earnings snapshot."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "FTNT",
+            "move": "-25.5% AH",
+            "note": "Beat expectations but outlook not rosy enough; revenue growth underwhelmed."
+          },
+          {
+            "ticker": "NOW",
+            "move": "-15.7% AH",
+            "note": "Q3 earnings miss overshadowed a raised AI outlook."
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "-8.7% AH",
+            "note": "Profit miss as ad sales fell short and AI cannibalizes search."
+          },
+          {
+            "ticker": "CYH",
+            "move": "-7.9% AH",
+            "note": "Community Health Systems fell after its Q3 earnings snapshot."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Fed hold vs hawkish dissents",
+            "detail": "Stocks rallied on the hold, but two dissents favoring a hike and lingering hot inflation kept the dovish read in check."
+          },
+          {
+            "title": "AI spending: Oracle relief vs Alphabet cash burn",
+            "detail": "Oracle's cash-flow-positive plan calmed AI-spending fears the same day Alphabet posted another quarter of negative free cash flow."
+          },
+          {
+            "title": "Split mega-cap earnings",
+            "detail": "Microsoft's AI beat clashed with misses from Alphabet and ServiceNow, leaving no clean read on Big Tech."
+          }
+        ],
+        "take": "The Fed hold was the day's headline and the market's afterthought: stocks rallied into the close, then Alphabet, ServiceNow and Fortinet blew up after the bell and reset the tape. Oracle's cash-flow plan and Microsoft's beat are the only real offsets, and they don't outweigh a -8.7% Google and a -15.7% ServiceNow heading into Thursday. Tomorrow opens under pressure unless buyers treat the after-hours selloff as earnings noise rather than an AI verdict.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -134,7 +254,11 @@
         "made": "2026-10-28",
         "scores_detail": "Post-close 58 (2026-10-27) + pre-market 53 (2026-10-28) = 56"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.34,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-27",
