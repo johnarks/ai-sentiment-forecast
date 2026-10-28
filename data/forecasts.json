@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-29",
+      "kind": "early",
+      "date": "2026-10-28",
+      "score": 47,
+      "label": "Cautious Tilt",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Post-close score 47 (Cautious Tilt): Alphabet misses as ad sales fall short.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-28",
       "kind": "final",
       "date": "2026-10-28",
@@ -8,8 +21,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Blended score 56 (prev post-close 58 on 2026-10-27 + pre-market 53): SK Hynix profit boom reignites the memory/AI trade.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.34,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Post-close score 58 (Risk-On Tilt): Chips lead a late Nasdaq rally.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.34,
+      "hit": true,
       "push": false
     },
     {
