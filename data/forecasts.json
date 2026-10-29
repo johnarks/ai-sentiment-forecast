@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-10-30",
+      "kind": "early",
+      "date": "2026-10-29",
+      "score": 34,
+      "label": "Firmly Bearish",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 34 (Firmly Bearish): Alphabet's worst day since its IPO revives AI fears.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-29",
       "kind": "final",
       "date": "2026-10-29",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 43 (prev post-close 47 on 2026-10-28 + pre-market 38): Alphabet ad miss cracks the AI trade.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.38,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 47 (Cautious Tilt): Alphabet misses as ad sales fall short.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -0.38,
+      "hit": true,
       "push": false
     },
     {
