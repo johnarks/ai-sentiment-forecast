@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-29",
+      "kind": "final",
+      "date": "2026-10-29",
+      "scores_detail": "Post-close 47 (2026-10-28) + pre-market 38 (2026-10-29) = 43",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 43 (prev post-close 47 on 2026-10-28 + pre-market 38): Alphabet ad miss cracks the AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-29",
       "kind": "early",
       "date": "2026-10-28",
       "score": 47,
