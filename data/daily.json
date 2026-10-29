@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-10-30",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 34 (Firmly Bearish): Alphabet's worst day since its IPO revives AI fears.",
+        "made": "2026-10-29",
+        "scores_detail": "Post-close 34 (2026-10-29)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-29",
       "morning": {
         "score": 38,
@@ -123,7 +137,133 @@
         "take": "Alphabet's ad miss just cracked the AI trade wide open \u2014 an 11% pre-market plunge isn't a dip to buy, it's the market repricing whether AI spending ever pays. Strong GDP paired with surging PCE inflation kills the rate-cut lifeline, and BofA now calling for hikes means today's session is about damage control, not a bounce. Watch GOOGL and CAT at the open: if they keep sliding, risk-off wins the day.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 34,
+        "label": "Firmly Bearish",
+        "summary": "A brutal session for Big Tech turned post-close sentiment firmly bearish: Alphabet suffered its worst day since its 2004 IPO on a search revenue miss, and after-hours plunges from Amazon and Intel extended the AI-spending anxiety into the evening. The Nasdaq closed sharply lower and the S&P 500 snapped a three-day advance, even as market breadth held up and Q3 GDP growth came in strong. The day's story was not the economy \u2014 it was whether hyperscaler AI spending is paying off, and today's verdict from investors was no.",
+        "drivers": [
+          {
+            "title": "Alphabet's worst day since its IPO revives AI fears",
+            "detail": "GOOGL fell 12.6% as search ad sales missed and cash burn worsened, wiping ~$482B in value; debt-risk gauges rose and the stock triggered a 'death cross'.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI capex cash burn spooks Wall Street",
+            "detail": "Big Tech's data-center spending blitz dominated the tape, with rotation out of AI winners on worries the bills are outrunning returns.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Amazon and Intel extend the rout after hours",
+            "detail": "Amazon missed Q3 and gave a weaker Q4 outlook (-6.5% AH); Intel beat but guided weakly on a PC slowdown (-16.9% AH).",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nasdaq sharply lower, S&P snaps 3-day advance",
+            "detail": "Major indexes fell despite solid market breadth \u2014 a mega-cap-led selloff, not broad capitulation; Dow lost ~100 points.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Q3 GDP growth stays strong",
+            "detail": "Real GDP grew 3.4% in Q3, a bullish offset to the tech rout and a reason the selloff stayed concentrated in mega-cap tech.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed on hold with two dissents; inflation gauges firming",
+            "detail": "The Fed held rates steady with two dissents while PCE/inflation measures trended higher, keeping the rate path a live debate.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "ECB holds; Lagarde confirms early exit",
+            "detail": "The ECB kept rates unchanged and Lagarde confirmed she will step down early, adding a leadership transition to Europe's outlook.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "DoorDash buys Instacart for $17B",
+            "detail": "DoorDash's $17B deal unites two delivery giants in a bet on grocery delivery, the day's biggest M&A headline.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CDNA",
+            "move": "+18.15% AH",
+            "note": "Q3 earnings snapshot strength after hours"
+          },
+          {
+            "ticker": "CVEO",
+            "move": "+17.18% AH",
+            "note": "Q3 earnings snapshot strength after hours"
+          },
+          {
+            "ticker": "OSPN",
+            "move": "+16.63% AH",
+            "note": "Q3 earnings snapshot strength after hours"
+          },
+          {
+            "ticker": "RMNI",
+            "move": "+10.28% AH",
+            "note": "Q3 earnings snapshot strength after hours"
+          },
+          {
+            "ticker": "CROX",
+            "move": "\u25b2",
+            "note": "Shares surged on raised forecast as HEYDUDE turnaround gains traction"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "\u25b2",
+            "note": "Topped Q1 estimates, guided higher, announced 8-for-1 split"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "GOOGL",
+            "move": "-12.64%",
+            "note": "Search revenue miss, worsening cash burn; worst day since 2004 IPO"
+          },
+          {
+            "ticker": "INTC",
+            "move": "-16.91% AH",
+            "note": "Weak Q4 forecast on PC slowdown overshadows earnings beat"
+          },
+          {
+            "ticker": "RBLX",
+            "move": "-18.41% AH",
+            "note": "Narrowed loss but user and engagement metrics fell"
+          },
+          {
+            "ticker": "TWLO",
+            "move": "-17.78% AH",
+            "note": "Beat estimates but shares fell on slowing organic growth"
+          },
+          {
+            "ticker": "PINS",
+            "move": "-12.05% AH",
+            "note": "Signs pointing to slowing revenue growth"
+          },
+          {
+            "ticker": "AMZN",
+            "move": "-6.51% AH",
+            "note": "Q3 earnings miss and weaker Q4 outlook, mounting AI spending"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Strong economy vs. weak mega-cap earnings",
+            "detail": "Q3 GDP at 3.4% and solid breadth argue the economy is fine, yet Alphabet, Amazon and Intel all sold off hard on their own numbers."
+          },
+          {
+            "title": "AI spending: investment vs. cash burn",
+            "detail": "Hyperscalers frame data-center spending as the future; today's market treated it as burn, punishing Alphabet and Amazon while rewarding only select names."
+          },
+          {
+            "title": "Fed on hold vs. firming inflation",
+            "detail": "A steady Fed with two dissents sits uneasily beside inflation gauges trending higher, leaving the next move genuinely two-sided."
+          }
+        ],
+        "take": "This wasn't a broad market panic \u2014 it was the AI trade getting repriced in one brutal session, with Alphabet's worst day since its IPO on a search miss and Amazon and Intel piling on after hours. The market has stopped giving hyperscalers credit for spending and started charging them for it, and that shift doesn't reverse on one good print. Tomorrow opens with the burden of proof on Big Tech: unless the after-hours damage stabilizes fast, the path of least resistance is down, not a bounce.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -138,7 +278,11 @@
         "made": "2026-10-29",
         "scores_detail": "Post-close 47 (2026-10-28) + pre-market 38 (2026-10-29) = 43"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.38,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-28",
