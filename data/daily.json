@@ -2,7 +2,127 @@
   "days": [
     {
       "date": "2026-10-29",
-      "morning": null,
+      "morning": {
+        "score": 38,
+        "label": "Risk-Off Tilt",
+        "summary": "Overnight sentiment turned risk-off as Alphabet's ad-sales miss sank the stock over 11% and dragged Nasdaq futures lower, reviving AI-trade doubts just as fresh data complicated the rate-cut case: Q3 GDP beat expectations while September inflation surged and BofA shifted its Fed call to hikes in December and March. Microsoft's beat and a $17B DoorDash-Instacart deal cushioned the tape, but with Caterpillar also cracking and a Hormuz tanker incident adding geopolitical risk, the setup into the open is defensive.",
+        "drivers": [
+          {
+            "title": "Alphabet ad miss cracks the AI trade",
+            "detail": "Google ad sales fell short, GOOGL down 11.4% pre-market; Nasdaq futures slumped and S&P 500 headed for its first loss in four days.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Strong GDP, worsening inflation",
+            "detail": "Q3 GDP came in stronger than expected while September PCE inflation surged and the savings rate hit a 4-year low.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed pause repriced hawkish",
+            "detail": "After the Fed held rates steady on Oct 28, BofA shifted its call to rate hikes in December 2026 and March 2027.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Tale of two hyperscalers",
+            "detail": "Microsoft topped expectations with a $36.6B profit on AI growth while Alphabet sank \u2014 the AI boom's winners and losers split.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Lagarde to exit ECB early",
+            "detail": "Christine Lagarde confirmed she will step down in February, months before her term ends, putting today's ECB meeting in focus.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Hormuz tanker incident",
+            "detail": "IRGC said 3 tankers were on fire in the Strait of Hormuz, challenging the US narrative that the strait is demined.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "DoorDash buys Instacart for $17B",
+            "detail": "The delivery giants unite in a $17B deal, with DASH up 6% \u2014 a sign of M&A appetite despite the risk-off tape.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Europe to release 42M barrels of oil",
+            "detail": "France said Europe is set to release 42 million barrels of oil, a supply move that could ease energy-price pressure.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CROX",
+            "move": "+19.24%",
+            "note": "Earnings beat and raised guidance."
+          },
+          {
+            "ticker": "BURU",
+            "move": "+14.82%",
+            "note": "Regains NYSE American listing compliance."
+          },
+          {
+            "ticker": "CMG",
+            "move": "+8.54%",
+            "note": "Q3 sales momentum sustained."
+          },
+          {
+            "ticker": "DASH",
+            "move": "+6.07%",
+            "note": "Buys Instacart for $17B."
+          },
+          {
+            "ticker": "EBAY",
+            "move": "+5.91%",
+            "note": "Analysts see shares in a sweet spot into 2027 outlook."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "GOOGL",
+            "move": "-11.40%",
+            "note": "Ad sales miss revives AI-trade fears; Nasdaq futures slump."
+          },
+          {
+            "ticker": "CAT",
+            "move": "-11.12%",
+            "note": "Earnings crack sends stock toward its worst day in 7 years."
+          },
+          {
+            "ticker": "SILC",
+            "move": "-8.06%",
+            "note": "Q3 results disappoint."
+          },
+          {
+            "ticker": "ALNY",
+            "move": "-7.42%",
+            "note": "Q3 earnings snapshot draws selling."
+          },
+          {
+            "ticker": "S",
+            "move": "-6.57%",
+            "note": "SentinelOne adds Anthropic's Claude to AI services but shares fall with tech."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI boom splits",
+            "detail": "Microsoft's AI-driven beat vs Alphabet's ad miss \u2014 surging AI demand and soaring spending on one side, monetization doubts on the other."
+          },
+          {
+            "title": "Good growth, bad inflation",
+            "detail": "Stronger Q3 GDP argues for resilience, but surging PCE inflation argues against rate cuts \u2014 the market is pricing the inflation side."
+          },
+          {
+            "title": "Fed hold vs hike calls",
+            "detail": "The Fed paused Oct 28, yet BofA now calls for hikes in December and March \u2014 a hawkish repricing into today's data."
+          },
+          {
+            "title": "Tech slump vs small-cap resilience",
+            "detail": "Tech futures tumbled on Alphabet while small caps rose ahead of PCE and the ECB \u2014 rotation, not uniform panic."
+          }
+        ],
+        "take": "Alphabet's ad miss just cracked the AI trade wide open \u2014 an 11% pre-market plunge isn't a dip to buy, it's the market repricing whether AI spending ever pays. Strong GDP paired with surging PCE inflation kills the rate-cut lifeline, and BofA now calling for hikes means today's session is about damage control, not a bounce. Watch GOOGL and CAT at the open: if they keep sliding, risk-off wins the day.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +131,13 @@
         "made": "2026-10-28",
         "scores_detail": "Post-close 47 (2026-10-28)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 43 (prev post-close 47 on 2026-10-28 + pre-market 38): Alphabet ad miss cracks the AI trade.",
+        "made": "2026-10-29",
+        "scores_detail": "Post-close 47 (2026-10-28) + pre-market 38 (2026-10-29) = 43"
+      },
       "result": null
     },
     {
