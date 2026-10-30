@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-10-30",
+      "kind": "final",
+      "date": "2026-10-30",
+      "scores_detail": "Post-close 34 (2026-10-29) + pre-market 33 (2026-10-30) = 34",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 34 (prev post-close 34 on 2026-10-29 + pre-market 33): Intel's outlook shocks the market.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-10-30",
       "kind": "early",
       "date": "2026-10-29",
       "score": 34,
