@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-02",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "High",
+        "rationale": "Post-close score 28 (Firmly Bearish): AI cash-burn fears drive broad tech rout.",
+        "made": "2026-10-30",
+        "scores_detail": "Post-close 28 (2026-10-30)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-10-30",
       "morning": {
         "score": 33,
@@ -109,7 +123,133 @@
         "take": "This morning is not a dip to buy \u2014 it's a reckoning. Intel cratering 25% on a brutal outlook and Amazon sliding nearly 8% on AI cash burn have turned yesterday's Alphabet-led rout into a full-blown tech washout, with Nasdaq futures down over 2% before the bell. The session will be defined by whether the selling stays contained to tech or bleeds into the broader market, so watch the open for contagion, not a bounce.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 28,
+        "label": "Firmly Bearish",
+        "summary": "Friday's session ended in a rout: weak tech earnings reignited fears over AI spending, sending the Nasdaq to its worst day since June and its worst month since March 2025, with the Nasdaq 100 hitting its third correction of 2026. Intel's historic plunge and Reddit's record drop led the damage, while a $6.3B Binance hack added a separate risk-off jolt to crypto. Energy was the main offset, with Exxon and Chevron beating on refining profits, but it was nowhere near enough to stem the selloff.",
+        "drivers": [
+          {
+            "title": "AI cash-burn fears drive broad tech rout",
+            "detail": "Nasdaq worst day since June and worst month since March 2025; Nasdaq 100 hits third correction of 2026; ~$2T wiped out in October as weak earnings reset AI spending expectations.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Intel's historic collapse drags chips",
+            "detail": "Intel plunged 28.6%, on pace for its worst day since 1974, after its warning sparked a chip rout; AMD fell 10.9% and analysts said there was no reason to buy the dip.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Growth earnings misses: Reddit, Roblox, Pinterest",
+            "detail": "Reddit sank 29.2% in its biggest one-day drop ever and Roblox fell 18% on weak user and revenue growth, extending the post-earnings punishment for misses.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "$6.3B Binance hack rattles crypto",
+            "detail": "Binance hack linked to North Korea is the biggest crypto heist ever; Bitcoin fell and crypto stocks tumbled (COIN -10.6%, MSTR -7.8%, Galaxy -11.8%).",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Energy earnings beat on refining strength",
+            "detail": "Exxon and Chevron beat estimates as refining profits soared, and Exxon outlined $100B in capex through 2030 \u2014 a rare bright spot in a risk-off tape.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Macro headwinds: wages lag inflation, rates stay high",
+            "detail": "US employment costs trailed inflation for a second straight quarter and mortgage rates are expected above 7% into 2027, keeping consumer and housing pressure in view.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI policy fears build into midterms",
+            "detail": "AI policy fears gripped stock and bond traders with midterms days away, adding a regulatory overhang to the AI trade's de-rating.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MEOH",
+            "move": "+14.04%",
+            "note": "Beat handily as cash flow surged"
+          },
+          {
+            "ticker": "REGN",
+            "move": "+13.33%",
+            "note": "Outperformed on a strong trading day"
+          },
+          {
+            "ticker": "CVCO",
+            "move": "+13.11%",
+            "note": "Record quarter beat big"
+          },
+          {
+            "ticker": "GPN",
+            "move": "+12.97%",
+            "note": "Outperformed competitors on a strong day"
+          },
+          {
+            "ticker": "GDDY",
+            "move": "+10.72%",
+            "note": "Outperformed competitors despite the rout"
+          },
+          {
+            "ticker": "CSGP",
+            "move": "+7.21%",
+            "note": "Rose Friday, outperforming the market"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "RDDT",
+            "move": "-29.22%",
+            "note": "Biggest one-day drop ever after weak user and revenue growth"
+          },
+          {
+            "ticker": "INTC",
+            "move": "-28.58%",
+            "note": "Worst day since 1974 on warning and PC weakness; $11B+ shaved off the US government's stake"
+          },
+          {
+            "ticker": "ILMN",
+            "move": "-18.64%",
+            "note": "Sank with the growth/tech rout"
+          },
+          {
+            "ticker": "RBLX",
+            "move": "-18.05%",
+            "note": "Tanked after Q3 earnings alongside Reddit"
+          },
+          {
+            "ticker": "AMD",
+            "move": "-10.88%",
+            "note": "Dragged lower by the Intel-led chip rout"
+          },
+          {
+            "ticker": "DELL",
+            "move": "-10.77%",
+            "note": "Fell with AI-hardware de-rating"
+          },
+          {
+            "ticker": "COIN",
+            "move": "-10.62%",
+            "note": "Crypto stocks tumbled after the Binance hack"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI spending: boom vs cash burn",
+            "detail": "Hyperscaler capex and data-center demand remain massive, yet weak earnings and AI-debt fears now dominate pricing \u2014 the same spending is read as growth by bulls and burn by bears."
+          },
+          {
+            "title": "Energy strength vs tech weakness",
+            "detail": "Oil majors beat on refining while tech cratered, so the tape split sharply between old-energy profits and AI-growth de-rating."
+          },
+          {
+            "title": "Dip-buying vs no-dip case on Intel",
+            "detail": "Intel's historic drop invites bargain-hunting, but analysts argued there is no reason to buy the dip yet \u2014 a live test of capitulation vs value."
+          }
+        ],
+        "take": "Friday was a capitulation day, not a dip: Intel's worst session since 1974, Reddit's biggest drop ever, and a Nasdaq 100 correction all landed on the same tape, and the market read AI spending as cash burn rather than growth. The score of 28 says the fear trade is in full control heading into the weekend, with midterms and policy signals next week as the only near-term circuit breaker. For Monday, expect the open to test whether this was a washout or the start of a deeper de-rating \u2014 the early call leans DOWN until buyers actually show up in the chip names that just got wrecked.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -124,7 +264,11 @@
         "made": "2026-10-30",
         "scores_detail": "Post-close 34 (2026-10-29) + pre-market 33 (2026-10-30) = 34"
       },
-      "result": null
+      "result": {
+        "spy_pct": -1.77,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-29",
