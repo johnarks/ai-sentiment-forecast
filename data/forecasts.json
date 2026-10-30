@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-11-02",
+      "kind": "early",
+      "date": "2026-10-30",
+      "score": 28,
+      "label": "Firmly Bearish",
+      "call": "DOWN",
+      "confidence": "High",
+      "rationale": "Post-close score 28 (Firmly Bearish): AI cash-burn fears drive broad tech rout.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-10-30",
       "kind": "final",
       "date": "2026-10-30",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Blended score 34 (prev post-close 34 on 2026-10-29 + pre-market 33): Intel's outlook shocks the market.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.77,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 34 (Firmly Bearish): Alphabet's worst day since its IPO revives AI fears.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": -1.77,
+      "hit": true,
       "push": false
     },
     {
