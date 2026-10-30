@@ -2,7 +2,113 @@
   "days": [
     {
       "date": "2026-10-30",
-      "morning": null,
+      "morning": {
+        "score": 33,
+        "label": "Firmly Bearish",
+        "summary": "Overnight sentiment turned firmly risk-off as Intel's weak outlook put it on pace for its worst day in decades and Amazon's earnings stoked fresh AI-spending fears, sending Nasdaq futures down more than 2%. The rout broadened beyond mega-cap tech into chips and crypto after a record $6.3 billion Binance hack blamed on North Korea. Energy earnings and a sixth straight week of equity-fund inflows kept the selloff from being a blanket panic, but into the open the tape is dominated by tech pressure.",
+        "drivers": [
+          {
+            "title": "Intel's outlook shocks the market",
+            "detail": "Weak Q4 outlook and a 'surprisingly severe PC correction' put INTC down ~25% premarket, erasing over $100B in value and dragging global chip stocks lower.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Amazon earnings deepen the AI-spending reckoning",
+            "detail": "AMZN fell ~7.8% premarket as heavy AI spending and cash burn rattled investors, extending Alphabet's prior-day wipeout into a broader tech rout.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nasdaq futures slide more than 2%",
+            "detail": "Futures fell sharply as Amazon and Intel tumbled, with European and Asian tech shares sliding in sympathy and Treasuries rallying as a haven.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Record $6.3B Binance hack blamed on North Korea",
+            "detail": "Binance suspended withdrawals after the largest crypto heist on record; crypto-linked stocks (COIN, HOOD, MSTR) fell sharply premarket.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil jumps on Gulf tanker hits; big oil beats",
+            "detail": "Brent hit new highs as oil rallied on Hormuz tanker attacks, while Exxon and Chevron beat estimates on surging refining profits.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Global equity funds draw inflows for a sixth week",
+            "detail": "Despite the tech selloff, fund flows stayed positive for a sixth straight week \u2014 a sign the rout has not yet become broad capitulation.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Reddit and Pinterest tumble on weak growth",
+            "detail": "Both fell after weak user and revenue growth, adding to the earnings-driven pressure on growth names into the open.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CPRI",
+            "move": "+11.15%",
+            "note": "Swung to a quarterly profit."
+          },
+          {
+            "ticker": "REGN",
+            "move": "+6.50%",
+            "note": "Q3 earnings beat; CFO flagged one of its strongest years ever."
+          },
+          {
+            "ticker": "AZN",
+            "move": "+5.97%",
+            "note": "Profit jumped 23% on cancer drugs plus a $1.5B savings plan."
+          },
+          {
+            "ticker": "RIVN",
+            "move": "+5.58%",
+            "note": "Raised 2026 guidance after Q3 revenue growth."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "INTC",
+            "move": "-25.21%",
+            "note": "Weak Q4 outlook and PC correction; worst day in decades in view."
+          },
+          {
+            "ticker": "TWLO",
+            "move": "-19.89%",
+            "note": "Slowing growth threw cold water on AI benefits."
+          },
+          {
+            "ticker": "ABR",
+            "move": "-18.54%",
+            "note": "Q3 results disappointed premarket."
+          },
+          {
+            "ticker": "RBLX",
+            "move": "-16.09%",
+            "note": "User growth and guidance missed expectations."
+          },
+          {
+            "ticker": "AMZN",
+            "move": "-7.75%",
+            "note": "Earnings stoked AI-spending and cash-burn fears."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI spending fear vs. AI demand strength",
+            "detail": "Investors punished Amazon and Intel for AI costs and weak PC demand, even as Asian chip firms reported strong AI demand \u2014 the debate is about payback timing, not demand itself."
+          },
+          {
+            "title": "Tech rout vs. resilient fund flows",
+            "detail": "Nasdaq futures fell over 2% while global equity funds still drew a sixth straight week of inflows \u2014 selling is concentrated in tech, not yet a broad exit."
+          },
+          {
+            "title": "Oil strength cuts both ways",
+            "detail": "Surging refining profits lifted Exxon and Chevron, but higher oil also revives inflation fears and dents broader risk appetite."
+          }
+        ],
+        "take": "This morning is not a dip to buy \u2014 it's a reckoning. Intel cratering 25% on a brutal outlook and Amazon sliding nearly 8% on AI cash burn have turned yesterday's Alphabet-led rout into a full-blown tech washout, with Nasdaq futures down over 2% before the bell. The session will be defined by whether the selling stays contained to tech or bleeds into the broader market, so watch the open for contagion, not a bounce.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +117,13 @@
         "made": "2026-10-29",
         "scores_detail": "Post-close 34 (2026-10-29)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Blended score 34 (prev post-close 34 on 2026-10-29 + pre-market 33): Intel's outlook shocks the market.",
+        "made": "2026-10-30",
+        "scores_detail": "Post-close 34 (2026-10-29) + pre-market 33 (2026-10-30) = 34"
+      },
       "result": null
     },
     {
