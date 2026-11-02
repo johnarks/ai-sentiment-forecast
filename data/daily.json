@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-03",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): Tech correction deepens to open November.",
+        "made": "2026-11-02",
+        "scores_detail": "Post-close 40 (2026-11-02)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-02",
       "morning": {
         "score": 54,
@@ -104,7 +118,132 @@
         "take": "Friday's rout was real \u2014 the worst day in five months capping an October that wiped roughly $5T off AI stocks \u2014 and this morning's bounce is relief, not conviction. The $115B Marvell\u2013Lumentum deal and sliding oil on a longer Iran diplomacy window help the tape breathe, but fresh scrutiny of the AI debt binge, midterms tomorrow, and Apple after the close mean any rally today is rented, not owned. Fade strength into the earnings gauntlet rather than chase it: this market stays guilty until proven innocent.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "November opened with a split tape: the Dow closed up over 200 points while the Nasdaq fell about 1% as a broad chip rout overwhelmed a strong Apple headline. Semiconductors led the damage \u2014 Intel, Marvell, AMD, Super Micro and the disk names all fell 7-13% \u2014 while oil's slide on US-Iran diplomatic hopes and stronger October manufacturing offered only partial offsets. Apple's post-close beat (revenue up 12% to $114.5B, iPhone up 17%) failed to lift the stock after hours as a China miss and single-digit services growth disappointed, leaving sentiment tilted risk-off heading into Tuesday's midterms.",
+        "drivers": [
+          {
+            "title": "Tech correction deepens to open November",
+            "detail": "Nasdaq fell ~1% as tech melted down again; S&P 500 ended down while the Dow closed up 200+ points \u2014 a split tape, not a broad rout.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Chip rout spreads across semis and hardware",
+            "detail": "Intel -8.8%, Marvell -12.7%, AMD -7.5%, Super Micro -7.6%, Western Digital -7.5% and Seagate -7.9% as the $3.7T chip selloff widened; Deutsche Bank called the selloff overdone.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Apple beats but fails to excite after hours",
+            "detail": "Q4 revenue rose 12% to $114.5B with iPhone revenue up 17%, but a China miss, single-digit services growth and memory-cost margin pressure left the stock dipping after hours.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Marvell's $115B Lumentum megadeal",
+            "detail": "Marvell agreed to buy Lumentum to create an AI-connectivity leader, but its own shares plunged and commentators flagged dot-com-era flashbacks.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil tumbles on US-Iran diplomatic hopes",
+            "detail": "Crude slid as hopes rose for a diplomatic breakthrough and Trump said there was 'no rush' on renewing Iran war talk; Treasury yields extended their slide.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Palantir's AI turning point",
+            "detail": "Q3 revenue nearly doubled, Palantir raised its 2026 outlook, and US commercial revenue overtook government business for the first time.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Midterm risk hangs over the tape",
+            "detail": "Election positioning dominated coverage \u2014 AI/data-center restrictions on ballots in dozens of cities, sectors bracing for a pivot, and warnings AI risk must clear before any post-midterm rally.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US manufacturing strengthens in October",
+            "detail": "Factory activity strengthened in October even as input prices stayed high \u2014 a real-economy offset to the tech-led gloom.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "IDXX",
+            "move": "+21.85%",
+            "note": "Outperformed competitors on a strong trading day."
+          },
+          {
+            "ticker": "PLTR",
+            "move": "\u25b2",
+            "note": "Q3 beat, revenue nearly doubled, 2026 outlook raised; commercial overtook government."
+          },
+          {
+            "ticker": "HWM",
+            "move": "+6.91%",
+            "note": "Outperformed competitors on a strong trading day."
+          },
+          {
+            "ticker": "NBIX",
+            "move": "+10.08% AH",
+            "note": "Q3 results lifted shares after hours."
+          },
+          {
+            "ticker": "PAM",
+            "move": "+12.56% AH",
+            "note": "Nine-month and Q3 results lifted shares after hours."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MRVL",
+            "move": "-12.72%",
+            "note": "Plunged on the $115B Lumentum deal announcement despite the AI-connectivity logic."
+          },
+          {
+            "ticker": "INTC",
+            "move": "-8.80%",
+            "note": "Chip rout deepened; flagged as the collapse spreading across semis."
+          },
+          {
+            "ticker": "ORCL",
+            "move": "-8.76%",
+            "note": "Named among AI data-center names at risk from ballot measures."
+          },
+          {
+            "ticker": "SMCI",
+            "move": "-7.62%",
+            "note": "Underperformed as AI hardware names sold off broadly."
+          },
+          {
+            "ticker": "AMD",
+            "move": "-7.52%",
+            "note": "Caught in the broad semiconductor selloff."
+          },
+          {
+            "ticker": "WDC",
+            "move": "-7.52%",
+            "note": "Disk/memory names fell with the chip complex."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Dow up, Nasdaq down",
+            "detail": "The Dow's 200+ point gain against the Nasdaq's ~1% drop shows rotation out of tech, not uniform risk-off."
+          },
+          {
+            "title": "Correction ending vs. rout spreading",
+            "detail": "Morgan Stanley said the correction is nearing its end and Deutsche Bank upgraded US tech, even as the chip selloff widened intraday."
+          },
+          {
+            "title": "Apple beat vs. Apple dip",
+            "detail": "A genuine earnings beat with record iPhone quarter still left the stock lower after hours on China and services softness."
+          },
+          {
+            "title": "Oil down: good for inflation, bad for energy",
+            "detail": "Crude's slide eases price pressure and yields, but energy names like APA (-7.6%) and Devon (-6.8%) fell with it."
+          }
+        ],
+        "take": "November opened with a split tape that tells you everything: the Dow up 200 points while the Nasdaq fell 1% is rotation out of tech, not a healthy market. A record Apple quarter still sold off after hours, and a 7\u201313% chip rout led by Marvell, Intel, and AMD swamped every bullish headline. Tomorrow, don't buy the dip in semis \u2014 the correction is still doing its work, and the tape stays guilty until tech stops leading down.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "High",
@@ -119,7 +258,11 @@
         "made": "2026-11-02",
         "scores_detail": "Post-close 28 (2026-10-30) + pre-market 54 (2026-11-02) = 41"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.48,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-10-30",
