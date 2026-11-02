@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-02",
+      "kind": "final",
+      "date": "2026-11-02",
+      "scores_detail": "Post-close 28 (2026-10-30) + pre-market 54 (2026-11-02) = 41",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 41 (prev post-close 28 on 2026-10-30 + pre-market 54): AI debt binge under scrutiny.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-02",
       "kind": "early",
       "date": "2026-10-30",
       "score": 28,
