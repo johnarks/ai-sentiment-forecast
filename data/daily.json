@@ -2,7 +2,108 @@
   "days": [
     {
       "date": "2026-11-02",
-      "morning": null,
+      "morning": {
+        "score": 54,
+        "label": "Tentative Rebound",
+        "summary": "Futures are bouncing after Friday's worst day in five months, helped by sliding oil on a longer Iran diplomacy window and a $115B Marvell\u2013Lumentum AI deal that says consolidation is alive. But the rebound is tentative: the AI debt binge is under fresh scrutiny, midterms land tomorrow, and Apple reports after the close. Net read: a relief bounce inside a still-fragile tape, not a clean all-clear.",
+        "drivers": [
+          {
+            "title": "Futures rebound after Friday's rout",
+            "detail": "Futures recover after Friday's worst session in five months, with tech catching its breath ahead of a monster earnings week.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Marvell\u2013Lumentum $115B AI mega-deal",
+            "detail": "Marvell's $115B all-stock bid for Lumentum, the largest AI-connectivity deal yet, signals AI infrastructure spending is still consolidating, not stalling.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slide on Iran diplomacy window",
+            "detail": "Crude slides on reports Trump will give Iran diplomacy more time, easing inflation pressure and lifting risk appetite.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI debt binge under scrutiny",
+            "detail": "NYT flags cracks in the AI borrowing binge as Oracle returns to the bond market for $10B and Alphabet tests bond-market AI faith with a second euro sale.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Deutsche Bank: tech selloff overdone",
+            "detail": "Deutsche Bank upgrades US tech, saying the selloff has gone too far \u2014 a counterweight to the October AI rout narrative.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Midterms loom over positioning",
+            "detail": "Midterm elections Tuesday have sectors bracing for a pivot, with Wall Street gaming out Congress control and its spending/AI implications.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Apple earnings anchor the week",
+            "detail": "Apple reports after the close today and Palantir is in focus, with the tape treating Apple as a hedge against the AI trade.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Data and refunding on deck",
+            "detail": "Factory orders and construction spending due this morning, ahead of Wednesday's Treasury refunding announcement.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "FOX",
+            "move": "+7.17%",
+            "note": "World Cup boost lifts fiscal Q1 earnings past expectations."
+          },
+          {
+            "ticker": "IDXX",
+            "move": "+7.78%",
+            "note": "Q3 earnings beat with FY2026 guidance raised."
+          },
+          {
+            "ticker": "TSEM",
+            "move": "+4.5%",
+            "note": "Q4 revenue forecast tops expectations."
+          },
+          {
+            "ticker": "CHH",
+            "move": "+2.55%",
+            "note": "Q3 earnings beat and RevPAR outlook improves."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "LITE",
+            "move": "-5.55%",
+            "note": "Deal discount on Marvell's $115B all-stock bid."
+          },
+          {
+            "ticker": "NSSC",
+            "move": "-18.86%",
+            "note": "Fiscal Q1 revenue miss sends shares tumbling."
+          },
+          {
+            "ticker": "SAFX",
+            "move": "-6.12%",
+            "note": "Withdraws reverse-split proposal; shares slide."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI deal euphoria vs AI debt scrutiny",
+            "detail": "Marvell's $115B all-stock bid for Lumentum lands the same morning the NYT flags cracks in the AI borrowing binge \u2014 deal enthusiasm vs debt-fueled AI capex worries."
+          },
+          {
+            "title": "Rebound bounce vs fresh rout memory",
+            "detail": "Futures are bouncing, but Friday was the worst day in five months and October wiped ~$5T off AI stocks \u2014 a relief bounce inside a still-fragile tape."
+          },
+          {
+            "title": "Oil relief vs unresolved Iran risk",
+            "detail": "Oil is sliding on a longer Iran diplomacy window, easing inflation fears, while the Iran war risk itself is far from resolved."
+          }
+        ],
+        "take": "Friday's rout was real \u2014 the worst day in five months capping an October that wiped roughly $5T off AI stocks \u2014 and this morning's bounce is relief, not conviction. The $115B Marvell\u2013Lumentum deal and sliding oil on a longer Iran diplomacy window help the tape breathe, but fresh scrutiny of the AI debt binge, midterms tomorrow, and Apple after the close mean any rally today is rented, not owned. Fade strength into the earnings gauntlet rather than chase it: this market stays guilty until proven innocent.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +112,13 @@
         "made": "2026-10-30",
         "scores_detail": "Post-close 28 (2026-10-30)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 41 (prev post-close 28 on 2026-10-30 + pre-market 54): AI debt binge under scrutiny.",
+        "made": "2026-11-02",
+        "scores_detail": "Post-close 28 (2026-10-30) + pre-market 54 (2026-11-02) = 41"
+      },
       "result": null
     },
     {
