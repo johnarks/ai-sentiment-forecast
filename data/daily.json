@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-04",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Post-close score 56 (Risk-On Tilt): Chip stocks rebound, S&P snaps 3-day skid.",
+        "made": "2026-11-03",
+        "scores_detail": "Post-close 56 (2026-11-03)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-03",
       "morning": {
         "score": 40,
@@ -138,7 +152,147 @@
         "take": "Election day is the story this morning, and the tape is voting risk-off before a single ballot is counted: six of eight macro drivers are bearish, the Nasdaq-100 is already in its third correction of the year, and Apple and Shopify are dragging sentiment down after earnings disappointments. The chip bounce is real but it's a bounce inside a de-risking, not a turn \u2014 futures are mixed-to-lower for a reason. Until tonight's results land, there's no catalyst strong enough to fight this tape, so expect a defensive session with any rally sold into.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 56,
+        "label": "Risk-On Tilt",
+        "summary": "Election Day ended with a split tape: the S&P 500 snapped its 3-day skid and the Nasdaq rallied as chip stocks rebounded, while the Dow slipped nearly 200 points. After the close, AMD's beat-and-raise (data-center revenue +97%) plus strong Arista and Super Micro results revived the AI trade, but rising yields, a firmer dollar, and tonight's still-unknown midterm results kept a lid on enthusiasm.",
+        "drivers": [
+          {
+            "title": "Midterm Election Day voting underway",
+            "detail": "Americans voted with control of Congress on the line; results land tonight and markets traded cautiously into the count.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Chip stocks rebound, S&P snaps 3-day skid",
+            "detail": "Tech led the S&P 500 and Nasdaq higher on Election Day even as the Dow fell nearly 200 points.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AMD beat-and-raise reignites AI trade after the bell",
+            "detail": "Q3 beat with data-center revenue up 97% and Q4 guidance above estimates; shares +8% after hours.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Yields rise and dollar firms as Iran focus outweighs election",
+            "detail": "Bonds fell and the dollar rose, with US-Iran tensions and the Hormuz standoff in the foreground.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil slides as Gulf crude flows recover",
+            "detail": "Physical oil prices tumbled and Canadian crude hit its widest discount to US prices since 2018.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Binance suffers $6B heist",
+            "detail": "Co-CEO said customers won't lose a dime, but the hack added a fresh overhang to crypto-linked sentiment.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China reins in IPO rush amid AI worries",
+            "detail": "Beijing moved to cool the IPO pipeline and regulators told banks to pause IPOs as AI-stock concerns spread.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "CFTC approves US stock perpetuals trading",
+            "detail": "US regulators cleared a path for perpetual-style stock contracts, a new product for US traders.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "ANET",
+            "move": "+14.90% AH",
+            "note": "Arista's Q3 results and outlook handily topped estimates."
+          },
+          {
+            "ticker": "AMD",
+            "move": "+8.02% AH",
+            "note": "Beat-and-raise on record AI data-center sales."
+          },
+          {
+            "ticker": "SMCI",
+            "move": "+8.00% AH",
+            "note": "Super Micro revenue surged on booming AI server demand."
+          },
+          {
+            "ticker": "DD",
+            "move": "+8.61%",
+            "note": "DuPont outperformed competitors on a strong trading day."
+          },
+          {
+            "ticker": "RVTY",
+            "move": "+7.84%",
+            "note": "Revvity outperformed competitors."
+          },
+          {
+            "ticker": "ETN",
+            "move": "+7.00%",
+            "note": "Eaton outperformed competitors on a strong trading day."
+          },
+          {
+            "ticker": "FOXA",
+            "move": "+6.92%",
+            "note": "Fox outperformed competitors."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "SYY",
+            "move": "-9.33%",
+            "note": "Sysco underperformed peers on Tuesday."
+          },
+          {
+            "ticker": "ZBRA",
+            "move": "-8.76%",
+            "note": "Zebra underperformed competitors on a strong tape."
+          },
+          {
+            "ticker": "ADM",
+            "move": "-6.82%",
+            "note": "Archer Daniels Midland lagged competitors."
+          },
+          {
+            "ticker": "BKNG",
+            "move": "\u25bc",
+            "note": "Booking profit and sales fell as global conflicts weighed on travel demand."
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "Apple shares slipped even as tech broadly rebounded."
+          },
+          {
+            "ticker": "DHI",
+            "move": "-5.03%",
+            "note": "D.R. Horton had its worst day in a year on mortgage-rate volatility."
+          },
+          {
+            "ticker": "SHOP",
+            "move": "\u25bc",
+            "note": "Shopify slid after earnings on what worried Wall Street."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Chip rebound vs AI debt warnings",
+            "detail": "Chips led the rebound, yet Blackstone's president warned the AI buildout needs more equity as debt risks mount."
+          },
+          {
+            "title": "Election optimism vs rising yields",
+            "detail": "Stocks rose into the vote, but bonds fell and the dollar firmed \u2014 hardly a clean risk-on signal."
+          },
+          {
+            "title": "Strong after-hours earnings vs a down Dow",
+            "detail": "AMD, Arista and Super Micro surged after the bell while the Dow still closed nearly 200 points lower."
+          },
+          {
+            "title": "Oil down vs Iran tensions up",
+            "detail": "Crude prices fell as Gulf flows recovered, even as Iran rejected the latest draft proposal on Hormuz."
+          }
+        ],
+        "take": "The tape split for a reason: chips finally bounced and the S&P snapped its skid, but the Dow dropping nearly 200 points on Election Day says nobody wanted to bet big before the results. What actually mattered came after the bell \u2014 AMD's beat-and-raise with data-center revenue up 97%, plus Arista and Super Micro surging, is the AI trade fighting back after a brutal October. Tomorrow hinges on whether that after-hours strength holds into the open or gets sold again once midterm results and rising yields take over.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -153,7 +307,11 @@
         "made": "2026-11-03",
         "scores_detail": "Post-close 40 (2026-11-02) + pre-market 40 (2026-11-03) = 40"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.3,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-02",
