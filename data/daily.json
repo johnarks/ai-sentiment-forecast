@@ -2,7 +2,142 @@
   "days": [
     {
       "date": "2026-11-03",
-      "morning": null,
+      "morning": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Election-day caution dominates the pre-market, with futures mixed-to-lower as voting begins and control of Congress hangs in the balance. The AI-led tech correction deepened overnight \u2014 Nasdaq-100 in its third correction of the year, Apple sliding after a China revenue miss, and Shopify plunging on a Q3 miss \u2014 only partly offset by a chip-stock bounce and solid earnings beats elsewhere. Rising US-Iran tensions and an oil rebound add a further risk-off edge into the open, with tonight's midterm results and today's factory-orders and job-openings data as the next catalysts.",
+        "drivers": [
+          {
+            "title": "Midterm elections: voting day arrives",
+            "detail": "Control of Congress on the line as final day of voting begins; futures mixed-to-lower and prediction markets face a test as a possible blue wave is gamed out.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nasdaq-100 in third correction of the year on AI worries",
+            "detail": "Tech rout grows more alarming as AI bubble risks and demands for returns on AI spending weigh; S&P futures rebound on a chip bounce but gains are muted.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Apple slides after earnings disappoint on China",
+            "detail": "Apple beat Q4 estimates on strong iPhone sales but missed on China revenue, with Services and margin headwinds in focus; stock falls premarket.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Shopify plunges on Q3 miss",
+            "detail": "Shopify stock slides about 16% after Q3 revenue and total order value miss Wall Street estimates, worrying investors on e-commerce momentum.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Beijing reins in IPO rush as AI concerns hit stocks",
+            "detail": "China regulator reportedly tells banks to pause IPOs and Baidu's AI chip unit Hong Kong IPO is said to slip to next year, adding to China AI sentiment pressure.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "US-Iran tensions lift oil, pressure European stocks",
+            "detail": "Oil rebounds after a defensive US strike on Iran and reported tanker mines in Hormuz, reversing part of the prior oil slump and lifting risk-off sentiment.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Factory orders and job openings due as Americans vote",
+            "detail": "Today's economic calendar brings factory-orders and JOLTS job-openings data into an election-day tape already primed for volatility.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Earnings beats elsewhere cushion the tape",
+            "detail": "Pfizer hikes guidance, Gartner beats and raises guidance, and Waters and DuPont raise outlooks, showing the selloff is concentrated in tech rather than broad-based.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "GRAB",
+            "move": "+10.49%",
+            "note": "Jumps premarket among the day's gainers."
+          },
+          {
+            "ticker": "UPWK",
+            "move": "\u25b2",
+            "note": "Jumps premarket alongside Grab in the premarket movers list."
+          },
+          {
+            "ticker": "CMPS",
+            "move": "+8.20%",
+            "note": "Compass Pathways to complete COMP360 FDA filing within two weeks."
+          },
+          {
+            "ticker": "ZEO",
+            "move": "+7.66%",
+            "note": "Rises on executive promotions and operations update."
+          },
+          {
+            "ticker": "CHGG",
+            "move": "+6.43%",
+            "note": "Chegg Q3 earnings snapshot lifts shares."
+          },
+          {
+            "ticker": "ICU",
+            "move": "+5.48%",
+            "note": "FDA confirms SeaStar Medical fulfilled post-approval study requirements for QUELIMMUNE."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "SHOP",
+            "move": "-15.93%",
+            "note": "Q3 revenue and total order value miss estimates."
+          },
+          {
+            "ticker": "DT",
+            "move": "-13.79%",
+            "note": "AI-powered software stock tumbles after earnings."
+          },
+          {
+            "ticker": "PLTR",
+            "move": "-5.97%",
+            "note": "Slides premarket as AI meltdown hit continues; one note argues it does not deserve the hit."
+          },
+          {
+            "ticker": "AAPL",
+            "move": "\u25bc",
+            "note": "Falls premarket after China revenue miss despite iPhone beat."
+          },
+          {
+            "ticker": "IT",
+            "move": "-7.34%",
+            "note": "Gartner beats Q3 forecasts, yet shares fall \u2014 guidance and contract details fail to lift the stock."
+          },
+          {
+            "ticker": "MRVL",
+            "move": "\u25bc",
+            "note": "Analysts downgrade and slash price targets over the Lumentum deal."
+          },
+          {
+            "ticker": "CLVT",
+            "move": "-6.02%",
+            "note": "Q3 revenue miss overshadows earnings beat."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Chip bounce vs. tech correction",
+            "detail": "S&P futures rebound as chip stocks bounce, yet the Nasdaq-100 sits in its third correction of the year on AI worries \u2014 a bounce inside a broader de-risking."
+          },
+          {
+            "title": "Apple: booming iPhone vs. falling stock",
+            "detail": "Record iPhone upgrader year and a Q4 beat collide with a China miss and Services/margin headwinds, leaving the stock lower."
+          },
+          {
+            "title": "Oil whipsaw on Iran",
+            "detail": "Oil steadied after a 7% plunge on Iran-talk optimism, then rebounded on a defensive US strike and Hormuz tanker-mine reports \u2014 peace hopes vs. escalation risk in the same tape."
+          },
+          {
+            "title": "AI spending: buildout vs. payback",
+            "detail": "Anthropic reportedly targets doubling compute to 7GW next year, while Blackstone's president warns more equity is needed as AI debt risks mount and investors demand stronger returns."
+          }
+        ],
+        "take": "Election day is the story this morning, and the tape is voting risk-off before a single ballot is counted: six of eight macro drivers are bearish, the Nasdaq-100 is already in its third correction of the year, and Apple and Shopify are dragging sentiment down after earnings disappointments. The chip bounce is real but it's a bounce inside a de-risking, not a turn \u2014 futures are mixed-to-lower for a reason. Until tonight's results land, there's no catalyst strong enough to fight this tape, so expect a defensive session with any rally sold into.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +146,13 @@
         "made": "2026-11-02",
         "scores_detail": "Post-close 40 (2026-11-02)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Blended score 40 (prev post-close 40 on 2026-11-02 + pre-market 40): Midterm elections: voting day arrives.",
+        "made": "2026-11-03",
+        "scores_detail": "Post-close 40 (2026-11-02) + pre-market 40 (2026-11-03) = 40"
+      },
       "result": null
     },
     {
