@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-03",
+      "kind": "final",
+      "date": "2026-11-03",
+      "scores_detail": "Post-close 40 (2026-11-02) + pre-market 40 (2026-11-03) = 40",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 40 (prev post-close 40 on 2026-11-02 + pre-market 40): Midterm elections: voting day arrives.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-03",
       "kind": "early",
       "date": "2026-11-02",
       "score": 40,
