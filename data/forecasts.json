@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-11-04",
+      "kind": "early",
+      "date": "2026-11-03",
+      "score": 56,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Post-close score 56 (Risk-On Tilt): Chip stocks rebound, S&P snaps 3-day skid.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-11-03",
       "kind": "final",
       "date": "2026-11-03",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Blended score 40 (prev post-close 40 on 2026-11-02 + pre-market 40): Midterm elections: voting day arrives.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.3,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 40 (Risk-Off Tilt): Tech correction deepens to open November.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 0.3,
+      "hit": false,
       "push": false
     },
     {
