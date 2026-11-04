@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-05",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 62 (Risk-On Tilt): Democrats sweep Congress, Dow jumps ~1,500 points.",
+        "made": "2026-11-04",
+        "scores_detail": "Post-close 62 (2026-11-04)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-04",
       "morning": {
         "score": 60,
@@ -104,7 +118,118 @@
         "take": "The midterm sweep cleared the uncertainty that was strangling this market, and the 800\u2013900 point Dow futures pop is real relief, not a head fake \u2014 backed by a solid ADP print and AMD's AI demand strength. But this is a rotation, not a blanket risk-on day: renewables are surging while AI data-center names and the Musk empire take direct political heat, and gold over $4,000 says smart money is still hedging. Buy the relief, but buy the winners of this new policy map \u2014 not the AI infrastructure names now in Washington's crosshairs.",
         "published": "8:44 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "The Democratic midterm sweep drove the session: the Dow jumped about 1,500 points for its best day in 18 months as election uncertainty evaporated and stocks, bonds and the dollar's relief trade took hold. The rally was broad but not uniform \u2014 oil plunged on a rewritten Iran playbook and AI data-center and defense names sold off on regulation and budget fears, while a soft services print was brushed aside. Net sentiment tilted risk-on, with the split between the broad market and AI infrastructure the day's defining tension.",
+        "drivers": [
+          {
+            "title": "Democrats sweep Congress, Dow jumps ~1,500 points",
+            "detail": "Best day in 18 months / best day of 2026 as election uncertainty evaporated; stocks and bonds climbed in a broad relief rally.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil plunges as blue wave rewrites Iran playbook",
+            "detail": "Crude in freefall on expectations of a softer Iran stance and weaker demand outlook under a Democratic Congress.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI data-center stocks tumble on regulation fears",
+            "detail": "Credit traders bet on a data-center slowdown; chip and data-center names fell even as the broad market soared.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Defense firms fall on tighter Pentagon budget fears",
+            "detail": "Democratic victory stoked fears of defense spending restraint, hitting defense names.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Big Tech and consumer winners ride the blue wave",
+            "detail": "Big Tech soared on bets Democrats restrain AI spenders, while alcohol and renewables jumped on improved policy prospects.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "US services growth slows to 3-month low",
+            "detail": "October services expansion was the slowest in three months, a soft macro print the rally largely ignored.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Apple posts record September quarter",
+            "detail": "Record quarter under the new CEO as iPhone and Mac sales surged, a bullish single-name offset to tech-sector volatility.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "DUOL",
+            "move": "+25.99%",
+            "note": "Duolingo soared on strong user growth and monetization plans."
+          },
+          {
+            "ticker": "APP",
+            "move": "+10.69%",
+            "note": "AppLovin raked in cash as AI-driven revenue accelerated."
+          },
+          {
+            "ticker": "MMM",
+            "move": "+9.55%",
+            "note": "3M soared after its $7.35B 'forever chemicals' settlement brought relief."
+          },
+          {
+            "ticker": "NVST",
+            "move": "+9.77%",
+            "note": "Envista jumped on Q3 results."
+          },
+          {
+            "ticker": "MCK",
+            "move": "+6.98%",
+            "note": "McKesson crushed earnings views."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "LZ",
+            "move": "-18.84% AH",
+            "note": "LegalZoom plunged after hours on Q3 results."
+          },
+          {
+            "ticker": "PRIM",
+            "move": "-13.98%",
+            "note": "Primoris beat but renewables and cash-flow cuts tempered the recovery."
+          },
+          {
+            "ticker": "CVS",
+            "move": "-12.53%",
+            "note": "CVS fell sharply as it splits off its pharmacy business."
+          },
+          {
+            "ticker": "CRWV",
+            "move": "-9.90%",
+            "note": "Data-center name caught in the post-election AI-infrastructure selloff."
+          },
+          {
+            "ticker": "FICO",
+            "move": "-7.55% AH",
+            "note": "Fair Isaac declined to share guidance amid a price-structure change."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Broad rally vs AI-infrastructure selloff",
+            "detail": "The Dow's best day in 18 months happened while data-center, chip and AI-infrastructure names fell on regulation and slowdown fears."
+          },
+          {
+            "title": "Big Tech up, chips down",
+            "detail": "Big Tech soared on bets Democrats save AI spenders from themselves, even as chip stocks fell on election-result nerves."
+          },
+          {
+            "title": "Oil plunge: bearish for energy, tailwind for consumers",
+            "detail": "Crude's freefall hurt energy but eased cost pressure elsewhere \u2014 the same headline cut both ways."
+          }
+        ],
+        "take": "The blue-wave relief rally was real but narrow in its logic: the Dow's 1,500-point blowout was about uncertainty evaporating, not about everything getting better. AI data-center names, chips, defense, and oil all sold off on the same result that lifted the broad market, so this was rotation, not euphoria. Tomorrow is a follow-through test \u2014 if the broad rally holds while the AI-infrastructure selloff stalls, risk-on has legs; if the Dow gives back half the move, today was just a clearing event, not a new trend.",
+        "published": "5:00 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Low",
@@ -119,7 +244,11 @@
         "made": "2026-11-04",
         "scores_detail": "Post-close 56 (2026-11-03) + pre-market 60 (2026-11-04) = 58"
       },
-      "result": null
+      "result": {
+        "spy_pct": 1.65,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-11-03",
