@@ -2,7 +2,108 @@
   "days": [
     {
       "date": "2026-11-04",
-      "morning": null,
+      "morning": {
+        "score": 60,
+        "label": "Risk-On Tilt",
+        "summary": "The overnight story is the Democratic midterm sweep, and after an initial overnight selloff the market flipped to relief: Dow futures point to an 800\u2013900 point gain as election uncertainty evaporates, with stocks and bonds rising and the dollar sliding. The relief is selective, not uniform \u2014 renewables surge while AI data-center names and the Musk empire face new political risk, and gold topping $4,000 shows hedging hasn't vanished. A solid ADP jobs print (+86,000 private jobs) adds a fundamental tailwind into the open.",
+        "drivers": [
+          {
+            "title": "Democratic midterm sweep clears election uncertainty",
+            "detail": "Democrats take House and Senate; Dow futures swing from an overnight tumble to pointing ~800\u2013900 points higher, with JPMorgan strategists calling it a 'clearing event'.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Dollar slides, bonds rally, gold tops $4,000",
+            "detail": "Stocks and bonds rise together as the dollar weakens; gold pushes above $4,000, showing some defensive hedging alongside the relief rally.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Policy rotation: renewables surge, AI data centers dip",
+            "detail": "Solar and renewable names jump on the sweep while AI data-center stocks fall on regulation and backlash fears, including risks flagged in Texas, Ohio and Georgia.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "ADP jobs beat: +86,000 private jobs in October",
+            "detail": "ADP reports broad-based hiring with accelerating wage growth, a solid fundamental print ahead of manufacturing and trade data due today.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AMD's AI data-center strength lifts its outlook",
+            "detail": "AMD shares jump as AI-driven data-center demand fuels a stronger growth outlook, a counterweight to the political pressure on AI infrastructure.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Musk empire under political pressure",
+            "detail": "Tesla and SpaceX slide as the GOP election bet fails, putting Musk's companies in Democrats' crosshairs despite a new SpaceX\u2013Qualcomm Starlink deal.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Private-credit risks flagged as rates stay high",
+            "detail": "Hedge funds warn on growing private-credit risks amid rising rates, a lingering undercurrent beneath the relief rally.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "FSLR",
+            "move": "+7.46%",
+            "note": "First Solar surges as the Democratic victory boosts renewable energy stocks."
+          },
+          {
+            "ticker": "ANET",
+            "move": "+5.23%",
+            "note": "Arista jumps on record Q3 earnings and strong AI demand lifting its 2027 outlook."
+          },
+          {
+            "ticker": "RUN",
+            "move": "+6.80%",
+            "note": "Solar name among the biggest beneficiaries of the post-sweep sector rotation."
+          },
+          {
+            "ticker": "UWMC",
+            "move": "+7.47%",
+            "note": "UWM rises after reporting Q3 2026 results."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "DDOG",
+            "move": "-11.42%",
+            "note": "Stock extends steep declines in the wake of earnings."
+          },
+          {
+            "ticker": "SPCX",
+            "move": "-5.70%",
+            "note": "SpaceX slides as the midterm blue wave puts Musk's empire in Democrats' crosshairs."
+          },
+          {
+            "ticker": "CORZ",
+            "move": "-5.49%",
+            "note": "Data-center name under pressure as election wins raise state-level data-center risks."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "Tesla dives alongside SpaceX after Musk's big GOP election bet fails."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Relief rally vs. AI-regulation overhang",
+            "detail": "Futures rebound sharply on cleared election uncertainty even as AI data-center names face new political and regulatory risk from the same result."
+          },
+          {
+            "title": "Risk-on open vs. gold above $4,000",
+            "detail": "Stocks and bonds rally together, yet gold topping $4,000 and a sliding dollar show defensive hedging has not gone away."
+          },
+          {
+            "title": "Renewables up, data centers down \u2014 same shock, opposite trades",
+            "detail": "One election outcome drives a clean rotation: solar and clean-energy names surge while the AI infrastructure trade takes the hit."
+          }
+        ],
+        "take": "The midterm sweep cleared the uncertainty that was strangling this market, and the 800\u2013900 point Dow futures pop is real relief, not a head fake \u2014 backed by a solid ADP print and AMD's AI demand strength. But this is a rotation, not a blanket risk-on day: renewables are surging while AI data-center names and the Musk empire take direct political heat, and gold over $4,000 says smart money is still hedging. Buy the relief, but buy the winners of this new policy map \u2014 not the AI infrastructure names now in Washington's crosshairs.",
+        "published": "8:44 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +112,13 @@
         "made": "2026-11-03",
         "scores_detail": "Post-close 56 (2026-11-03)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 58 (prev post-close 56 on 2026-11-03 + pre-market 60): Democratic midterm sweep clears election uncertainty.",
+        "made": "2026-11-04",
+        "scores_detail": "Post-close 56 (2026-11-03) + pre-market 60 (2026-11-04) = 58"
+      },
       "result": null
     },
     {
