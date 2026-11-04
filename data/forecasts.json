@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-11-05",
+      "kind": "early",
+      "date": "2026-11-04",
+      "score": 62,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 62 (Risk-On Tilt): Democrats sweep Congress, Dow jumps ~1,500 points.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-11-04",
       "kind": "final",
       "date": "2026-11-04",
@@ -8,8 +21,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Blended score 58 (prev post-close 56 on 2026-11-03 + pre-market 60): Democratic midterm sweep clears election uncertainty.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 1.65,
+      "hit": true,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "UP",
       "confidence": "Low",
       "rationale": "Post-close score 56 (Risk-On Tilt): Chip stocks rebound, S&P snaps 3-day skid.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 1.65,
+      "hit": true,
       "push": false
     },
     {
