@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-06",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "High",
+        "rationale": "Post-close score 30 (Firmly Bearish): AI trade washout: Nasdaq into correction.",
+        "made": "2026-11-05",
+        "scores_detail": "Post-close 30 (2026-11-05)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-05",
       "morning": {
         "score": 44,
@@ -123,7 +137,118 @@
         "take": "The post-midterm rotation is on day two and the tape is splitting cleanly: Dow futures up 300+ while the Nasdaq and chips get hammered, with Qualcomm's weak smartphone outlook turning a one-day purge into a sector-wide repricing. The Bank of England hiking for the first time in three years adds a genuine policy surprise to the mix, and with oil nursing its worst week since COVID and gold parked above $4,000, the market is hedging the blue-wave agenda, not cheering it. Today's call is about what the chip purge does next \u2014 if it stays contained to Qualcomm, Micron and Arm, the rotation holds; if it spreads, the risk-off tilt turns into a real de-risking day.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 30,
+        "label": "Firmly Bearish",
+        "summary": "Thursday was a historic risk-off rout: the Nasdaq plunged 5.5% into correction territory, the S&P 500 sank 4%, and the Dow fell 1,800 points as the post-midterm Democratic sweep unleashed AI-regulation fears \u2014 including calls for a national data-center moratorium \u2014 and roughly $2.3 trillion in value was erased. Chips and AI software were the epicenter, with AMD, Micron and Sandisk down 17\u201322% and Nvidia nearing bear-market territory. The only offsets were a strong ADP jobs beat, surging productivity, and a haven rally in Treasuries.",
+        "drivers": [
+          {
+            "title": "AI trade washout: Nasdaq into correction",
+            "detail": "Nasdaq plunged 5.5% into correction territory, S&P 500 sank 4%, Dow fell 1,800 points \u2014 tech's worst day since 2020, with roughly $2.3\u20132.5 trillion in market value erased.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Midterm sweep fuels AI regulation fears",
+            "detail": "Top Democrats called for a national data-center moratorium after the midterm sweep, and stocks plunged as investors priced in new AI regulation and a clouded expansion outlook.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Data-center financing stress surfaces",
+            "detail": "A mystery seller is seeking to dump $500M of data-center loans and SpaceX default risk hit a fresh peak as the tech-led selloff builds.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "VIX spikes most since Liberation Day",
+            "detail": "The Wall Street fear gauge jumped the most since 'Liberation Day' as the AI trade stumbled.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Central banks turn hawkish on both sides of the Atlantic",
+            "detail": "The Bank of England delivered its first rate hike in three years, traders eye further hikes, and Fed officials Hammack and Barkin both signaled restrictive rates and hikes ahead.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Labor data beats: ADP +86K, productivity surges",
+            "detail": "Private-sector hiring beat expectations at 86,000 jobs in October (ADP) and US labor productivity rose at its fastest pace in a year.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Haven bid: Treasuries rally on flight to safety",
+            "detail": "Treasuries soared as the tech selloff stoked haven demand, cushioning bonds while equities cratered.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "NET",
+            "move": "+15.0% AH",
+            "note": "Q3 earnings beat; software maker rebounds after the AI stock rout."
+          },
+          {
+            "ticker": "CALY",
+            "move": "+9.9% AH",
+            "note": "After-hours gainer on Q3 earnings."
+          },
+          {
+            "ticker": "TM",
+            "move": "+9.4%",
+            "note": "High gas prices boosted hybrid sales, sending the stock soaring."
+          },
+          {
+            "ticker": "AMPH",
+            "move": "+8.8% AH",
+            "note": "After-hours gainer on Q3 earnings."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "SNDK",
+            "move": "-22.3%",
+            "note": "Memory-chip rout leader as Nvidia has lost nearly $1.4T since its October record."
+          },
+          {
+            "ticker": "DKNG",
+            "move": "-19.6% AH",
+            "note": "Q3 miss and lowered guidance; sees up to $750M in 2027 prediction-markets revenue."
+          },
+          {
+            "ticker": "MU",
+            "move": "-17.5%",
+            "note": "Chip selloff deepens; board retirement announced amid the rout."
+          },
+          {
+            "ticker": "AMD",
+            "move": "-17.3%",
+            "note": "Led the chip sector lower with Qualcomm, Micron and Arm."
+          },
+          {
+            "ticker": "ARM",
+            "move": "-13.1%",
+            "note": "Chip-sector casualty in the AI spending reassessment."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "-9.3%",
+            "note": "Heading for bear-market territory; down nearly $1.4T from its October record."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI dip-buying vs. regulation overhang",
+            "detail": "Bargain hunters are circling Nvidia as it nears bear-market territory and Nvidia is reportedly eyeing Apollo telecom sites to sidestep moratoriums, while moratorium calls, a $500M data-center loan dump, and $2.3T of erased value argue the unwind has further to run."
+          },
+          {
+            "title": "Strong economy vs. hawkish rates",
+            "detail": "ADP added 86,000 jobs in October, above expectations, and productivity grew at its fastest pace in a year \u2014 yet the Bank of England just delivered its first hike in three years and Fed officials Hammack and Barkin are both talking restrictive rates and hikes ahead."
+          },
+          {
+            "title": "Data-center backlash: Big Tech shielded, the rest crushed",
+            "detail": "The WSJ argues the data-center backlash could actually entrench Big Tech, which can self-finance; the pain is concentrated in smaller AI names, chipmakers, and data-center financing instead."
+          }
+        ],
+        "take": "Thursday was a historic rout, not a wobble: the Nasdaq fell 5.5% into correction, the S&P sank 4%, and $2.3 trillion of market value vanished as the midterm sweep turned the AI trade into a regulation target overnight. The morning's rotation story is dead \u2014 this was indiscriminate selling in the exact names that carried the rally, with Nvidia down 9.3% and the chip complex in freefall. Tomorrow's call is down until proven otherwise: dip-buyers have to show up against a moratorium narrative that only gets louder, and Friday is where washouts either find a floor or feed on themselves.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -138,7 +263,11 @@
         "made": "2026-11-05",
         "scores_detail": "Post-close 62 (2026-11-04) + pre-market 44 (2026-11-05) = 53"
       },
-      "result": null
+      "result": {
+        "spy_pct": -4.41,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-04",
