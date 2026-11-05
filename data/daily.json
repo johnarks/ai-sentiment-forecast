@@ -2,7 +2,127 @@
   "days": [
     {
       "date": "2026-11-05",
-      "morning": null,
+      "morning": {
+        "score": 44,
+        "label": "Risk-Off Tilt",
+        "summary": "The post-midterm rotation is rolling into day two: Dow futures are up 300+ while the Nasdaq and chip stocks slide, with Qualcomm's weak smartphone outlook dragging the sector lower. The Bank of England delivered its first rate hike in three years, oil is nursing its worst week since COVID, and gold holds above $4,000 as the dollar and Treasury yields ease. It's a rotation, not a rout \u2014 but the chip purge and fresh policy uncertainty keep the tape tilted risk-off into the open.",
+        "drivers": [
+          {
+            "title": "Post-midterm rotation rolls into day two",
+            "detail": "Dow futures up 300+ while the Nasdaq slips; the chip purge enters day two as AI/data-center names fall on post-sweep policy worries.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Bank of England hikes rates",
+            "detail": "First hike in three years; gilt yields rise and the pound gauge hits its highest since the Brexit vote.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Qualcomm's soft outlook drags chips lower",
+            "detail": "Weak smartphone chip sales overshadow data-center momentum; Micron and Arm sink with it, leading the chip sector lower.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil's worst week since COVID",
+            "detail": "Brent on track for its worst week since COVID, rebounding this morning on hopes for an end to the US-Iran standoff; the slide is easing inflation pressure.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Gold above $4,000 as dollar slides",
+            "detail": "Holds above $4,000, hitting a two-week high as the dollar and Treasury yields ease after the midterms.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Debt-ceiling and Fed policy uncertainty",
+            "detail": "Investors eye a debt-ceiling standoff after the Democratic sweep, and Trump's Fed pressure hits a Democratic wall in the Senate.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "APP",
+            "move": "+22.18%",
+            "note": "Surges in premarket trading."
+          },
+          {
+            "ticker": "LYNX",
+            "move": "+21.30%",
+            "note": "Blowout earnings debut; one analyst sees 166% upside."
+          },
+          {
+            "ticker": "FWONA",
+            "move": "+12.66%",
+            "note": "Q3 results and acquisition of high-vote stock from Malone-related entities."
+          },
+          {
+            "ticker": "AMTX",
+            "move": "+19.20%",
+            "note": "Q3 earnings snapshot; strong premarket move."
+          },
+          {
+            "ticker": "DWTX",
+            "move": "+14.56%",
+            "note": "Q3 results lift the small-cap biotech."
+          },
+          {
+            "ticker": "U",
+            "move": "\u25b2",
+            "note": "Surges premarket, countering the Snap slide."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "QCOM",
+            "move": "-11.25%",
+            "note": "Weak smartphone chip sales and a disappointing outlook overshadow data-center momentum."
+          },
+          {
+            "ticker": "ARM",
+            "move": "-6.90%",
+            "note": "Sinking with the chip sector as the post-earnings purge spreads."
+          },
+          {
+            "ticker": "SNAP",
+            "move": "-11.15%",
+            "note": "Slides premarket alongside Qualcomm."
+          },
+          {
+            "ticker": "TRIP",
+            "move": "-21.47%",
+            "note": "Earnings miss plus CEO exit."
+          },
+          {
+            "ticker": "BROS",
+            "move": "-11.34%",
+            "note": "Plunges on earnings news."
+          },
+          {
+            "ticker": "ANVS",
+            "move": "-29.85%",
+            "note": "Pricing of a $21M public offering."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Rotation, not rout",
+            "detail": "Dow futures up 300+ while the Nasdaq and chip stocks fall \u2014 a value rotation, not a broad selloff."
+          },
+          {
+            "title": "Blue wave: certainty vs. policy headwinds",
+            "detail": "The sweep eases political uncertainty and carries an affordability mandate, but raises debt-ceiling standoff risk and clouds AI/data-center expansion plans."
+          },
+          {
+            "title": "Oil: crash vs. floor",
+            "detail": "Brent is on track for its worst week since COVID, yet UBS argues fundamentals provide a floor and oil is rebounding on hopes for an end to the US-Iran standoff."
+          },
+          {
+            "title": "BoE hikes while US yields fall",
+            "detail": "The Bank of England is hiking for the first time in three years while US Treasury yields and the dollar fall \u2014 tightening abroad, easing financial conditions at home."
+          }
+        ],
+        "take": "The post-midterm rotation is on day two and the tape is splitting cleanly: Dow futures up 300+ while the Nasdaq and chips get hammered, with Qualcomm's weak smartphone outlook turning a one-day purge into a sector-wide repricing. The Bank of England hiking for the first time in three years adds a genuine policy surprise to the mix, and with oil nursing its worst week since COVID and gold parked above $4,000, the market is hedging the blue-wave agenda, not cheering it. Today's call is about what the chip purge does next \u2014 if it stays contained to Qualcomm, Micron and Arm, the rotation holds; if it spreads, the risk-off tilt turns into a real de-risking day.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +131,13 @@
         "made": "2026-11-04",
         "scores_detail": "Post-close 62 (2026-11-04)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 53 (prev post-close 62 on 2026-11-04 + pre-market 44): Post-midterm rotation rolls into day two.",
+        "made": "2026-11-05",
+        "scores_detail": "Post-close 62 (2026-11-04) + pre-market 44 (2026-11-05) = 53"
+      },
       "result": null
     },
     {
