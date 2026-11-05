@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-05",
+      "kind": "final",
+      "date": "2026-11-05",
+      "scores_detail": "Post-close 62 (2026-11-04) + pre-market 44 (2026-11-05) = 53",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 53 (prev post-close 62 on 2026-11-04 + pre-market 44): Post-midterm rotation rolls into day two.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-05",
       "kind": "early",
       "date": "2026-11-04",
       "score": 62,
