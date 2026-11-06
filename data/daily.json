@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Post-close score 47 (Cautious Relief): Data-center debt and AI credit stress.",
+        "made": "2026-11-06",
+        "scores_detail": "Post-close 47 (2026-11-06)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-06",
       "morning": {
         "score": 48,
@@ -129,7 +143,128 @@
         "take": "The bounce is real but it's a dead-cat bounce until proven otherwise: chips are snapping back 8\u201310% on dip-buying while the actual drivers of the rout \u2014 AI capex doubts and a post-midterm regulatory overhang \u2014 haven't moved an inch. A hotter-than-expected jobs print just took rate cuts off the table too, so this morning's rebound is fighting the Fed as well as the tape. Don't chase the open; yesterday's post-close 30 tells you what the market actually thinks, and this 48 is relief, not a turn.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 47,
+        "label": "Cautious Relief",
+        "summary": "Stocks staged a relief rally into Friday's close \u2014 the Nasdaq rose about 1% and chips bounced hard (AMD +11%) after Thursday's $2.5 trillion AI wipeout \u2014 but the week still ended as the Nasdaq's fourth straight weekly decline, and AI credit doubts lingered. A stronger-than-expected October jobs report (+165,000, unemployment 4.1%) cut both ways: it confirmed a sturdy economy while pushing Fed-hike bets higher and pressuring Treasuries. Sentiment improved from Thursday's panic but stayed guarded, with dip-buying fighting persistent questions about AI spending, data-center debt, and the post-midterm political backdrop.",
+        "drivers": [
+          {
+            "title": "October jobs report beats expectations",
+            "detail": "165,000 jobs added vs forecasts, unemployment fell to 4.1%; strong labor market but Treasuries stumbled as traders raised Fed-hike bets.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "AI relief rally after $2.5T wipeout",
+            "detail": "Nasdaq rebounded ~1% and chip stocks climbed (AMD +11%, INTC +7.7%, MU +5.1%) after Thursday's worst session in 18 months, though AI doubts lingered.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Data-center debt and AI credit stress",
+            "detail": "CoreWeave bond yield topped 16% and Microsoft pulled the plug on an Oracle AI rental deal as data-center leverage worries spread.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed hawkishness: Daly says higher rates 'likely to be needed'",
+            "detail": "San Francisco Fed President Daly reinforced the higher-for-longer message hours after the strong jobs print.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "SpaceX telecom acquisition signal lifts satellite stocks",
+            "detail": "Musk opened the door to a big SpaceX telecom acquisition; FLY +36.8%, ASTS +7.1%, SPCX +8.6% on the news.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Tesla ends Cybertruck, pivots to Cybercab and robots",
+            "detail": "Tesla confirmed Cybertruck production ends next year as Musk refocuses on self-driving and robotics.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Consumer sentiment rebounds from near-record low",
+            "detail": "US consumer sentiment bounced off its second-lowest level on record, a small positive for the demand picture.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Post-midterm political overhang",
+            "detail": "Democrats took 250+ House seats; planned investigations of big tech and a chief-of-staff shakeup kept policy risk on the board.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "FLY",
+            "move": "+36.80%",
+            "note": "Surged on Musk's SpaceX telecom acquisition signal."
+          },
+          {
+            "ticker": "IREN",
+            "move": "+20.02%",
+            "note": "Rebounded as Q1 AI cloud revenue surged."
+          },
+          {
+            "ticker": "ABNB",
+            "move": "+11.67%",
+            "note": "Rose on upbeat outlook, bucking broader industry caution."
+          },
+          {
+            "ticker": "AMD",
+            "move": "+11.04%",
+            "note": "Led the chip-sector rebound after the rout."
+          },
+          {
+            "ticker": "VST",
+            "move": "+10.55%",
+            "note": "Vistra outperformed as power/AI infrastructure names bounced."
+          },
+          {
+            "ticker": "SPCX",
+            "move": "+8.62%",
+            "note": "Space ETF lifted by the SpaceX telecom headlines."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "AXON",
+            "move": "-18.18%",
+            "note": "Underperformed sharply on a strong tape; worst large-cap decliner of the session."
+          },
+          {
+            "ticker": "AMTD",
+            "move": "-19.57%",
+            "note": "Fell on asset-injection announcement into TGE."
+          },
+          {
+            "ticker": "MCHP",
+            "move": "-10.02%",
+            "note": "Microchip lagged badly even as chip peers rebounded."
+          },
+          {
+            "ticker": "BSP",
+            "move": "-5.94%",
+            "note": "Declined amid the weak IPO backdrop in the tech selloff."
+          },
+          {
+            "ticker": "ARQT",
+            "move": "-5.37%",
+            "note": "Arcutis fell on a routine inducement-grant filing day."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Strong jobs: growth-positive vs rate-hawkish",
+            "detail": "The 165k jobs beat reassured on the economy but lifted Fed-hike odds and hit Treasuries \u2014 the same print argued both ways."
+          },
+          {
+            "title": "AI dip-buying vs AI credit doubts",
+            "detail": "Chips bounced hard Friday, yet CoreWeave's 16%+ bond yield and Microsoft's Oracle rental pullback kept the funding question open."
+          },
+          {
+            "title": "Panic gauge extreme vs fourth weekly decline",
+            "detail": "Goldman's panic gauge hit extreme levels that historically signal rebounds, even as the Nasdaq logged its fourth straight down week."
+          }
+        ],
+        "take": "Friday's relief rally was real but thin: the Nasdaq clawed back ~1% and chips bounced hard (AMD +11%) after Thursday's $2.5 trillion wipeout, yet the score still sits at 47 and the week closed as the Nasdaq's fourth straight decline. The jobs beat (165k, unemployment down to 4.1%) cut both ways \u2014 growth reassurance on one side, Fed-hike odds rising on the other \u2014 while the AI credit story (CoreWeave bonds over 16%, Microsoft walking away from an Oracle rental deal) is the overhang that actually matters now. Tomorrow hinges on whether dip-buyers keep showing up or the credit doubts win: a bounce built on oversold chips, not on the funding question being answered, is a bounce to fade until spreads calm down.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "High",
@@ -144,7 +279,11 @@
         "made": "2026-11-06",
         "scores_detail": "Post-close 30 (2026-11-05) + pre-market 48 (2026-11-06) = 39"
       },
-      "result": null
+      "result": {
+        "spy_pct": 0.31,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-05",
