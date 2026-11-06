@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-06",
+      "kind": "final",
+      "date": "2026-11-06",
+      "scores_detail": "Post-close 30 (2026-11-05) + pre-market 48 (2026-11-06) = 39",
+      "call": "DOWN",
+      "confidence": "Moderate",
+      "rationale": "Blended score 39 (prev post-close 30 on 2026-11-05 + pre-market 48): Jobs beat pressures the Fed.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-06",
       "kind": "early",
       "date": "2026-11-05",
       "score": 30,
