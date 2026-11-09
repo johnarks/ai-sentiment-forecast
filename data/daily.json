@@ -2,7 +2,128 @@
   "days": [
     {
       "date": "2026-11-09",
-      "morning": null,
+      "morning": {
+        "score": 53,
+        "label": "Cautiously Risk-On",
+        "summary": "The overnight tape is dominated by Nvidia's CEO probe, which has NVDA down 5.3% premarket and puts the AI trade under fresh pressure after last week's selloff. But the broad market is holding up: Dow futures are up ~600 points as oil slides on Iran de-escalation, and dip buyers are stepping in. Citi's US equities downgrade and record hedge-fund tech selling keep the tone cautious, so the open leans mildly risk-on with leadership under stress.",
+        "drivers": [
+          {
+            "title": "Nvidia CEO probe rocks the AI trade",
+            "detail": "Nvidia opened a probe into whether CEO Jensen Huang was the target of a foreign intelligence effort, tied to an affair with a suspected Chinese spy; Beijing denies the claims and NVDA is down 5.3% premarket. Other chipmakers are so far unscathed.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Futures rally as oil slides on Iran de-escalation",
+            "detail": "Dow futures up ~600 points as oil slides on reports Iran eased its Hormuz demands and Trump called fresh Iran attacks 'unlikely'.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Citi downgrades US equities on AI worries",
+            "detail": "Citi cut US equities to neutral, citing AI concerns after last week's sharp correction in the AI trade.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Hedge funds dump tech at record pace",
+            "detail": "Hedge funds dumped tech stocks at one of the fastest paces on record, per Bloomberg, adding to last week's AI-trade unwind.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China state buying hits record; tariff pause extended",
+            "detail": "China's state 'national team' ramped ETF buying to a record high, and Beijing extended its pause on 24% US tariffs to January, keeping the 10% rate.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Microsoft winds down Oracle AI contract",
+            "detail": "Microsoft is reportedly winding down its Oracle AI infrastructure contract \u2014 a fresh crack in AI infrastructure spending.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Google expands AI chips as Nvidia wobbles",
+            "detail": "Google is expanding its AI chip lineup just as Nvidia faces its CEO scandal \u2014 a potential share-shift story for GOOGL and AMD.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "HRTX",
+            "move": "+35.73%",
+            "note": "Q3 results beat; shares surge on earnings"
+          },
+          {
+            "ticker": "VIR",
+            "move": "+10.27%",
+            "note": "Hepatitis delta Phase 3 trial success"
+          },
+          {
+            "ticker": "NRG",
+            "move": "+6.23%",
+            "note": "$4B natural gas asset-sale agreement plus higher quarterly earnings"
+          },
+          {
+            "ticker": "LLY",
+            "move": "+2.35%",
+            "note": "Jefferies raises price target to $1,700"
+          },
+          {
+            "ticker": "GOOGL",
+            "move": "\u25b2",
+            "note": "Expanding AI chip lineup as Nvidia faces CEO scandal"
+          },
+          {
+            "ticker": "ROKU",
+            "move": "\u25b2",
+            "note": "Fox completes acquisition of streaming giant Roku"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "-5.26%",
+            "note": "CEO Huang probe \u2014 affair with suspected Chinese spy; board investigation launched"
+          },
+          {
+            "ticker": "IONS",
+            "move": "-17.68%",
+            "note": "Slashes key drug revenue outlook by 50%, overshadowing otherwise solid earnings"
+          },
+          {
+            "ticker": "NKTX",
+            "move": "-15.21%",
+            "note": "Initial NKX019 clinical responses disappoint in myositis and systemic sclerosis trials"
+          },
+          {
+            "ticker": "GT",
+            "move": "-7%",
+            "note": "CEO Mark Stewart exits abruptly"
+          },
+          {
+            "ticker": "AKAM",
+            "move": "-6.05%",
+            "note": "$2.2B convertible debt offering to fund cloud expansion and repay debt"
+          },
+          {
+            "ticker": "ORCL",
+            "move": "\u25bc",
+            "note": "Microsoft reportedly winding down its Oracle AI infrastructure contract"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Broad market rallies, AI leader sinks",
+            "detail": "Dow futures +600 while NVDA, the market's largest stock, sinks 5.3% \u2014 breadth is holding up even as AI leadership cracks."
+          },
+          {
+            "title": "AI trade: de-risking vs. dip-buying",
+            "detail": "Citi cuts US stocks to neutral and hedge funds dump tech at a record pace, yet Google is expanding its AI chip lineup and dip buyers are stepping in."
+          },
+          {
+            "title": "Oil relief vs. live geopolitical risk",
+            "detail": "Oil slides on reports Iran eased Hormuz demands, lifting equities \u2014 but the Iran standoff is unresolved and headlines can flip fast."
+          }
+        ],
+        "take": "Nvidia's CEO probe is the story this morning \u2014 NVDA down 5.3% premarket on a board investigation into Jensen Huang, and that's the AI trade's leadership cracking again after last week's $2.5 trillion wipeout. But the tape isn't panicking: Dow futures are up ~600 on Iran easing its Hormuz demands and oil sliding, so breadth is holding while the AI names bleed. The session hinges on whether the market treats NVDA as a single-stock scandal or the next leg of the AI unwind \u2014 respect the breadth, don't chase the AI dip.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +132,13 @@
         "made": "2026-11-06",
         "scores_detail": "Post-close 47 (2026-11-06)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 50 (prev post-close 47 on 2026-11-06 + pre-market 53): Nvidia CEO probe rocks the AI trade.",
+        "made": "2026-11-09",
+        "scores_detail": "Post-close 47 (2026-11-06) + pre-market 53 (2026-11-09) = 50"
+      },
       "result": null
     },
     {
