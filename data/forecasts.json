@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-11-10",
+      "kind": "early",
+      "date": "2026-11-09",
+      "score": 62,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 62 (Risk-On Tilt): Tech rebound after last week's AI selloff.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-11-09",
       "kind": "final",
       "date": "2026-11-09",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 50 (prev post-close 47 on 2026-11-06 + pre-market 53): Nvidia CEO probe rocks the AI trade.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 2.37,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Post-close score 47 (Cautious Relief): Data-center debt and AI credit stress.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 2.37,
+      "hit": false,
       "push": false
     },
     {
