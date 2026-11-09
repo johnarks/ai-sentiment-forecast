@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-10",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 62 (Risk-On Tilt): Tech rebound after last week's AI selloff.",
+        "made": "2026-11-09",
+        "scores_detail": "Post-close 62 (2026-11-09)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-09",
       "morning": {
         "score": 53,
@@ -124,7 +138,153 @@
         "take": "Nvidia's CEO probe is the story this morning \u2014 NVDA down 5.3% premarket on a board investigation into Jensen Huang, and that's the AI trade's leadership cracking again after last week's $2.5 trillion wipeout. But the tape isn't panicking: Dow futures are up ~600 on Iran easing its Hormuz demands and oil sliding, so breadth is holding while the AI names bleed. The session hinges on whether the market treats NVDA as a single-stock scandal or the next leg of the AI unwind \u2014 respect the breadth, don't chase the AI dip.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 62,
+        "label": "Risk-On Tilt",
+        "summary": "Stocks staged a powerful rebound Monday \u2014 the Dow jumped 1,100 points and the S&P had its best day since April \u2014 as buyers stepped back into tech after last week's AI selloff, with oil's $7+ slide on signs of US restraint toward Iran easing inflation worries. The rally was broad except for its biggest name: Nvidia slumped as its board opened a probe into CEO Jensen Huang over an alleged relationship with a Chinese spy, a scandal that instead lifted rivals AMD and Broadcom. Citi's downgrade of US equities to neutral on AI concerns kept the mood from turning euphoric.",
+        "drivers": [
+          {
+            "title": "Tech rebound after last week's AI selloff",
+            "detail": "Dow jumped 1,100 points, Nasdaq climbed over 2%, S&P had its best day since April as buyers stepped back into tech after last week's AI selloff.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nvidia board probes Jensen Huang",
+            "detail": "Board opened a probe into CEO Jensen Huang over an alleged relationship with a Chinese spy; China denied the claims and a Commerce Dept chip inquiry was reportedly halted after Nvidia intervened. Prediction markets put Huang's exit odds low.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil plunges on US restraint toward Iran",
+            "detail": "Crude fell more than $7 a barrel in post-settlement trade as Trump signaled restraint on Iran and reports said IAEA inspectors may return; the slide eased inflation worries.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Citi downgrades US equities to neutral",
+            "detail": "Citi cut US equities to 'neutral' on AI concerns, a counterweight to the day's rally.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Boeing cuts 5% of commercial plane jobs",
+            "detail": "Boeing will cut 5% of its commercial airplane division workforce.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO prep; AI financing 'strong'",
+            "detail": "Anthropic is preparing to push ahead with an IPO despite market jitters, and Goldman CEO Solomon said AI financing remains strong.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Natural gas surges on short squeeze",
+            "detail": "US natural gas surged the most in six weeks, triggering a short squeeze as a cold blast loomed.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "AMD",
+            "move": "+13.26%",
+            "note": "Seen as a winner from the Nvidia scandal; semis rebounded broadly."
+          },
+          {
+            "ticker": "FLY",
+            "move": "+17.10%",
+            "note": "NASA handed out $10B in moon base awards, lifting space stocks."
+          },
+          {
+            "ticker": "VOYG",
+            "move": "+16.35%",
+            "note": "NASA moon base awards."
+          },
+          {
+            "ticker": "LUNR",
+            "move": "+15.00%",
+            "note": "NASA moon base awards."
+          },
+          {
+            "ticker": "TER",
+            "move": "+12.73%",
+            "note": "Semis rebounded across the board after last week's selloff."
+          },
+          {
+            "ticker": "RKLB",
+            "move": "+10.91%",
+            "note": "NASA moon base awards; backlog 'went to the moon'."
+          },
+          {
+            "ticker": "LRCX",
+            "move": "+10.41%",
+            "note": "Chip-equipment rebound."
+          },
+          {
+            "ticker": "NRG",
+            "move": "+10.32%",
+            "note": "Outperformed on a strong trading day."
+          },
+          {
+            "ticker": "GLW",
+            "move": "+9.25%",
+            "note": "Outperformed on a strong trading day."
+          },
+          {
+            "ticker": "AVGO",
+            "move": "+8.78%",
+            "note": "Seen as a beneficiary of the Nvidia scandal."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Board probe into CEO Huang's alleged relationship with a Chinese spy; rivals AMD and Broadcom rallied instead."
+          },
+          {
+            "ticker": "HIMS",
+            "move": "-11.77%",
+            "note": "Narrowed sales outlook and surprise losses."
+          },
+          {
+            "ticker": "ZETA",
+            "move": "-15.49% AH",
+            "note": "Q3 earnings snapshot; shares fell after hours."
+          },
+          {
+            "ticker": "BA",
+            "move": "\u25bc",
+            "note": "Cutting 5% of commercial airplane division workforce."
+          },
+          {
+            "ticker": "TTWO",
+            "move": "\u25bc",
+            "note": "Fiscal Q2 forecast disappointed ahead of the GTA VI launch; CEO called it 'uncharted territory'."
+          },
+          {
+            "ticker": "FF",
+            "move": "-23.27% AH",
+            "note": "Q3 results; shares fell sharply after hours."
+          },
+          {
+            "ticker": "AVD",
+            "move": "-15.31%",
+            "note": "Q3 earnings snapshot."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Broad tech rebound vs. Nvidia slump",
+            "detail": "Semis and the Nasdaq surged while the sector's biggest name fell on a governance scandal \u2014 money rotated within chips rather than fleeing AI."
+          },
+          {
+            "title": "Oil plunge eases inflation vs. Citi downgrade",
+            "detail": "Crude's $7+ plunge eased inflation worries the same day Citi cut US equities to neutral, citing AI concerns."
+          },
+          {
+            "title": "Selloff 'overdone' vs. regulation and governance overhang",
+            "detail": "Brokerages called last week's AI selloff overdone, but Democrat AI-regulation risk and the Huang probe kept the rally from turning euphoric."
+          }
+        ],
+        "take": "Monday was a genuine relief rally, not a dead-cat bounce: the S&P's best day since April and a 1,100-point Dow jump, with money rotating inside chips rather than fleeing AI \u2014 AMD and Broadcom surged while Nvidia sank on the Huang probe, which the market is treating as a governance story, not a fundamentals one. The $7 oil plunge on Iran restraint did the quiet heavy lifting, easing the inflation worry just as Citi's neutral downgrade tried to rain on the parade. Tomorrow's tape hinges on whether the Nvidia probe stays contained; if it does, the dip-buyers have the momentum and the early call is UP.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Low",
@@ -139,7 +299,11 @@
         "made": "2026-11-09",
         "scores_detail": "Post-close 47 (2026-11-06) + pre-market 53 (2026-11-09) = 50"
       },
-      "result": null
+      "result": {
+        "spy_pct": 2.37,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-06",
