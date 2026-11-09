@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-09",
+      "kind": "final",
+      "date": "2026-11-09",
+      "scores_detail": "Post-close 47 (2026-11-06) + pre-market 53 (2026-11-09) = 50",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 50 (prev post-close 47 on 2026-11-06 + pre-market 53): Nvidia CEO probe rocks the AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-09",
       "kind": "early",
       "date": "2026-11-06",
       "score": 47,
