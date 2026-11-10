@@ -2,7 +2,147 @@
   "days": [
     {
       "date": "2026-11-10",
-      "morning": null,
+      "morning": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "October CPI came in hotter than expected, sending S&P futures lower and reigniting Fed-hike bets \u2014 and Fed Governor Waller piled on, saying a December hike is likely and a half-point move is on the table. The Nvidia spy-scandal fallout deepened with a shareholder lawsuit, while a slide in oil toward $90 and Anthropic's blockbuster IPO filing offered only partial offsets. The tape opens on the defensive.",
+        "drivers": [
+          {
+            "title": "October CPI hotter than expected",
+            "detail": "Inflation rose above forecasts in October; stocks and bonds fell as traders repriced Fed-hike odds higher ahead of the open.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Fed's Waller: December hike likely, 50bps possible",
+            "detail": "Governor Waller said a December hike is likely and opened the door to a half-point increase if CPI ran hot \u2014 hours before the print landed.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO filing targets up to $1.4T valuation",
+            "detail": "New filing shows the AI lab seeking a $64B raise at a $1.3\u20131.4T valuation, with Big Tech placement \u2014 the largest AI IPO signal yet.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nvidia spy scandal deepens",
+            "detail": "Nvidia and CEO Huang were sued over disclosures tied to the alleged Chinese spy; the FBI is investigating and a short seller claims the scandal runs deeper.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil slide extends as Brent breaks below $90",
+            "detail": "Brent fell under $90 as the UAE cut its flagship price, Trump said further Iran strikes are unnecessary, and US gasoline dropped below $4 a gallon.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "SoftBank books $7B quarterly loss",
+            "detail": "Loss driven by a US data-centre hit and financing costs \u2014 fresh fuel for AI-infrastructure financing worries ahead of CoreWeave earnings tonight.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "CoreWeave earnings tonight under a high bar",
+            "detail": "AI-infrastructure financing concern is in focus as CoreWeave reports after the close; Wall Street expects a clean beat to justify valuations.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "AI slump pushes investors toward emerging markets",
+            "detail": "After the AI-led selloff, investors are scouring emerging markets for bargains, though strategists warn the $1.6T rebound may not hold.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SANM",
+            "move": "+10.76%",
+            "note": "Sanmina jumps as its manufacturing business is seen as AI-adjacent tomorrow."
+          },
+          {
+            "ticker": "KULR",
+            "move": "+10.41%",
+            "note": "Q3 revenue $7.4M, up 197% YoY as product sales nearly quadruple."
+          },
+          {
+            "ticker": "NNOX",
+            "move": "+6.55%",
+            "note": "Nanox.AI advances commercial collaboration in Thailand for AI cardiac solution."
+          },
+          {
+            "ticker": "OSTX",
+            "move": "+5.97%",
+            "note": "OS Therapies initiates UK conditional marketing application for Herlystic."
+          },
+          {
+            "ticker": "SLNG",
+            "move": "+5.21%",
+            "note": "Stabilis signs a three-year take-or-pay LNG supply deal with an aerospace customer."
+          },
+          {
+            "ticker": "RIOT",
+            "move": "\u25b2",
+            "note": "Gains after Jefferies upgrade and JPM price-target hike on Corsicana data-center economics."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "APPS",
+            "move": "-23.19%",
+            "note": "Digital Turbine sinks as AI investments turn earnings into a 'deflated balloon'."
+          },
+          {
+            "ticker": "PARA",
+            "move": "-21.60%",
+            "note": "Parabolic Technologies slides despite announcing a debt paydown eliminating all secured debt."
+          },
+          {
+            "ticker": "HUBC",
+            "move": "-16.31%",
+            "note": "HUB announces a reverse share split."
+          },
+          {
+            "ticker": "RKLB",
+            "move": "-10.17%",
+            "note": "Rocket Lab retreats on a mixed Q3 report; analysts flag Neutron timing as key."
+          },
+          {
+            "ticker": "GEV",
+            "move": "-7.40%",
+            "note": "GE Vernova hit as Musk was half-right that SoftBank back-pedaled on a gas-turbine order."
+          },
+          {
+            "ticker": "UAMY",
+            "move": "-6.34%",
+            "note": "US Antimony's Q3 test: DLA deliveries and volume vs a halved outlook."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Sued over spy-scandal disclosures; FBI investigating; short seller alleges deeper issues."
+          },
+          {
+            "ticker": "TSLA",
+            "move": "\u25bc",
+            "note": "China sales hit their lowest since 2022, clouding year-end targets."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Hot CPI vs sliding oil",
+            "detail": "Inflation is re-accelerating on the data, yet energy \u2014 a big CPI input \u2014 is falling fast, with Brent under $90 and gasoline below $4."
+          },
+          {
+            "title": "Anthropic IPO euphoria vs AI financing worries",
+            "detail": "A $1.4T AI IPO filing lands the same morning SoftBank books a $7B data-centre loss and CoreWeave faces a high earnings bar."
+          },
+          {
+            "title": "Rebound rally vs hawkish repricing",
+            "detail": "Monday's broad rebound lifted all boats but Nvidia; this morning's hot CPI and Waller's 50bps hint threaten to undo it before the open."
+          },
+          {
+            "title": "Nvidia: fundamentals vs scandal",
+            "detail": "Analysts say investors should focus on the business, not Huang's affair \u2014 but a lawsuit, an FBI probe, and trust questions keep the overhang live."
+          }
+        ],
+        "take": "Hot CPI torpedoed the rebound before it could breathe: October inflation ran above forecast, futures flipped lower, and Waller put a 50bp December hike on the table hours before the print even landed. The Anthropic $1.4T IPO filing is the only real counterweight, but it reads as a headline, not a bid \u2014 AI financing anxiety (SoftBank's $7B data-centre loss, CoreWeave's earnings bar) is the live story underneath it. The blend with Monday's strong close still lands just above 50, so the call is UP \u2014 but only barely, and a hot-CPI morning that forces the Fed's hand is exactly the kind of tape that flips by midday.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +151,13 @@
         "made": "2026-11-09",
         "scores_detail": "Post-close 62 (2026-11-09)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "UP",
+        "confidence": "Low",
+        "rationale": "Blended score 51 (prev post-close 62 on 2026-11-09 + pre-market 40): Anthropic IPO filing targets up to $1.4T valuation.",
+        "made": "2026-11-10",
+        "scores_detail": "Post-close 62 (2026-11-09) + pre-market 40 (2026-11-10) = 51"
+      },
       "result": null
     },
     {
