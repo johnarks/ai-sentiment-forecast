@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-11",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 31 (Firmly Bearish): Hot October CPI revives rate-hike fears.",
+        "made": "2026-11-10",
+        "scores_detail": "Post-close 31 (2026-11-10)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-10",
       "morning": {
         "score": 40,
@@ -143,7 +157,132 @@
         "take": "Hot CPI torpedoed the rebound before it could breathe: October inflation ran above forecast, futures flipped lower, and Waller put a 50bp December hike on the table hours before the print even landed. The Anthropic $1.4T IPO filing is the only real counterweight, but it reads as a headline, not a bid \u2014 AI financing anxiety (SoftBank's $7B data-centre loss, CoreWeave's earnings bar) is the live story underneath it. The blend with Monday's strong close still lands just above 50, so the call is UP \u2014 but only barely, and a hot-CPI morning that forces the Fed's hand is exactly the kind of tape that flips by midday.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 31,
+        "label": "Firmly Bearish",
+        "summary": "A hot October CPI report revived Fed rate-hike fears and sent stocks lower into the close, with the 10-year yield back at 5% and traders boosting odds of a half-point hike. Nvidia's selloff deepened as the Huang spy scandal escalated into a board investigation and a congressional subpoena threat, dragging chip stocks toward a $5 trillion slide. The one bright spot was CoreWeave, which beat earnings and raised guidance \u2014 though its $47B debt load kept the AI-bubble debate alive.",
+        "drivers": [
+          {
+            "title": "Hot October CPI revives rate-hike fears",
+            "detail": "Inflation came in hotter than expected; investors boosted odds of a half-point Fed hike, Deutsche Bank says hikes could come at each of the next three meetings, and the 10-year yield is back at 5%.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia spy scandal escalates",
+            "detail": "Nvidia hired Wachtell Lipton to investigate CEO Jensen Huang's affair with a Chinese executive; Congress may subpoena Huang and tighten China chip-sale rules, threatening the China fight Nvidia was winning.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "AI bubble fears spread to power and data centers",
+            "detail": "SoftBank revised US data-center plans and wrote down AI power bets; AI power stocks tumbled and GE Vernova slid, deepening the AI-jitters selloff.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "CoreWeave beats and raises guidance",
+            "detail": "Q3 revenue beat estimates, backlog swelled and the neocloud lifted its revenue forecast \u2014 but the stock's pop came with a $47B debt load and a $1.1B quarterly interest bill.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Anthropic IPO momentum builds",
+            "detail": "Anthropic filed an amended S-1 targeting a ~$1T valuation, TSMC will invest up to $1B in Anthropic and OpenAI, and IPO shares are trading at a premium in the secondary market \u2014 though a key AI safety alarm was triggered days before listing.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil slides as Trump signals Iran restraint",
+            "detail": "Crude fell after Trump signaled restraint on Iran, easing one inflation pressure even as the broader CPI print ran hot.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Dollar posts best day since September",
+            "detail": "The dollar surged as the hot CPI print lifted hike bets, adding pressure on risk assets and emerging markets.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "SECZ",
+            "move": "+22.38%",
+            "note": "Tokenization firm Securitize surges on revenue gain"
+          },
+          {
+            "ticker": "CHTR",
+            "move": "+10.61%",
+            "note": "Charter outperforms competitors on a strong trading day"
+          },
+          {
+            "ticker": "BGS",
+            "move": "+8.79% AH",
+            "note": "B&G Foods pops after Q3 earnings snapshot"
+          },
+          {
+            "ticker": "AZTA",
+            "move": "+8.53% AH",
+            "note": "Azenta beats on Q4 and full-year fiscal 2026 results"
+          },
+          {
+            "ticker": "EML",
+            "move": "+8.18%",
+            "note": "Eastern Co. gains after Q3 earnings"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "\u25b2",
+            "note": "CoreWeave pops after earnings beat, backlog swell and raised guidance"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "-5.47%",
+            "note": "Spy scandal escalates; board investigation and subpoena threat hit the China story"
+          },
+          {
+            "ticker": "BV",
+            "move": "-17.94% AH",
+            "note": "BrightView plunges after fiscal Q4 earnings snapshot"
+          },
+          {
+            "ticker": "NXXT",
+            "move": "-92.85%",
+            "note": "NextNRG collapses after Nasdaq hearings panel decision"
+          },
+          {
+            "ticker": "RUN",
+            "move": "-10.57%",
+            "note": "Sunrun slides with solar names on a weak tape"
+          },
+          {
+            "ticker": "FLY",
+            "move": "-8.67%",
+            "note": "Firefly rally hits a wall; even an earnings beat wasn't enough"
+          },
+          {
+            "ticker": "THM",
+            "move": "-11.32%",
+            "note": "International Tower Hill falls after Q3 results"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI demand vs AI debt",
+            "detail": "CoreWeave's backlog is swelling and AI demand is real, but its $47B debt and $1.1B quarterly interest bill \u2014 and SoftBank's data-center write-down \u2014 keep the bubble debate front and center."
+          },
+          {
+            "title": "Hot CPI vs cheaper gas",
+            "detail": "October CPI ran hotter than expected, yet US gas prices fell below $4 for the first time since July \u2014 inflation is re-accelerating even as one big consumer cost eases."
+          },
+          {
+            "title": "Anthropic euphoria vs safety alarm",
+            "detail": "A ~$1T IPO with TSMC backing and premium secondary trading collides with a key AI safety alarm triggered days before listing."
+          },
+          {
+            "title": "Nvidia's chips vs Nvidia's politics",
+            "detail": "Chip demand and AI leadership remain intact, but the CEO scandal and looming China-sale restrictions are now a political liability, not just a headline."
+          }
+        ],
+        "take": "Today's tape was a one-two punch: a hot October CPI dragged the Fed-hike debate back from the dead \u2014 10-year back at 5%, half-point hike odds rising \u2014 and the Nvidia spy scandal went from gossip to board investigation and subpoena threat, taking NVDA down another 5.5%. The AI bubble debate is no longer about valuations, it's about the financing underneath: SoftBank writing down data-center bets and CoreWeave carrying $47B of debt says the leverage is real. Tomorrow opens heavy \u2014 the only question is whether dip buyers treat a 31 score as washed out or the start of a real repricing.",
+        "published": "5:00 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -158,7 +297,11 @@
         "made": "2026-11-10",
         "scores_detail": "Post-close 62 (2026-11-09) + pre-market 40 (2026-11-10) = 51"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.37,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-09",
