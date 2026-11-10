@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-10",
+      "kind": "final",
+      "date": "2026-11-10",
+      "scores_detail": "Post-close 62 (2026-11-09) + pre-market 40 (2026-11-10) = 51",
+      "call": "UP",
+      "confidence": "Low",
+      "rationale": "Blended score 51 (prev post-close 62 on 2026-11-09 + pre-market 40): Anthropic IPO filing targets up to $1.4T valuation.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-10",
       "kind": "early",
       "date": "2026-11-09",
       "score": 62,
