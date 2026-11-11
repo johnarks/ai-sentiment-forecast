@@ -2,7 +2,153 @@
   "days": [
     {
       "date": "2026-11-11",
-      "morning": null,
+      "morning": {
+        "score": 55,
+        "label": "Mild Risk-On Tilt",
+        "summary": "Futures are rising into the open on a CoreWeave-driven AI revival, with the chip complex rebounding hard after the neocloud's Q3 beat and raised outlook. But the rally is running straight into a hot October CPI that has pushed December Fed hike odds toward 100%, and Baird's Nvidia downgrade keeps the AI-leadership cloud overhead. Net: a cautiously positive open, with the Fed repricing as the real test once PPI lands today.",
+        "drivers": [
+          {
+            "title": "CoreWeave calms AI spending fears",
+            "detail": "Q3 revenue beat and raised full-year outlook; stock +15.3% premarket and the whole AI complex (MU, ARM, AMD, INTC) is rallying with it.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Hot CPI reprices the Fed toward hikes",
+            "detail": "October CPI came in hotter than expected; December Fed hike odds surged toward 100% and Treasury futures retreated as hike chatter entered the radar.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Baird downgrades Nvidia",
+            "detail": "Baird downgraded Nvidia in an 'Icarus' rise-and-fall note, flagging slower AI spending and Jensen Huang risk as the board/FBI probe continues.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "SoftBank drops 11% on $7B loss",
+            "detail": "Shares fell 11% in Tokyo after booking a $7B loss, a fresh drag on AI-funding sentiment.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "China pledges more policy support",
+            "detail": "China's central bank vowed to step up policy support for the economy.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Hedge funds retreat at decade pace",
+            "detail": "Morgan Stanley says hedge funds cut risk at the largest pace in a decade, a sign institutional de-risking is still under way.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil jumps on Hormuz mine reports",
+            "detail": "Oil jumped on reports of mines in the Strait of Hormuz, adding a geopolitical inflation wrinkle.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Amgen's Sjogren's drug hits in Phase 3",
+            "detail": "Positive Phase 3 results for dazodalibep in Sjogren's disease, a notable biotech win overnight.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CRWV",
+            "move": "+15.33%",
+            "note": "Q3 beat and raised full-year outlook eases AI debt/spending fears"
+          },
+          {
+            "ticker": "MU",
+            "move": "\u25b2",
+            "note": "AI stocks surge as CoreWeave calms Wall Street's worst fears"
+          },
+          {
+            "ticker": "ARM",
+            "move": "+6.18%",
+            "note": "UBS: server CPU strength persists as AMD and Arm gain share"
+          },
+          {
+            "ticker": "INTC",
+            "move": "+5.80%",
+            "note": "UBS server CPU share gains; stock up premarket"
+          },
+          {
+            "ticker": "AMD",
+            "move": "+5.14%",
+            "note": "Server CPU share gains per UBS"
+          },
+          {
+            "ticker": "AMGN",
+            "move": "\u25b2",
+            "note": "Positive Phase 3 Sjogren's data for dazodalibep"
+          },
+          {
+            "ticker": "FOSL",
+            "move": "+23.89%",
+            "note": "Premarket mover; Fossil jumps"
+          },
+          {
+            "ticker": "MOD",
+            "move": "+6.55%",
+            "note": "New 682,000 sq ft Texas chiller plant for data centers begins production"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc downgrade",
+            "note": "Baird downgrade ('Icarus'), flags slower AI spend and Huang risk; rebounding premarket on CoreWeave relief"
+          },
+          {
+            "ticker": "LAC",
+            "move": "\u25bc",
+            "note": "Thacker Pass Phase 1 cost estimate raised ~$900M to $3.83B"
+          },
+          {
+            "ticker": "CSG",
+            "move": "\u25bc",
+            "note": "Defense firm cut full-year margin outlook; shares plunged in Europe"
+          },
+          {
+            "ticker": "RGTI",
+            "move": "\u25bc",
+            "note": "Q3 earnings and sales missed; quantum stocks under pressure"
+          },
+          {
+            "ticker": "AEBI",
+            "move": "-5.82%",
+            "note": "Q3 earnings missed and 2026 outlook lowered"
+          },
+          {
+            "ticker": "AADX",
+            "move": "-5.78%",
+            "note": "Shares fell on 2026 guidance despite 48.6% revenue growth"
+          },
+          {
+            "ticker": "MSFT",
+            "move": "\u25bc",
+            "note": "Anthropic's new Claude product drop seen pressuring Microsoft and peers"
+          },
+          {
+            "ticker": "SFTBY",
+            "move": "-11%",
+            "note": "Booked a $7B loss; shares dropped in Tokyo trading"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI revival vs AI funding fears",
+            "detail": "CoreWeave's relief rally lifts the whole AI complex, yet Baird's Nvidia downgrade and the widening Huang probe argue AI spending and leadership risk are not resolved."
+          },
+          {
+            "title": "Hot CPI vs rising futures",
+            "detail": "Futures are rising and investors are 'moving past' the hot CPI print, even as December hike odds jump toward 100% and Treasury yields climb."
+          },
+          {
+            "title": "Easier housing vs tighter Fed",
+            "detail": "Mortgage rates fell for a fourth straight week, lifting home purchases, while the Fed debate shifts toward hikes rather than cuts."
+          }
+        ],
+        "take": "CoreWeave's blowout quarter is doing the heavy lifting this morning \u2014 a 15% premarket pop that's dragging the whole AI complex up with it and finally giving the bulls something real to point at after days of bubble panic. But don't mistake a relief rally for a regime change: hot CPI has December hike odds near 100%, the 10-year is back at 5%, and Baird just called Nvidia \"Icarus\" while the Huang probe widens. The tape wants to rally; the macro wants to punish it. Expect a strong open that gets sold into unless PPI cooperates.",
+        "published": "8:43 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +157,13 @@
         "made": "2026-11-10",
         "scores_detail": "Post-close 31 (2026-11-10)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 43 (prev post-close 31 on 2026-11-10 + pre-market 55): Hot CPI reprices the Fed toward hikes.",
+        "made": "2026-11-11",
+        "scores_detail": "Post-close 31 (2026-11-10) + pre-market 55 (2026-11-11) = 43"
+      },
       "result": null
     },
     {
