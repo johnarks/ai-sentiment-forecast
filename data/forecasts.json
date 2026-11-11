@@ -1,6 +1,19 @@
 {
   "forecasts": [
     {
+      "target_date": "2026-11-12",
+      "kind": "early",
+      "date": "2026-11-11",
+      "score": 63,
+      "label": "Risk-On Tilt",
+      "call": "UP",
+      "confidence": "Moderate",
+      "rationale": "Post-close score 63 (Risk-On Tilt): CoreWeave reignites the AI trade.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
       "target_date": "2026-11-11",
       "kind": "final",
       "date": "2026-11-11",
@@ -8,8 +21,8 @@
       "call": "DOWN",
       "confidence": "Low",
       "rationale": "Blended score 43 (prev post-close 31 on 2026-11-10 + pre-market 55): Hot CPI reprices the Fed toward hikes.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 1.32,
+      "hit": false,
       "push": false
     },
     {
@@ -21,8 +34,8 @@
       "call": "DOWN",
       "confidence": "Moderate",
       "rationale": "Post-close score 31 (Firmly Bearish): Hot October CPI revives rate-hike fears.",
-      "spy_pct": null,
-      "hit": null,
+      "spy_pct": 1.32,
+      "hit": false,
       "push": false
     },
     {
