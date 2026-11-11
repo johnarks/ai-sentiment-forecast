@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-12",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "UP",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 63 (Risk-On Tilt): CoreWeave reignites the AI trade.",
+        "made": "2026-11-11",
+        "scores_detail": "Post-close 63 (2026-11-11)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-11",
       "morning": {
         "score": 55,
@@ -149,7 +163,138 @@
         "take": "CoreWeave's blowout quarter is doing the heavy lifting this morning \u2014 a 15% premarket pop that's dragging the whole AI complex up with it and finally giving the bulls something real to point at after days of bubble panic. But don't mistake a relief rally for a regime change: hot CPI has December hike odds near 100%, the 10-year is back at 5%, and Baird just called Nvidia \"Icarus\" while the Huang probe widens. The tape wants to rally; the macro wants to punish it. Expect a strong open that gets sold into unless PPI cooperates.",
         "published": "8:43 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 63,
+        "label": "Risk-On Tilt",
+        "summary": "Stocks ripped back into risk-on mode as CoreWeave's blowout results \u2014 and its CEO's claim that AI demand outpaces world capacity \u2014 re-energized the AI trade less than a week after a historic selloff: the Nasdaq gained more than 1%, the Dow added 250 points, and memory, server and chip names surged double digits. The rally ran straight into a hawkish counterweight, with hot October CPI pushing December Fed hike bets higher, Goolsbee calling the inflation report 'borderline disturbing,' and the dollar rising as Treasury futures retreated. Nvidia stayed the fault line \u2014 Baird downgraded it and Wall Street kept backing away over the Huang affair and China chip-diversion probe \u2014 yet the stock still rebounded with the AI tape.",
+        "drivers": [
+          {
+            "title": "CoreWeave reignites the AI trade",
+            "detail": "CRWV +24.7% after results; CEO said AI demand outpaces world capacity, lifting memory and chip names across the board.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Broad risk-on close",
+            "detail": "Nasdaq gained more than 1%, S&P 500 closed sharply higher, Dow added 250 points as AI stocks surged.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Fed hike bets climb after hot CPI",
+            "detail": "Goolsbee called the inflation report 'borderline disturbing'; dollar climbed as traders raised December hike bets and Treasury futures retreated.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia governance and spy saga deepens",
+            "detail": "Baird downgraded the stock, reports say Wall Street is quietly backing away, and Axios reported Lutnick stalled the Trump crackdown on Nvidia chip diversion to China.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO roadshow draws heavy demand",
+            "detail": "Anthropic embarked on its pre-IPO roadshow and the deal is reportedly multiple times oversubscribed; Bloomberg called it the 'Jenga block' holding up the next leg of the AI trade.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil falls, but bond yields don't follow",
+            "detail": "Lower oil prices are no longer enough to bring down borrowing costs in the world's most important bond market, per MarketWatch.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Mortgage rates fall for fourth week",
+            "detail": "US mortgage rates fell for a fourth straight week, lifting home purchases.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Europe hits record; aluminum squeeze",
+            "detail": "European stocks hit a record high as energy and tech rebounded; London aluminum faces its biggest supply squeeze in decades.",
+            "sentiment": "bullish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CRWV",
+            "move": "+24.71%",
+            "note": "Blowout results and guidance; CEO said AI demand outpaces world capacity \u2014 the day's catalyst."
+          },
+          {
+            "ticker": "NBIS",
+            "move": "+15.44%",
+            "note": "Rode the CoreWeave-led AI infrastructure rally."
+          },
+          {
+            "ticker": "SNDK",
+            "move": "+13.69%",
+            "note": "Memory surge as CoreWeave calmed AI demand fears."
+          },
+          {
+            "ticker": "MU",
+            "move": "+11.89%",
+            "note": "Memory/AI demand surge alongside the sector."
+          },
+          {
+            "ticker": "DELL",
+            "move": "+11.75%",
+            "note": "Outperformed on the strong AI trading day."
+          },
+          {
+            "ticker": "SMCI",
+            "move": "+9.50%",
+            "note": "AI server name swept up in the rally."
+          },
+          {
+            "ticker": "INTC",
+            "move": "+7.52%",
+            "note": "Chip name outperformed competitors on the strong day."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "+3.5%",
+            "note": "Rebounded with the AI tape despite the Baird downgrade and widening probe headlines."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "PXLW",
+            "move": "-12.07%",
+            "note": "Q3 earnings snapshot disappointed."
+          },
+          {
+            "ticker": "DGII",
+            "move": "-12.49% AH",
+            "note": "Fiscal Q4 earnings snapshot; shares slid after hours."
+          },
+          {
+            "ticker": "XAIR",
+            "move": "-12.93% AH",
+            "note": "Quarterly results and corporate update; after-hours slide."
+          },
+          {
+            "ticker": "CTVA",
+            "move": "-6.18% AH",
+            "note": "Q3 results with updated FY 2026 outlook; fell after hours."
+          },
+          {
+            "ticker": "MTEK",
+            "move": "-7.71% AH",
+            "note": "Nasdaq minimum bid price notification."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI euphoria vs AI skepticism",
+            "detail": "CoreWeave's blowout results and 'AI demand outpaces capacity' comment sent chips and memory names up double digits, while Sixth Street's CEO warned the AI race is rife with 'speculative behaviors' and Bloomberg flagged AI whiplash as a test of Wall Street's dip-buying habit."
+          },
+          {
+            "title": "Nvidia: stock up, headlines down",
+            "detail": "Baird downgraded Nvidia ('Icarus' rise and fall), reports say Wall Street is quietly backing away, and the spy/diversion probe widened \u2014 yet NVDA still rebounded about 3.5% with the AI tape."
+          },
+          {
+            "title": "Easier oil and mortgages vs hawkish rates",
+            "detail": "Falling oil and a fourth straight weekly drop in mortgage rates eased some pressure, but hot October CPI has December hike odds climbing, Goolsbee called the report 'borderline disturbing,' and Treasury futures retreated as the dollar rose."
+          }
+        ],
+        "take": "CoreWeave just did what no Fed speaker could: it made the AI trade investable again. A 24.7% blowout on \"demand outpaces world capacity\" dragged chips and memory names up double digits and flipped sentiment from yesterday's firmly bearish 31 to a 63 \u2014 a real mood change, not a dead-cat bounce. The hot CPI and December hike chatter are still live, and the Nvidia saga is getting uglier, but the tape says the market has decided to worry about rates tomorrow and ride the AI rebound today. Early call for tomorrow: UP \u2014 the momentum is real, but PPI at 8:30 AM is the tripwire; a second hot print gives the hawks the excuse to kill this rally fast.",
+        "published": "5:02 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -164,7 +309,11 @@
         "made": "2026-11-11",
         "scores_detail": "Post-close 31 (2026-11-10) + pre-market 55 (2026-11-11) = 43"
       },
-      "result": null
+      "result": {
+        "spy_pct": 1.32,
+        "early_hit": false,
+        "final_hit": false
+      }
     },
     {
       "date": "2026-11-10",
