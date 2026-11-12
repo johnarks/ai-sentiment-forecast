@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-12",
+      "kind": "final",
+      "date": "2026-11-12",
+      "scores_detail": "Post-close 63 (2026-11-11) + pre-market 31 (2026-11-12) = 47",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 47 (prev post-close 63 on 2026-11-11 + pre-market 31): Nvidia CEO crisis deepens.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-12",
       "kind": "early",
       "date": "2026-11-11",
       "score": 63,
