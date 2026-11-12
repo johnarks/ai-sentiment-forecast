@@ -2,7 +2,122 @@
   "days": [
     {
       "date": "2026-11-12",
-      "morning": null,
+      "morning": {
+        "score": 31,
+        "label": "Firmly Bearish",
+        "summary": "The Nvidia CEO crisis dominates the pre-market: the board is reportedly preparing to oust Jensen Huang, NVDA is down 8.5% premarket, and the shock is dragging the whole AI complex \u2014 and bitcoin \u2014 lower. The one real offset is Europe, where strong earnings pushed the STOXX 600 to a record high. With a board announcement possibly coming today, sentiment is firmly risk-off into the open.",
+        "drivers": [
+          {
+            "title": "Nvidia CEO crisis deepens",
+            "detail": "Board reportedly preparing to oust CEO Jensen Huang after a second affair allegation surfaced; markets price a 50-50 chance of an announcement today. Stock down 8.5% premarket after falling 5.5% on Nov 10.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Global AI selloff spreads",
+            "detail": "AI names sinking globally \u2014 Nebius, Sandisk, CoreWeave and Alibaba all down sharply premarket; Asian stocks tumbled and Nasdaq futures fell as the sector's anchor stock wobbles.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Iran headlines whipsaw oil",
+            "detail": "Trump said 'we don't need a deal' with Iran, spiking crude overnight; Bernstein cut ConocoPhillips, Diamondback and Diamondback Energy on de-escalation prospects.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Bitcoin breaks below $73K",
+            "detail": "Slipped to about $73,000 as the Nvidia turmoil rattled risk appetite; MSCI also said it will drop Strategy from its global indexes, putting billions in passive flows at risk.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Europe at record highs on earnings",
+            "detail": "UK economy grew at its fastest rate in more than two years; FTSE rose on strong earnings and Europe's STOXX 600 hit a record high on easing Mideast tensions.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Inflation and labor data turn hawkish",
+            "detail": "October inflation topped the RBI's 6% limit, strengthening the case for rate hikes; claims in the US hit 57-year lows, adding a hawkish twist and lifting Fed hike bets.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nebius outlook cut fans AI funding fears",
+            "detail": "Nebius lowered its outlook and flagged financing worries for its AI buildout despite 571% revenue growth \u2014 a fresh warning sign on AI funding after SoftBank's caution.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MRNA",
+            "move": "\u25b2",
+            "note": "Raised 2026 revenue growth forecast to 15%-25%, progress on cancer vaccine"
+          },
+          {
+            "ticker": "WEN",
+            "move": "\u25b2",
+            "note": "Rejected a takeover offer, scaled back breakfast, stock surging"
+          },
+          {
+            "ticker": "AVEX",
+            "move": "+10.96%",
+            "note": "Barrons: ailing stock sees better days ahead"
+          },
+          {
+            "ticker": "MTVA",
+            "move": "+6.25%",
+            "note": "Phase 1 trial showed statistically significant uric acid reduction"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "-8.48%",
+            "note": "Board reportedly preparing to oust CEO Jensen Huang; second affair allegation"
+          },
+          {
+            "ticker": "NBIS",
+            "move": "-14.35%",
+            "note": "Lowered outlook and financing worries despite 571% revenue growth"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "-9.74%",
+            "note": "Planning at least $4B high-grade loan; caught in AI selloff"
+          },
+          {
+            "ticker": "BABA",
+            "move": "-7%",
+            "note": "Nvidia saga triggers chip-access fears"
+          },
+          {
+            "ticker": "SNDK",
+            "move": "-6.11%",
+            "note": "Dragged down with other AI names in the Nvidia-led selloff"
+          },
+          {
+            "ticker": "MSTR",
+            "move": "-6.31%",
+            "note": "MSCI to drop Strategy from global indexes; bitcoin below $73K"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI leader vs AI rivals",
+            "detail": "Nvidia's crisis hits the whole AI complex, yet AMD and Broadcom rose yesterday on bets they pick up share and business \u2014 the same story is bearish for the leader and bullish for rivals."
+          },
+          {
+            "title": "Record Europe vs sinking US futures",
+            "detail": "Europe's STOXX 600 hit a record high on strong earnings and easing Mideast tensions while US futures sank on Nvidia \u2014 regional divergence, not a global risk-off day."
+          },
+          {
+            "title": "Oil: spike vs de-escalation",
+            "detail": "Trump's 'no deal needed' line spiked crude overnight, but Bernstein cut ConocoPhillips, Diamondback and Diamondback Energy on the view Iran de-escalation is coming \u2014 oil is being pulled both ways."
+          },
+          {
+            "title": "Hawkish labor data vs confidence shock",
+            "detail": "Claims at 57-year lows and a firm dollar are pushing Fed hike bets up (gold below $4,000), even as the Nvidia shock argues for risk-off \u2014 hawkish data vs a confidence shock."
+          }
+        ],
+        "take": "Nvidia is the whole story this morning, and it's ugly: the board is reportedly preparing to oust Jensen Huang after a second affair allegation, NVDA is down 8.5% premarket, and the AI complex is getting dragged down with it \u2014 Nebius -14%, CoreWeave -10%, bitcoin below $73K. Yesterday's CoreWeave-fueled relief rally (post-close score 63) is being wiped out in one headline cycle, and the blended final score of 47 still lands DOWN despite that strong close. The only real offset is Europe at record highs, which is not enough to rescue a session where the market's anchor stock is in freefall \u2014 expect a risk-off tape until the Nvidia board actually speaks.",
+        "published": "8:44 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "UP",
@@ -11,7 +126,13 @@
         "made": "2026-11-11",
         "scores_detail": "Post-close 63 (2026-11-11)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 47 (prev post-close 63 on 2026-11-11 + pre-market 31): Nvidia CEO crisis deepens.",
+        "made": "2026-11-12",
+        "scores_detail": "Post-close 63 (2026-11-11) + pre-market 31 (2026-11-12) = 47"
+      },
       "result": null
     },
     {
