@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-13",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 38 (Risk-Off Tilt): Nvidia CEO Jensen Huang resigns amid scandal.",
+        "made": "2026-11-12",
+        "scores_detail": "Post-close 38 (2026-11-12)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-12",
       "morning": {
         "score": 31,
@@ -118,7 +132,128 @@
         "take": "Nvidia is the whole story this morning, and it's ugly: the board is reportedly preparing to oust Jensen Huang after a second affair allegation, NVDA is down 8.5% premarket, and the AI complex is getting dragged down with it \u2014 Nebius -14%, CoreWeave -10%, bitcoin below $73K. Yesterday's CoreWeave-fueled relief rally (post-close score 63) is being wiped out in one headline cycle, and the blended final score of 47 still lands DOWN despite that strong close. The only real offset is Europe at record highs, which is not enough to rescue a session where the market's anchor stock is in freefall \u2014 expect a risk-off tape until the Nvidia board actually speaks.",
         "published": "8:44 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 38,
+        "label": "Risk-Off Tilt",
+        "summary": "Nvidia's CEO exit dominated the session: Jensen Huang resigned amid a widening scandal, NVDA fell 4% and erased roughly $182 billion in value, dragging the Nasdaq lower and lifting bond yields. Energy rallied as oil jumped on Trump's Iran remarks, while Cisco's AI-fueled outlook beat and Anthropic's six-times-oversubscribed IPO kept the AI-demand story alive underneath the selloff. Existing-home sales hit their lowest since 2010, adding a weak-economy note to a risk-off close.",
+        "drivers": [
+          {
+            "title": "Nvidia CEO Jensen Huang resigns amid scandal",
+            "detail": "Jensen Huang resigned as Nvidia CEO amid a widening scandal; NVDA fell 4%, erasing roughly $182 billion in value, and dragged AI stocks and the Nasdaq lower.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Microsoft 365 outage disrupts Outlook and Teams",
+            "detail": "Microsoft 365 hit by multi-region connectivity issues, disrupting Outlook and Teams during the session.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Oil jumps on Trump Iran remarks",
+            "detail": "Crude jumped after Trump said the US doesn't need a deal with Iran; energy stocks gained while bond yields rose.",
+            "sentiment": "neutral"
+          },
+          {
+            "title": "Existing-home sales hit lowest since 2010",
+            "detail": "Sales of existing US homes tumbled to the lowest level since 2010, a fresh weak-economy signal.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Anthropic IPO about six times oversubscribed",
+            "detail": "Anthropic's IPO is about six times oversubscribed, with Nvidia's $10 billion pledge in focus \u2014 AI demand still drawing capital.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Cisco raises outlook on AI data-center demand",
+            "detail": "Cisco raised its outlook on soaring AI data-center revenue and profit; shares climbed about 4% after hours.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "AI debt binge hits a wall, Wells Fargo warns",
+            "detail": "Wells Fargo warned global bond markets are reaching saturation as the AI debt binge hits a wall.",
+            "sentiment": "bearish"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "CSCO",
+            "move": "+4%",
+            "note": "Beat estimates and raised outlook on soaring AI data-center demand"
+          },
+          {
+            "ticker": "AVGO",
+            "move": "+5.54%",
+            "note": "Chip name gained as AI-trade exposure rotated away from Nvidia"
+          },
+          {
+            "ticker": "CBRS",
+            "move": "+15.80% AH",
+            "note": "Q3 earnings snapshot drew strong after-hours buying"
+          },
+          {
+            "ticker": "CDXS",
+            "move": "+13.39% AH",
+            "note": "Q3 earnings snapshot lifted shares after hours"
+          },
+          {
+            "ticker": "CRWS",
+            "move": "+9.46% AH",
+            "note": "Grew EPS 9.1% despite a 19.7% sales drop"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "-4%",
+            "note": "CEO Jensen Huang resigned amid scandal; ~$182B in value erased"
+          },
+          {
+            "ticker": "NBIS",
+            "move": "-16.84%",
+            "note": "Skidded after earnings; Nvidia business partner caught in the AI-trade unwind"
+          },
+          {
+            "ticker": "CTVA",
+            "move": "-24.30%",
+            "note": "Missed badly and cut 2026 EBITDA outlook as Brazil weakness hit"
+          },
+          {
+            "ticker": "SMCI",
+            "move": "-11.30%",
+            "note": "Alleged spy at center of Nvidia affair reportedly probed over Super Micro smuggling effort"
+          },
+          {
+            "ticker": "CRWV",
+            "move": "-6.86%",
+            "note": "AI infrastructure name swept up in the Nvidia-led selloff"
+          },
+          {
+            "ticker": "UAL",
+            "move": "-6.02%",
+            "note": "Airlines weak on the day despite CEO touting Starlink edge"
+          },
+          {
+            "ticker": "YETI",
+            "move": "-10.49%",
+            "note": "Cautious heading into holiday sales season; investors hated the guide"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI leadership crisis vs AI demand intact",
+            "detail": "NVDA's CEO exit crushed AI names, yet Cisco beat on AI data-center demand and Anthropic's IPO was about six times oversubscribed."
+          },
+          {
+            "title": "Retail dip-buying vs institutional/legal overhang",
+            "detail": "Retail buyers bought NVDA's crash 'like never before' while the board probe, FBI scrutiny and Super Micro smuggling allegations deepen."
+          },
+          {
+            "title": "Energy rally vs rate pressure",
+            "detail": "Oil's jump lifted energy stocks but pushed bond yields higher, weighing on the broader market."
+          }
+        ],
+        "take": "Huang's resignation turned a governance scandal into a market event: NVDA erased roughly $182B and dragged the Nasdaq with it, and a 38 score says the tape stays heavy until someone proves the AI trade works without its anchor. The offsets are real but narrow \u2014 Cisco's AI data-center beat and a roughly 6x-oversubscribed Anthropic IPO say demand isn't dead, just repricing away from Nvidia. Tomorrow is a prove-it day for the rotation into Broadcom and AMD, not a dip to buy blind.",
+        "published": "5:01 PM"
+      },
       "early_call": {
         "call": "UP",
         "confidence": "Moderate",
@@ -133,7 +268,11 @@
         "made": "2026-11-12",
         "scores_detail": "Post-close 63 (2026-11-11) + pre-market 31 (2026-11-12) = 47"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.35,
+        "early_hit": false,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-11-11",
