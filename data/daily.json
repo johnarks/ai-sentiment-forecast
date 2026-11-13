@@ -2,7 +2,128 @@
   "days": [
     {
       "date": "2026-11-13",
-      "morning": null,
+      "morning": {
+        "score": 55,
+        "label": "Risk-On Tilt",
+        "summary": "Futures are higher into Friday's open, led by a Nvidia rebound toward $170 that is outweighing a hot PPI print \u2014 wholesale inflation hit a four-year high, keeping Fed hike bets and the Treasury rout alive. Microsoft's day-two outage and Bitcoin's break below $70,000 add drag, but Goldman's new 8,700 S&P target and Europe's near-record run keep the tone tilted risk-on. The market is shrugging off bad inflation news for now; whether that holds past the open is the question.",
+        "drivers": [
+          {
+            "title": "PPI jumps to a four-year high",
+            "detail": "Wholesale inflation hit a four-year high; rate-hike odds held steady and the Treasury rout extended, with the dollar near a 19-month high.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Nvidia rebound lifts futures",
+            "detail": "NVDA recovering toward $170 after the Huang resignation selloff; Dow futures up 300 points as Wall Street moves on from the scandal, for now.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Microsoft outage enters day two",
+            "detail": "Outlook and Teams outages stretch into a second day for millions of users; Microsoft shares slipping pre-market.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Goldman targets S&P 500 at 8,700",
+            "detail": "Goldman sets an 8,700 year-end 2027 target for the S&P 500, a fresh vote of confidence in the bull market.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Treasury rout extends on hike bets",
+            "detail": "Bond yields saw their biggest surge since 2022 on Fed hike bets; Japan bonds fell and gold heads for a weekly decline.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bitcoin falls below $70,000",
+            "detail": "Bitcoin broke below $70,000 and Strategy faces fresh pressure after its MSCI exclusion.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Europe near records as fund inflows surge",
+            "detail": "European stocks head for their biggest weekly advance since July and global equity fund inflows hit a seven-week high.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Oil swings to surplus; China credit disappoints",
+            "detail": "IEA says the global oil market has swung to surplus on Gulf exports; China's credit growth disappointed despite more policy support.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "MOD",
+            "move": "+34.78%",
+            "note": "Samsung reportedly eyeing a deal to buy the data-center supplier."
+          },
+          {
+            "ticker": "LFTO",
+            "move": "+22.03%",
+            "note": "AI advertising stock having its best day ever; analysts say price could double."
+          },
+          {
+            "ticker": "SNAL",
+            "move": "+18.86%",
+            "note": "Showcasing four titles at an exclusive event during TwitchCon weekend."
+          },
+          {
+            "ticker": "CNVS",
+            "move": "+16.57%",
+            "note": "Reported Q2 fiscal 2027 results; Jason Voorhees film news also in the mix."
+          },
+          {
+            "ticker": "NVDA",
+            "move": "\u25b2",
+            "note": "Recovering toward $170 after the post-resignation selloff; futures lifting on the rebound."
+          },
+          {
+            "ticker": "CBRS",
+            "move": "+11.51%",
+            "note": "AI chipmaker soaring on earnings news."
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "MSFT",
+            "move": "\u25bc",
+            "note": "Outlook/Teams outage stretches into a second day for millions of users; shares slipping pre-market."
+          },
+          {
+            "ticker": "MSTR",
+            "move": "\u25bc",
+            "note": "Bitcoin broke below $70,000 and MSCI exclusion adds pressure."
+          },
+          {
+            "ticker": "OPTT",
+            "move": "-39.43%",
+            "note": "Priced a $3.0M public offering, heavily dilutive at this size."
+          },
+          {
+            "ticker": "NSPR",
+            "move": "-16.02%",
+            "note": "Priced a $37.5M public offering."
+          },
+          {
+            "ticker": "BKYI",
+            "move": "-16.28%",
+            "note": "Q3 software license fees grew 39%, but shares sold off on the print."
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "Hot PPI vs. rising futures",
+            "detail": "Headline PPI came in at a four-year high, arguing against rate cuts \u2014 yet Dow futures still rose 300 points, with the market treating the Nvidia rebound as the bigger driver."
+          },
+          {
+            "title": "Nvidia: buy-the-dip vs. deepening scandal",
+            "detail": "Barron's calls Nvidia 'still a buy' even in crisis, while testimony summons, a third affair allegation, and documents tying banned chips to a Huang-linked Shanghai data center keep the scandal deepening."
+          },
+          {
+            "title": "Best week in months vs. AI-trade anxiety",
+            "detail": "Stocks are logging their best week since August and European shares sit near record highs, even as Reuters calls it 'AI's no good, very bad week' and chip stocks stay under pressure."
+          }
+        ],
+        "take": "The market is choosing Nvidia over inflation this morning \u2014 Dow futures up 300 on the NVDA rebound toward $170, even with PPI at a four-year high and the Treasury rout extending. Don't mistake a relief bounce for a healed tape: Microsoft's outage is on day two, Bitcoin just broke $70,000, and yesterday's post-close score was a dismal 38. The blend lands below 50, so the call is DOWN \u2014 the rebound is real but too narrow to trust.",
+        "published": "8:44 AM"
+      },
       "evening": null,
       "early_call": {
         "call": "DOWN",
@@ -11,7 +132,13 @@
         "made": "2026-11-12",
         "scores_detail": "Post-close 38 (2026-11-12)"
       },
-      "final_call": null,
+      "final_call": {
+        "call": "DOWN",
+        "confidence": "Low",
+        "rationale": "Blended score 47 (prev post-close 38 on 2026-11-12 + pre-market 55): PPI jumps to a four-year high.",
+        "made": "2026-11-13",
+        "scores_detail": "Post-close 38 (2026-11-12) + pre-market 55 (2026-11-13) = 47"
+      },
       "result": null
     },
     {
