@@ -2,6 +2,18 @@
   "forecasts": [
     {
       "target_date": "2026-11-13",
+      "kind": "final",
+      "date": "2026-11-13",
+      "scores_detail": "Post-close 38 (2026-11-12) + pre-market 55 (2026-11-13) = 47",
+      "call": "DOWN",
+      "confidence": "Low",
+      "rationale": "Blended score 47 (prev post-close 38 on 2026-11-12 + pre-market 55): PPI jumps to a four-year high.",
+      "spy_pct": null,
+      "hit": null,
+      "push": false
+    },
+    {
+      "target_date": "2026-11-13",
       "kind": "early",
       "date": "2026-11-12",
       "score": 38,
