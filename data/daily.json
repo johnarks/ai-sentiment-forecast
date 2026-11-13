@@ -1,6 +1,20 @@
 {
   "days": [
     {
+      "date": "2026-11-16",
+      "morning": null,
+      "evening": null,
+      "early_call": {
+        "call": "DOWN",
+        "confidence": "Moderate",
+        "rationale": "Post-close score 40 (Risk-Off Tilt): Nvidia fallout deepens.",
+        "made": "2026-11-13",
+        "scores_detail": "Post-close 40 (2026-11-13)"
+      },
+      "final_call": null,
+      "result": null
+    },
+    {
       "date": "2026-11-13",
       "morning": {
         "score": 55,
@@ -124,7 +138,103 @@
         "take": "The market is choosing Nvidia over inflation this morning \u2014 Dow futures up 300 on the NVDA rebound toward $170, even with PPI at a four-year high and the Treasury rout extending. Don't mistake a relief bounce for a healed tape: Microsoft's outage is on day two, Bitcoin just broke $70,000, and yesterday's post-close score was a dismal 38. The blend lands below 50, so the call is DOWN \u2014 the rebound is real but too narrow to trust.",
         "published": "8:44 AM"
       },
-      "evening": null,
+      "evening": {
+        "score": 40,
+        "label": "Risk-Off Tilt",
+        "summary": "Friday closed risk-off: the S&P 500 and Nasdaq ended lower as Nvidia's fallout dragged chips down again, a hot PPI print lifted Fed hike bets, and a nationwide FAA ground stop hit airlines. The damage was partly cushioned \u2014 the Dow eked out a gain, the Nasdaq still posted its best week since August, and bullish voices (Barclays turning bullish, Goldman's 8,700 S&P target) pushed back against the AI-trade gloom. Net sentiment tilted risk-off, but not panicked.",
+        "drivers": [
+          {
+            "title": "Nvidia fallout deepens",
+            "detail": "Shares fell again Friday, capping the worst week since the tariff selloff; Nvidia has shed $657B in market cap this week as the chip complex slides with it.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "FAA nationwide ground stop",
+            "detail": "The FAA halted flights at all U.S. airports; UAL, AAL, DAL, JBLU and LUV all slid on the news.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Hot PPI, Fed hike bets rise",
+            "detail": "October producer prices rose further, putting wholesale inflation at a four-year high; Fed officials sounded hawkish and the dollar posted its best week in over a month on hike bets.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Microsoft global outage",
+            "detail": "Outlook suffered a global outage lasting almost 24 hours; Microsoft apologized and blamed a technical issue.",
+            "sentiment": "bearish"
+          },
+          {
+            "title": "Bullish counterweights emerge",
+            "detail": "An analyst laid out a bull case for Nvidia after the ouster, Barclays' trading desk turned bullish for the first time since March, and Goldman sees the S&P 500 at 8,700 next year.",
+            "sentiment": "bullish"
+          },
+          {
+            "title": "Nasdaq's resilient week",
+            "detail": "The index notched its best week since August despite Friday's drop, and the Dow booked a slight gain \u2014 breadth held up better than the chip-led headlines suggest.",
+            "sentiment": "neutral"
+          }
+        ],
+        "strength": [
+          {
+            "ticker": "KLAR",
+            "move": "+8.58%",
+            "note": "C-suite shakeup ahead of the holidays lifted shares"
+          },
+          {
+            "ticker": "RAIN",
+            "move": "+58.31%",
+            "note": "Merger with Tensor Networks and a new Colorado project announced"
+          },
+          {
+            "ticker": "ATLC",
+            "move": "+5.20%",
+            "note": "Quarterly preferred dividend approved"
+          }
+        ],
+        "pressure": [
+          {
+            "ticker": "NVDA",
+            "move": "\u25bc",
+            "note": "Fell again Friday; worst week since the tariff selloff, $657B market cap shed this week"
+          },
+          {
+            "ticker": "AMD",
+            "move": "-8.75%",
+            "note": "Led the chip slide as Wall Street rethinks the AI trade without Huang"
+          },
+          {
+            "ticker": "UAL",
+            "move": "\u25bc",
+            "note": "Airline stocks dropped after the FAA's nationwide ground stop"
+          },
+          {
+            "ticker": "AAL",
+            "move": "\u25bc",
+            "note": "Fell with the airline group on the nationwide flight halt"
+          },
+          {
+            "ticker": "MSFT",
+            "move": "\u25bc",
+            "note": "Weighed by the global Outlook outage lasting almost 24 hours"
+          }
+        ],
+        "crossCurrents": [
+          {
+            "title": "AI trade: collapse vs bull case",
+            "detail": "Chips in freefall on the Huang fallout and a $657B weekly market-cap wipe, yet analysts are laying out a bull case for Nvidia and Barclays' trading desk turned bullish for the first time since March."
+          },
+          {
+            "title": "Hot inflation vs risk appetite",
+            "detail": "October PPI put wholesale inflation at a four-year high and lifted Fed hike bets, yet stocks jumped early on the inflation data and Goldman sees the S&P 500 at 8,700 next year."
+          },
+          {
+            "title": "Nasdaq's best week vs Nvidia's worst",
+            "detail": "The Nasdaq notched its best week since August even as Nvidia suffered its worst week since the tariff selloff \u2014 the index held up while its biggest AI name broke down."
+          }
+        ],
+        "take": "Friday was the Nvidia story, full stop: the stock capped its worst week since the tariff selloff, $657B of market cap gone, and the chip complex went down with it while a four-year-high PPI print put Fed hike bets back on the table. The Nasdaq still posted its best week since August, which tells you the tape is rotating, not collapsing \u2014 but nothing matters until Tuesday. Nvidia earnings on Nov 17 under interim CEO Kress is the verdict on the whole AI trade, and a 40 post-close score says the market goes into the weekend braced, not bought-in.",
+        "published": "5:00 PM"
+      },
       "early_call": {
         "call": "DOWN",
         "confidence": "Moderate",
@@ -139,7 +249,11 @@
         "made": "2026-11-13",
         "scores_detail": "Post-close 38 (2026-11-12) + pre-market 55 (2026-11-13) = 47"
       },
-      "result": null
+      "result": {
+        "spy_pct": -0.36,
+        "early_hit": true,
+        "final_hit": true
+      }
     },
     {
       "date": "2026-11-12",
